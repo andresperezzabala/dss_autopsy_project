@@ -1,3 +1,5 @@
 .idea/
 sad-proyecto1.iml
 /bin/
+.classpath
+.project
