@@ -8,7 +8,7 @@ import java.io.IOException;
 
 import static utils.Utils.saveInstances;
 
-public class FilmReviewsMain {
+public class FilmReviewsRawToARFF {
 
     public static void main(String[] args) {
         if (args.length != 2) {

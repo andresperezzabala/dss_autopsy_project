@@ -9,8 +9,12 @@ import weka.core.converters.ConverterUtils.DataSink;
 import weka.core.converters.ConverterUtils.DataSource;
 
 import weka.core.neighboursearch.LinearNNSearch;
+import weka.core.stemmers.LovinsStemmer;
+import weka.core.stopwords.Rainbow;
+import weka.core.tokenizers.WordTokenizer;
 import weka.filters.Filter;
 import weka.filters.supervised.attribute.AttributeSelection;
+import weka.filters.unsupervised.attribute.StringToWordVector;
 import weka.filters.unsupervised.instance.Resample;
 
 import weka.attributeSelection.BestFirst;
@@ -401,5 +405,38 @@ public class Utils {
         result += "\n";
         result += "\n";
         return result;
+    }
+
+    public static Instances filterWithBoW(Instances instances) throws Exception {
+        return filterStringToWord(instances, false);
+    }
+
+    public static Instances filterWithTFIDF(Instances instances) throws Exception {
+        return filterStringToWord(instances, true);
+    }
+
+    public static Instances filterStringToWord(Instances instances, boolean useTFIDF) throws Exception {
+        StringToWordVector filter = new StringToWordVector();
+        filter.setLowerCaseTokens(true); // considerar iguales las palabras en minuscula y mayuscula
+        filter.setOutputWordCounts(true); // true: contador de palabaras, false: 1 si aparece 0 si no
+        filter.setTFTransform(useTFIDF); // no aplica TF
+        filter.setIDFTransform(useTFIDF); // no aplica IDF
+        filter.setInputFormat(instances);
+
+        // Filtrar las stop words, por ejemplo: "of", "the"...etc
+        filter.setStopwordsHandler(new Rainbow());
+
+        // Quedarnos con la raiz de las palabras, ejemplo:
+        //    "differences" -> "diff"
+        //    "different"   -> "diff"
+        //
+        filter.setStemmer(new LovinsStemmer());
+
+        // Eliminar tokens que no queremos: ejemplo: numeros, simbolos...
+        WordTokenizer tokenizer = new WordTokenizer();
+        tokenizer.setDelimiters(".,;:'\"()?!/\n -_><&#=*1234567890$");
+        filter.setTokenizer(tokenizer);
+
+        return Filter.useFilter(instances, filter);
     }
 }
