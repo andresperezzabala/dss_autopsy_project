@@ -20,6 +20,9 @@ public class TweetMain {
         CSVLoader loader =new CSVLoader();
         try {
 			loader.setSource(new File(csvPath));
+			loader.setDateFormat("yyyy-MM-dd HH:mm:ss");
+			loader.setDateAttributes("4");
+			loader.setStringAttributes("1,5");
 		} catch (IOException e) {
 			System.out.println("error al cargar el archivo csv");
 			e.printStackTrace();
