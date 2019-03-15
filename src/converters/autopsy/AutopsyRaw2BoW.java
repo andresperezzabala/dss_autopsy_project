@@ -7,6 +7,9 @@ import weka.core.converters.CSVLoader;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * Se encarga de convertir un ARFF RAW en un ARFF en formato Bag of Words
+ */
 public class AutopsyRaw2BoW {
 
     public static void main(String[] args) {

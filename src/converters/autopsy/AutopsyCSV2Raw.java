@@ -8,6 +8,9 @@ import java.io.IOException;
 import weka.core.Instances;
 import weka.core.converters.CSVLoader;
 
+/**
+ * Se encarga de convertir un archivo CSV a un ARFF al que llamaremos RAW.
+ */
 public class AutopsyCSV2Raw {
 
 	public static void main(String[] args) {

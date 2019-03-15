@@ -6,6 +6,9 @@ import weka.core.Instances;
 
 import static utils.Utils.*;
 
+/**
+ * Se encarga de filtrar los atributos de un ARFF que este en formato Bag of Words.
+ */
 public class AutopsyBoW2BoWAttributeSelection {
 
     public static void main(String[] args) {
