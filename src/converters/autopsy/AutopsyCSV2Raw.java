@@ -8,11 +8,11 @@ import java.io.IOException;
 import weka.core.Instances;
 import weka.core.converters.CSVLoader;
 
-public class AutopsyMain {
+public class AutopsyCSV2Raw {
 
 	public static void main(String[] args) {
 		if (args.length != 2) {
-            System.err.println("El programa necesita 2 argumentos:\n1) Ruta de la carpeta para datos.\n2) Ruta arff.\n");
+            System.err.println("El programa necesita 2 argumentos:\n1) Ruta del csv.\n2) Ruta arff.\n");
             System.exit(1);
         }
         String csvPath = args[0];
@@ -37,7 +37,5 @@ public class AutopsyMain {
 			System.exit(1);
 		}
         saveInstances(data,outputArffPath);
-
 	}
-
 }
