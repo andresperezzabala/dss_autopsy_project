@@ -18,6 +18,9 @@ public class AutopsyMain {
         String csvPath = args[0];
         String outputArffPath = args[1];
         CSVLoader loader =new CSVLoader();
+        loader.setNominalAttributes("2,3,4,5");
+        loader.setStringAttributes("last");
+        loader.setNumericAttributes("1,6,7,8");
         try {
 			loader.setSource(new File(csvPath));
 		} catch (IOException e) {

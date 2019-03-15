@@ -19,7 +19,7 @@ public class SpamMain {
 		/*
 		 *Como generar un archivo arff
 		 *https://waikato.github.io/weka-wiki/creating_arff_file/	
-		 *La clase FastVector está obsoleta
+		 *La clase FastVector est? obsoleta
 		*/
 		
 		//Crear un vector de atributos
@@ -60,13 +60,13 @@ public class SpamMain {
 				//Instanciar los valores que tomara la Instancia
 				instanceValue = new double[data.numAttributes()];
 				
-				//Añadir un string
+				//A?adir un string
 				instanceValue[0] = data.attribute(0).addStringValue(instanceLine[1]);
 				
-				//Añadir un valor nominal, en este caso la clase.
+				//A?adir un valor nominal, en este caso la clase.
 				instanceValue[1] = attVals.indexOf(instanceLine[0]);
 		
-				//Añadir la instancia al conjunto de datos;
+				//A?adir la instancia al conjunto de datos;
 				data.add(new DenseInstance(1.0, instanceValue));							
 			}				
 			saveInstances(data, args[1]);
