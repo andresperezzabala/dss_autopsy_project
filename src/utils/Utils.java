@@ -22,6 +22,8 @@ import weka.attributeSelection.CfsSubsetEval;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.Enumeration;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Random;
 
@@ -439,4 +441,24 @@ public class Utils {
 
         return Filter.useFilter(instances, filter);
     }
+    /*
+     * Genera un HashMap de instancias cuya clave será el conjunto de atributos que se representan mediante un String
+     * Los atributos deben ir separados mediante un espacion " 
+     */
+    public static HashMap<String,Instance> generateHashMap(Instances pData, String pKey) {
+    	
+    	String[] keys = pKey.split(" "); //Obtener todos los atributos requeridos
+    	HashMap<String,Instance> data = new HashMap<String,Instance>();
+    	String key = "";
+    	for(Instance i: pData) { //Recorrer todas las instancias
+    		for (String k : keys) { //Genera la clave por cada atributo requerido
+    			key = Double.toString(i.value(pData.attribute(k))); //Añadir a la clave el valor del atributo k en la instancia i
+    		}
+    		data.put(key, i); // Añadir al HashMap la instancia con su clave
+    	 	key = "";  //Vaciar la clace
+    	}
+   
+    	return data;
+    }
+    
 }
