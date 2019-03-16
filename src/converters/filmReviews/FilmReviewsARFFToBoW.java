@@ -26,7 +26,7 @@ public class FilmReviewsARFFToBoW {
 
         Instances instancesBoW = null;
         try {
-            instancesBoW = filterWithBoW(instances);
+            instancesBoW = filterWithBoW(instances, null, null);
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("Imposible mediante BoW");

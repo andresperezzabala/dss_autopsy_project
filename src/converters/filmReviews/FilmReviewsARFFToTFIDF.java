@@ -26,7 +26,7 @@ public class FilmReviewsARFFToTFIDF {
 
         Instances instancesBoW = null;
         try {
-            instancesBoW = filterWithTFIDF(instances);
+            instancesBoW = filterWithTFIDF(instances, null, null);
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("Imposible mediante BoW");

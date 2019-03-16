@@ -8,23 +8,23 @@ import weka.core.*;
 import weka.core.converters.ConverterUtils.DataSink;
 import weka.core.converters.ConverterUtils.DataSource;
 
-import weka.core.neighboursearch.LinearNNSearch;
 import weka.core.stemmers.LovinsStemmer;
 import weka.core.stopwords.Rainbow;
 import weka.core.tokenizers.WordTokenizer;
 import weka.filters.Filter;
 import weka.filters.supervised.attribute.AttributeSelection;
+import weka.filters.unsupervised.attribute.FixedDictionaryStringToWordVector;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 import weka.filters.unsupervised.instance.Resample;
 
 import weka.attributeSelection.BestFirst;
 import weka.attributeSelection.CfsSubsetEval;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Enumeration;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Random;
 
 import static weka.classifiers.lazy.IBk.*;
@@ -410,39 +410,98 @@ public class Utils {
         return result;
     }
 
-    public static Instances filterWithBoW(Instances instances) throws Exception {
-        return filterStringToWord(instances, false);
+
+    public static enum DictionaryOption {
+        SAVE, LOAD
     }
 
-    public static Instances filterWithTFIDF(Instances instances) throws Exception {
-        return filterStringToWord(instances, true);
+    /**
+     * Convierte un conjunto de instancias a TFIDF, ademas guarda o carga el diccionario a usar.
+     * @param instances
+     * @param dictionaryFile
+     * @param opt
+     * @return
+     * @throws Exception
+     */
+    public static Instances filterWithBoW(Instances instances, File dictionaryFile, DictionaryOption opt) throws Exception {
+        return filterStringToWord(instances, false, dictionaryFile, opt);
     }
 
-    public static Instances filterStringToWord(Instances instances, boolean useTFIDF) throws Exception {
-        StringToWordVector filter = new StringToWordVector();
-        filter.setLowerCaseTokens(true); // considerar iguales las palabras en minuscula y mayuscula
-        filter.setOutputWordCounts(true); // true: contador de palabaras, false: 1 si aparece 0 si no
-        filter.setTFTransform(useTFIDF); // no aplica TF
-        filter.setIDFTransform(useTFIDF); // no aplica IDF
-        filter.setInputFormat(instances);
-
-        // Filtrar las stop words, por ejemplo: "of", "the"...etc
-        filter.setStopwordsHandler(new Rainbow());
-
-        // Quedarnos con la raiz de las palabras, ejemplo:
-        //    "differences" -> "diff"
-        //    "different"   -> "diff"
-        //
-        filter.setStemmer(new LovinsStemmer());
-
-        // Eliminar tokens que no queremos: ejemplo: numeros, simbolos...
-        WordTokenizer tokenizer = new WordTokenizer();
-        tokenizer.setDelimiters(".,;:'\"()?!/\n -_><&#=*1234567890$");
-        filter.setTokenizer(tokenizer);
-
-        return Filter.useFilter(instances, filter);
+    /**
+     * Convierte un conjunto de instancias a TFIDF, ademas guarda o carga el diccionario a usar.
+     * @param instances
+     * @param dictionaryFile
+     * @param opt
+     * @return
+     * @throws Exception
+     */
+    public static Instances filterWithTFIDF(Instances instances, File dictionaryFile, DictionaryOption opt) throws Exception {
+        return filterStringToWord(instances, true, dictionaryFile, opt);
     }
-    /*
+
+    /**
+     * Convierte un conjunto de instancias a TFIDF o BOW, ademas guarda o carga el diccionario a usar.
+     * @param instances
+     * @param useTFIDF
+     * @param dictonaryFile
+     * @param opt
+     * @return
+     * @throws Exception
+     */
+    public static Instances filterStringToWord(Instances instances, boolean useTFIDF, File dictonaryFile, DictionaryOption opt) throws Exception {
+
+        if (opt == DictionaryOption.LOAD) {
+            FixedDictionaryStringToWordVector fixedDictfilter = new FixedDictionaryStringToWordVector();
+            fixedDictfilter.setDictionaryFile(dictonaryFile);
+            fixedDictfilter.setLowerCaseTokens(true);
+            fixedDictfilter.setLowerCaseTokens(true); // considerar iguales las palabras en minuscula y mayuscula
+            fixedDictfilter.setOutputWordCounts(true); // true: contador de palabaras, false: 1 si aparece 0 si no
+            fixedDictfilter.setTFTransform(useTFIDF); // no aplica TF
+            fixedDictfilter.setIDFTransform(useTFIDF); // no aplica IDF
+            fixedDictfilter.setInputFormat(instances);
+
+            // Filtrar las stop words, por ejemplo: "of", "the"...etc
+            fixedDictfilter.setStopwordsHandler(new Rainbow());
+
+            // Quedarnos con la raiz de las palabras, ejemplo:
+            //    "differences" -> "diff"
+            //    "different"   -> "diff"
+            //
+            fixedDictfilter.setStemmer(new LovinsStemmer());
+            return Filter.useFilter(instances, fixedDictfilter);
+
+        } else if (opt == DictionaryOption.SAVE) {
+
+            StringToWordVector filter = new StringToWordVector();
+            filter.setDictionaryFileToSaveTo(dictonaryFile);
+            filter.setLowerCaseTokens(true); // considerar iguales las palabras en minuscula y mayuscula
+            filter.setOutputWordCounts(true); // true: contador de palabaras, false: 1 si aparece 0 si no
+            filter.setTFTransform(useTFIDF); // no aplica TF
+            filter.setIDFTransform(useTFIDF); // no aplica IDF
+            filter.setInputFormat(instances);
+
+            // Filtrar las stop words, por ejemplo: "of", "the"...etc
+            filter.setStopwordsHandler(new Rainbow());
+
+            // Quedarnos con la raiz de las palabras, ejemplo:
+            //    "differences" -> "diff"
+            //    "different"   -> "diff"
+            //
+            filter.setStemmer(new LovinsStemmer());
+
+            // Eliminar tokens que no queremos: ejemplo: numeros, simbolos...
+            WordTokenizer tokenizer = new WordTokenizer();
+            tokenizer.setDelimiters(".,;:[]%'\"()?!/\n -_><&#=*1234567890$");
+            filter.setTokenizer(tokenizer);
+
+            return Filter.useFilter(instances, filter);
+        } else {
+            System.err.println("Option not supported.");
+            return null;
+        }
+    }
+
+    /**
      * Genera un HashMap de instancias cuya clave será el conjunto de atributos que se representan mediante un String
      * Los atributos deben ir separados mediante un espacion " "
      */
