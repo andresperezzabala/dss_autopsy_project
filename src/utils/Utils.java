@@ -23,7 +23,7 @@ import weka.attributeSelection.CfsSubsetEval;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Enumeration;
-import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Random;
 
@@ -86,10 +86,11 @@ public class Utils {
         result.append(instances.numAttributes());
         result.append(" ##");
         result.append("\n");
-        Iterator<Attribute> it = instances.enumerateAttributes().asIterator();
-        while (it.hasNext()) {
-
-            Attribute attribute = it.next();
+        
+        Enumeration<Attribute> atts = instances.enumerateAttributes();
+        
+        while (atts.hasMoreElements()) {
+        	Attribute attribute = atts.nextElement();
             result.append(attribute.toString());
             result.append("\n");
         }
@@ -443,22 +444,25 @@ public class Utils {
     }
     /*
      * Genera un HashMap de instancias cuya clave será el conjunto de atributos que se representan mediante un String
-     * Los atributos deben ir separados mediante un espacion " 
+     * Los atributos deben ir separados mediante un espacion " "
      */
-    public static HashMap<String,Instance> generateHashMap(Instances pData, String pKey) {
-    	
-    	String[] keys = pKey.split(" "); //Obtener todos los atributos requeridos
-    	HashMap<String,Instance> data = new HashMap<String,Instance>();
-    	String key = "";
-    	for(Instance i: pData) { //Recorrer todas las instancias
-    		for (String k : keys) { //Genera la clave por cada atributo requerido
-    			key = Double.toString(i.value(pData.attribute(k))); //Añadir a la clave el valor del atributo k en la instancia i
-    		}
-    		data.put(key, i); // Añadir al HashMap la instancia con su clave
-    	 	key = "";  //Vaciar la clace
-    	}
-   
+    public static HashSet<String> generateHashSet(Instances pData, String[] pKeys) {        	
+    	HashSet<String> data = new HashSet<String>();    	
+    	for(Instance i: pData) { //Recorrer todas las instancias    		
+    		data.add(generatekey(pData, pKeys, i)); // Añadir al HashSet la clave    	 	
+    	}   
     	return data;
     }
+    
+    public static String generatekey(Instances pData, String[] pKeys, Instance i) {
+    	String key = "";
+    	for (String k : pKeys) { //Genera la clave por cada atributo requerido
+			key += Double.toString(i.value(pData.attribute(k))); //Añadir a la clave el valor del atributo k en la instancia i
+		}
+    	return key;
+    }
+   
+  
+	
     
 }
