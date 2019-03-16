@@ -210,11 +210,11 @@ public class Utils {
      */
     public static Instances split(Double percent, Instances instances, Boolean inverse) throws Exception {
         Resample filter = new Resample();
-        filter.setInputFormat(instances);
         filter.setInvertSelection(inverse);
         filter.setNoReplacement(true);
         filter.setRandomSeed(1);
         filter.setSampleSizePercent(percent);
+        filter.setInputFormat(instances);
 
         return Filter.useFilter(instances, filter);
     }
