@@ -19,6 +19,8 @@ import weka.filters.unsupervised.instance.Resample;
 
 import weka.attributeSelection.BestFirst;
 import weka.attributeSelection.CfsSubsetEval;
+import weka.attributeSelection.InfoGainAttributeEval;
+import weka.attributeSelection.Ranker;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -133,6 +135,21 @@ public class Utils {
         AttributeSelection filter = new AttributeSelection();
         filter.setEvaluator(new CfsSubsetEval()); // Correlation-based feature selection
         filter.setSearch(new BestFirst());
+        filter.setInputFormat(instances);
+        return Filter.useFilter(instances, filter);
+    }
+    
+    /**
+     * Devuelve un nuevo dataset filtrando los atributos que no son importantes.
+     * @param instances
+     * @return
+     */
+    public static Instances filterAttributesRanked(Instances instances, int numAttributes) throws Exception {
+        AttributeSelection filter = new AttributeSelection();
+        filter.setEvaluator(new InfoGainAttributeEval()); // Correlation-based feature selection
+        Ranker r = new Ranker();
+        r.setNumToSelect(numAttributes);
+        filter.setSearch(r);
         filter.setInputFormat(instances);
         return Filter.useFilter(instances, filter);
     }
