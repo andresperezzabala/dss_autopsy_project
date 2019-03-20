@@ -19,6 +19,8 @@ import weka.filters.unsupervised.instance.Resample;
 
 import weka.attributeSelection.BestFirst;
 import weka.attributeSelection.CfsSubsetEval;
+import weka.attributeSelection.InfoGainAttributeEval;
+import weka.attributeSelection.Ranker;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -133,6 +135,21 @@ public class Utils {
         AttributeSelection filter = new AttributeSelection();
         filter.setEvaluator(new CfsSubsetEval()); // Correlation-based feature selection
         filter.setSearch(new BestFirst());
+        filter.setInputFormat(instances);
+        return Filter.useFilter(instances, filter);
+    }
+    
+    /**
+     * Devuelve un nuevo dataset filtrando los atributos que no son importantes.
+     * @param instances
+     * @return
+     */
+    public static Instances filterAttributesRanked(Instances instances, int numAttributes) throws Exception {
+        AttributeSelection filter = new AttributeSelection();
+        filter.setEvaluator(new InfoGainAttributeEval()); // Correlation-based feature selection
+        Ranker r = new Ranker();
+        r.setNumToSelect(numAttributes);
+        filter.setSearch(r);
         filter.setInputFormat(instances);
         return Filter.useFilter(instances, filter);
     }
@@ -503,13 +520,13 @@ public class Utils {
     }
 
     /**
-     * Genera un HashMap de instancias cuya clave ser· el conjunto de atributos que se representan mediante un String
+     * Genera un HashMap de instancias cuya clave ser√° el conjunto de atributos que se representan mediante un String
      * Los atributos deben ir separados mediante un espacion " "
      */
     public static HashSet<String> generateHashSet(Instances pData, String[] pKeys) {        	
     	HashSet<String> data = new HashSet<String>();    	
     	for(Instance i: pData) { //Recorrer todas las instancias    		
-    		data.add(generatekey(pData, pKeys, i)); // AÒadir al HashSet la clave    	 	
+    		data.add(generatekey(pData, pKeys, i)); // A√±adir al HashSet la clave    	 	
     	}   
     	return data;
     }
@@ -517,7 +534,7 @@ public class Utils {
     public static String generatekey(Instances pData, String[] pKeys, Instance i) {
     	String key = "";
     	for (String k : pKeys) { //Genera la clave por cada atributo requerido
-			key += Double.toString(i.value(pData.attribute(k))); //AÒadir a la clave el valor del atributo k en la instancia i
+			key += Double.toString(i.value(pData.attribute(k))); //A√±adir a la clave el valor del atributo k en la instancia i
 		}
     	return key;
     }
