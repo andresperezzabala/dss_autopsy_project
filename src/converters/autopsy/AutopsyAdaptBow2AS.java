@@ -4,7 +4,11 @@ package converters.autopsy;
 import weka.filters.Filter;
 import static utils.Utils.*;
 
+import java.io.File;
+
+import weka.attributeSelection.AttributeSelection;
 import weka.core.Instances;
+import weka.core.converters.ArffSaver;
 import weka.filters.unsupervised.attribute.Remove;
 
 public class AutopsyAdaptBow2AS {
@@ -46,6 +50,7 @@ public class AutopsyAdaptBow2AS {
         Remove filter = new Remove();
         try {
 			filter.setInputFormat(instances);
+			filter.setInvertSelection(true);
 		} catch (Exception e) {
 			System.out.println("Error al poner el formato. " + bowASPath);
 			e.printStackTrace();
@@ -54,7 +59,7 @@ public class AutopsyAdaptBow2AS {
         
         try {
         	Instances output = Filter.useFilter(test, filter);
-        	System.out.println(getInfo(output));
+        	saveInstances(output, outputPath);
 		} catch (Exception e) {
 			System.out.println("Error al apicar el filtro " + bowPath);
 			e.printStackTrace();
