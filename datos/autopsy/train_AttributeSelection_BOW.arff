@@ -1,4 +1,4 @@
-@relation 'PHMRC_VAI_redacted_free_text_edited-weka.filters.unsupervised.attribute.StringToWordVector-R9-W1000-prune-rate-1.0-C-N0-L-stemmerweka.core.stemmers.LovinsStemmer-stopwords-handlerweka.core.stopwords.Rainbow-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \".,;:\\\'\\\"()?!/\\n -_><&#=*1234567890$\"-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5'
+@relation 'PHMRC_VAI_redacted_free_text_edited-weka.filters.unsupervised.attribute.StringToWordVector-R9-W20000000-prune-rate-1.0-C-N0-L-stemmerweka.core.stemmers.LovinsStemmer-stopwords-handlerweka.core.stopwords.Rainbow-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \".,;:[]\\\%\\\'\\\"()?!/\\n -_><&#=*1234567890$\"-dictionaryC:\\Users\\andre\\git\\sad-proyecto1\\datos\\autopsy\\dictionary.txt-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CfsSubsetEval -P 1 -E 1-Sweka.attributeSelection.BestFirst -D 1 -N 5'
 
 @attribute module {Adult,Child,Neonate}
 @attribute site {Mexico,AP,UP,Dar,Bohol,Pemba}

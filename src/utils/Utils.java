@@ -473,6 +473,7 @@ public class Utils {
         } else if (opt == DictionaryOption.SAVE) {
 
             StringToWordVector filter = new StringToWordVector();
+            filter.setWordsToKeep(20000000);
             filter.setDictionaryFileToSaveTo(dictonaryFile);
             filter.setLowerCaseTokens(true); // considerar iguales las palabras en minuscula y mayuscula
             filter.setOutputWordCounts(true); // true: contador de palabaras, false: 1 si aparece 0 si no
