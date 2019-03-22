@@ -131,6 +131,7 @@ public class Utils {
      * @param instances
      * @return
      */
+    /*
     public static Instances filterAttributes(Instances instances) throws Exception {
         AttributeSelection filter = new AttributeSelection();
         filter.setEvaluator(new CfsSubsetEval()); // Correlation-based feature selection
@@ -138,7 +139,7 @@ public class Utils {
         filter.setInputFormat(instances);
         return Filter.useFilter(instances, filter);
     }
-    
+    */
     /**
      * Devuelve un nuevo dataset filtrando los atributos que no son importantes.
      * @param instances
