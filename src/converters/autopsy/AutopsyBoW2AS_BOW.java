@@ -34,14 +34,14 @@ public class AutopsyBoW2AS_BOW {
         // Hacer la seleccion de atributos sobre el archivo BoW
         Instances instancesAttrSelection = null;
         try {
-            instancesAttrSelection = filterAttributesRanked(instances, 100);
+            filterAttributesRanked(instances, 100);
             System.out.println("El numero de atributos despues de realizar la seleccion de atributos es: " + instancesAttrSelection.numAttributes());
         } catch (Exception e) {
             System.out.println("Error al realizar la seleccion de atributos");
             e.printStackTrace();
             System.exit(1);
         }
-        saveInstances(instancesAttrSelection, outputAttrSelecion);
+        saveInstances(instances, outputAttrSelecion);
 
     }
 }

@@ -12,11 +12,11 @@ import weka.core.stemmers.LovinsStemmer;
 import weka.core.stopwords.Rainbow;
 import weka.core.tokenizers.WordTokenizer;
 import weka.filters.Filter;
-import weka.filters.supervised.attribute.AttributeSelection;
+//import weka.filters.supervised.attribute.AttributeSelection;
 import weka.filters.unsupervised.attribute.FixedDictionaryStringToWordVector;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 import weka.filters.unsupervised.instance.Resample;
-
+import weka.attributeSelection.AttributeSelection;
 import weka.attributeSelection.BestFirst;
 import weka.attributeSelection.CfsSubsetEval;
 import weka.attributeSelection.InfoGainAttributeEval;
@@ -144,14 +144,15 @@ public class Utils {
      * @param instances
      * @return
      */
-    public static Instances filterAttributesRanked(Instances instances, int numAttributes) throws Exception {
+    public static int[] filterAttributesRanked(Instances instances, int numAttributes) throws Exception {
         AttributeSelection filter = new AttributeSelection();
         filter.setEvaluator(new InfoGainAttributeEval()); // Correlation-based feature selection
         Ranker r = new Ranker();
         r.setNumToSelect(numAttributes);
         filter.setSearch(r);
-        filter.setInputFormat(instances);
-        return Filter.useFilter(instances, filter);
+        filter.SelectAttributes(instances);
+        int[] attributes=filter.selectedAttributes();
+        return attributes;
     }
 
 
