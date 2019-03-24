@@ -472,11 +472,10 @@ public class Utils {
         if (opt == DictionaryOption.LOAD) {
             FixedDictionaryStringToWordVector fixedDictfilter = new FixedDictionaryStringToWordVector();
             fixedDictfilter.setDictionaryFile(dictonaryFile);
-            fixedDictfilter.setLowerCaseTokens(true);
             fixedDictfilter.setLowerCaseTokens(true); // considerar iguales las palabras en minuscula y mayuscula
             fixedDictfilter.setOutputWordCounts(true); // true: contador de palabaras, false: 1 si aparece 0 si no
-            fixedDictfilter.setTFTransform(useTFIDF); // no aplica TF
-            fixedDictfilter.setIDFTransform(useTFIDF); // no aplica IDF
+            fixedDictfilter.setTFTransform(useTFIDF); // aplica o no aplica TF
+            fixedDictfilter.setIDFTransform(useTFIDF); // aplica  o no aplica IDF
             fixedDictfilter.setInputFormat(instances);
 
             // Filtrar las stop words, por ejemplo: "of", "the"...etc
