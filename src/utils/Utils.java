@@ -2,7 +2,7 @@ package utils;
 
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
-
+import weka.classifiers.functions.MultilayerPerceptron;
 import weka.classifiers.lazy.IBk;
 import weka.core.*;
 import weka.core.converters.ConverterUtils.DataSink;
@@ -540,7 +540,44 @@ public class Utils {
     	return key;
     }
    
-  
-	
-    
+    public static double[] manualSearchBestParamsRN(Instances train,Instances dev) {
+    	int minorityCIndex = getMinoritaryNominalClassIndex(train);
+    	MultilayerPerceptron cls = new MultilayerPerceptron();
+        Evaluation eval = null;
+        double optLR=0;
+        double optM=0;
+        double optF=0;
+        for(int l=1;l<10;l++){
+        	for(int m=1;m<10;m++){
+        		cls=new MultilayerPerceptron();
+        		cls.setLearningRate(l*0.1);
+        		cls.setMomentum(m*0.1);
+        		try {
+					cls.buildClassifier(train);
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+					System.out.println("failed to train classifier");
+				}
+        		try {
+					eval=holdOutEval(cls, train, dev);
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+					System.out.println("failed to evaluate");
+				}
+        		double fMeasure=eval.fMeasure(minorityCIndex);
+        		if(fMeasure>optF) {
+        			optF=fMeasure;
+        			optLR=l*0.1;
+        	        optM=m*0.1;
+        		}
+        	}
+        }
+        System.out.println("f measure optima es: "+optF);
+        System.out.println("ratio de aprendizaje optimo es: "+optLR);
+        System.out.println("momento optimo es: "+optM);
+        double[] optParams= {optLR,optM};
+        return optParams;
+    }
 }
