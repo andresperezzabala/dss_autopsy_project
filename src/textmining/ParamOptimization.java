@@ -15,6 +15,7 @@ public class ParamOptimization {
 	public static void main(String[] args) {
 		if(args.length<3) {
 			System.out.println("El programa necesita 3 argumentos:\\n1) Ruta del conjunto de entrenamiento train_BOW_AS.arff\\n2)Ruta del test_BOW_AS.model\\n3)ruta para el CalidadEsperada.txt");
+			System.exit(1);
 		}
 		
 		Instances train=null;
@@ -62,6 +63,7 @@ public class ParamOptimization {
 			PrintWriter writer=new PrintWriter(args[2]);
 			writer.write(kFold.toClassDetailsString()+"\n"+kFold.toMatrixString());
 			writer.write(noH.toClassDetailsString()+"\n"+noH.toMatrixString());
+			writer.close();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

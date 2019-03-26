@@ -549,16 +549,11 @@ public class Utils {
         double optF=0;
         for(int l=1;l<10;l++){
         	for(int m=1;m<10;m++){
+        		System.out.println("Iteracion "+l+"."+m);
         		cls=new MultilayerPerceptron();
+        		cls.setTrainingTime(50);
         		cls.setLearningRate(l*0.1);
         		cls.setMomentum(m*0.1);
-        		try {
-					cls.buildClassifier(train);
-				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-					System.out.println("failed to train classifier");
-				}
         		try {
 					eval=holdOutEval(cls, train, dev);
 				} catch (Exception e) {
@@ -571,6 +566,9 @@ public class Utils {
         			optF=fMeasure;
         			optLR=l*0.1;
         	        optM=m*0.1;
+        	        System.out.println("f optima "+optF);
+        	        System.out.println("lr optima "+optLR);
+        	        System.out.println("momento optimo "+optM);
         		}
         	}
         }

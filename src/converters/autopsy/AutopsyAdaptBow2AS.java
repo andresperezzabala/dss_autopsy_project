@@ -52,6 +52,8 @@ public class AutopsyAdaptBow2AS {
         try {
         	int[] attributes=filterAttributesRanked(trainBow, 100);
         	Instances trainBowAs=trainBow;
+        	System.out.println(trainBow.numAttributes());
+        	System.out.println(trainBowAs.numAttributes());
         	saveInstances(trainBowAs, trainBowAsPath);
 			filter.setAttributeIndicesArray(attributes);
 			filter.setInvertSelection(true);
