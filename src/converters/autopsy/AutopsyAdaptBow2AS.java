@@ -51,13 +51,11 @@ public class AutopsyAdaptBow2AS {
         Remove filter = new Remove();
         try {
         	int[] attributes=filterAttributesRanked(trainBow, 100);
-        	Instances trainBowAs=trainBow;
-        	System.out.println(trainBow.numAttributes());
-        	System.out.println(trainBowAs.numAttributes());
-        	saveInstances(trainBowAs, trainBowAsPath);
 			filter.setAttributeIndicesArray(attributes);
 			filter.setInvertSelection(true);
-			filter.setInputFormat(trainBowAs);
+			filter.setInputFormat(trainBow);
+			Instances trainBowAs=Filter.useFilter(trainBow, filter);
+			saveInstances(trainBowAs, trainBowAsPath);
 		} catch (Exception e) {
 			System.out.println("Error al generar filtro");
 			e.printStackTrace();

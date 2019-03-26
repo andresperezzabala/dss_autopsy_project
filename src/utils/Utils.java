@@ -149,7 +149,7 @@ public class Utils {
         AttributeSelection filter = new AttributeSelection();
         filter.setEvaluator(new InfoGainAttributeEval()); // Correlation-based feature selection
         Ranker r = new Ranker();
-        r.setNumToSelect(numAttributes);
+        r.setNumToSelect(300);
         filter.setSearch(r);
         filter.SelectAttributes(instances);
         int[] attributes=filter.selectedAttributes();
