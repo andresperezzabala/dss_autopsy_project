@@ -562,6 +562,8 @@ public class Utils {
 					System.out.println("failed to evaluate");
 				}
         		double fMeasure=eval.fMeasure(minorityCIndex);
+        		System.out.println(fMeasure);
+        		System.out.println(optF);
         		if(fMeasure>optF) {
         			optF=fMeasure;
         			optLR=l*0.1;
