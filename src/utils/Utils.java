@@ -149,7 +149,7 @@ public class Utils {
         AttributeSelection filter = new AttributeSelection();
         filter.setEvaluator(new InfoGainAttributeEval()); // Correlation-based feature selection
         Ranker r = new Ranker();
-        r.setNumToSelect(300);
+        r.setNumToSelect(numAttributes);
         filter.setSearch(r);
         filter.SelectAttributes(instances);
         int[] attributes=filter.selectedAttributes();
@@ -491,7 +491,7 @@ public class Utils {
         } else if (opt == DictionaryOption.SAVE) {
 
             StringToWordVector filter = new StringToWordVector();
-            filter.setWordsToKeep(20000000);
+            filter.setWordsToKeep(Integer.MAX_VALUE);
             filter.setDictionaryFileToSaveTo(dictonaryFile);
             filter.setLowerCaseTokens(true); // considerar iguales las palabras en minuscula y mayuscula
             filter.setOutputWordCounts(true); // true: contador de palabaras, false: 1 si aparece 0 si no

@@ -50,7 +50,8 @@ public class AutopsyAdaptBow2AS {
         
         Remove filter = new Remove();
         try {
-        	int[] attributes=filterAttributesRanked(trainBow, 100);
+        	trainBow.deleteAttributeAt(0);
+        	int[] attributes=filterAttributesRanked(trainBow, 1000);
 			filter.setAttributeIndicesArray(attributes);
 			filter.setInvertSelection(true);
 			filter.setInputFormat(trainBow);
@@ -63,6 +64,7 @@ public class AutopsyAdaptBow2AS {
 		}
         
         try {
+        	testBow.deleteAttributeAt(0);
         	Instances testBowAs = Filter.useFilter(testBow, filter);
         	saveInstances(testBowAs, testBowAsPath);
 		} catch (Exception e) {
