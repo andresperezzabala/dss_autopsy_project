@@ -16,6 +16,7 @@ public class BOWvsTFIDFeval {
 		
 		if (args.length != 3) {
 			System.out.println("El programa necesita 3 argumentos:\n1) BOW.arff\n2) TFIDF.arff 3) result.txt");
+			System.exit(1);
 		}
 		
 		String bowASPath = args[0];
