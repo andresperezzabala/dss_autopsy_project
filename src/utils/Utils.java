@@ -540,41 +540,44 @@ public class Utils {
     	return key;
     }
    
-    public static double[] manualSearchBestParamsRN(Instances train,Instances dev) {
+    public static double[] manualSearchBestParamsRN(Instances train, Instances dev) {
     	int minorityCIndex = getMinoritaryNominalClassIndex(train);
     	MultilayerPerceptron cls = new MultilayerPerceptron();
         Evaluation eval = null;
         double optLR=0;
         double optM=0;
-        double optF=0;
-        for(int l=1;l<10;l++){
-        	for(int m=1;m<10;m++){
+        double fmeasure=0;
+        for(int l=1;l<=10;l++){
+        	for(int m=5;m<=10;m++){
         		System.out.println("Iteracion "+l+"."+m);
         		cls=new MultilayerPerceptron();
-        		cls.setTrainingTime(50);
+        		cls.setTrainingTime(20);
         		cls.setLearningRate(l*0.1);
         		cls.setMomentum(m*0.1);
         		try {
+//        		    eval = crossvalidation(cls, train, 10);
 					eval=holdOutEval(cls, train, dev);
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 					System.out.println("failed to evaluate");
 				}
-        		double fMeasure=eval.fMeasure(minorityCIndex);
-        		System.out.println(fMeasure);
-        		System.out.println(optF);
-        		if(fMeasure>optF) {
-        			optF=fMeasure;
+//        		double currentPrec=eval.precision(minorityCIndex);
+                double currentWeightedFMeasure=eval.weightedFMeasure();
+        		System.out.println(currentWeightedFMeasure);
+        		System.out.println(fmeasure);
+        		if(currentWeightedFMeasure>fmeasure) {
+        			fmeasure=currentWeightedFMeasure;
         			optLR=l*0.1;
         	        optM=m*0.1;
-        	        System.out.println("f optima "+optF);
+        	        System.out.println("fmeasure "+fmeasure);
         	        System.out.println("lr optima "+optLR);
         	        System.out.println("momento optimo "+optM);
         		}
         	}
         }
-        System.out.println("f measure optima es: "+optF);
+        System.out.println("FINNNN:");
+        System.out.println("fmeasure mayor es: "+fmeasure);
         System.out.println("ratio de aprendizaje optimo es: "+optLR);
         System.out.println("momento optimo es: "+optM);
         double[] optParams= {optLR,optM};
