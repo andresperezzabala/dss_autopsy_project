@@ -600,7 +600,7 @@ public class Utils {
 				try {
 					clsvalue = cls.classifyInstance(unlabeled.instance(i));
 					unlabeled.instance(i).setClassValue(clsvalue);
-					pw.write(unlabeled.classAttribute().value((int) clsvalue));
+					pw.write(unlabeled.classAttribute().value((int) clsvalue)+"\n");
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
