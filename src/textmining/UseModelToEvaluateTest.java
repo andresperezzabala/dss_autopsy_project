@@ -55,7 +55,7 @@ public class UseModelToEvaluateTest {
             System.out.println("Error al coger la info de la evaluacion");
             System.exit(1);
         }
-
+        
         printToFile(results, resultsPath);
     }
 }
