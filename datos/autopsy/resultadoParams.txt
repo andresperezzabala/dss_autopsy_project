@@ -1,0 +1,1492 @@
+Iteracion 0.1, 0.5 --> 0.0 vs NaN
+
+Correctly Classified Instances         697               23.8372 %
+Incorrectly Classified Instances      2227               76.1628 %
+Kappa statistic                          0.2016
+Mean absolute error                      0.0359
+Root mean squared error                  0.1332
+Relative absolute error                 89.7295 %
+Root relative squared error             94.1179 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,388    0,064    0,124      0,388    0,188      0,188    0,821     0,108     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,772     0,006     Epilepsy
+                 0,146    0,010    0,591      0,146    0,234      0,263    0,755     0,374     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,832     0,046     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,852     0,194     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,733     0,083     Fires
+                 0,033    0,001    0,429      0,033    0,062      0,113    0,805     0,129     Renal Failure
+                 0,321    0,097    0,134      0,321    0,189      0,150    0,811     0,159     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,870     0,036     Lung Cancer
+                 0,578    0,024    0,485      0,578    0,527      0,509    0,957     0,627     Maternal
+                 0,000    0,000    ?          0,000    ?          ?        0,847     0,121     Drowning
+                 0,000    0,002    0,000      0,000    0,000      -0,009   0,734     0,100     Other Cardiovascular Diseases
+                 0,006    0,001    0,200      0,006    0,012      0,026    0,794     0,142     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,750     0,062     Falls
+                 0,301    0,064    0,108      0,301    0,159      0,145    0,854     0,188     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,932     0,169     Bite of Venomous Animal
+                 0,000    0,001    0,000      0,000    0,000      -0,005   0,756     0,079     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,743     0,069     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,829     0,097     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,754     0,036     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,838     0,048     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,918     0,137     Cervical Cancer
+                 0,707    0,259    0,121      0,707    0,206      0,213    0,831     0,249     Stroke
+                 0,131    0,004    0,400      0,131    0,198      0,220    0,791     0,165     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,668     0,011     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,855     0,028     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,784     0,043     Homicide
+                 0,622    0,151    0,106      0,622    0,181      0,210    0,817     0,281     Diarrhea/Dysentery
+                 0,000    0,000    0,000      0,000    0,000      -0,002   0,919     0,095     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,809     0,069     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,769     0,039     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,894     0,027     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,806     0,051     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,853     0,027     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,970     0,036     Measles
+                 0,175    0,005    0,333      0,175    0,230      0,234    0,949     0,291     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,975     0,113     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,977     0,074     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,973     0,063     Encephalitis
+                 0,000    0,001    0,000      0,000    0,000      -0,003   0,949     0,113     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,956     0,076     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,968     0,071     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,943     0,108     Meningitis
+                 0,074    0,007    0,276      0,074    0,117      0,127    0,939     0,303     Birth asphyxia
+                 0,926    0,057    0,611      0,926    0,737      0,724    0,981     0,798     Stillbirth
+                 0,664    0,046    0,410      0,664    0,507      0,493    0,961     0,465     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,953     0,245     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,955     0,252     Congenital malformation
+Weighted Avg.    0,238    0,034    ?          0,238    ?          ?        0,849     0,256     
+Iteracion 0.1, 0.6 --> 0.0 vs NaN
+
+Correctly Classified Instances         741               25.342  %
+Incorrectly Classified Instances      2183               74.658  %
+Kappa statistic                          0.217 
+Mean absolute error                      0.0356
+Root mean squared error                  0.1325
+Relative absolute error                 88.9752 %
+Root relative squared error             93.6524 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,403    0,065    0,127      0,403    0,193      0,195    0,830     0,127     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,769     0,007     Epilepsy
+                 0,127    0,009    0,586      0,127    0,209      0,244    0,768     0,374     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,845     0,053     COPD
+                 0,042    0,002    0,444      0,042    0,076      0,128    0,851     0,208     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,736     0,078     Fires
+                 0,056    0,003    0,385      0,056    0,097      0,137    0,817     0,156     Renal Failure
+                 0,450    0,144    0,128      0,450    0,199      0,174    0,815     0,168     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,869     0,036     Lung Cancer
+                 0,587    0,026    0,464      0,587    0,518      0,501    0,957     0,633     Maternal
+                 0,020    0,000    1,000      0,020    0,038      0,139    0,853     0,135     Drowning
+                 0,038    0,006    0,190      0,038    0,064      0,071    0,741     0,113     Other Cardiovascular Diseases
+                 0,049    0,016    0,151      0,049    0,074      0,057    0,799     0,146     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,779     0,080     Falls
+                 0,466    0,041    0,227      0,466    0,305      0,301    0,886     0,362     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,946     0,202     Bite of Venomous Animal
+                 0,000    0,000    0,000      0,000    0,000      -0,003   0,762     0,090     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,746     0,073     Other Infectious Diseases
+                 0,013    0,002    0,143      0,013    0,023      0,035    0,832     0,102     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,739     0,034     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,836     0,054     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,924     0,151     Cervical Cancer
+                 0,636    0,219    0,127      0,636    0,212      0,208    0,836     0,295     Stroke
+                 0,115    0,003    0,412      0,115    0,179      0,209    0,801     0,175     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,678     0,011     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,869     0,031     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,785     0,043     Homicide
+                 0,610    0,130    0,119      0,610    0,200      0,226    0,818     0,283     Diarrhea/Dysentery
+                 0,000    0,000    0,000      0,000    0,000      -0,002   0,927     0,102     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,814     0,091     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,782     0,035     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,909     0,037     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,809     0,039     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,846     0,024     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,963     0,027     Measles
+                 0,175    0,005    0,350      0,175    0,233      0,240    0,950     0,291     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,976     0,098     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,979     0,071     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,977     0,187     Encephalitis
+                 0,034    0,001    0,200      0,034    0,059      0,079    0,953     0,130     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,944     0,260     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,974     0,102     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,953     0,094     Meningitis
+                 0,065    0,002    0,500      0,065    0,115      0,170    0,938     0,328     Birth asphyxia
+                 0,946    0,055    0,626      0,946    0,753      0,743    0,982     0,798     Stillbirth
+                 0,709    0,049    0,408      0,709    0,518      0,509    0,962     0,469     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,953     0,240     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,955     0,242     Congenital malformation
+Weighted Avg.    0,253    0,034    ?          0,253    ?          ?        0,854     0,270     
+Iteracion 0.1, 0.7 --> 0.0 vs NaN
+
+Correctly Classified Instances         750               25.6498 %
+Incorrectly Classified Instances      2174               74.3502 %
+Kappa statistic                          0.2192
+Mean absolute error                      0.0353
+Root mean squared error                  0.1323
+Relative absolute error                 88.0319 %
+Root relative squared error             93.4998 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,239    0,042    0,118      0,239    0,158      0,140    0,836     0,150     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,786     0,008     Epilepsy
+                 0,157    0,012    0,560      0,157    0,245      0,263    0,761     0,367     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,859     0,069     COPD
+                 0,021    0,001    0,333      0,021    0,039      0,076    0,848     0,222     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,726     0,071     Fires
+                 0,078    0,002    0,500      0,078    0,135      0,188    0,833     0,179     Renal Failure
+                 0,450    0,144    0,128      0,450    0,200      0,174    0,818     0,163     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,846     0,032     Lung Cancer
+                 0,486    0,011    0,631      0,486    0,549      0,539    0,944     0,593     Maternal
+                 0,118    0,007    0,240      0,118    0,158      0,158    0,861     0,173     Drowning
+                 0,038    0,002    0,364      0,038    0,070      0,109    0,742     0,117     Other Cardiovascular Diseases
+                 0,049    0,004    0,421      0,049    0,088      0,129    0,787     0,149     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,780     0,065     Falls
+                 0,425    0,012    0,470      0,425    0,446      0,433    0,896     0,412     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,947     0,312     Bite of Venomous Animal
+                 0,000    0,000    0,000      0,000    0,000      -0,003   0,778     0,156     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,753     0,061     Other Infectious Diseases
+                 0,038    0,005    0,167      0,038    0,061      0,067    0,830     0,110     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,732     0,068     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,855     0,061     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,926     0,156     Cervical Cancer
+                 0,743    0,297    0,112      0,743    0,194      0,204    0,826     0,290     Stroke
+                 0,246    0,012    0,313      0,246    0,275      0,264    0,815     0,168     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,661     0,010     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,876     0,038     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,808     0,048     Homicide
+                 0,500    0,109    0,117      0,500    0,190      0,199    0,819     0,312     Diarrhea/Dysentery
+                 0,000    0,002    0,000      0,000    0,000      -0,005   0,933     0,143     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,816     0,066     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,780     0,047     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,911     0,043     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,797     0,033     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,817     0,024     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,974     0,037     Measles
+                 0,175    0,004    0,368      0,175    0,237      0,247    0,950     0,252     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,976     0,079     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,985     0,087     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,979     0,086     Encephalitis
+                 0,103    0,005    0,167      0,103    0,128      0,124    0,955     0,133     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,952     0,029     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,972     0,085     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,960     0,064     Meningitis
+                 0,056    0,001    0,750      0,056    0,103      0,198    0,936     0,309     Birth asphyxia
+                 0,942    0,052    0,636      0,942    0,759      0,749    0,982     0,798     Stillbirth
+                 0,746    0,053    0,405      0,746    0,525      0,522    0,963     0,477     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,949     0,219     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,956     0,259     Congenital malformation
+Weighted Avg.    0,256    0,035    ?          0,256    ?          ?        0,855     0,274     
+Iteracion 0.1, 0.7999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances         781               26.71   %
+Incorrectly Classified Instances      2143               73.29   %
+Kappa statistic                          0.2297
+Mean absolute error                      0.0346
+Root mean squared error                  0.1327
+Relative absolute error                 86.3397 %
+Root relative squared error             93.8002 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,373    0,056    0,134      0,373    0,198      0,194    0,847     0,162     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,775     0,008     Epilepsy
+                 0,295    0,025    0,545      0,295    0,383      0,359    0,747     0,363     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,883     0,082     COPD
+                 0,010    0,000    0,500      0,010    0,020      0,069    0,845     0,210     Acute Myocardial Infarction
+                 0,049    0,001    0,400      0,049    0,087      0,136    0,759     0,082     Fires
+                 0,033    0,001    0,429      0,033    0,062      0,113    0,807     0,150     Renal Failure
+                 0,313    0,086    0,145      0,313    0,199      0,159    0,801     0,158     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,828     0,031     Lung Cancer
+                 0,560    0,027    0,442      0,560    0,494      0,476    0,939     0,578     Maternal
+                 0,216    0,001    0,846      0,216    0,344      0,423    0,869     0,329     Drowning
+                 0,038    0,006    0,200      0,038    0,065      0,074    0,726     0,103     Other Cardiovascular Diseases
+                 0,056    0,007    0,321      0,056    0,095      0,114    0,804     0,175     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,796     0,058     Falls
+                 0,425    0,008    0,585      0,425    0,492      0,488    0,875     0,407     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,953     0,387     Bite of Venomous Animal
+                 0,034    0,001    0,600      0,034    0,064      0,137    0,768     0,127     Diabetes
+                 0,014    0,003    0,100      0,014    0,025      0,029    0,748     0,068     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,817     0,099     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,717     0,041     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,829     0,076     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,929     0,176     Cervical Cancer
+                 0,786    0,354    0,100      0,786    0,178      0,191    0,817     0,278     Stroke
+                 0,230    0,010    0,318      0,230    0,267      0,257    0,779     0,159     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,736     0,010     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,835     0,025     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,818     0,052     Homicide
+                 0,366    0,045    0,190      0,366    0,250      0,234    0,826     0,266     Diarrhea/Dysentery
+                 0,111    0,008    0,172      0,111    0,135      0,128    0,929     0,120     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,800     0,055     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,737     0,031     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,913     0,032     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,749     0,078     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,845     0,024     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,977     0,043     Measles
+                 0,175    0,012    0,167      0,175    0,171      0,159    0,940     0,200     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,973     0,060     Violent Death
+                 0,000    0,000    0,000      0,000    0,000      -0,001   0,985     0,096     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,958     0,066     Encephalitis
+                 0,069    0,008    0,080      0,069    0,074      0,066    0,943     0,108     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,967     0,048     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,961     0,054     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,963     0,071     Meningitis
+                 0,065    0,005    0,318      0,065    0,108      0,130    0,936     0,310     Birth asphyxia
+                 0,891    0,039    0,687      0,891    0,776      0,759    0,982     0,802     Stillbirth
+                 0,784    0,062    0,376      0,784    0,508      0,513    0,962     0,466     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,953     0,194     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,948     0,249     Congenital malformation
+Weighted Avg.    0,267    0,035    ?          0,267    ?          ?        0,850     0,271     
+Iteracion 0.1, 0.8999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances         459               15.6977 %
+Incorrectly Classified Instances      2465               84.3023 %
+Kappa statistic                          0.1221
+Mean absolute error                      0.0375
+Root mean squared error                  0.1404
+Relative absolute error                 93.7221 %
+Root relative squared error             99.2198 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,448    0,080    0,116      0,448    0,185      0,194    0,818     0,123     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,835     0,010     Epilepsy
+                 0,142    0,013    0,528      0,142    0,224      0,240    0,677     0,284     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,878     0,086     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,804     0,096     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,722     0,064     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,761     0,071     Renal Failure
+                 0,092    0,013    0,255      0,092    0,135      0,130    0,794     0,120     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,828     0,035     Lung Cancer
+                 0,037    0,000    1,000      0,037    0,071      0,188    0,902     0,351     Maternal
+                 0,000    0,001    0,000      0,000    0,000      -0,003   0,820     0,085     Drowning
+                 0,000    0,000    ?          0,000    ?          ?        0,674     0,064     Other Cardiovascular Diseases
+                 0,327    0,105    0,155      0,327    0,210      0,158    0,754     0,137     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,678     0,029     Falls
+                 0,178    0,098    0,045      0,178    0,071      0,042    0,760     0,109     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,915     0,189     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,716     0,066     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,710     0,051     Other Infectious Diseases
+                 0,000    0,000    0,000      0,000    0,000      -0,003   0,811     0,075     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,726     0,028     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,801     0,025     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,869     0,169     Cervical Cancer
+                 0,479    0,202    0,107      0,479    0,174      0,144    0,747     0,109     Stroke
+                 0,016    0,000    0,500      0,016    0,032      0,088    0,752     0,160     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,589     0,004     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,789     0,020     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,801     0,041     Homicide
+                 0,427    0,114    0,097      0,427    0,159      0,157    0,754     0,116     Diarrhea/Dysentery
+                 0,467    0,083    0,080      0,467    0,137      0,165    0,913     0,088     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,782     0,053     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,715     0,020     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,891     0,026     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,792     0,012     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,781     0,018     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,504     0,003     Measles
+                 0,200    0,005    0,381      0,200    0,262      0,269    0,955     0,270     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,944     0,029     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,957     0,032     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,974     0,077     Encephalitis
+                 0,000    0,000    ?          0,000    ?          ?        0,929     0,069     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,387     0,001     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,937     0,038     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,948     0,050     Meningitis
+                 0,065    0,006    0,292      0,065    0,106      0,123    0,931     0,242     Birth asphyxia
+                 0,147    0,000    0,974      0,147    0,256      0,363    0,962     0,716     Stillbirth
+                 0,985    0,158    0,231      0,985    0,374      0,436    0,940     0,307     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,929     0,115     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,913     0,152     Congenital malformation
+Weighted Avg.    0,157    0,034    ?          0,157    ?          ?        0,809     0,191     
+Iteracion 0.1, 0.9999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances         268                9.1655 %
+Incorrectly Classified Instances      2656               90.8345 %
+Kappa statistic                          0     
+Mean absolute error                      0.04  
+Root mean squared error                  0.1415
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,023     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,002     Epilepsy
+                 1,000    1,000    0,092      1,000    0,168      ?        0,500     0,092     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,013     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,033     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,031     Renal Failure
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,045     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,007     Lung Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,037     Maternal
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Drowning
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,036     Other Cardiovascular Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,055     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Falls
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,025     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,011     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,030     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,024     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,027     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,012     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,015     Cervical Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,048     Stroke
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,021     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,008     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Homicide
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,028     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,015     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,013     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,004     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,005     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,002     Measles
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Encephalitis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,001     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,004     Meningitis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,037     Birth asphyxia
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,088     Stillbirth
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,046     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,019     Congenital malformation
+Weighted Avg.    0,092    0,092    ?          0,092    ?          ?        0,500     0,040     
+Iteracion 0.2, 0.5 --> 0.0 vs NaN
+
+Correctly Classified Instances         735               25.1368 %
+Incorrectly Classified Instances      2189               74.8632 %
+Kappa statistic                          0.2155
+Mean absolute error                      0.035 
+Root mean squared error                  0.1326
+Relative absolute error                 87.4693 %
+Root relative squared error             93.7533 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,388    0,058    0,135      0,388    0,201      0,199    0,839     0,147     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,776     0,008     Epilepsy
+                 0,123    0,007    0,635      0,123    0,206      0,253    0,761     0,368     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,863     0,083     COPD
+                 0,042    0,002    0,364      0,042    0,075      0,114    0,840     0,203     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,722     0,074     Fires
+                 0,044    0,003    0,308      0,044    0,078      0,107    0,842     0,173     Renal Failure
+                 0,534    0,190    0,116      0,534    0,191      0,176    0,812     0,158     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,847     0,029     Lung Cancer
+                 0,486    0,010    0,663      0,486    0,561      0,554    0,953     0,621     Maternal
+                 0,118    0,008    0,207      0,118    0,150      0,145    0,862     0,191     Drowning
+                 0,000    0,001    0,000      0,000    0,000      -0,005   0,760     0,106     Other Cardiovascular Diseases
+                 0,062    0,014    0,200      0,062    0,094      0,083    0,794     0,159     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,792     0,064     Falls
+                 0,493    0,019    0,396      0,493    0,439      0,426    0,876     0,405     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,946     0,331     Bite of Venomous Animal
+                 0,000    0,000    0,000      0,000    0,000      -0,003   0,776     0,155     Diabetes
+                 0,000    0,001    0,000      0,000    0,000      -0,004   0,741     0,057     Other Infectious Diseases
+                 0,013    0,001    0,200      0,013    0,024      0,044    0,835     0,113     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,725     0,044     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,858     0,065     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,931     0,181     Cervical Cancer
+                 0,607    0,172    0,151      0,607    0,241      0,235    0,823     0,281     Stroke
+                 0,115    0,008    0,241      0,115    0,156      0,154    0,834     0,185     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,787     0,025     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,876     0,037     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,803     0,047     Homicide
+                 0,634    0,171    0,097      0,634    0,168      0,198    0,821     0,299     Diarrhea/Dysentery
+                 0,022    0,002    0,125      0,022    0,038      0,047    0,932     0,193     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,819     0,047     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,767     0,041     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,923     0,047     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,816     0,018     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,809     0,019     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,975     0,046     Measles
+                 0,175    0,003    0,438      0,175    0,250      0,271    0,958     0,261     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,975     0,067     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,981     0,081     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,978     0,080     Encephalitis
+                 0,000    0,002    0,000      0,000    0,000      -0,004   0,950     0,116     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,934     0,019     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,968     0,070     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,958     0,067     Meningitis
+                 0,056    0,007    0,240      0,056    0,090      0,100    0,937     0,269     Birth asphyxia
+                 0,915    0,053    0,628      0,915    0,744      0,731    0,981     0,799     Stillbirth
+                 0,731    0,049    0,417      0,731    0,531      0,525    0,962     0,476     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,945     0,186     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,956     0,232     Congenital malformation
+Weighted Avg.    0,251    0,033    ?          0,251    ?          ?        0,856     0,272     
+Iteracion 0.2, 0.6 --> 0.0 vs NaN
+
+Correctly Classified Instances         719               24.5896 %
+Incorrectly Classified Instances      2205               75.4104 %
+Kappa statistic                          0.2113
+Mean absolute error                      0.0347
+Root mean squared error                  0.1341
+Relative absolute error                 86.658  %
+Root relative squared error             94.8193 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,299    0,048    0,128      0,299    0,179      0,167    0,833     0,135     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,697     0,005     Epilepsy
+                 0,175    0,011    0,610      0,175    0,272      0,296    0,750     0,371     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,879     0,077     COPD
+                 0,010    0,000    1,000      0,010    0,021      0,100    0,837     0,197     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,693     0,053     Fires
+                 0,033    0,002    0,375      0,033    0,061      0,104    0,833     0,165     Renal Failure
+                 0,244    0,086    0,118      0,244    0,159      0,113    0,808     0,129     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,841     0,038     Lung Cancer
+                 0,541    0,013    0,615      0,541    0,576      0,561    0,952     0,606     Maternal
+                 0,235    0,008    0,333      0,235    0,276      0,269    0,863     0,309     Drowning
+                 0,067    0,005    0,333      0,067    0,112      0,137    0,759     0,114     Other Cardiovascular Diseases
+                 0,012    0,004    0,143      0,012    0,023      0,027    0,778     0,151     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,765     0,072     Falls
+                 0,822    0,231    0,083      0,822    0,152      0,214    0,895     0,324     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,945     0,340     Bite of Venomous Animal
+                 0,000    0,000    0,000      0,000    0,000      -0,003   0,765     0,130     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,750     0,073     Other Infectious Diseases
+                 0,013    0,001    0,333      0,013    0,024      0,060    0,836     0,120     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,706     0,035     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,824     0,050     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,925     0,184     Cervical Cancer
+                 0,571    0,211    0,120      0,571    0,198      0,183    0,800     0,238     Stroke
+                 0,262    0,012    0,314      0,262    0,286      0,273    0,811     0,265     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,626     0,007     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,844     0,026     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,782     0,040     Homicide
+                 0,415    0,031    0,276      0,415    0,332      0,315    0,836     0,313     Diarrhea/Dysentery
+                 0,000    0,001    0,000      0,000    0,000      -0,003   0,928     0,111     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,809     0,051     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,721     0,027     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,920     0,044     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,752     0,030     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,810     0,018     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,923     0,014     Measles
+                 0,225    0,005    0,391      0,225    0,286      0,289    0,933     0,265     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,976     0,094     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,988     0,116     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,973     0,092     Encephalitis
+                 0,103    0,006    0,158      0,103    0,125      0,121    0,947     0,118     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,859     0,045     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,972     0,103     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,955     0,063     Meningitis
+                 0,046    0,007    0,208      0,046    0,076      0,083    0,935     0,278     Birth asphyxia
+                 0,891    0,050    0,634      0,891    0,741      0,724    0,980     0,790     Stillbirth
+                 0,731    0,054    0,394      0,731    0,512      0,507    0,961     0,463     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,952     0,190     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,957     0,245     Congenital malformation
+Weighted Avg.    0,246    0,031    ?          0,246    ?          ?        0,848     0,267     
+Iteracion 0.2, 0.7 --> 0.0 vs NaN
+
+Correctly Classified Instances         744               25.4446 %
+Incorrectly Classified Instances      2180               74.5554 %
+Kappa statistic                          0.22  
+Mean absolute error                      0.0348
+Root mean squared error                  0.133 
+Relative absolute error                 86.9129 %
+Root relative squared error             94.0095 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,478    0,101    0,100      0,478    0,165      0,181    0,823     0,107     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,829     0,009     Epilepsy
+                 0,187    0,014    0,581      0,187    0,282      0,295    0,754     0,364     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,769     0,060     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,855     0,199     Acute Myocardial Infarction
+                 0,000    0,000    0,000      0,000    0,000      -0,002   0,724     0,060     Fires
+                 0,033    0,001    0,500      0,033    0,063      0,123    0,817     0,152     Renal Failure
+                 0,328    0,086    0,152      0,328    0,208      0,170    0,815     0,153     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,846     0,031     Lung Cancer
+                 0,560    0,018    0,550      0,560    0,555      0,537    0,950     0,597     Maternal
+                 0,078    0,000    1,000      0,078    0,145      0,278    0,850     0,268     Drowning
+                 0,087    0,015    0,173      0,087    0,115      0,100    0,764     0,117     Other Cardiovascular Diseases
+                 0,173    0,055    0,156      0,173    0,164      0,113    0,790     0,137     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,781     0,059     Falls
+                 0,521    0,013    0,514      0,521    0,517      0,505    0,883     0,374     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,930     0,236     Bite of Venomous Animal
+                 0,056    0,000    0,833      0,056    0,105      0,212    0,785     0,168     Diabetes
+                 0,000    0,003    0,000      0,000    0,000      -0,009   0,731     0,058     Other Infectious Diseases
+                 0,013    0,004    0,083      0,013    0,022      0,022    0,821     0,095     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,680     0,028     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,799     0,054     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,922     0,119     Cervical Cancer
+                 0,393    0,108    0,154      0,393    0,222      0,186    0,818     0,232     Stroke
+                 0,066    0,003    0,286      0,066    0,107      0,129    0,818     0,164     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,695     0,007     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,838     0,026     Colorectal Cancer
+                 0,000    0,001    0,000      0,000    0,000      -0,004   0,807     0,050     Homicide
+                 0,671    0,208    0,085      0,671    0,151      0,184    0,817     0,260     Diarrhea/Dysentery
+                 0,133    0,016    0,115      0,133    0,124      0,109    0,922     0,112     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,813     0,054     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,733     0,023     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,910     0,035     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,808     0,041     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,803     0,017     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,986     0,105     Measles
+                 0,175    0,006    0,292      0,175    0,219      0,218    0,955     0,207     Other Defined Causes of Child Deaths
+                 0,444    0,014    0,087      0,444    0,145      0,191    0,972     0,068     Violent Death
+                 0,000    0,001    0,000      0,000    0,000      -0,001   0,979     0,088     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,950     0,214     Encephalitis
+                 0,000    0,000    0,000      0,000    0,000      -0,002   0,944     0,107     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,967     0,029     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,960     0,044     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,960     0,147     Meningitis
+                 0,000    0,000    ?          0,000    ?          ?        0,939     0,292     Birth asphyxia
+                 0,934    0,056    0,616      0,934    0,743      0,732    0,979     0,780     Stillbirth
+                 0,731    0,053    0,398      0,731    0,516      0,511    0,961     0,441     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,951     0,216     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,951     0,205     Congenital malformation
+Weighted Avg.    0,254    0,031    ?          0,254    ?          ?        0,849     0,258     
+Iteracion 0.2, 0.7999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances         729               24.9316 %
+Incorrectly Classified Instances      2195               75.0684 %
+Kappa statistic                          0.2136
+Mean absolute error                      0.0355
+Root mean squared error                  0.1337
+Relative absolute error                 88.658  %
+Root relative squared error             94.504  %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,507    0,111    0,097      0,507    0,163      0,183    0,828     0,148     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,840     0,009     Epilepsy
+                 0,190    0,017    0,537      0,190    0,281      0,283    0,729     0,334     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,866     0,067     COPD
+                 0,094    0,005    0,375      0,094    0,150      0,175    0,841     0,181     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,747     0,069     Fires
+                 0,011    0,004    0,083      0,011    0,020      0,020    0,763     0,072     Renal Failure
+                 0,191    0,071    0,113      0,191    0,142      0,094    0,796     0,134     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,805     0,021     Lung Cancer
+                 0,835    0,117    0,217      0,835    0,345      0,388    0,932     0,549     Maternal
+                 0,157    0,015    0,157      0,157    0,157      0,142    0,857     0,089     Drowning
+                 0,010    0,001    0,200      0,010    0,018      0,037    0,717     0,105     Other Cardiovascular Diseases
+                 0,259    0,092    0,142      0,259    0,183      0,127    0,777     0,127     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,791     0,090     Falls
+                 0,329    0,004    0,667      0,329    0,440      0,459    0,853     0,391     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,896     0,063     Bite of Venomous Animal
+                 0,022    0,002    0,286      0,022    0,042      0,073    0,728     0,067     Diabetes
+                 0,014    0,004    0,077      0,014    0,024      0,023    0,706     0,053     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,820     0,096     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,735     0,036     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,843     0,079     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,918     0,101     Cervical Cancer
+                 0,400    0,133    0,131      0,400    0,198      0,162    0,785     0,163     Stroke
+                 0,262    0,015    0,267      0,262    0,264      0,249    0,815     0,177     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,756     0,011     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,846     0,073     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,791     0,039     Homicide
+                 0,244    0,044    0,138      0,244    0,176      0,152    0,815     0,190     Diarrhea/Dysentery
+                 0,111    0,013    0,116      0,111    0,114      0,100    0,919     0,101     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,812     0,107     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,747     0,030     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,925     0,042     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,819     0,055     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,823     0,018     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,978     0,059     Measles
+                 0,225    0,018    0,145      0,225    0,176      0,167    0,937     0,211     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,965     0,075     Violent Death
+                 0,125    0,003    0,111      0,125    0,118      0,115    0,967     0,056     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,975     0,080     Encephalitis
+                 0,103    0,003    0,231      0,103    0,143      0,149    0,944     0,118     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,951     0,016     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,952     0,047     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,948     0,068     Meningitis
+                 0,000    0,000    ?          0,000    ?          ?        0,934     0,236     Birth asphyxia
+                 0,845    0,042    0,661      0,845    0,741      0,720    0,978     0,758     Stillbirth
+                 0,836    0,069    0,367      0,836    0,510      0,524    0,957     0,419     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,949     0,216     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,951     0,198     Congenital malformation
+Weighted Avg.    0,249    0,033    ?          0,249    ?          ?        0,838     0,233     
+Iteracion 0.2, 0.8999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances           8                0.2736 %
+Incorrectly Classified Instances      2916               99.7264 %
+Kappa statistic                          0     
+Mean absolute error                      0.0411
+Root mean squared error                  0.1612
+Relative absolute error                102.5886 %
+Root relative squared error            113.9207 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,371     0,017     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,256     0,002     Epilepsy
+                 0,000    0,000    ?          0,000    ?          ?        0,561     0,103     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,218     0,008     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,264     0,021     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,422     0,011     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,276     0,020     Renal Failure
+                 0,000    0,000    ?          0,000    ?          ?        0,359     0,032     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,251     0,005     Lung Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,520     0,035     Maternal
+                 0,000    0,000    ?          0,000    ?          ?        0,366     0,013     Drowning
+                 0,000    0,000    ?          0,000    ?          ?        0,410     0,028     Other Cardiovascular Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,354     0,039     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,269     0,011     Falls
+                 0,000    0,000    ?          0,000    ?          ?        0,645     0,055     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,474     0,010     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,347     0,021     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,321     0,016     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,320     0,019     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,276     0,008     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,240     0,006     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,562     0,016     Cervical Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,341     0,033     Stroke
+                 0,000    0,000    ?          0,000    ?          ?        0,548     0,024     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,278     0,002     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,359     0,006     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,198     0,008     Homicide
+                 0,000    0,000    ?          0,000    ?          ?        0,521     0,028     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,564     0,017     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,361     0,010     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,339     0,007     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,299     0,003     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,448     0,003     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,296     0,004     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,582     0,002     Measles
+                 0,000    0,000    ?          0,000    ?          ?        0,662     0,019     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,540     0,004     Violent Death
+                 1,000    1,000    0,003      1,000    0,005      ?        0,269     0,002     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,560     0,003     Encephalitis
+                 0,000    0,000    ?          0,000    ?          ?        0,678     0,015     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,636     0,002     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,633     0,004     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,737     0,009     Meningitis
+                 0,000    0,000    ?          0,000    ?          ?        0,873     0,132     Birth asphyxia
+                 0,000    0,000    ?          0,000    ?          ?        0,885     0,308     Stillbirth
+                 0,000    0,000    ?          0,000    ?          ?        0,896     0,222     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,905     0,101     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,880     0,091     Congenital malformation
+Weighted Avg.    0,003    0,003    ?          0,003    ?          ?        0,512     0,071     
+Iteracion 0.2, 0.9999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances         268                9.1655 %
+Incorrectly Classified Instances      2656               90.8345 %
+Kappa statistic                          0     
+Mean absolute error                      0.04  
+Root mean squared error                  0.1415
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,023     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,002     Epilepsy
+                 1,000    1,000    0,092      1,000    0,168      ?        0,500     0,092     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,013     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,033     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,031     Renal Failure
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,045     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,007     Lung Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,037     Maternal
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Drowning
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,036     Other Cardiovascular Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,055     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Falls
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,025     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,011     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,030     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,024     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,027     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,012     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,015     Cervical Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,048     Stroke
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,021     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,008     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Homicide
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,028     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,015     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,013     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,004     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,005     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,002     Measles
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Encephalitis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,001     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,004     Meningitis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,037     Birth asphyxia
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,088     Stillbirth
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,046     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,019     Congenital malformation
+Weighted Avg.    0,092    0,092    ?          0,092    ?          ?        0,500     0,040     
+Iteracion 0.30000000000000004, 0.5 --> 0.0 vs NaN
+
+Correctly Classified Instances         786               26.881  %
+Incorrectly Classified Instances      2138               73.119  %
+Kappa statistic                          0.23  
+Mean absolute error                      0.0345
+Root mean squared error                  0.1328
+Relative absolute error                 86.1521 %
+Root relative squared error             93.9007 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,388    0,067    0,119      0,388    0,182      0,183    0,836     0,128     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,791     0,010     Epilepsy
+                 0,321    0,041    0,441      0,321    0,371      0,324    0,746     0,340     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,841     0,056     COPD
+                 0,042    0,001    0,571      0,042    0,078      0,148    0,854     0,231     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,712     0,078     Fires
+                 0,044    0,002    0,444      0,044    0,081      0,133    0,820     0,172     Renal Failure
+                 0,382    0,134    0,118      0,382    0,180      0,146    0,801     0,159     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,796     0,025     Lung Cancer
+                 0,642    0,034    0,419      0,642    0,507      0,496    0,955     0,637     Maternal
+                 0,176    0,000    1,000      0,176    0,300      0,417    0,833     0,299     Drowning
+                 0,106    0,017    0,190      0,106    0,136      0,118    0,717     0,099     Other Cardiovascular Diseases
+                 0,142    0,021    0,280      0,142    0,189      0,167    0,794     0,150     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,756     0,065     Falls
+                 0,466    0,012    0,500      0,466    0,482      0,470    0,878     0,419     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,911     0,345     Bite of Venomous Animal
+                 0,022    0,001    0,400      0,022    0,043      0,089    0,765     0,147     Diabetes
+                 0,072    0,014    0,114      0,072    0,088      0,073    0,729     0,073     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,818     0,100     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,719     0,038     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,816     0,077     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,907     0,123     Cervical Cancer
+                 0,657    0,255    0,115      0,657    0,195      0,192    0,803     0,278     Stroke
+                 0,311    0,017    0,284      0,311    0,297      0,281    0,764     0,154     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,729     0,014     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,819     0,025     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,833     0,069     Homicide
+                 0,122    0,006    0,385      0,122    0,185      0,205    0,786     0,233     Diarrhea/Dysentery
+                 0,178    0,020    0,119      0,178    0,143      0,129    0,926     0,124     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,796     0,036     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,692     0,041     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,888     0,025     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,738     0,019     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,793     0,018     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,986     0,069     Measles
+                 0,225    0,005    0,375      0,225    0,281      0,283    0,957     0,261     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,973     0,058     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,987     0,111     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,976     0,083     Encephalitis
+                 0,069    0,004    0,133      0,069    0,091      0,089    0,933     0,093     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,966     0,028     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,967     0,059     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,944     0,047     Meningitis
+                 0,028    0,002    0,300      0,028    0,051      0,082    0,940     0,281     Birth asphyxia
+                 0,942    0,068    0,573      0,942    0,713      0,704    0,979     0,787     Stillbirth
+                 0,567    0,046    0,374      0,567    0,451      0,429    0,955     0,426     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,951     0,229     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,941     0,266     Congenital malformation
+Weighted Avg.    0,269    0,036    ?          0,269    ?          ?        0,842     0,266     
+Iteracion 0.30000000000000004, 0.6 --> 0.0 vs NaN
+
+Correctly Classified Instances         687               23.4952 %
+Incorrectly Classified Instances      2237               76.5048 %
+Kappa statistic                          0.1982
+Mean absolute error                      0.0347
+Root mean squared error                  0.1345
+Relative absolute error                 86.5425 %
+Root relative squared error             95.1021 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,418    0,071    0,121      0,418    0,187      0,192    0,815     0,125     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,667     0,007     Epilepsy
+                 0,153    0,014    0,526      0,153    0,237      0,249    0,743     0,352     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,839     0,052     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,817     0,150     Acute Myocardial Infarction
+                 0,000    0,000    0,000      0,000    0,000      -0,002   0,768     0,068     Fires
+                 0,000    0,000    0,000      0,000    0,000      -0,003   0,818     0,143     Renal Failure
+                 0,389    0,126    0,127      0,389    0,191      0,158    0,790     0,132     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,794     0,021     Lung Cancer
+                 0,468    0,012    0,607      0,468    0,528      0,517    0,941     0,579     Maternal
+                 0,157    0,000    0,889      0,157    0,267      0,370    0,906     0,285     Drowning
+                 0,240    0,168    0,050      0,240    0,083      0,036    0,650     0,072     Other Cardiovascular Diseases
+                 0,074    0,020    0,182      0,074    0,105      0,084    0,793     0,154     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,748     0,054     Falls
+                 0,384    0,004    0,718      0,384    0,500      0,516    0,872     0,392     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,943     0,310     Bite of Venomous Animal
+                 0,000    0,003    0,000      0,000    0,000      -0,009   0,750     0,069     Diabetes
+                 0,014    0,001    0,333      0,014    0,028      0,065    0,749     0,066     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,797     0,093     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,699     0,060     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,807     0,072     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,929     0,148     Cervical Cancer
+                 0,493    0,186    0,118      0,493    0,190      0,164    0,792     0,255     Stroke
+                 0,230    0,010    0,326      0,230    0,269      0,260    0,785     0,183     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,629     0,006     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,824     0,026     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,778     0,045     Homicide
+                 0,280    0,048    0,144      0,280    0,190      0,169    0,791     0,246     Diarrhea/Dysentery
+                 0,044    0,013    0,053      0,044    0,048      0,035    0,936     0,121     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,797     0,058     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,717     0,030     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,894     0,050     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,737     0,051     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,820     0,017     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,984     0,058     Measles
+                 0,175    0,004    0,368      0,175    0,237      0,247    0,947     0,290     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,964     0,053     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,983     0,098     Other Digestive Diseases
+                 0,000    0,001    0,000      0,000    0,000      -0,002   0,978     0,079     Encephalitis
+                 0,069    0,004    0,133      0,069    0,091      0,089    0,950     0,118     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,965     0,028     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,952     0,037     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,940     0,063     Meningitis
+                 0,009    0,001    0,250      0,009    0,018      0,042    0,942     0,284     Birth asphyxia
+                 0,841    0,043    0,654      0,841    0,736      0,713    0,977     0,766     Stillbirth
+                 0,799    0,070    0,354      0,799    0,491      0,501    0,954     0,431     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,948     0,243     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,929     0,185     Congenital malformation
+Weighted Avg.    0,235    0,034    ?          0,235    ?          ?        0,837     0,253     
+Iteracion 0.30000000000000004, 0.7 --> 0.0 vs NaN
+
+Correctly Classified Instances         564               19.2886 %
+Incorrectly Classified Instances      2360               80.7114 %
+Kappa statistic                          0.1527
+Mean absolute error                      0.0357
+Root mean squared error                  0.1416
+Relative absolute error                 89.211  %
+Root relative squared error            100.0837 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,403    0,073    0,115      0,403    0,179      0,182    0,811     0,109     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,765     0,008     Epilepsy
+                 0,183    0,017    0,527      0,183    0,271      0,273    0,720     0,305     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,852     0,054     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,818     0,154     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,706     0,081     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,761     0,080     Renal Failure
+                 0,214    0,072    0,123      0,214    0,156      0,110    0,770     0,120     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,835     0,024     Lung Cancer
+                 0,303    0,006    0,660      0,303    0,415      0,434    0,947     0,524     Maternal
+                 0,157    0,007    0,286      0,157    0,203      0,202    0,889     0,293     Drowning
+                 0,000    0,000    ?          0,000    ?          ?        0,654     0,068     Other Cardiovascular Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,768     0,139     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,774     0,084     Falls
+                 0,110    0,000    1,000      0,110    0,198      0,327    0,797     0,303     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,925     0,168     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,746     0,087     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,711     0,058     Other Infectious Diseases
+                 0,013    0,006    0,056      0,013    0,020      0,014    0,783     0,074     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,713     0,037     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,827     0,064     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,936     0,198     Cervical Cancer
+                 0,836    0,448    0,086      0,836    0,156      0,166    0,754     0,125     Stroke
+                 0,000    0,000    ?          0,000    ?          ?        0,750     0,137     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,575     0,004     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,815     0,022     Colorectal Cancer
+                 0,000    0,001    0,000      0,000    0,000      -0,003   0,790     0,048     Homicide
+                 0,073    0,001    0,600      0,073    0,130      0,203    0,789     0,181     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,913     0,083     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,788     0,034     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,739     0,026     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,930     0,049     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,813     0,029     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,834     0,019     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,917     0,014     Measles
+                 0,175    0,007    0,269      0,175    0,212      0,208    0,951     0,152     Other Defined Causes of Child Deaths
+                 0,111    0,016    0,021      0,111    0,035      0,041    0,960     0,045     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,968     0,052     Other Digestive Diseases
+                 0,000    0,004    0,000      0,000    0,000      -0,003   0,978     0,078     Encephalitis
+                 0,000    0,000    0,000      0,000    0,000      -0,002   0,946     0,101     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,908     0,015     Other Cancers
+                 0,000    0,000    0,000      0,000    0,000      -0,001   0,955     0,044     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,961     0,161     Meningitis
+                 0,000    0,002    0,000      0,000    0,000      -0,010   0,818     0,153     Birth asphyxia
+                 0,593    0,021    0,729      0,593    0,654      0,628    0,902     0,641     Stillbirth
+                 0,940    0,164    0,216      0,940    0,351      0,406    0,948     0,374     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,924     0,176     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,834     0,093     Congenital malformation
+Weighted Avg.    0,193    0,038    ?          0,193    ?          ?        0,812     0,207     
+Iteracion 0.30000000000000004, 0.7999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances         199                6.8057 %
+Incorrectly Classified Instances      2725               93.1943 %
+Kappa statistic                          0.0321
+Mean absolute error                      0.0396
+Root mean squared error                  0.1424
+Relative absolute error                 98.9904 %
+Root relative squared error            100.6263 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,790     0,113     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,836     0,015     Epilepsy
+                 0,015    0,000    0,800      0,015    0,029      0,102    0,657     0,281     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,559     0,015     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,771     0,095     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,518     0,028     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,745     0,073     Renal Failure
+                 0,000    0,000    ?          0,000    ?          ?        0,682     0,124     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,718     0,028     Lung Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,849     0,113     Maternal
+                 0,059    0,025    0,041      0,059    0,048      0,028    0,670     0,050     Drowning
+                 0,587    0,569    0,037      0,587    0,069      0,007    0,522     0,035     Other Cardiovascular Diseases
+                 0,154    0,057    0,137      0,154    0,145      0,092    0,752     0,121     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,555     0,019     Falls
+                 0,301    0,159    0,046      0,301    0,080      0,060    0,567     0,083     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,728     0,044     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,695     0,048     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,453     0,023     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,696     0,051     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,593     0,024     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,763     0,026     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,886     0,120     Cervical Cancer
+                 0,214    0,134    0,074      0,214    0,110      0,050    0,689     0,088     Stroke
+                 0,000    0,000    ?          0,000    ?          ?        0,767     0,137     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,707     0,009     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,759     0,028     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,745     0,034     Homicide
+                 0,024    0,001    0,500      0,024    0,047      0,106    0,619     0,100     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,856     0,054     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,711     0,093     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,561     0,013     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,881     0,028     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,772     0,009     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,493     0,006     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,534     0,003     Measles
+                 0,000    0,000    ?          0,000    ?          ?        0,925     0,104     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,872     0,013     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,871     0,042     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,847     0,009     Encephalitis
+                 0,000    0,000    ?          0,000    ?          ?        0,852     0,032     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,411     0,003     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,878     0,028     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,921     0,046     Meningitis
+                 0,213    0,020    0,295      0,213    0,247      0,226    0,925     0,245     Birth asphyxia
+                 0,112    0,003    0,763      0,112    0,196      0,273    0,947     0,592     Stillbirth
+                 0,000    0,000    ?          0,000    ?          ?        0,700     0,151     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,885     0,085     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,898     0,112     Congenital malformation
+Weighted Avg.    0,068    0,035    ?          0,068    ?          ?        0,734     0,149     
+Iteracion 0.30000000000000004, 0.8999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances          82                2.8044 %
+Incorrectly Classified Instances      2842               97.1956 %
+Kappa statistic                          0     
+Mean absolute error                      0.0407
+Root mean squared error                  0.1444
+Relative absolute error                101.6727 %
+Root relative squared error            102.0465 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,564     0,025     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,252     0,002     Epilepsy
+                 0,000    0,000    ?          0,000    ?          ?        0,547     0,102     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,268     0,008     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,288     0,021     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,581     0,018     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,676     0,063     Renal Failure
+                 0,000    0,000    ?          0,000    ?          ?        0,535     0,068     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,253     0,005     Lung Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,604     0,042     Maternal
+                 0,000    0,000    ?          0,000    ?          ?        0,346     0,012     Drowning
+                 0,000    0,000    ?          0,000    ?          ?        0,407     0,027     Other Cardiovascular Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,374     0,040     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,324     0,013     Falls
+                 0,000    0,000    ?          0,000    ?          ?        0,694     0,067     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,522     0,012     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,374     0,022     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,391     0,018     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,310     0,018     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,310     0,008     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,710     0,018     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,606     0,018     Cervical Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,366     0,035     Stroke
+                 0,000    0,000    ?          0,000    ?          ?        0,497     0,020     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,300     0,002     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,369     0,006     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,197     0,008     Homicide
+                 1,000    1,000    0,028      1,000    0,055      ?        0,470     0,025     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,615     0,019     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,641     0,019     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,392     0,008     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,199     0,002     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,387     0,003     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,343     0,004     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,660     0,003     Measles
+                 0,000    0,000    ?          0,000    ?          ?        0,613     0,018     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,545     0,004     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,138     0,002     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,569     0,004     Encephalitis
+                 0,000    0,000    ?          0,000    ?          ?        0,653     0,016     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,530     0,002     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,327     0,002     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,692     0,008     Meningitis
+                 0,000    0,000    ?          0,000    ?          ?        0,856     0,130     Birth asphyxia
+                 0,000    0,000    ?          0,000    ?          ?        0,198     0,053     Stillbirth
+                 0,000    0,000    ?          0,000    ?          ?        0,885     0,202     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,871     0,082     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,863     0,088     Congenital malformation
+Weighted Avg.    0,028    0,028    ?          0,028    ?          ?        0,492     0,051     
+Iteracion 0.30000000000000004, 0.9999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances         268                9.1655 %
+Incorrectly Classified Instances      2656               90.8345 %
+Kappa statistic                          0     
+Mean absolute error                      0.04  
+Root mean squared error                  0.1415
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,023     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,002     Epilepsy
+                 1,000    1,000    0,092      1,000    0,168      ?        0,500     0,092     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,013     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,033     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,031     Renal Failure
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,045     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,007     Lung Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,037     Maternal
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Drowning
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,036     Other Cardiovascular Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,055     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Falls
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,025     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,011     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,030     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,024     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,027     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,012     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,015     Cervical Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,048     Stroke
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,021     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,008     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Homicide
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,028     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,015     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,013     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,004     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,005     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,002     Measles
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Encephalitis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,001     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,004     Meningitis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,037     Birth asphyxia
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,088     Stillbirth
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,046     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,019     Congenital malformation
+Weighted Avg.    0,092    0,092    ?          0,092    ?          ?        0,500     0,040     
+Iteracion 0.4, 0.5 --> 0.0 vs NaN
+
+Correctly Classified Instances         720               24.6238 %
+Incorrectly Classified Instances      2204               75.3762 %
+Kappa statistic                          0.2107
+Mean absolute error                      0.0345
+Root mean squared error                  0.1338
+Relative absolute error                 86.1244 %
+Root relative squared error             94.5632 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,403    0,069    0,120      0,403    0,185      0,187    0,832     0,150     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,816     0,008     Epilepsy
+                 0,149    0,011    0,588      0,149    0,238      0,266    0,731     0,336     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,854     0,062     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,837     0,169     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,723     0,060     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,792     0,088     Renal Failure
+                 0,427    0,153    0,116      0,427    0,182      0,153    0,808     0,138     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,818     0,028     Lung Cancer
+                 0,615    0,042    0,360      0,615    0,454      0,444    0,946     0,594     Maternal
+                 0,216    0,009    0,297      0,216    0,250      0,242    0,863     0,241     Drowning
+                 0,058    0,017    0,113      0,058    0,076      0,057    0,678     0,084     Other Cardiovascular Diseases
+                 0,099    0,029    0,168      0,099    0,125      0,091    0,798     0,170     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,778     0,065     Falls
+                 0,425    0,011    0,492      0,425    0,456      0,444    0,857     0,381     Road Traffic
+                 0,032    0,000    0,500      0,032    0,061      0,125    0,941     0,294     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,747     0,065     Diabetes
+                 0,000    0,004    0,000      0,000    0,000      -0,009   0,703     0,050     Other Infectious Diseases
+                 0,000    0,001    0,000      0,000    0,000      -0,005   0,809     0,087     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,709     0,038     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,818     0,047     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,920     0,105     Cervical Cancer
+                 0,500    0,142    0,151      0,500    0,231      0,209    0,805     0,204     Stroke
+                 0,230    0,009    0,341      0,230    0,275      0,268    0,830     0,164     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,736     0,021     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,828     0,022     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,809     0,076     Homicide
+                 0,488    0,153    0,084      0,488    0,144      0,150    0,794     0,234     Diarrhea/Dysentery
+                 0,000    0,001    0,000      0,000    0,000      -0,004   0,937     0,141     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,820     0,131     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,773     0,067     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,922     0,034     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,801     0,067     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,790     0,017     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,981     0,069     Measles
+                 0,175    0,004    0,389      0,175    0,241      0,254    0,951     0,194     Other Defined Causes of Child Deaths
+                 0,333    0,011    0,086      0,333    0,136      0,164    0,971     0,078     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,953     0,043     Other Digestive Diseases
+                 0,000    0,001    0,000      0,000    0,000      -0,002   0,968     0,094     Encephalitis
+                 0,069    0,007    0,091      0,069    0,078      0,071    0,945     0,087     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,918     0,011     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,946     0,063     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,965     0,090     Meningitis
+                 0,046    0,004    0,294      0,046    0,080      0,104    0,935     0,263     Birth asphyxia
+                 0,888    0,054    0,616      0,888    0,727      0,710    0,978     0,772     Stillbirth
+                 0,709    0,055    0,383      0,709    0,497      0,491    0,953     0,428     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,946     0,216     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,946     0,200     Congenital malformation
+Weighted Avg.    0,246    0,033    ?          0,246    ?          ?        0,840     0,247     
+Iteracion 0.4, 0.6 --> 0.0 vs NaN
+
+Correctly Classified Instances         644               22.0246 %
+Incorrectly Classified Instances      2280               77.9754 %
+Kappa statistic                          0.1839
+Mean absolute error                      0.0353
+Root mean squared error                  0.1371
+Relative absolute error                 88.1324 %
+Root relative squared error             96.9297 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,403    0,071    0,118      0,403    0,182      0,185    0,829     0,136     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,803     0,009     Epilepsy
+                 0,090    0,005    0,632      0,090    0,157      0,215    0,714     0,333     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,874     0,061     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,835     0,154     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,769     0,109     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,766     0,118     Renal Failure
+                 0,252    0,093    0,113      0,252    0,156      0,110    0,792     0,147     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,803     0,031     Lung Cancer
+                 0,651    0,047    0,350      0,651    0,455      0,451    0,950     0,514     Maternal
+                 0,137    0,014    0,152      0,137    0,144      0,130    0,884     0,126     Drowning
+                 0,010    0,008    0,043      0,010    0,016      0,004    0,691     0,066     Other Cardiovascular Diseases
+                 0,086    0,028    0,152      0,086    0,110      0,076    0,768     0,122     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,753     0,046     Falls
+                 0,110    0,002    0,615      0,110    0,186      0,253    0,841     0,347     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,930     0,233     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,741     0,059     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,720     0,055     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,831     0,100     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,766     0,035     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,817     0,045     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,920     0,138     Cervical Cancer
+                 0,593    0,248    0,107      0,593    0,182      0,167    0,760     0,160     Stroke
+                 0,180    0,008    0,314      0,180    0,229      0,226    0,800     0,164     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,779     0,020     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,791     0,028     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,794     0,048     Homicide
+                 0,585    0,160    0,096      0,585    0,164      0,186    0,806     0,190     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,921     0,104     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,778     0,032     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,703     0,030     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,922     0,035     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,749     0,012     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,785     0,031     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,952     0,021     Measles
+                 0,200    0,005    0,364      0,200    0,258      0,262    0,973     0,271     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,907     0,044     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,969     0,116     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,966     0,079     Encephalitis
+                 0,034    0,007    0,050      0,034    0,041      0,034    0,931     0,074     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,785     0,004     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,881     0,015     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,883     0,043     Meningitis
+                 0,278    0,020    0,345      0,278    0,308      0,286    0,933     0,261     Birth asphyxia
+                 0,733    0,044    0,616      0,733    0,669      0,637    0,967     0,712     Stillbirth
+                 0,664    0,055    0,368      0,664    0,473      0,462    0,945     0,383     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,931     0,180     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,886     0,192     Congenital malformation
+Weighted Avg.    0,220    0,034    ?          0,220    ?          ?        0,830     0,225     
+Iteracion 0.4, 0.7 --> 0.0 vs NaN
+
+Correctly Classified Instances         290                9.9179 %
+Incorrectly Classified Instances      2634               90.0821 %
+Kappa statistic                          0.0638
+Mean absolute error                      0.0388
+Root mean squared error                  0.1418
+Relative absolute error                 96.8097 %
+Root relative squared error            100.2176 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,746     0,083     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,713     0,008     Epilepsy
+                 0,090    0,008    0,545      0,090    0,154      0,194    0,721     0,282     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,777     0,028     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,786     0,088     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,660     0,050     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,742     0,059     Renal Failure
+                 0,015    0,007    0,095      0,015    0,026      0,021    0,745     0,105     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,772     0,024     Lung Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,916     0,346     Maternal
+                 0,000    0,000    ?          0,000    ?          ?        0,760     0,062     Drowning
+                 0,567    0,454    0,044      0,567    0,082      0,042    0,632     0,060     Other Cardiovascular Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,715     0,102     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,622     0,026     Falls
+                 0,055    0,001    0,571      0,055    0,100      0,172    0,701     0,199     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,900     0,090     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,732     0,066     Diabetes
+                 0,014    0,006    0,053      0,014    0,023      0,015    0,644     0,039     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,744     0,070     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,715     0,035     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,809     0,051     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,834     0,061     Cervical Cancer
+                 0,479    0,270    0,082      0,479    0,140      0,099    0,722     0,097     Stroke
+                 0,000    0,000    ?          0,000    ?          ?        0,727     0,155     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,559     0,008     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,788     0,026     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,791     0,039     Homicide
+                 0,110    0,011    0,231      0,110    0,149      0,143    0,720     0,117     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,851     0,057     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,736     0,039     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,734     0,032     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,892     0,018     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,692     0,006     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,732     0,018     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,466     0,002     Measles
+                 0,000    0,001    0,000      0,000    0,000      -0,004   0,949     0,154     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,873     0,031     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,767     0,014     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,976     0,104     Encephalitis
+                 0,000    0,000    ?          0,000    ?          ?        0,910     0,075     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,253     0,001     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,867     0,027     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,944     0,042     Meningitis
+                 0,000    0,000    ?          0,000    ?          ?        0,924     0,225     Birth asphyxia
+                 0,190    0,008    0,700      0,190    0,299      0,338    0,954     0,603     Stillbirth
+                 0,037    0,003    0,357      0,037    0,068      0,103    0,943     0,364     Preterm Delivery
+                 0,686    0,089    0,121      0,686    0,205      0,262    0,936     0,162     Meningitis/Sepsis
+                 0,614    0,079    0,134      0,614    0,220      0,260    0,919     0,136     Congenital malformation
+Weighted Avg.    0,099    0,034    ?          0,099    ?          ?        0,788     0,174     
+Iteracion 0.4, 0.7999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances         107                3.6594 %
+Incorrectly Classified Instances      2817               96.3406 %
+Kappa statistic                          0.0066
+Mean absolute error                      0.0405
+Root mean squared error                  0.1461
+Relative absolute error                101.1291 %
+Root relative squared error            103.2348 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,793     0,114     Cirrhosis
+                 0,000    0,055    0,000      0,000    0,000      -0,012   0,686     0,006     Epilepsy
+                 0,000    0,000    ?          0,000    ?          ?        0,687     0,280     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,610     0,016     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,658     0,070     Acute Myocardial Infarction
+                 0,171    0,036    0,064      0,171    0,093      0,083    0,532     0,023     Fires
+                 0,000    0,002    0,000      0,000    0,000      -0,008   0,729     0,062     Renal Failure
+                 0,000    0,000    ?          0,000    ?          ?        0,503     0,047     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,752     0,025     Lung Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,904     0,282     Maternal
+                 0,000    0,000    ?          0,000    ?          ?        0,682     0,048     Drowning
+                 0,788    0,737    0,038      0,788    0,072      0,022    0,641     0,050     Other Cardiovascular Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,686     0,106     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,553     0,021     Falls
+                 0,000    0,000    ?          0,000    ?          ?        0,614     0,114     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,824     0,125     Bite of Venomous Animal
+                 0,101    0,090    0,034      0,101    0,051      0,006    0,689     0,049     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,531     0,026     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,723     0,064     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,552     0,013     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,624     0,013     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,813     0,064     Cervical Cancer
+                 0,000    0,003    0,000      0,000    0,000      -0,011   0,691     0,079     Stroke
+                 0,000    0,000    ?          0,000    ?          ?        0,788     0,123     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,462     0,003     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,601     0,011     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,746     0,034     Homicide
+                 0,000    0,000    ?          0,000    ?          ?        0,732     0,104     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,919     0,097     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,703     0,026     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,506     0,009     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,580     0,005     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,636     0,004     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,624     0,010     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,627     0,003     Measles
+                 0,000    0,000    ?          0,000    ?          ?        0,950     0,190     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,953     0,044     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,944     0,043     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,935     0,023     Encephalitis
+                 0,000    0,000    ?          0,000    ?          ?        0,925     0,114     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,386     0,001     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,975     0,068     Hemorrhagic fever
+                 0,692    0,071    0,041      0,692    0,078      0,158    0,944     0,042     Meningitis
+                 0,000    0,000    ?          0,000    ?          ?        0,928     0,244     Birth asphyxia
+                 0,000    0,000    ?          0,000    ?          ?        0,952     0,609     Stillbirth
+                 0,000    0,000    ?          0,000    ?          ?        0,888     0,160     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,922     0,099     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,932     0,156     Congenital malformation
+Weighted Avg.    0,037    0,030    ?          0,037    ?          ?        0,744     0,155     
+Iteracion 0.4, 0.8999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances          82                2.8044 %
+Incorrectly Classified Instances      2842               97.1956 %
+Kappa statistic                          0     
+Mean absolute error                      0.0407
+Root mean squared error                  0.1446
+Relative absolute error                101.5494 %
+Root relative squared error            102.2149 %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,429     0,019     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,254     0,002     Epilepsy
+                 0,000    0,000    ?          0,000    ?          ?        0,529     0,100     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,361     0,010     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,334     0,023     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,578     0,020     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,684     0,058     Renal Failure
+                 0,000    0,000    ?          0,000    ?          ?        0,564     0,073     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,261     0,005     Lung Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,620     0,044     Maternal
+                 0,000    0,000    ?          0,000    ?          ?        0,347     0,013     Drowning
+                 0,000    0,000    ?          0,000    ?          ?        0,417     0,028     Other Cardiovascular Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,371     0,040     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,333     0,012     Falls
+                 0,000    0,000    ?          0,000    ?          ?        0,687     0,048     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,565     0,013     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,409     0,024     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,024     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,329     0,019     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,346     0,009     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,702     0,017     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,641     0,020     Cervical Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,401     0,037     Stroke
+                 0,000    0,000    ?          0,000    ?          ?        0,488     0,020     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,301     0,003     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,367     0,006     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,221     0,008     Homicide
+                 1,000    1,000    0,028      1,000    0,055      ?        0,460     0,024     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,657     0,021     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,634     0,019     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,425     0,008     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,176     0,002     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,323     0,002     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,354     0,004     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,652     0,003     Measles
+                 0,000    0,000    ?          0,000    ?          ?        0,574     0,018     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,535     0,004     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,617     0,005     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,621     0,005     Encephalitis
+                 0,000    0,000    ?          0,000    ?          ?        0,645     0,017     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,488     0,002     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,410     0,003     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,589     0,007     Meningitis
+                 0,000    0,000    ?          0,000    ?          ?        0,785     0,118     Birth asphyxia
+                 0,000    0,000    ?          0,000    ?          ?        0,243     0,056     Stillbirth
+                 0,000    0,000    ?          0,000    ?          ?        0,847     0,164     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,755     0,058     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,805     0,091     Congenital malformation
+Weighted Avg.    0,028    0,028    ?          0,028    ?          ?        0,497     0,049     
+Iteracion 0.4, 0.9999999999999999 --> 0.0 vs NaN
+
+Correctly Classified Instances         268                9.1655 %
+Incorrectly Classified Instances      2656               90.8345 %
+Kappa statistic                          0     
+Mean absolute error                      0.04  
+Root mean squared error                  0.1415
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             2924     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,023     Cirrhosis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,002     Epilepsy
+                 1,000    1,000    0,092      1,000    0,168      ?        0,500     0,092     Pneumonia
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,013     COPD
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,033     Acute Myocardial Infarction
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Fires
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,031     Renal Failure
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,045     AIDS
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,007     Lung Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,037     Maternal
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Drowning
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,036     Other Cardiovascular Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,055     Other Non-communicable Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Falls
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,025     Road Traffic
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,011     Bite of Venomous Animal
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,030     Diabetes
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,024     Other Infectious Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,027     TB
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,012     Suicide
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Other Injuries
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,015     Cervical Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,048     Stroke
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,021     Malaria
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Asthma
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,008     Colorectal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Homicide
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,028     Diarrhea/Dysentery
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,015     Breast Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,013     Leukemia/Lymphomas
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Poisonings
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,004     Prostate Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Esophageal Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,005     Stomach Cancer
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,002     Measles
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,014     Other Defined Causes of Child Deaths
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Violent Death
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Other Digestive Diseases
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Encephalitis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,010     Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,001     Other Cancers
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,003     Hemorrhagic fever
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,004     Meningitis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,037     Birth asphyxia
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,088     Stillbirth
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,046     Preterm Delivery
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,017     Meningitis/Sepsis
+                 0,000    0,000    ?          0,000    ?          ?        0,500     0,019     Congenital malformation
+Weighted Avg.    0,092    0,092    ?          0,092    ?          ?        0,500     0,040     
+--------------------RESULTADO--------------------
+f-measure optima es: 0.0
+ratio de aprendizaje optimo es: 0.0
+momento optimo: 0.0

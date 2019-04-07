@@ -16,7 +16,7 @@ public class AutopsyAdaptBow2AS {
 	public static void main(String[] args) {
 
 		if (args.length != 4) {
-            System.err.println("El programa necesita 2 argumentos:\n1) Ruta del train_AS_BoW.arff.\n2) Ruta del test_BOW.arff.\n3) Ruta del archi test_AS_BOW.arff\n");
+            System.err.println("El programa necesita 2 argumentos:\n1) Ruta del train_BOW.arff.\n2) Ruta del test_BOW.arff.\n3) Ruta del archivo train_BOW_ASS.arff\n4) Ruta del archivo test_BOW_ASS.arff");
             System.exit(1);
         }
         String trainBowPath = args[0];
@@ -51,7 +51,7 @@ public class AutopsyAdaptBow2AS {
         Remove filter = new Remove();
         try {
         	trainBow.deleteAttributeAt(0);
-        	int[] attributes=filterAttributesRanked(trainBow, 1000);
+        	int[] attributes=filterAttributesRanked(trainBow, 105);
 			filter.setAttributeIndicesArray(attributes);
 			filter.setInvertSelection(true);
 			filter.setInputFormat(trainBow);

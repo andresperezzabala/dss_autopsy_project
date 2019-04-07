@@ -1,0 +1,2358 @@
+@relation 'PHMRC_VAI_redacted_free_text_edited-weka.filters.unsupervised.attribute.StringToWordVector-R9-W20000000-prune-rate-1.0-C-N0-L-stemmerweka.core.stemmers.LovinsStemmer-stopwords-handlerweka.core.stopwords.Rainbow-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \".,;:[]\\\%\\\'\\\"()?!/\\n -_><&#=*1234567890$\"-dictionaryC:\\Users\\andre\\git\\sad-proyecto1\\datos\\autopsy\\dictionary.txt-weka.filters.unsupervised.attribute.Remove-V-R1,5,2,116,4,7,312,886,228,1713,456,976,542,191,1342,18,1026,169,103,1130,213,751,162,310,149,329,1268,1264,1349,2198,2970,309,838,913,750,330,620,834,3469,534,287,686,2213,150,168,640,554,986,2542,682,1132,432,877,602,894,332,1120,298,99,462,1365,179,1591,1531,1157,629,333,641,2251,588,232,2014,703,753,2062,1911,2313,887,651,4578,3025,1629,1717,3263,2211,591,220,2085-2086,2091,2087,2324,2090,2089,2322,2088,2084,2323,2293,2083,2072,2074,2073,2327,2326,2328,2071,2075-2076,2325,2081-2082,2093,2080,2077,2079,2078,2092,2102,2321,3'
+
+@attribute module {Adult,Child,Neonate}
+@attribute age_years numeric
+@attribute site {Mexico,AP,UP,Dar,Bohol,Pemba}
+@attribute bab numeric
+@attribute sex {1,2,9}
+@attribute age_days numeric
+@attribute deceas numeric
+@attribute pregn numeric
+@attribute client numeric
+@attribute deliv numeric
+@attribute fever numeric
+@attribute respons numeric
+@attribute heart numeric
+@attribute cancer numeric
+@attribute deliver numeric
+@attribute accis numeric
+@attribute servic numeric
+@attribute breath numeric
+@attribute attack numeric
+@attribute suffer numeric
+@attribute child numeric
+@attribute mother numeric
+@attribute born numeric
+@attribute dead numeric
+@attribute birth numeric
+@attribute di numeric
+@attribute wa numeric
+@attribute vomis numeric
+@attribute drown numeric
+@attribute pneumon numeric
+@attribute burnt numeric
+@attribute day numeric
+@attribute particip numeric
+@attribute provid numeric
+@attribute mot numeric
+@attribute diabes numeric
+@attribute interview numeric
+@attribute paralys numeric
+@attribute snak numeric
+@attribute head numeric
+@attribute cough numeric
+@attribute loos numeric
+@attribute prenat numeric
+@attribute bit numeric
+@attribute brain numeric
+@attribute kidne numeric
+@attribute hit numeric
+@attribute road numeric
+@attribute womb numeric
+@attribute liver numeric
+@attribute sugar numeric
+@attribute explain numeric
+@attribute poison numeric
+@attribute injur numeric
+@attribute pressur numeric
+@attribute dialys numeric
+@attribute strok numeric
+@attribute ct numeric
+@attribute asthm numeric
+@attribute fir numeric
+@attribute hiv numeric
+@attribute burn numeric
+@attribute chemotherap numeric
+@attribute breast numeric
+@attribute tb numeric
+@attribute jaundic numeric
+@attribute diarrhe numeric
+@attribute kidney numeric
+@attribute rash numeric
+@attribute incub numeric
+@attribute clot numeric
+@attribute labour numeric
+@attribute malar numeric
+@attribute motorcycl numeric
+@attribute midwif numeric
+@attribute heartbeat numeric
+@attribute sect numeric
+@attribute prem numeric
+@attribute lad numeric
+@attribute hang numeric
+@attribute keros numeric
+@attribute commis numeric
+@attribute dengu numeric
+@attribute placent numeric
+@attribute prematur numeric
+@attribute induc numeric
+@attribute cirrhos numeric
+@attribute nail numeric
+@attribute nak numeric
+@attribute nbur numeric
+@attribute nap numeric
+@attribute servioc numeric
+@attribute nb numeric
+@attribute nat numeric
+@attribute septicem numeric
+@attribute nas numeric
+@attribute muscl numeric
+@attribute serv numeric
+@attribute roar numeric
+@attribute mus numeric
+@attribute mol numeric
+@attribute monit numeric
+@attribute mom numeric
+@attribute shar numeric
+@attribute shallow numeric
+@attribute shees numeric
+@attribute modl numeric
+@attribute mont numeric
+@attribute motherth numeric
+@attribute sew numeric
+@attribute muc numeric
+@attribute mud numeric
+@attribute nebl numeric
+@attribute mr numeric
+@attribute mount numeric
+@attribute mpther numeric
+@attribute movement numeric
+@attribute nearest numeric
+@attribute neurot numeric
+@attribute seps numeric
+@attribute gs_text34 {Cirrhosis,Epilepsy,Pneumonia,COPD,'Acute Myocardial Infarction',Fires,'Renal Failure',AIDS,'Lung Cancer',Maternal,Drowning,'Other Cardiovascular Diseases','Other Non-communicable Diseases',Falls,'Road Traffic','Bite of Venomous Animal',Diabetes,'Other Infectious Diseases',TB,Suicide,'Other Injuries','Cervical Cancer',Stroke,Malaria,Asthma,'Colorectal Cancer',Homicide,Diarrhea/Dysentery,'Breast Cancer',Leukemia/Lymphomas,Poisonings,'Prostate Cancer','Esophageal Cancer','Stomach Cancer',Measles,'Other Defined Causes of Child Deaths','Violent Death','Other Digestive Diseases',Encephalitis,Sepsis,'Other Cancers','Hemorrhagic fever',Meningitis,'Birth asphyxia',Stillbirth,'Preterm Delivery',Meningitis/Sepsis,'Congenital malformation'}
+
+@data
+{1 76,2 UP,5 ?,6 2,12 1,17 1,18 1,19 1,26 2,31 1,120 'Acute Myocardial Infarction'}
+{1 32,2 UP,4 2,5 ?,6 3,7 1,26 2,31 2,48 2,52 1,120 Maternal}
+{1 35,2 UP,4 2,5 ?,6 2,14 1,19 1,25 1,31 1,120 Maternal}
+{1 35,2 UP,5 ?,6 1,25 1,26 1,30 1,120 Fires}
+{1 61,2 Bohol,5 ?,15 1,25 2,26 3,31 1,35 2,39 1,120 'Road Traffic'}
+{1 20,2 AP,5 ?,19 1,25 1,26 2,27 2,31 2,60 1,82 1,120 TB}
+{1 48,4 2,5 ?,26 2,27 1,120 COPD}
+{1 26,2 UP,4 2,5 ?,6 3,7 2,9 2,20 1,26 3,120 Maternal}
+{1 30,2 UP,5 ?,6 1,26 4,79 1,120 Suicide}
+{1 80,2 UP,4 2,5 ?,6 1,17 2,19 1,26 4,45 1,49 1,120 'Renal Failure'}
+{1 55,2 Bohol,4 2,5 ?,26 11,27 1,31 1,39 1,120 'Other Non-communicable Diseases'}
+{1 52,2 UP,5 ?,6 3,12 1,17 1,18 1,19 3,25 1,26 1,31 1,50 1,120 'Acute Myocardial Infarction'}
+{1 48,2 Bohol,4 2,5 ?,10 1,11 1,12 1,26 2,27 1,35 2,45 1,50 1,54 1,55 1,120 Diarrhea/Dysentery}
+{1 32,2 AP,5 ?,25 2,26 6,31 3,40 1,58 1,65 1,120 AIDS}
+{1 60,2 UP,4 2,5 ?,6 1,19 1,27 1,31 1,54 2,61 1,120 'Renal Failure'}
+{1 26,2 Bohol,5 ?,12 2,18 1,26 9,31 1,37 1,44 1,57 1,70 1,120 'Other Cardiovascular Diseases'}
+{1 22,2 AP,5 ?,12 1,19 1,25 1,26 2,31 1,120 'Other Cardiovascular Diseases'}
+{1 18,2 AP,4 2,5 ?,9 1,10 3,25 1,26 2,31 1,120 Maternal}
+{1 75,2 UP,5 ?,6 4,26 3,54 1,120 Stroke}
+{1 52,4 2,5 ?,26 1,36 1,120 Diabetes}
+{1 35,2 AP,5 ?,25 1,26 8,27 3,120 Diarrhea/Dysentery}
+{1 40,2 AP,5 ?,10 1,17 1,25 1,26 2,31 1,33 1,67 1,120 'Renal Failure'}
+{1 70,2 AP,5 ?,10 2,17 1,19 2,25 2,26 1,31 1,35 1,37 1,120 COPD}
+{1 45,2 Pemba,5 ?,6 1,11 1,15 1,25 1,51 1,120 'Road Traffic'}
+{1 19,2 UP,4 2,5 ?,6 2,19 1,27 1,31 1,34 1,41 1,65 1,120 Maternal}
+{1 35,2 UP,4 2,5 ?,6 2,26 11,31 1,49 1,65 1}
+{1 50,2 AP,5 ?,12 1,18 4,26 2,31 1,120 Pneumonia}
+{1 20,2 UP,4 2,5 ?,6 2,9 1,17 1,19 1,26 2,31 3,39 1,120 Maternal}
+{1 49,2 AP,4 2,5 ?,25 1,26 2,31 1,44 1,45 2,55 2,120 'Renal Failure'}
+{1 31,2 Dar,4 2,5 ?,26 1,32 1,120 AIDS}
+{1 73,5 ?,13 3,25 1,26 4,29 1,35 1,44 2,62 2,120 'Colorectal Cancer'}
+{1 60,2 AP,4 2,5 ?,12 2,18 2,19 1,21 1,25 2,26 1,31 1,44 1,50 1,70 1,120 Diabetes}
+{1 58,2 Bohol,5 ?,6 1,12 3,25 1,26 2,31 1,120 Leukemia/Lymphomas}
+{1 27,2 Dar,5 ?,81 1,120 Suicide}
+{1 55,2 Pemba,5 ?,6 1,25 1,27 1,120 'Other Non-communicable Diseases'}
+{1 64,2 Bohol,5 ?,10 1,12 1,17 1,25 1,26 5,31 6,45 1,55 1,74 1,120 'Renal Failure'}
+{1 52,2 UP,4 2,5 ?,6 3,17 1,19 2,26 2,31 2,50 1,120 Pneumonia}
+{1 60,2 Bohol,5 ?,17 1,25 1,26 5,39 1,44 1,46 1,120 Homicide}
+{1 44,2 Dar,4 2,5 ?,13 1,19 1,26 1,32 1,120 'Esophageal Cancer'}
+{1 42,2 UP,5 ?,6 6,10 2,26 3,31 1,120 AIDS}
+{1 54,4 2,5 ?,26 1,62 1,63 1,120 'Breast Cancer'}
+{1 43,2 AP,4 2,5 ?,26 4,31 1,120 'Other Cardiovascular Diseases'}
+{1 74,2 Dar,4 ?,5 ?,6 1,32 1,120 Stroke}
+{1 86,2 Bohol,5 ?,17 1,19 1,23 1,25 1,26 23,31 3,107 1,116 1,120 COPD}
+{1 20,2 UP,4 2,5 ?,6 2,10 1,24 2,26 2,31 1,45 1,120 Malaria}
+{1 64,2 UP,5 ?,6 2,17 1,19 1,26 1,43 2,52 1,120 'Other Cardiovascular Diseases'}
+{1 20,2 AP,5 ?,10 2,11 1,17 1,26 1,27 1,29 1,120 Pneumonia}
+{1 60,2 Bohol,5 ?,12 2,25 1,26 12,31 4,40 1,45 1,49 2,55 1,120 'Other Infectious Diseases'}
+{1 24,2 AP,5 ?,10 1,21 1,25 2,31 3,45 1,120 Diabetes}
+{1 60,2 Pemba,5 ?,6 1,10 1,11 1,19 1,25 1,26 1,27 1,51 1,120 'Other Non-communicable Diseases'}
+{1 25,2 AP,4 2,5 ?,25 1,26 7,27 3,31 2,120 Maternal}
+{1 48,2 AP,4 2,5 ?,12 1,25 2,26 2,31 2,37 1,39 1,120 Stroke}
+{1 18,2 Dar,5 ?,8 1,29 1,72 1}
+{1 26,5 ?,25 1,26 2,120 Leukemia/Lymphomas}
+{1 27,2 AP,4 2,5 ?,25 1,26 2,31 1,65 1,120 AIDS}
+{1 46,2 AP,5 ?,25 2,26 3,31 1,120 Homicide}
+{1 87,4 2,5 ?,21 1,26 5,36 1,120 'Other Cardiovascular Diseases'}
+{1 44,2 AP,5 ?,17 2,19 4,25 1,26 5,31 7,49 1,65 4,67 1}
+{1 70,2 AP,4 2,5 ?,10 1,26 3,120 Stroke}
+{1 79,2 UP,5 ?,6 5,10 1,19 1,20 1,26 2,31 1,44 1,50 1,51 2,70 1,120 Pneumonia}
+{1 56,2 UP,4 2,5 ?,6 2,18 1,19 2,37 1,120 'Other Infectious Diseases'}
+{1 13,2 UP,4 2,5 ?,6 2,26 1,27 2,38 1,43 2,120 'Bite of Venomous Animal'}
+{1 90,2 AP,4 2,5 ?,26 5,31 1,37 1,39 1,120 Stroke}
+{1 50,2 UP,5 ?,6 3,53 2,120 Homicide}
+{1 26,2 UP,5 ?,6 5,17 2,19 1,20 1,26 7,27 1,31 1,34 2,37 1,41 2,60 1,120 AIDS}
+{1 82,2 UP,5 ?,6 3,19 1,26 2,58 1,120 'Renal Failure'}
+{1 59,4 2,5 ?,13 2,20 1,21 2,25 1,26 4,36 1,63 2,120 'Breast Cancer'}
+{1 22,2 AP,4 2,5 ?,25 2,26 2,52 1,120 TB}
+{1 51,2 Bohol,5 ?,10 1,25 1,26 10,29 1,31 1,32 1,64 3,112 1,120 'Lung Cancer'}
+{1 35,2 Bohol,5 ?,12 1,17 1,23 1,25 1,26 16,31 2,37 2,51 2,55 1,65 1,120 'Renal Failure'}
+{1 28,2 UP,4 2,5 ?,6 3,7 1,9 1,24 1,25 2,26 3,27 2,31 2,120 Maternal}
+{1 28,2 UP,4 2,5 ?,6 8,7 1,9 1,17 2,19 1,26 1,27 1,31 3,37 1,40 1,120 Maternal}
+{1 38,2 Bohol,5 ?,6 5,12 2,15 1,17 1,25 1,26 10,27 1,31 1,54 1,120 'Acute Myocardial Infarction'}
+{1 27,5 ?,26 3,44 1,78 1,120 AIDS}
+{1 69,2 Bohol,4 2,5 ?,6 4,11 1,12 1,17 1,26 2,120 'Acute Myocardial Infarction'}
+{1 45,2 Bohol,5 ?,10 2,17 1,25 1,26 11,40 1,120 'Other Non-communicable Diseases'}
+{1 72,5 ?,25 1,26 7,31 1,35 2,120 Diabetes}
+{1 25,2 AP,4 2,5 ?,15 1,25 1,26 3,30 1,59 1,120 Fires}
+{1 24,2 UP,4 2,5 ?,6 6,9 2,10 1,20 1,22 1,25 1,26 4,27 1,63 1,120 Maternal}
+{1 75,2 AP,5 ?,26 2,31 1,57 1,120 Stroke}
+{1 83,2 Bohol,4 2,5 ?,17 1,26 2,40 2,120 Pneumonia}
+{1 79,5 ?,26 3,78 1,120 Stroke}
+{1 58,2 Bohol,4 2,5 ?,11 1,12 1,18 1,39 1,54 1,56 1,70 1,120 Stroke}
+{1 60,2 UP,5 ?,6 1,25 1,28 1,120 Drowning}
+{1 60,2 Dar,5 ?,6 1,19 1,26 1,32 1,56 1,120 'Prostate Cancer'}
+{1 43,2 UP,5 ?,6 11,17 3,26 7,31 3,44 1,45 2,50 2,65 2}
+{1 24,2 AP,3 1,4 2,5 ?,9 1,17 1,19 1,24 1,26 5,40 1,120 Pneumonia}
+{1 29,2 Dar,4 2,5 ?,6 1,24 1,26 1,32 1,33 1,120 Maternal}
+{1 22,2 Bohol,3 2,4 2,5 ?,6 1,7 1,14 1,18 2,21 1,26 3,31 2,37 2,120 Epilepsy}
+{1 40,2 AP,4 2,5 ?,21 1,25 1,120 'Renal Failure'}
+{1 34,2 AP,4 2,5 ?,25 1,26 2,29 1,31 2,120 'Other Infectious Diseases'}
+{1 30,2 UP,4 2,5 ?,6 4,7 1,19 1,120 Maternal}
+{1 59,4 2,5 ?,26 4,49 1,86 1}
+{1 55,2 UP,5 ?,6 6,19 3,26 1,29 1,31 2,40 1,49 1,58 2,120 COPD}
+{1 51,5 ?,6 1,12 2,120 Pneumonia}
+{1 60,2 UP,4 2,5 ?,6 1,31 1,54 1,120 Stroke}
+{1 43,2 AP,5 ?,17 1,26 7,34 1,58 1,64 1,120 TB}
+{1 18,2 UP,5 ?,6 8,10 1,17 2,19 4,26 6,27 1,31 1,40 3,110 1,120 TB}
+{1 50,2 Dar,5 ?,6 1,8 1,12 1,25 1,120 'Other Cardiovascular Diseases'}
+{1 22,2 UP,4 2,5 ?,6 5,7 1,9 2,20 1,25 1,26 3,31 1,120 Maternal}
+{1 45,2 UP,4 2,5 ?,6 2,26 1,39 1,120 'Other Injuries'}
+{1 38,2 UP,5 ?,6 1,120 Homicide}
+{1 999,2 Dar,5 ?,26 1,32 1,61 1,120 Fires}
+{1 55,2 Bohol,5 ?,6 1,15 1,26 19,45 2,51 1,54 1,55 4,67 1,120 'Renal Failure'}
+{1 57,2 Bohol,5 ?,10 1,11 1,12 2,17 1,25 1,26 21,54 2,120 'Colorectal Cancer'}
+{1 55,2 UP,5 ?,17 1,26 10,31 1,120 TB}
+{1 24,2 AP,4 2,5 ?,26 3,30 1,61 1,120 Suicide}
+{1 25,2 Pemba,4 2,5 ?,6 1,11 1,14 1,17 1,26 1,51 1,120 Pneumonia}
+{1 13,2 UP,4 2,5 ?,6 1,19 1,27 1,65 1,120 Pneumonia}
+{1 80,2 Dar,5 ?,6 1,8 1,25 1,120 Pneumonia}
+{1 20,2 UP,4 2,5 ?,6 3,19 1,26 1,30 1,31 1,120 Fires}
+{1 80,2 Bohol,4 2,5 ?,11 2,17 1,21 1,25 1,26 3,36 1,41 1,54 1,56 1,120 'Acute Myocardial Infarction'}
+{1 58,2 Bohol,5 ?,19 1,25 2,26 7,29 1,31 1,39 2,56 4,70 1,120 Stroke}
+{1 40,2 Dar,4 2,5 ?,8 3,16 1,25 1,33 1,64 1,120 AIDS}
+{1 46,4 2,5 ?,10 1,26 3,29 1,31 1,35 1,66 1,120 TB}
+{1 30,2 Dar,5 ?,8 1,16 1,30 1,120 Fires}
+{1 47,2 UP,5 ?,6 6,10 1,19 2,26 2,31 1,45 1,49 1,120 AIDS}
+{1 80,2 Pemba,4 2,5 ?,6 1,11 1,25 1,51 1,54 1,120 Pneumonia}
+{1 22,2 Bohol,5 ?,11 1,12 1,17 3,19 1,25 1,26 8,27 1,45 1,120 'Other Cardiovascular Diseases'}
+{1 72,2 UP,4 2,5 ?,6 1,17 1,19 2,25 3,26 8,31 1,40 1,120 TB}
+{1 55,2 Bohol,5 ?,11 1,35 1,36 1,55 1,120 'Renal Failure'}
+{1 13,2 Pemba,4 2,5 ?,6 1,10 2,11 1,26 1,31 2,51 1,120 Pneumonia}
+{1 32,2 Pemba,4 2,5 ?,26 4,120 'Other Non-communicable Diseases'}
+{1 70,2 AP,5 ?,12 1,19 2,25 1,26 4,35 1,44 1,120 'Other Non-communicable Diseases'}
+{1 43,2 Bohol,3 1,4 2,5 ?,10 1,12 1,15 1,21 1,26 9,40 2,46 1,58 1,120 TB}
+{1 32,2 UP,5 ?,6 4,10 1,31 1,120 'Renal Failure'}
+{1 66,2 AP,5 ?,19 1,25 1,26 5,31 1,120 'Other Cardiovascular Diseases'}
+{1 64,2 Bohol,4 2,5 ?,25 2,26 8,56 2,66 1,120 Stroke}
+{1 41,2 AP,4 2,5 ?,19 1,26 6,40 1,60 1,64 1,65 1,120 AIDS}
+{1 32,4 2,5 ?,7 1,19 1,21 1,23 1,26 10,35 1,36 3,43 1,120 Maternal}
+{1 29,4 2,5 ?,26 5,39 1,51 3,120 'Other Infectious Diseases'}
+{1 16,2 UP,5 ?,6 4,18 2,19 3,24 1,28 2,120 Drowning}
+{1 37,2 AP,5 ?,19 1,25 1,26 2,27 2,31 4,49 2,67 1}
+{1 60,2 Dar,5 ?,13 1,32 1,49 1,120 'Other Non-communicable Diseases'}
+{1 46,2 UP,4 2,5 ?,6 5,26 1,31 1,120 'Other Non-communicable Diseases'}
+{1 86,4 2,5 ?,6 1,120 Pneumonia}
+{1 36,5 ?,25 1,26 5,31 1,36 1,43 1,78 1}
+{1 30,2 AP,5 ?,17 1,26 3,58 1,120 TB}
+{1 53,2 Dar,4 2,5 ?,12 1,32 1,120 'Other Cardiovascular Diseases'}
+{1 27,2 Dar,5 ?,6 1,19 1,26 2,32 1,39 1,120 Diabetes}
+{1 55,2 AP,5 ?,19 1,25 2,27 1,49 3,50 3,54 1,65 4,67 2}
+{1 20,2 Bohol,4 2,5 ?,12 1,17 2,25 1,26 6,27 1,41 1,49 1,54 1,87 1,120 'Other Cardiovascular Diseases'}
+{1 85,4 2,5 ?,21 3,26 3,31 2,36 1,61 6,102 1,105 1,120 Maternal}
+{1 23,2 UP,4 2,5 ?,6 1,25 1,26 2,31 2,79 1,120 Suicide}
+{1 16,2 UP,4 2,5 ?,6 1,7 1,9 1,10 1,20 1,25 2,26 2,48 1,65 1,120 Malaria}
+{1 36,2 UP,4 2,5 ?,6 1,19 2,25 1,79 1,81 1,120 Suicide}
+{1 56,2 Bohol,5 ?,10 3,17 1,25 1,26 17,27 1,33 1,39 1,120 'Acute Myocardial Infarction'}
+{1 73,2 Bohol,4 2,5 ?,11 1,26 5,27 1,31 3,62 4,120 'Lung Cancer'}
+{1 67,2 Bohol,4 2,5 ?,21 1,26 9,27 2,44 1,49 1,86 1}
+{1 21,2 UP,5 ?,6 3,19 1,26 1,31 1,49 1,65 1,120 'Other Infectious Diseases'}
+{1 59,4 2,5 ?,120 'Other Non-communicable Diseases'}
+{1 37,2 AP,5 ?,10 2,17 1,25 1,26 8,31 5,60 1,120 AIDS}
+{1 44,5 ?,25 1,26 3,52 1,120 Suicide}
+{1 60,2 UP,5 ?,6 4,26 2,38 1,43 1,120 'Bite of Venomous Animal'}
+{1 55,2 AP,5 ?,12 5,18 3,25 2,26 3,27 1,120 'Acute Myocardial Infarction'}
+{1 40,5 ?,26 3,78 1,120 'Other Non-communicable Diseases'}
+{1 50,2 AP,4 2,5 ?,10 1,17 1,25 4,26 6,31 4,40 1,50 1,65 1,120 Pneumonia}
+{1 30,2 UP,4 2,5 ?,6 1,7 1,9 1,14 1,20 1,26 2,48 1,120 Maternal}
+{1 82,2 Bohol,4 2,5 ?,6 2,12 1,25 1,26 3,58 1,120 'Colorectal Cancer'}
+{1 55,2 AP,5 ?,25 1,26 2,31 1,34 3,41 2,54 5,120 Diarrhea/Dysentery}
+{1 22,2 Bohol,4 2,5 ?,7 2,14 1,15 1,20 1,24 1,26 4,40 1,41 1,120 Maternal}
+{1 44,5 ?,26 2,36 1,120 AIDS}
+{1 55,2 AP,5 ?,12 5,17 2,18 2,19 2,25 1,26 6,31 3,54 1,120 COPD}
+{1 30,2 AP,5 ?,15 1,18 1,25 2,26 7,31 1,53 1,120 AIDS}
+{1 35,2 Dar,5 ?,6 2,26 2,32 1,120 Pneumonia}
+{1 55,5 ?,25 1,26 2,78 1,120 'Other Cardiovascular Diseases'}
+{1 26,2 AP,4 2,5 ?,25 1,26 3,53 1,120 Homicide}
+{1 41,2 Dar,5 ?,13 1,16 1,32 1,120 Leukemia/Lymphomas}
+{1 60,2 Pemba,5 ?,11 1,26 1,120 Falls}
+{1 36,2 AP,5 ?,25 1,26 1,120 'Other Injuries'}
+{1 38,2 AP,5 ?,21 1,25 1,26 2,30 1,31 1,59 1,120 Suicide}
+{1 65,2 UP,5 ?,6 1,23 1,26 5,120 'Other Injuries'}
+{1 60,2 AP,5 ?,25 2,26 3,31 1,54 3,120 COPD}
+{1 80,2 AP,5 ?,12 2,19 1,26 1,45 2,120 'Other Cardiovascular Diseases'}
+{1 28,2 UP,4 2,5 ?,6 5,20 1,24 1,25 1,26 3,31 3,45 1,74 1,120 Maternal}
+{1 80,2 UP,5 ?,6 3,17 1,19 2,20 1,26 1,53 2,120 COPD}
+{1 74,2 Bohol,4 2,5 ?,10 2,17 2,23 1,25 1,26 17,31 1,39 1,40 2,54 1,64 5,120 Pneumonia}
+{1 84,5 ?,13 1,26 2,120 'Lung Cancer'}
+{1 32,2 Bohol,5 ?,15 1,25 1,26 8,27 1,39 3,46 1,57 1,70 1,120 'Road Traffic'}
+{1 33,2 Bohol,5 ?,10 3,17 1,19 1,25 1,26 5,27 1,31 3,120 'Other Non-communicable Diseases'}
+{1 60,2 AP,4 2,5 ?,25 1,39 1,70 1,120 Stroke}
+{1 50,2 Bohol,5 ?,17 1,25 1,26 2,31 2,49 2,61 1}
+{1 80,4 2,5 ?,21 2,26 2,120 Stroke}
+{1 38,2 AP,4 2,5 ?,25 1,26 5,30 1,39 1,47 1,120 Suicide}
+{1 16,2 UP,4 2,5 ?,6 2,10 1,17 1,26 3,27 2,120 'Other Infectious Diseases'}
+{1 49,2 Pemba,5 ?,6 1,11 1,19 1,22 1,26 2,29 1,51 1,120 TB}
+{1 40,2 UP,5 ?,6 1,26 1,120 Poisonings}
+{1 32,2 UP,5 ?,6 2,26 2,79 1,120 Suicide}
+{1 35,2 Dar,4 2,5 ?,13 1,16 1,32 1,33 1,120 'Other Non-communicable Diseases'}
+{1 22,2 Pemba,5 ?,11 1,26 1,51 1,120 'Road Traffic'}
+{1 18,2 UP,4 2,5 ?,6 1,10 1,19 1,26 3,27 2,31 2,61 1,120 'Other Infectious Diseases'}
+{1 35,2 AP,5 ?,26 4,80 1,120 Suicide}
+{1 30,2 UP,5 ?,6 1,120 'Other Non-communicable Diseases'}
+{1 22,2 Dar,4 2,5 ?,26 1,32 1,60 1,120 AIDS}
+{1 44,2 Bohol,3 1,4 2,5 ?,7 2,9 1,10 4,11 1,24 3,25 2,26 13,31 4,120 'Other Non-communicable Diseases'}
+{1 43,2 Dar,4 2,5 ?,6 1,26 1,32 1,60 1,120 TB}
+{1 45,2 UP,4 2,5 ?,6 4,13 2,19 1,26 1,27 1,54 1,120 'Renal Failure'}
+{1 16,2 UP,5 ?,6 1,19 1,25 1,26 2,43 1,120 'Bite of Venomous Animal'}
+{1 51,2 Bohol,5 ?,12 1,26 5,39 1,46 2,120 Falls}
+{1 35,2 Dar,5 ?,6 1,8 3,16 1,17 1,25 1,120 Pneumonia}
+{1 13,2 UP,4 2,5 ?,6 2,26 4,27 1,120 'Other Infectious Diseases'}
+{1 36,4 2,5 ?,7 1,19 1,21 1,25 2,26 2,27 1,31 2,54 1,120 Maternal}
+{1 15,2 AP,4 2,5 ?,6 1,25 1,26 5,27 2,35 2,50 1,120 Diabetes}
+{1 72,2 UP,4 2,5 ?,6 1,12 1,17 1,25 1,26 1,37 1,54 1,120 Pneumonia}
+{1 22,2 AP,3 2,4 2,5 ?,10 2,12 1,17 1,21 1,25 2,26 9,27 2,31 4,40 2,48 1,120 Pneumonia}
+{1 53,2 Bohol,4 2,5 ?,10 4,12 2,25 1,26 7,29 1,31 3,120 'Other Cardiovascular Diseases'}
+{1 32,2 Bohol,5 ?,10 3,25 1,26 6,120 'Other Infectious Diseases'}
+{1 44,3 1,5 ?,6 1,120 Pneumonia}
+{1 59,2 UP,5 ?,6 1,26 6,27 2,31 1,85 1,120 'Other Infectious Diseases'}
+{1 77,5 ?,25 1,26 2,31 1,120 'Lung Cancer'}
+{1 39,2 AP,5 ?,25 2,26 2,31 1,120 'Other Injuries'}
+{1 58,4 2,5 ?,10 1,13 2,21 1,25 1,26 2,27 1,44 1,49 1,62 1,63 2,66 1,102 1,120 'Breast Cancer'}
+{1 69,5 ?,17 1,25 1,26 3,35 1,37 1,120 COPD}
+{1 48,5 ?,6 1,15 1,26 9,36 2,51 1,81 1,120 Falls}
+{1 57,2 Bohol,4 2,5 ?,10 2,26 2,31 2,120 Pneumonia}
+{1 22,2 UP,4 2,5 ?,6 1,7 1,14 1,22 1,26 4,31 3,44 1,57 1,70 1,120 Stroke}
+{1 65,2 UP,5 ?,120 'Other Infectious Diseases'}
+{1 71,2 Bohol,4 2,5 ?,6 1,12 1,17 3,21 3,26 6,31 2,120 Stroke}
+{1 63,5 ?,13 1,26 2,36 1,120 'Lung Cancer'}
+{1 67,2 UP,4 2,5 ?,6 2,19 2,26 2,54 1,120 Diarrhea/Dysentery}
+{1 66,2 UP,4 2,5 ?,6 1,12 1,17 1,18 1,19 1,26 5,37 1,44 1,45 1,120 Pneumonia}
+{1 59,2 Bohol,4 2,5 ?,6 1,10 1,11 2,13 1,26 4,31 2,62 1,63 2,120 Leukemia/Lymphomas}
+{1 91,2 UP,4 2,5 ?,17 1,19 1,26 2,44 1,45 1,70 1,114 1,120 'Other Infectious Diseases'}
+{1 87,4 2,5 ?,6 1,25 1,26 4,36 1,45 1,120 Stroke}
+{1 25,2 Bohol,5 ?,10 1,17 1,25 1,26 7,31 4,51 1,52 1,73 1,120 Pneumonia}
+{1 65,2 Pemba,5 ?,6 1,11 1,25 1,40 1,120 'Other Non-communicable Diseases'}
+{1 61,2 UP,5 ?,6 3,17 1,25 1,26 3,120 Homicide}
+{1 55,2 AP,5 ?,10 1,25 1,27 1,31 1,34 1,44 1,120 Diarrhea/Dysentery}
+{1 37,2 AP,5 ?,26 2,31 1,34 1,120 TB}
+{1 80,2 AP,5 ?,13 1,19 1,25 1,26 1,39 1,120 Stroke}
+{1 54,2 AP,5 ?,17 1,19 1,26 12,34 2,41 1,65 3,72 1,120 Malaria}
+{1 45,2 UP,5 ?,25 1,120 Falls}
+{1 63,4 2,5 ?,10 2,19 4,25 2,26 4,31 4,35 2,54 2,120 Leukemia/Lymphomas}
+{1 45,2 UP,5 ?,6 3,10 2,19 1,26 2,44 1,120 'Other Infectious Diseases'}
+{1 58,2 Bohol,4 2,5 ?,25 1,26 16,27 1,29 1,35 1,39 1,40 2,44 1,50 1,120 Falls}
+{1 54,2 AP,5 ?,18 1,26 4,31 1,37 1,120 Stroke}
+{1 60,2 UP,4 2,5 ?,6 2,31 2,45 1,49 1,120 'Other Cardiovascular Diseases'}
+{1 73,2 Dar,5 ?,6 1,13 1,16 1,19 1,26 1,32 1,33 1,120 Diabetes}
+{1 22,2 UP,4 2,5 ?,6 3,7 1,17 1,20 1,25 1,26 5,31 1,48 2,120 Maternal}
+{1 38,2 AP,5 ?,26 6,31 2,120 Stroke}
+{1 90,2 UP,4 2,5 ?,6 5,12 2,18 1,19 2,53 1,54 2,120 'Acute Myocardial Infarction'}
+{1 45,2 UP,5 ?,6 1,18 1,19 1,26 1,31 1,37 1,44 2,54 1,70 1,120 Stroke}
+{1 16,2 UP,5 ?,6 1,26 1,31 1,120 Poisonings}
+{1 19,2 Pemba,4 2,5 ?,6 1,11 1,25 1,26 1,51 1,120 'Other Non-communicable Diseases'}
+{1 60,2 UP,5 ?,6 3,120 Falls}
+{1 47,2 Bohol,5 ?,7 1,26 12,31 3,40 1,49 1}
+{1 58,2 Bohol,4 2,5 ?,13 1,17 2,25 1,26 4,49 1,62 1,63 2,120 'Acute Myocardial Infarction'}
+{1 40,2 UP,4 2,5 ?,6 1,25 1,26 1,46 1,120 'Other Injuries'}
+{1 35,2 AP,5 ?,17 4,25 1,26 4,31 1,120 AIDS}
+{1 96,2 Bohol,4 2,5 ?,12 1,17 3,25 1,29 1,31 1,35 1,40 1,45 1,120 Pneumonia}
+{1 50,2 UP,4 2,5 ?,6 4,26 3,31 3,50 1,120 Diabetes}
+{1 46,4 2,5 ?,6 1,19 1,21 2,26 5,36 2,43 1,78 1,120 'Breast Cancer'}
+{1 43,2 Pemba,5 ?,6 1,11 1,25 1,28 1,51 1,120 Drowning}
+{1 65,2 Bohol,5 ?,6 2,10 1,25 1,26 11,27 1,29 1,40 2,51 1,56 1,57 1,120 Pneumonia}
+{1 70,5 ?,26 4,36 1,67 1}
+{1 59,2 UP,5 ?,6 3,12 1,17 2,18 2,19 2,26 3,31 2,50 1,54 1,120 'Acute Myocardial Infarction'}
+{1 67,4 2,5 ?,26 2,44 1,120 Diabetes}
+{1 48,2 AP,5 ?,25 1,40 1,67 1,120 'Renal Failure'}
+{1 62,2 UP,4 2,5 ?,6 8,10 1,13 1,19 2,26 4,31 1,62 2,120 'Other Non-communicable Diseases'}
+{1 75,2 Pemba,5 ?,11 1,26 1,120 Diarrhea/Dysentery}
+{1 80,2 UP,5 ?,6 2,31 1,120 COPD}
+{1 67,2 Bohol,4 2,5 ?,13 3,25 2,26 4,36 1,62 1,120 'Breast Cancer'}
+{1 56,2 AP,4 2,5 ?,26 2,27 1,35 1,120 Diabetes}
+{1 98,4 2,5 ?,6 1,12 2,21 1,26 3,31 1,45 1,78 1,120 'Other Infectious Diseases'}
+{1 32,2 AP,4 2,5 ?,25 1,26 3,31 2,39 1,120 AIDS}
+{1 30,2 Pemba,4 2,5 ?,6 1,9 1,11 1,25 1,51 1,120 Maternal}
+{1 35,2 Dar,5 ?,32 1,120 AIDS}
+{1 43,2 Bohol,5 ?,10 1,26 1,27 1,31 1,44 1,57 1,120 'Other Non-communicable Diseases'}
+{1 27,2 UP,4 2,5 ?,6 2,13 1,26 1,31 2,120 Pneumonia}
+{1 65,2 Dar,4 2,5 ?,16 1,32 1,33 1,49 1,120 'Other Non-communicable Diseases'}
+{1 25,2 Bohol,5 ?,25 1,26 7,29 1,49 3,64 2,65 1,120 TB}
+{1 35,2 Dar,4 2,5 ?,8 1,120 'Colorectal Cancer'}
+{1 65,2 AP,4 2,5 ?,12 1,21 1,25 1,26 4,31 2,120 'Acute Myocardial Infarction'}
+{1 55,2 Bohol,4 2,5 ?,12 1,26 10,31 1,45 1,120 'Acute Myocardial Infarction'}
+{1 46,2 AP,5 ?,26 2,120 Stroke}
+{1 67,2 AP,4 2,5 ?,25 1,26 3,31 3,50 1,120 'Renal Failure'}
+{1 70,2 AP,5 ?,25 1,26 2,120 COPD}
+{1 70,2 UP,5 ?,6 1,19 1,25 1,26 10,27 2,31 7,120 'Renal Failure'}
+{1 15,2 Bohol,4 2,5 ?,18 1,20 1,26 5,31 2,79 1,120 Suicide}
+{1 18,2 AP,4 2,5 ?,19 1,26 1,80 1,120 Suicide}
+{1 67,2 Bohol,5 ?,17 2,25 1,26 5,120 Pneumonia}
+{1 26,2 UP,4 2,5 ?,6 1,25 1,26 1,79 1,120 Suicide}
+{1 28,2 Dar,5 ?,8 1,13 1,16 1,26 1,33 1,120 'Other Non-communicable Diseases'}
+{1 69,2 Bohol,5 ?,6 1,17 1,19 1,25 1,26 4,31 3,120 'Other Infectious Diseases'}
+{1 18,2 Dar,5 ?,8 1,12 1,120 'Other Cardiovascular Diseases'}
+{1 13,2 Pemba,4 2,5 ?,6 1,25 1,40 1,120 'Other Non-communicable Diseases'}
+{1 25,2 UP,4 2,5 ?,6 2,9 1,17 1,19 2,34 1,41 1,120 Maternal}
+{1 66,2 Bohol,4 2,5 ?,10 2,19 1,26 7,31 2,44 1,120 Pneumonia}
+{1 33,2 UP,4 2,5 ?,6 2,10 2,26 2,65 1,120 'Other Infectious Diseases'}
+{1 60,2 UP,4 2,5 ?,6 1,12 3,18 1,19 1,26 3,50 1,70 1,120 'Acute Myocardial Infarction'}
+{1 42,2 AP,5 ?,25 2,26 3,27 1,31 1,34 1,120 Diarrhea/Dysentery}
+{1 65,2 UP,4 2,5 ?,6 1,12 1,18 1,19 2,31 1,37 1,50 1,54 1,120 Stroke}
+{1 61,2 Bohol,5 ?,10 1,17 1,25 1,26 3,73 1,120 'Road Traffic'}
+{1 76,2 Bohol,4 2,5 ?,10 1,21 1,25 1,26 8,31 3,45 1,120 'Renal Failure'}
+{1 45,2 UP,5 ?,6 1,17 1,26 1,43 1,120 Asthma}
+{1 67,2 Bohol,4 2,5 ?,7 1,13 1,17 2,18 2,25 1,26 12,29 2,40 1,58 1,96 1,112 2,120 Pneumonia}
+{1 44,2 Dar,4 2,5 ?,8 1,120 'Breast Cancer'}
+{1 24,5 ?,26 1,31 1,82 1,120 'Road Traffic'}
+{1 40,2 Bohol,5 ?,10 3,12 3,18 3,25 1,26 1,29 4,31 3,39 2,40 2,46 1,120 'Acute Myocardial Infarction'}
+{1 76,5 ?,6 2,19 1,25 1,26 7,110 1,120 'Other Non-communicable Diseases'}
+{1 80,2 AP,5 ?,26 6,44 1,57 1,120 Stroke}
+{1 88,2 Bohol,4 2,5 ?,11 1,12 1,26 2,54 1,120 Pneumonia}
+{1 52,2 UP,4 2,5 ?,6 4,25 1,26 2,27 1,44 1,54 1,120 Stroke}
+{1 48,2 UP,5 ?,6 4,19 3,26 1,31 1,35 1,54 1,120 'Renal Failure'}
+{1 35,5 ?,26 2,120 AIDS}
+{1 64,5 ?,25 1,120 'Other Non-communicable Diseases'}
+{1 40,2 UP,5 ?,6 3,10 1,19 1,26 1,31 1,39 1,53 1,120 Falls}
+{1 23,2 AP,5 ?,23 1,25 1,120 Drowning}
+{1 55,2 UP,5 ?,6 3,12 1,19 1,27 1,31 1,49 1,54 1,120 'Acute Myocardial Infarction'}
+{1 50,5 ?}
+{1 78,2 UP,5 ?,6 1,18 1,19 1,26 4,27 3,31 2,37 1,44 1,54 1,120 Stroke}
+{1 39,2 Bohol,4 2,5 ?,6 1,7 1,13 1,20 1,24 1,26 11,36 1,57 2,62 5,63 9,120 'Breast Cancer'}
+{1 25,2 Bohol,5 ?,12 1,17 2,25 1,26 7,46 1,54 1,73 1,120 'Renal Failure'}
+{1 40,2 AP,5 ?,10 1,25 2,26 1,45 2,120 'Renal Failure'}
+{1 38,2 AP,4 2,5 ?,26 2,31 2,37 1,120 AIDS}
+{1 24,2 UP,5 ?,6 1,120 Homicide}
+{1 48,2 UP,5 ?,6 4,10 1,49 1}
+{1 35,2 AP,4 2,5 ?,10 2,17 1,19 3,25 1,26 2,31 5,34 1,35 1,120 AIDS}
+{1 33,2 AP,4 2,5 ?,26 11,31 6}
+{1 65,2 AP,5 ?,17 1,26 4,120 'Lung Cancer'}
+{1 71,2 Bohol,4 2,5 ?,10 1,25 1,26 4,31 1,40 1,120 Pneumonia}
+{1 60,2 Pemba,5 ?,25 1,120 Diarrhea/Dysentery}
+{1 96,5 ?,13 1,20 1,21 1,25 1,26 5,27 1,28 1,43 1,45 1,49 1,66 1,93 1,120 Pneumonia}
+{1 32,2 UP,5 ?,6 3,10 1,15 1,25 3,26 8,31 1,39 1,40 1,47 1,120 'Road Traffic'}
+{1 67,2 Bohol,5 ?,17 1,25 1,26 2,31 1,40 1,120 Pneumonia}
+{1 65,2 UP,5 ?,6 1,12 2,18 1,19 1,26 4,31 1,50 2,53 1,120 Stroke}
+{1 72,2 Bohol,4 2,5 ?,10 1,11 1,17 2,21 1,25 1,26 9,29 1,31 1,35 1,50 2,55 1,120 'Acute Myocardial Infarction'}
+{1 25,2 UP,5 ?,6 1,25 1,120 Falls}
+{1 26,2 UP,4 2,5 ?,6 1,7 1,9 1,120 Maternal}
+{1 83,2 Bohol,5 ?,17 1,19 1,26 6,31 2,39 1,40 1,120 Pneumonia}
+{1 48,2 AP,5 ?,15 2,26 3,31 1,53 1,120 Falls}
+{1 76,2 Bohol,5 ?,12 1,17 2,25 1,26 9,31 3,35 1,37 1,40 1,41 1,56 2,120 Pneumonia}
+{1 55,4 2,5 ?,26 4,36 1,51 1,120 'Cervical Cancer'}
+{1 85,2 UP,5 ?,6 2,17 1,19 1,25 1,26 2,31 5,54 1,120 'Other Cardiovascular Diseases'}
+{1 67,4 2,5 ?,6 1,21 1,31 1,120 COPD}
+{1 53,2 Bohol,4 2,5 ?,12 1,17 2,19 1,25 1,26 2,31 1,40 1,64 1,120 'Other Cardiovascular Diseases'}
+{1 63,2 Bohol,4 2,5 ?,17 2,21 1,26 8,31 2,45 2,120 Pneumonia}
+{1 15,2 UP,5 ?,6 3,15 1,25 1,46 1,53 1,120 Homicide}
+{1 48,2 AP,4 2,5 ?,19 1,21 1,26 1,44 1,54 1,120 Stroke}
+{1 48,4 2,5 ?,11 1,12 1,16 1,18 1,26 6,36 2,120 'Other Non-communicable Diseases'}
+{1 58,5 ?,25 1,36 1,44 1,120 Falls}
+{1 45,2 UP,4 2,5 ?,6 3,19 1,26 2,27 1,31 1,120 Diarrhea/Dysentery}
+{1 75,4 2,5 ?,10 1,25 1,26 2,120 'Other Non-communicable Diseases'}
+{1 50,2 Pemba,5 ?,6 1,11 1,26 1,120 Pneumonia}
+{1 19,2 Pemba,4 2,5 ?,6 1,11 1,14 1,25 1,26 2,35 1,120 'Other Non-communicable Diseases'}
+{1 58,2 UP,4 2,5 ?,17 1,19 1,25 1,26 4,27 1,31 2,34 2,41 2,120 Diabetes}
+{1 63,5 ?,21 1,26 6,36 1,120 Stroke}
+{1 44,4 2,5 ?,12 1,18 1,26 3,27 1,45 1,55 1,120 'Renal Failure'}
+{1 59,2 Bohol,5 ?,12 1,17 2,18 1,25 1,26 10,50 2,101 1,120 'Acute Myocardial Infarction'}
+{1 27,2 UP,5 ?,6 5,19 2,26 1,120 AIDS}
+{1 999,2 Dar,4 2,5 ?,6 2,19 1,24 1,26 1,45 1,120 'Renal Failure'}
+{1 30,5 ?,26 5,35 1,40 1,120 AIDS}
+{1 75,2 Dar,4 2,5 ?,6 1,8 3,13 2,16 1,25 1,33 1,63 1,120 'Breast Cancer'}
+{1 22,2 Pemba,4 2,5 ?,11 1,26 1,51 1,120 Pneumonia}
+{1 30,2 UP,5 ?,6 2,27 1,44 1,70 1,120 Pneumonia}
+{1 84,2 UP,4 2,5 ?,6 7,26 4,34 1,41 1,75 1,120 Diarrhea/Dysentery}
+{1 37,2 Dar,4 2,5 ?,8 3,16 1,33 1,60 1,120 AIDS}
+{1 72,2 UP,5 ?,6 2,12 2,18 2,19 2,31 1,54 1,120 'Acute Myocardial Infarction'}
+{1 59,2 Bohol,5 ?,10 1,17 1,25 1,26 3,31 3,120 'Renal Failure'}
+{1 71,2 Bohol,4 2,5 ?,12 1,17 1,25 1,26 4,29 1,31 2,40 1,120 'Acute Myocardial Infarction'}
+{1 40,2 AP,5 ?,26 3,64 1,120 AIDS}
+{1 29,2 AP,5 ?,15 1,26 2,39 1,53 1,120 'Road Traffic'}
+{1 28,4 2,5 ?,13 1,26 2,31 1,120 Maternal}
+{1 37,2 UP,5 ?,6 1,28 1,120 Falls}
+{1 59,2 Bohol,5 ?,6 1,11 1,25 1,26 10,27 2,31 1,49 1,70 1}
+{1 35,2 UP,5 ?,6 2,10 1,19 2,26 3,50 2,53 1,120 Pneumonia}
+{1 71,2 AP,5 ?,12 1,17 2,25 1,26 2,31 2,40 2,49 1,54 1,120 'Other Cardiovascular Diseases'}
+{1 64,2 Bohol,5 ?,17 1,25 1,26 14,31 7,120 'Colorectal Cancer'}
+{1 28,2 Pemba,5 ?,6 1,10 1,25 1,27 1,120 Pneumonia}
+{1 60,2 UP,5 ?,6 1,19 1,25 1,26 1,120 COPD}
+{1 38,5 ?,26 3,31 1}
+{1 54,2 Dar,4 2,5 ?,8 1,13 2,26 1,120 'Breast Cancer'}
+{1 59,2 Bohol,5 ?,6 1,10 1,17 1,25 1,26 5,40 1,54 1,56 1,120 Stroke}
+{1 69,2 AP,4 2,5 ?,26 5,31 1,67 2,120 Diabetes}
+{1 40,2 AP,5 ?,10 1,25 1,26 3,64 1,120 TB}
+{1 70,5 ?,19 1,26 3,44 1,49 1,120 'Road Traffic'}
+{1 27,2 Bohol,5 ?,25 1,26 6,27 1,39 1,120 'Road Traffic'}
+{1 74,2 AP,5 ?,25 2,26 2,31 1,39 2,50 1,53 1,70 1,120 Stroke}
+{1 60,2 UP,4 2,5 ?,6 5,12 1,18 2,19 3,26 4,37 1,54 1,120 'Acute Myocardial Infarction'}
+{1 31,2 AP,5 ?,25 2,26 7,31 1,45 1,120 'Renal Failure'}
+{1 53,5 ?,25 1,26 4,31 1,32 1,78 1}
+{1 22,2 Pemba,4 2,5 ?,25 1,120 Maternal}
+{1 69,2 Bohol,5 ?,12 1,18 1,25 1,26 12,31 3,37 1,39 1,54 2,101 1,120 Stroke}
+{1 31,2 AP,5 ?,18 1,19 2,25 1,26 3,29 2,31 3,120 Pneumonia}
+{1 20,2 UP,5 ?,6 3,23 1,26 3,31 1,120 'Other Injuries'}
+{1 52,2 AP,5 ?,18 1,26 4,44 1,56 1,120 'Acute Myocardial Infarction'}
+{1 26,2 Pemba,3 1,4 2,5 ?,14 1,26 1,120 Maternal}
+{1 67,2 Dar,5 ?,6 1,8 1,13 1,25 1,49 1,120 'Other Non-communicable Diseases'}
+{1 31,2 Bohol,5 ?,12 1,25 1,26 10,27 1,43 1,45 1,64 1,120 'Other Non-communicable Diseases'}
+{1 34,2 UP,5 ?,6 5,10 1,25 1,26 2,27 1,31 2,120 AIDS}
+{1 65,2 Dar,4 2,5 ?,11 1,13 1,26 1,63 1,120 'Breast Cancer'}
+{1 70,2 UP,5 ?,6 9,26 7,31 1,120 'Acute Myocardial Infarction'}
+{1 49,2 Bohol,4 2,5 ?,15 1,25 1,26 2,53 1,120 'Road Traffic'}
+{1 33,2 Dar,5 ?,16 1,26 1,32 1,33 1,120 Fires}
+{1 33,2 Bohol,5 ?,13 2,25 1,26 19,31 2,44 1,45 1,120 'Other Non-communicable Diseases'}
+{1 28,5 ?,16 1,17 1,21 1,26 8,39 1,44 1,55 1,67 1,85 1,120 Homicide}
+{1 22,2 AP,4 2,5 ?,19 1,26 5,64 2,120 TB}
+{1 35,2 UP,4 2,5 ?,6 3,9 1,20 2,24 2,25 1,26 1,31 1,120 'Other Infectious Diseases'}
+{1 62,2 UP,5 ?,6 1,12 2,17 1,18 1,19 2,31 1,50 2,120 'Acute Myocardial Infarction'}
+{1 21,2 AP,5 ?,15 1,25 1,26 1,31 1,120 'Road Traffic'}
+{1 59,2 Bohol,4 2,5 ?,6 1,11 2,13 2,23 1,25 3,26 2,31 1,62 3,120 'Other Non-communicable Diseases'}
+{1 75,2 UP,5 ?,6 8,12 1,17 1,19 1,26 3,29 1,120 'Acute Myocardial Infarction'}
+{1 72,5 ?,6 2,13 3,26 3,37 1,44 1,62 1,120 Stroke}
+{1 80,2 UP,4 2,5 ?,6 5,19 1,31 1,54 1,120 COPD}
+{1 60,2 Bohol,5 ?,11 1,13 3,26 7,27 1,35 1,50 1,57 1,61 1,120 'Colorectal Cancer'}
+{1 63,4 2,5 ?,26 3,32 1,120 'Other Cardiovascular Diseases'}
+{1 38,5 ?,26 4,36 1,78 2,100 1,120 AIDS}
+{1 64,2 Bohol,4 2,5 ?,18 4,25 1,26 8,31 1,120 'Acute Myocardial Infarction'}
+{1 17,5 ?,10 2,26 4,27 1,49 1,55 1,120 'Renal Failure'}
+{1 16,2 UP,5 ?,6 1,25 1,28 1,120 Drowning}
+{1 30,2 Pemba,5 ?,6 1,11 1,25 1,51 1,120 Pneumonia}
+{1 50,2 UP,5 ?,6 2,25 1,26 1,37 1,39 1,120 Stroke}
+{1 55,2 UP,4 2,5 ?,6 5,19 1,25 1,26 2,31 2,58 1,120 COPD}
+{1 28,2 Dar,4 2,5 ?,26 1,32 1,120 Pneumonia}
+{1 61,2 AP,5 ?,17 1,26 3,31 1,45 1,50 2,120 'Other Cardiovascular Diseases'}
+{1 59,2 AP,5 ?,10 1,17 1,25 1,26 7,31 1,39 1,40 1,120 Stroke}
+{1 41,2 AP,5 ?,26 2,38 1,43 1,120 'Bite of Venomous Animal'}
+{1 50,2 UP,4 2,5 ?,6 4,10 1,13 1,19 2,25 1,26 4,31 6,45 1,120 'Cervical Cancer'}
+{1 37,2 Bohol,5 ?,13 4,17 3,26 14,29 2,35 2,39 2,40 1,41 1,50 1,62 2,96 1,120 'Lung Cancer'}
+{1 49,2 Pemba,5 ?,6 1,25 2,27 1,120 'Other Non-communicable Diseases'}
+{1 65,2 UP,5 ?,6 1,12 1,26 1,31 1,120 'Acute Myocardial Infarction'}
+{1 31,2 AP,4 2,5 ?,10 2,15 1,17 1,25 1,26 4,31 1,40 1,120 'Renal Failure'}
+{1 22,2 AP,5 ?,17 1,26 3,30 1,34 1,80 1,120 Suicide}
+{1 52,2 AP,4 2,5 ?,10 1,19 1,25 1,26 2,37 1,120 Stroke}
+{1 68,2 UP,5 ?,6 5,12 1,13 1,17 1,19 1,26 1,120 'Lung Cancer'}
+{1 44,2 Bohol,4 2,5 ?,6 3,11 1,13 1,25 1,26 3,31 3,55 1,120 'Cervical Cancer'}
+{1 53,2 Bohol,4 2,5 ?,12 1,18 1,25 2,26 3,31 1,37 1,44 1,74 1,120 Stroke}
+{1 83,2 Bohol,5 ?,10 1,12 1,17 1,25 1,26 17,27 1,31 2,54 1,61 1,96 1,120 Pneumonia}
+{1 87,2 Bohol,4 2,5 ?,6 5,17 2,19 1,25 1,26 1,29 1,31 1,54 1,120 Stroke}
+{1 50,2 Pemba,4 2,5 ?,6 1,11 1,25 1,51 1,120 Diabetes}
+{1 29,2 Bohol,3 1,4 2,5 ?,14 1,18 1,20 1,24 1,26 2,54 2,58 1,76 1,120 Pneumonia}
+{1 32,2 AP,5 ?,26 4,31 1,39 2,53 1,56 1,120 Homicide}
+{1 65,4 2,5 ?,16 1,21 1,49 1}
+{1 48,2 AP,5 ?,25 1,26 7,31 2,49 3}
+{1 48,2 AP,5 ?,10 1,17 1,25 3,26 6,27 1,37 1,45 1,49 1,120 'Renal Failure'}
+{1 39,2 Bohol,5 ?,10 1,25 1,26 3,31 5,50 1,120 'Other Infectious Diseases'}
+{1 79,2 Bohol,5 ?,6 1,11 1,25 1,26 1,40 1,49 1,120 Pneumonia}
+{1 70,2 Pemba,5 ?,6 1,11 1,15 1,25 1,51 1,120 'Road Traffic'}
+{1 45,2 Pemba,4 2,5 ?,11 1,26 1,51 1,120 Diabetes}
+{1 28,2 AP,5 ?,15 1,25 1,26 4,30 1,31 1,45 1,49 1,53 1,59 2,61 1,80 1,120 Fires}
+{1 12,2 UP,4 2,5 ?,6 2,12 3,17 1,20 1,26 2,120 'Other Cardiovascular Diseases'}
+{1 71,2 Bohol,5 ?,25 1,26 8,31 1,39 1,70 1,90 1,120 Stroke}
+{1 24,2 UP,5 ?,6 2,10 1,19 2,120 AIDS}
+{1 39,2 Bohol,4 2,5 ?,12 1,25 1,26 3,31 3,39 1,44 1,46 1,57 1,120 Stroke}
+{1 77,2 UP,4 2,5 ?,6 1,25 1,26 1,31 1,66 1,85 1,120 TB}
+{1 25,2 UP,4 2,5 ?,6 1,7 1,26 2,31 1,120 'Renal Failure'}
+{1 84,2 UP,4 2,5 ?,6 7,12 1,18 1,26 3,31 1,120 'Acute Myocardial Infarction'}
+{1 26,2 UP,5 ?,26 2,31 3,39 2,44 1,120 'Other Infectious Diseases'}
+{1 46,4 2,5 ?,25 2,26 4,35 1,120 'Other Infectious Diseases'}
+{1 45,2 UP,5 ?,6 2,10 1,17 1,19 3,120 AIDS}
+{1 79,2 Bohol,4 2,5 ?,10 1,12 1,17 3,19 1,25 1,26 9,29 1,31 1,56 1,120 Pneumonia}
+{1 72,2 Dar,4 2,5 ?,13 1,32 1,120 'Stomach Cancer'}
+{1 60,2 UP,5 ?,6 1,15 1,25 1,26 1,31 3,47 1,120 'Road Traffic'}
+{1 25,2 UP,4 2,5 ?,6 1,7 1,9 1,20 2,21 1,22 1,25 2,31 1,120 Maternal}
+{1 72,2 Bohol,4 2,5 ?,12 1,17 2,21 2,26 8,31 2,37 1,43 1,120 'Acute Myocardial Infarction'}
+{1 87,2 Bohol,5 ?,25 2,26 3,31 3,120 'Other Non-communicable Diseases'}
+{1 50,2 UP,4 2,5 ?,6 3,19 1,27 1,120 COPD}
+{1 40,4 ?,5 ?,19 1,26 1,59 1,120 Fires}
+{1 33,5 ?,26 1,78 1,120 AIDS}
+{1 30,2 Bohol,4 2,5 ?,6 2,7 1,10 1,12 2,17 1,20 2,21 2,25 1,26 5,28 1,54 1,56 1,120 'Other Cardiovascular Diseases'}
+{1 33,2 UP,5 ?,6 2,19 2,26 1,31 1,120 'Renal Failure'}
+{1 36,2 Dar,5 ?,6 1,8 3,16 1,25 1,27 1,66 1,120 Diarrhea/Dysentery}
+{1 83,4 2,5 ?,26 3,86 1,120 Falls}
+{1 52,2 Bohol,5 ?,25 1,26 9,31 1,39 1,120 Homicide}
+{1 65,2 UP,5 ?,6 4,10 3,26 1,31 2,44 1,120 'Other Infectious Diseases'}
+{1 82,2 Bohol,4 2,5 ?,6 1,11 2,13 4,17 1,21 1,25 1,26 5,40 2,62 2,63 1,120 'Breast Cancer'}
+{1 72,2 AP,4 2,5 ?,17 1,26 6,120 'Other Non-communicable Diseases'}
+{1 18,2 UP,5 ?,6 1,25 1,28 1,120 Drowning}
+{1 56,2 AP,5 ?,17 1,25 1,26 1,50 1,120 Diabetes}
+{1 35,2 UP,4 2,5 ?,6 3,17 1,19 1,20 1,22 1,26 1,31 1,120 Maternal}
+{1 60,2 Bohol,4 2,5 ?,11 1,17 2,20 1,21 2,25 2,26 5,31 2,40 1,54 1,120 Stroke}
+{1 90,4 2,5 ?,20 2,21 3,25 1,26 9,31 1,103 1,120 Stroke}
+{1 72,2 Dar,4 2,5 ?,6 1,8 1,13 1,25 1,63 1,120 'Breast Cancer'}
+{1 28,2 UP,5 ?,6 4,26 1,31 1,37 1,120 Pneumonia}
+{1 46,2 AP,5 ?,19 1,26 1,31 1,37 1,120 Stroke}
+{1 20,4 2,5 ?,21 1,25 1,26 1,36 2,120 Maternal}
+{1 46,2 AP,4 2,5 ?,10 3,19 1,26 3,31 2,82 1,120 Malaria}
+{1 74,5 ?,26 3,35 1,66 1,120 'Lung Cancer'}
+{1 34,2 Bohol,5 ?,17 1,25 1,26 2,27 2,45 1,55 1,120 Diarrhea/Dysentery}
+{1 22,2 AP,5 ?,17 1,25 1,26 5,65 1,120 'Renal Failure'}
+{1 35,2 AP,5 ?,10 1,17 1,19 2,25 1,26 1,31 2,34 1,120 AIDS}
+{1 77,2 Dar,5 ?,6 1,8 1,13 1,25 1,49 1,120 'Other Non-communicable Diseases'}
+{1 49,2 Bohol,5 ?,10 1,17 1,25 1,26 2,43 1,55 1,67 1,120 'Renal Failure'}
+{1 21,2 Bohol,5 ?,6 1,17 1,26 9,27 2,31 1,39 1,41 1,49 1,57 1,62 1,120 'Colorectal Cancer'}
+{1 33,2 AP,5 ?,25 3,26 4,31 2,120 AIDS}
+{1 73,5 ?,19 1,21 1,26 2,35 1,36 1,120 'Acute Myocardial Infarction'}
+{1 80,2 Pemba,5 ?,6 1,25 1,26 3,120 'Other Non-communicable Diseases'}
+{1 70,2 Dar,4 2,5 ?,8 1,16 1,26 3,120 Stroke}
+{1 39,2 Bohol,5 ?,17 1,26 5,27 2,31 2,41 1,45 1,55 1,120 Diarrhea/Dysentery}
+{1 52,2 Bohol,5 ?,17 1,25 1,26 3,31 1,120 Homicide}
+{1 60,2 Dar,5 ?,16 1,32 1,33 1,120 'Renal Failure'}
+{1 50,2 Bohol,5 ?,18 1,25 1,26 3,31 1,44 1,50 1,120 'Other Non-communicable Diseases'}
+{1 48,2 AP,5 ?,19 1,25 1,26 5,60 1,64 1,120 AIDS}
+{1 53,2 Dar,4 2,5 ?,6 1,8 1,13 1,25 1,63 1,120 'Breast Cancer'}
+{1 65,2 Bohol,4 2,5 ?,10 1,11 1,21 1,25 1,26 9,31 1,45 1,55 1,57 1,73 1,120 'Road Traffic'}
+{1 60,2 UP,5 ?,6 2,19 1,31 1,120 'Acute Myocardial Infarction'}
+{1 80,2 Pemba,5 ?,6 1,11 1,25 1,51 1,120 'Other Non-communicable Diseases'}
+{1 85,2 UP,4 2,5 ?,6 2,19 1,26 2,31 1,44 2,46 1,50 1,70 1,120 Stroke}
+{1 55,2 Dar,4 2,5 ?,8 2,16 1,21 1,25 1,33 1,35 1,120 Diabetes}
+{1 50,2 AP,5 ?,26 2,31 1,37 1,70 1,120 Stroke}
+{1 25,2 AP,4 2,5 ?,12 2,18 1,25 1,26 1,120 'Other Cardiovascular Diseases'}
+{1 41,2 Dar,4 2,5 ?,12 1,16 1,32 1,120 'Other Cardiovascular Diseases'}
+{1 19,2 AP,5 ?,10 1,25 2,26 2,120 Malaria}
+{1 79,2 Bohol,4 2,5 ?,10 1,11 1,22 1,23 1,26 11,31 1,35 2,50 1,54 2,120 Diabetes}
+{1 27,2 AP,4 2,5 ?,26 3,30 2,31 1,59 3,80 1,120 Homicide}
+{1 65,2 AP,5 ?,12 1,17 1,25 1,26 4,40 1,58 1,120 'Other Cardiovascular Diseases'}
+{1 48,2 Dar,4 ?,5 ?,8 1,13 1,19 1,26 1}
+{1 50,2 UP,4 2,5 ?,6 1,26 1,120 Homicide}
+{1 56,2 Dar,4 2,5 ?,6 1,8 1,16 1,25 1,26 1,120 'Other Non-communicable Diseases'}
+{1 27,2 AP,4 2,5 ?,9 1,10 1,25 2,26 3,65 1,120 Malaria}
+{1 15,2 Pemba,5 ?,11 1,26 1,51 1,120 Diarrhea/Dysentery}
+{1 18,2 Pemba,5 ?,6 1,11 1,25 1,31 1,51 1,58 1,120 Pneumonia}
+{1 29,2 AP,5 ?,17 1,26 5,31 1,49 1,60 1,120 AIDS}
+{1 65,2 AP,5 ?,17 1,19 1,25 1,26 4,27 1,31 2,120 'Other Infectious Diseases'}
+{1 68,2 Bohol,5 ?,25 1,26 10,45 1,50 1,54 1,61 1,73 1,120 Diabetes}
+{1 40,2 Bohol,5 ?,10 1,17 1,25 1,26 5,54 1,57 1,120 Falls}
+{1 18,2 UP,5 ?,6 1,25 1,26 3,27 1,31 1,85 1,120 Poisonings}
+{1 69,2 AP,5 ?,26 2,31 1,53 1,120 Stroke}
+{1 43,2 Bohol,5 ?,10 1,17 1,25 1,26 12,27 1,31 1,35 4,64 1,87 2,119 1,120 Diabetes}
+{1 50,2 UP,4 2,5 ?,6 1,15 1,19 1,26 1,31 2,39 1,47 1,120 'Other Infectious Diseases'}
+{1 65,2 UP,5 ?,6 2,12 2,18 1,19 3,26 2,35 1,120 'Acute Myocardial Infarction'}
+{1 24,2 UP,4 2,5 ?,6 4,19 1,20 1,24 1,26 1,27 1,40 2,120 TB}
+{1 59,2 Bohol,5 ?,18 2,26 9,31 1,37 1,39 1,56 1,70 3,120 Stroke}
+{1 50,2 AP,5 ?,23 2,25 1,26 3,120 'Other Injuries'}
+{1 61,2 AP,5 ?,25 1,26 3,50 1,53 1,120 Diabetes}
+{1 35,2 UP,5 ?,6 2,10 1,19 1,26 1,120 AIDS}
+{1 44,2 Bohol,4 2,5 ?,12 1,13 1,25 1,26 4,40 1,120 'Other Non-communicable Diseases'}
+{1 25,2 Pemba,5 ?,25 1,35 1,120 Diabetes}
+{1 49,2 UP,4 2,5 ?,6 5,7 1,11 1,14 1,25 1,26 1,31 1,49 1,65 2,120 'Other Infectious Diseases'}
+{1 74,5 ?,17 2,25 1,26 2,35 1,120 'Other Cardiovascular Diseases'}
+{1 60,2 AP,5 ?,12 1,18 1,25 1,26 3,120 'Acute Myocardial Infarction'}
+{1 30,5 ?,15 1,26 2,60 1,120 AIDS}
+{1 64,2 AP,5 ?,19 1,26 1,31 1,120 'Other Cardiovascular Diseases'}
+{1 42,2 AP,5 ?,12 1,25 2,26 2,35 1,120 'Renal Failure'}
+{1 33,2 AP,5 ?,25 1,26 1,31 2,37 1,54 1,120 Epilepsy}
+{1 85,2 Bohol,5 ?,11 2,12 4,17 1,25 4,31 3,35 1,37 1,54 2,55 1,56 1,67 1,120 'Other Cardiovascular Diseases'}
+{1 70,2 Pemba,5 ?,11 1,25 1,51 1,120 'Other Non-communicable Diseases'}
+{1 73,2 Bohol,5 ?,6 1,11 2,25 1,26 3,40 3,107 1,120 Stroke}
+{1 54,2 AP,5 ?,17 1,25 1,26 11,31 1,34 2,37 1,67 1,120 Diarrhea/Dysentery}
+{1 49,2 AP,4 2,5 ?,10 1,11 1,26 6,29 1,31 3,40 1,45 1,50 1,57 1,120 Asthma}
+{1 40,4 2,5 ?,21 1,26 5,36 1,120 Pneumonia}
+{1 43,5 ?,26 5,78 1}
+{1 50,2 UP,5 ?,6 3,12 1,17 1,18 1,19 2,50 1,120 Diabetes}
+{1 17,2 UP,4 2,5 ?,6 1,11 1,25 2,26 1,52 1,120 Poisonings}
+{1 27,2 AP,5 ?,10 1,19 1,25 1,26 5,120 'Other Infectious Diseases'}
+{1 75,2 AP,4 2,5 ?,26 1,27 1,31 1,50 1,57 1,120 Stroke}
+{1 23,2 UP,4 2,5 ?,6 1,25 1,59 1,120 Fires}
+{1 45,2 UP,5 ?,6 1,10 1,19 1,25 1,26 2,31 2,120 Stroke}
+{1 32,2 UP,5 ?,6 1,15 1,19 1,25 1,26 1,31 1,120 'Road Traffic'}
+{1 33,2 UP,4 2,5 ?,6 1,26 6,31 1,54 1,120 'Other Infectious Diseases'}
+{1 20,2 AP,4 2,5 ?,10 1,25 2,26 2,31 2,39 1,120 TB}
+{1 47,2 UP,4 2,5 ?,6 5,13 1,17 2,26 3,29 1,120 'Breast Cancer'}
+{1 35,2 Dar,4 2,5 ?,13 2,16 1,26 1,32 1,33 1,63 1,120 'Breast Cancer'}
+{1 75,2 Dar,5 ?,13 1,16 1,32 1,120 'Other Non-communicable Diseases'}
+{1 45,2 UP,5 ?,6 3,19 2,23 1,26 3,39 1,53 1,120 Falls}
+{1 27,2 UP,5 ?,6 4,10 1,19 1,25 1,26 4,31 1,120 Suicide}
+{1 61,2 Bohol,4 2,5 ?,13 1,17 4,25 1,26 2,31 1,41 1,63 3,120 'Breast Cancer'}
+{1 69,2 Bohol,4 2,5 ?,10 1,12 1,15 1,17 1,18 1,19 1,26 4,31 1,46 1,120 Diabetes}
+{1 86,5 ?,26 3,54 1,78 1,120 Stroke}
+{1 72,4 2,5 ?,21 3,25 1,26 4,120 Diabetes}
+{1 29,2 AP,5 ?,10 1,26 1,27 1,34 1,120 'Other Non-communicable Diseases'}
+{1 38,2 AP,5 ?,19 1,25 1,26 8,40 2,64 2,120 AIDS}
+{1 45,2 UP,5 ?,6 1,19 1,120 Stroke}
+{1 35,2 UP,5 ?,6 1,18 1,19 1,23 1,26 4,39 1,120 Drowning}
+{1 71,2 Bohol,4 2,5 ?,17 3,23 2,26 14,40 2,54 1,64 2,120 TB}
+{1 45,2 UP,5 ?,6 4,19 1,26 1,27 1,34 1,41 1,120 Diabetes}
+{1 60,2 UP,5 ?,6 7,17 2,25 1,26 5,31 3,120 COPD}
+{1 70,2 Bohol,5 ?,6 3,10 1,11 1,12 1,17 3,18 2,26 3,31 2,35 2,39 2,43 1,117 1,120 'Acute Myocardial Infarction'}
+{1 40,2 AP,5 ?,13 2,26 1,64 1,120 'Lung Cancer'}
+{1 35,2 UP,4 2,5 ?,6 2,17 1,19 1,25 1,26 2,27 1,31 1,52 2,85 1,120 Poisonings}
+{1 41,2 Dar,4 2,5 ?,6 1,13 1,19 1,26 1,32 1,63 1,120 'Breast Cancer'}
+{1 37,5 ?,21 2,25 1,40 1,120 AIDS}
+{1 62,2 AP,4 2,5 ?,17 1,21 1,25 1,26 1,27 1,31 1,45 1,120 'Other Cardiovascular Diseases'}
+{1 64,4 2,5 ?,13 1,36 1,120 'Breast Cancer'}
+{1 77,5 ?,26 3,36 1,120 Stroke}
+{1 32,2 Dar,4 2,5 ?,6 1,8 2,16 1,33 1,120 Maternal}
+{1 74,2 UP,5 ?,6 1,54 1,120 Stroke}
+{1 17,2 Bohol,5 ?,10 1,25 1,26 5,41 1,120 'Other Non-communicable Diseases'}
+{1 66,2 Bohol,4 2,5 ?,10 1,15 1,17 4,25 2,26 13,29 1,31 3,40 1,93 1,120 Pneumonia}
+{1 62,2 AP,5 ?,12 3,17 1,18 3,25 4,26 7,31 3,40 1,120 'Other Injuries'}
+{1 75,2 Bohol,4 2,5 ?,10 1,11 3,12 1,18 1,21 1,25 2,26 3,29 1,31 2,40 1,120 'Acute Myocardial Infarction'}
+{1 67,2 Dar,4 2,5 ?,8 4,13 2,16 1,21 1,25 1,33 1,120 'Stomach Cancer'}
+{1 47,2 UP,5 ?,6 4,10 1,19 1,26 1,49 1,120 AIDS}
+{1 60,2 Bohol,5 ?,10 1,26 8,35 1,50 1,120 'Esophageal Cancer'}
+{1 50,2 UP,5 ?,6 6,10 1,17 1,19 1,26 3,31 1,120 COPD}
+{1 15,2 Pemba,4 2,5 ?,6 1,11 1,26 1,51 1,120 Diarrhea/Dysentery}
+{1 42,2 Dar,5 ?,6 2,26 1,32 1,120 Diarrhea/Dysentery}
+{1 52,2 UP,5 ?,6 2,20 1,26 3,27 1,31 1,120 Poisonings}
+{1 26,2 Bohol,5 ?,6 4,10 1,11 2,25 3,26 5,96 1,120 'Other Infectious Diseases'}
+{1 56,2 Bohol,5 ?,6 2,11 4,13 2,26 11,36 2,62 1,120 'Stomach Cancer'}
+{1 57,2 AP,5 ?,25 1,31 1,37 1,39 1,70 1,120 Stroke}
+{1 23,2 UP,4 2,5 ?,6 4,7 1,19 1,31 1,40 1,120 Malaria}
+{1 73,2 Bohol,4 2,5 ?,12 2,17 1,21 1,26 5,31 2,37 1,44 1,50 1,56 1,70 1,120 Stroke}
+{1 58,2 Dar,5 ?,6 1,8 2,13 1,16 1,25 1,33 1,120 'Colorectal Cancer'}
+{1 39,5 ?,26 2,36 1}
+{1 58,2 Bohol,4 2,5 ?,21 2,25 1,26 10,40 1,51 1,120 'Other Cardiovascular Diseases'}
+{1 22,2 Bohol,5 ?,15 1,25 1,26 8,27 1,73 2,120 'Road Traffic'}
+{1 48,2 AP,4 2,5 ?,21 1,25 1,26 6,31 1,70 1,120 AIDS}
+{1 30,2 UP,4 2,5 ?,6 5,26 2,31 3,45 1,120 Maternal}
+{1 18,2 UP,5 ?,6 7,19 2,24 1,26 2,31 1,37 1}
+{1 45,2 Bohol,5 ?,6 1,21 2,26 5,49 2,86 1}
+{1 78,4 2,5 ?,26 1,31 1,44 1,120 Stroke}
+{1 48,2 UP,5 ?,6 1,25 1,120 Homicide}
+{1 52,2 UP,5 ?,6 4,17 1,19 1,26 1,50 1,54 1,71 1,120 Diabetes}
+{1 62,2 Bohol,5 ?,25 1,26 11,27 2,29 1,31 1,45 1,49 1,120 'Other Non-communicable Diseases'}
+{1 35,2 UP,5 ?,6 2,10 2,19 2,26 1,31 2,39 1,53 1,120 'Other Infectious Diseases'}
+{1 67,5 ?,25 2,26 5,29 1,40 1,120 'Other Cardiovascular Diseases'}
+{1 58,2 AP,5 ?,12 2,25 1,26 1,31 2,120 'Other Cardiovascular Diseases'}
+{1 69,5 ?,13 2,17 1,19 1,26 2,27 1,31 1,120 'Stomach Cancer'}
+{1 46,2 Bohol,5 ?,6 2,23 1,25 1,26 12,27 2,31 2,41 1,120 Suicide}
+{1 37,2 Dar,4 2,5 ?,16 1,32 1,33 1,60 1,120 'Other Cardiovascular Diseases'}
+{1 54,2 Bohol,5 ?,10 1,25 1,26 5,27 1,31 1,41 1,120 Diarrhea/Dysentery}
+{1 21,2 AP,4 2,5 ?,26 3,30 1,58 1,80 1,120 Suicide}
+{1 33,4 2,5 ?,13 1,63 2,120 Diarrhea/Dysentery}
+{1 60,2 AP,5 ?,25 1,26 3,31 2,34 1,58 1,120 Diarrhea/Dysentery}
+{1 33,2 AP,4 2,5 ?,10 1,26 8,31 3,50 3,67 1,120 Diabetes}
+{1 25,2 UP,5 ?,6 3,19 2,25 1,26 1,61 1,120 Fires}
+{1 55,2 AP,5 ?,12 4,17 1,18 2,25 1,26 1,31 6,49 1,120 COPD}
+{1 73,5 ?,26 5,78 1,86 2}
+{1 54,5 ?,21 1,26 4,51 1,78 3,105 1,120 'Other Non-communicable Diseases'}
+{1 74,5 ?,21 3,26 8,31 1,35 2,36 2,39 1,70 1,120 Stroke}
+{1 51,2 Dar,4 2,5 ?,6 2,26 3,32 1,120 Poisonings}
+{1 18,2 Bohol,5 ?,10 5,25 1,26 12,31 1,120 'Other Infectious Diseases'}
+{1 49,5 ?,12 1,19 1,20 1,26 1,120 Stroke}
+{1 33,2 Pemba,5 ?,6 1,11 1,25 1,26 1,51 1,120 Falls}
+{1 16,2 AP,4 2,5 ?,25 1,26 1,38 2,43 2,52 1,120 'Bite of Venomous Animal'}
+{1 39,4 2,5 ?,78 1,120 'Other Non-communicable Diseases'}
+{1 25,2 UP,4 2,5 ?,6 1,7 2,25 1,26 7,27 2,31 2,120 Maternal}
+{1 13,2 UP,4 2,5 ?,6 6,10 1,19 1,26 1,27 2,31 2,120 Malaria}
+{1 55,2 AP,5 ?,19 1,25 2,34 1,35 3,67 1,120 Pneumonia}
+{1 37,2 UP,4 2,5 ?,6 7,19 2,25 1,26 3,31 1,120 'Other Cardiovascular Diseases'}
+{1 64,2 AP,4 2,5 ?,25 2,26 5,31 3,40 3,120 Asthma}
+{1 27,2 AP,3 2,4 2,5 ?,7 1,10 2,25 4,26 4,29 2,31 1,48 2,120 Maternal}
+{1 39,5 ?,26 1,36 1,120 AIDS}
+{1 44,5 ?,25 2,26 2}
+{1 35,2 AP,4 2,5 ?,15 1,25 1,59 1,120 Fires}
+{1 23,2 Pemba,4 2,5 ?,6 1,11 1,25 1,51 1,59 1,120 Fires}
+{1 23,5 ?,25 1,26 1,36 1}
+{1 80,2 Dar,4 2,5 ?,6 1,11 1,25 1,56 1,120 'Other Non-communicable Diseases'}
+{1 40,2 Bohol,3 1,4 2,5 ?,7 2,9 1,14 1,17 1,24 3,25 1,26 7,31 3,45 1,54 2,55 2,74 1,120 Maternal}
+{1 40,2 UP,4 2,5 ?,6 1,25 1,28 1,120 Drowning}
+{1 55,2 UP,5 ?,6 5,19 1,24 1,25 1,26 3,40 1,58 1,120 'Other Cardiovascular Diseases'}
+{1 39,2 UP,5 ?,6 1,26 1,31 1,120 Poisonings}
+{1 12,2 Dar,5 ?,8 2,15 1,16 1,47 1,120 'Road Traffic'}
+{1 55,5 ?,6 1,26 6}
+{1 49,5 ?,26 2,55 1,120 'Renal Failure'}
+{1 22,2 UP,4 2,5 ?,6 2,17 1,19 1,40 1,120 'Other Cardiovascular Diseases'}
+{1 25,2 UP,5 ?,6 1,25 1,26 1,38 1,43 1,120 'Bite of Venomous Animal'}
+{1 85,2 UP,4 2,5 ?,6 6,26 3,31 1,120 COPD}
+{1 65,2 AP,4 2,5 ?,25 3,26 3,31 2,44 2,70 1,120 Falls}
+{1 49,2 AP,5 ?,19 1,25 1,26 6,31 1,53 1,59 1,80 1,120 Suicide}
+{1 25,2 UP,4 2,5 ?,6 4,10 1,12 1,40 1,120 'Other Cardiovascular Diseases'}
+{1 80,5 ?,36 1,39 1,67 1,120 'Lung Cancer'}
+{1 38,2 AP,5 ?,25 2,31 2,39 1,46 1,47 1,49 1,53 1,120 'Road Traffic'}
+{1 60,2 Bohol,5 ?,11 1,17 2,25 2,26 3,27 1,31 2,40 1,120 Pneumonia}
+{1 26,2 UP,5 ?,31 1,44 1,70 1,120 Stroke}
+{1 58,4 2,5 ?,26 1,55 2,120 'Cervical Cancer'}
+{1 22,2 Dar,4 2,5 ?,6 1,8 1,25 1,120 Pneumonia}
+{1 25,2 UP,4 2,5 ?,6 2,7 1,63 1,120 'Other Cardiovascular Diseases'}
+{1 65,2 UP,4 2,5 ?,6 1,17 1,18 1,19 1,25 1,26 3,31 1,37 1,50 1,54 1,120 'Other Cardiovascular Diseases'}
+{1 55,2 UP,5 ?,6 8,19 2,26 3,45 1,120 TB}
+{1 35,2 Dar,3 1,4 2,5 ?,6 1,14 1,25 1,32 1,120 Maternal}
+{1 50,2 AP,5 ?,12 2,17 1,18 2,25 3,26 3,120 'Acute Myocardial Infarction'}
+{1 27,2 AP,5 ?,10 2,17 1,25 2,26 7,31 5,120 Pneumonia}
+{1 17,2 Bohol,4 2,5 ?,10 1,17 2,26 10,31 3,41 2,120 'Other Non-communicable Diseases'}
+{1 35,2 Bohol,5 ?,10 1,25 1,26 5,27 2,73 1,120 'Road Traffic'}
+{1 83,2 Bohol,4 2,5 ?,6 4,11 2,19 1,25 2,26 9,37 1,45 1,50 1,56 1,120 Stroke}
+{1 29,5 ?,26 2,78 1,120 Pneumonia}
+{1 67,2 UP,4 2,5 ?,6 2,13 2,19 1,26 4,120 'Other Non-communicable Diseases'}
+{1 47,2 UP,5 ?,6 1,25 1,26 3,31 3,72 1,120 Malaria}
+{1 24,2 Bohol,4 2,5 ?,6 2,15 2,25 1,26 3,39 1,120 'Road Traffic'}
+{1 29,2 UP,5 ?,6 1,25 1,120 'Other Injuries'}
+{1 43,5 ?,26 2,31 1,86 1}
+{1 17,2 UP,5 ?,28 1,120 Drowning}
+{1 47,2 AP,5 ?,19 1,25 1,26 4,31 1,58 1,67 1,120 Stroke}
+{1 17,2 UP,4 2,5 ?,6 4,19 3,26 1,27 3,34 2,41 2,48 1,120 Diarrhea/Dysentery}
+{1 49,2 Bohol,4 2,5 ?,12 3,17 1,25 1,26 17,31 2,75 1,120 'Other Cardiovascular Diseases'}
+{1 75,2 UP,4 2,5 ?,6 3,19 2,26 1,29 1,34 1,41 1,65 1}
+{1 56,2 Bohol,5 ?,6 1,11 1,12 1,18 1,35 1,36 2,120 Pneumonia}
+{1 22,2 Bohol,4 2,5 ?,17 1,19 1,25 1,26 5,31 1,35 1,120 Diabetes}
+{1 78,2 Bohol,5 ?,6 2,11 1,13 3,26 2,27 1,40 4,120 'Other Non-communicable Diseases'}
+{1 32,2 UP,4 2,5 ?,6 1,7 1,9 1,19 1,20 1,25 2,26 3,45 1,48 1,49 1,52 1,120 Maternal}
+{1 42,2 UP,5 ?,6 2,17 1,19 1,120 COPD}
+{1 25,2 UP,4 2,5 ?,6 3,7 1,17 1,20 1,25 1,26 1,48 1,120 Homicide}
+{1 82,2 Bohol,4 2,5 ?,17 2,25 1,26 6,31 1,40 2,56 1,120 'Acute Myocardial Infarction'}
+{1 45,2 AP,4 2,5 ?,19 1,26 1}
+{1 31,2 AP,5 ?,20 1,25 1,26 2,120 Drowning}
+{1 30,2 Pemba,4 2,5 ?,6 1,9 1,25 1,120 Maternal}
+{1 80,2 UP,5 ?,6 11,10 1,19 1,26 2,31 2,50 1,65 1,67 1,120 Diabetes}
+{1 25,2 AP,4 2,5 ?,10 1,26 2,27 1,31 1,43 1,120 'Bite of Venomous Animal'}
+{1 18,2 UP,4 2,5 ?,6 1,19 1,26 3,27 1,31 3,34 1,41 1,120 Poisonings}
+{1 50,4 2,5 ?,26 4,46 2,120 'Stomach Cancer'}
+{1 42,2 UP,5 ?,6 1,25 1,26 1,46 1,120 Homicide}
+{1 45,2 AP,5 ?,12 1,18 2,25 1,26 1,120 'Acute Myocardial Infarction'}
+{1 30,2 UP,5 ?,6 1,23 1,26 4,28 2,120 Drowning}
+{1 50,2 UP,5 ?,6 3,26 1,31 1,34 1,41 1,49 1,67 1,120 Poisonings}
+{1 71,5 ?,6 1,26 2,35 1,36 1,78 1,120 Diarrhea/Dysentery}
+{1 77,2 AP,5 ?,26 2,59 2,120 Fires}
+{1 49,5 ?,25 1,26 2,36 1,78 1,120 Diabetes}
+{1 45,2 Dar,4 2,5 ?,6 1,8 1,25 1}
+{1 61,2 AP,5 ?,10 1,15 2,17 1,18 1,19 2,25 6,26 10,31 6,37 3,40 3,120 COPD}
+{1 54,2 AP,5 ?,13 2,26 8,31 4,34 1,45 3,120 'Colorectal Cancer'}
+{1 32,2 AP,5 ?,10 1,19 1,25 1,27 1,44 1,120 Stroke}
+{1 51,2 AP,5 ?,19 1,21 1,26 3,35 2,64 1,120 Diabetes}
+{1 86,2 Bohol,4 2,5 ?,10 1,25 1,26 2,40 1,55 2,67 1,120 Diarrhea/Dysentery}
+{1 20,2 UP,5 ?,6 7,17 1,19 1,26 2,120 Epilepsy}
+{1 92,4 2,5 ?,19 1,23 1,26 1,49 1,54 2,120 'Other Non-communicable Diseases'}
+{1 84,2 Bohol,5 ?,10 2,11 3,17 4,25 1,26 3,68 2,103 1,120 'Other Cardiovascular Diseases'}
+{1 70,2 AP,4 2,5 ?,17 1,21 1,25 2,26 1,31 1,120 COPD}
+{1 18,2 UP,4 2,5 ?,6 1,25 1,28 1,120 Drowning}
+{1 80,2 AP,4 2,5 ?,10 1,19 1,25 1,26 1,27 1,31 4,34 1,44 1,120 Epilepsy}
+{1 43,2 AP,5 ?,27 1,31 1,34 1,41 1,45 1,67 1,120 Diarrhea/Dysentery}
+{1 49,2 AP,5 ?,13 1,19 1,25 2,26 2,120 Leukemia/Lymphomas}
+{1 83,2 Bohol,4 2,5 ?,13 1,18 1,25 2,26 5,29 2,31 2,40 1,58 2,120 Pneumonia}
+{1 35,2 AP,4 2,5 ?,15 1,26 2,30 1,61 2,120 AIDS}
+{1 36,2 UP,5 ?,6 12,26 7,27 2,31 3,40 1,60 4,120 AIDS}
+{1 55,2 UP,4 2,5 ?,6 4,10 1,19 3,26 3,27 2,31 2,34 1,41 1,48 1,54 1}
+{1 40,2 AP,4 2,5 ?,23 1,26 6,37 2,120 Stroke}
+{1 34,2 AP,5 ?,25 1,120 Falls}
+{1 21,2 UP,4 2,5 ?,6 5,10 1,17 1,19 1,26 4,27 1,61 1,120 'Other Infectious Diseases'}
+{1 70,2 AP,5 ?,10 1,26 3,27 1,31 1,34 1,49 1,120 Diarrhea/Dysentery}
+{1 34,2 Dar,5 ?,8 2,16 1,33 1,120 'Other Non-communicable Diseases'}
+{1 60,2 UP,4 2,5 ?,6 2,23 1,25 1,26 1,31 1,120 'Acute Myocardial Infarction'}
+{1 27,2 Pemba,4 2,5 ?,6 1,11 1,25 1,51 1,120 Falls}
+{1 67,2 Dar,5 ?,8 1,13 1,16 1,33 1,120 'Stomach Cancer'}
+{1 70,2 UP,5 ?,6 1,12 1,18 1,19 1,25 1,37 1,54 1,120 'Acute Myocardial Infarction'}
+{1 61,2 UP,4 2,5 ?,6 2,10 2,19 1,26 3,29 1,31 2,50 1,120 Pneumonia}
+{1 69,2 Bohol,4 2,5 ?,11 1,25 1,26 10,39 1,116 1,120 Stroke}
+{1 53,5 ?,13 1,25 1,26 5,40 1,60 1,120 AIDS}
+{1 72,2 UP,5 ?,6 3,25 1,26 3,53 2,120 'Other Injuries'}
+{1 59,2 UP,4 2,5 ?,6 3,19 1,26 1,31 1,40 1,120 Pneumonia}
+{1 12,2 Bohol,5 ?,17 2,25 1,26 3,38 1,43 1,120 'Bite of Venomous Animal'}
+{1 83,4 2,5 ?,12 1,17 1,21 1,26 3,31 1,120 'Other Cardiovascular Diseases'}
+{1 70,2 Bohol,5 ?,25 1,26 3,27 1,120 'Other Non-communicable Diseases'}
+{1 66,2 Bohol,4 2,5 ?,6 3,10 2,11 1,17 1,23 1,25 2,26 11,27 1,31 1,35 1,40 1,61 1,120 Diabetes}
+{1 73,2 AP,4 2,5 ?,26 4,35 1,120 'Acute Myocardial Infarction'}
+{1 18,2 AP,5 ?,25 1,26 2,31 1,120 Falls}
+{1 12,2 UP,4 2,5 ?,6 1,25 1,120 'Other Injuries'}
+{1 67,2 AP,4 2,5 ?,17 2,26 2,31 2,120 'Acute Myocardial Infarction'}
+{1 22,2 AP,3 1,4 2,5 ?,7 2,10 1,17 1,19 3,26 6,31 1,40 1,120 'Other Infectious Diseases'}
+{1 36,2 AP,5 ?,19 1,26 4,34 1,61 1,120 AIDS}
+{1 35,2 AP,4 2,5 ?,10 6,21 2,25 1,26 3,31 1,44 1,120 AIDS}
+{1 23,5 ?,19 1,26 3,36 1,39 1,44 1,61 1,78 1,85 1,120 Fires}
+{1 88,2 Bohol,5 ?,17 1,20 1,26 10,31 3,40 1,120 'Other Cardiovascular Diseases'}
+{1 63,2 Bohol,5 ?,11 1,12 1,18 1,25 1,26 1,31 1,120 'Acute Myocardial Infarction'}
+{1 35,2 UP,4 2,5 ?,6 2,10 1,19 1,120 'Other Non-communicable Diseases'}
+{1 32,2 Dar,5 ?,8 1,16 2,26 2,92 1,120 TB}
+{1 35,5 ?,10 1,13 1,25 1,26 4,29 1,31 1,37 1,39 1,44 1,58 1,120 AIDS}
+{1 45,2 Bohol,4 2,5 ?,6 1,15 1,26 2,31 2,35 1,120 Diabetes}
+{1 60,2 AP,5 ?,25 1,26 4,31 1,37 1,44 1,45 1,50 2,55 2,67 4,120 Diabetes}
+{1 35,2 UP,4 2,5 ?,6 1,25 1,26 1,31 1,120 Fires}
+{1 60,2 Bohol,5 ?,6 3,11 2,26 1,86 1}
+{1 60,2 UP,5 ?,6 5,10 1,19 3,40 1,120 'Renal Failure'}
+{1 17,2 AP,5 ?,25 2,26 2,31 1,120 'Other Injuries'}
+{1 35,2 UP,4 2,5 ?,6 2,7 1,10 1,19 1,71 1,120 Malaria}
+{1 47,2 AP,4 2,5 ?,10 1,17 2,25 1,26 3,31 1,50 1,58 1,120 Diabetes}
+{1 17,2 UP,4 2,5 ?,6 1,15 1,26 2,31 1,120 Suicide}
+{1 58,2 UP,5 ?,6 2,10 1,19 2,31 1,54 1,120 Malaria}
+{1 84,2 Bohol,5 ?,6 1,12 2,17 1,19 1,26 9,37 1,54 1,120 'Acute Myocardial Infarction'}
+{1 54,2 AP,4 2,5 ?,25 2,26 5,31 2,50 1,120 Diabetes}
+{1 65,2 Bohol,4 2,5 ?,11 1,23 1,25 1,26 10,29 1,31 5,35 1,36 1,40 3,54 1,120 'Acute Myocardial Infarction'}
+{1 32,2 AP,5 ?,10 1,25 1,26 3,29 2,31 2,40 1,58 1,120 AIDS}
+{1 37,2 Dar,5 ?,6 1,12 1,32 1,120 'Other Cardiovascular Diseases'}
+{1 81,2 Bohol,4 2,5 ?,10 3,12 1,17 3,25 1,26 6,29 1,31 2,33 1,40 1,58 2,112 1,120 Asthma}
+{1 59,2 Bohol,4 2,5 ?,10 1,26 4,31 1,40 1,120 Leukemia/Lymphomas}
+{1 80,2 Pemba,5 ?,6 1,11 1,25 1,35 1,51 1,64 1,120 TB}
+{1 32,2 AP,5 ?,19 1,25 1,34 1,120 'Renal Failure'}
+{1 25,2 UP,4 2,5 ?,6 1,25 1,30 1,120 Fires}
+{1 45,2 UP,5 ?,6 3,26 1,31 1,65 1}
+{1 69,5 ?,26 4,31 1,36 1,120 Falls}
+{1 76,2 Bohol,4 2,5 ?,6 2,10 1,12 1,13 1,25 1,26 8,29 2,45 1,56 2,63 1,120 Pneumonia}
+{1 35,2 AP,5 ?,23 2,25 1,26 3,28 3,31 1,111 2,120 Drowning}
+{1 22,2 UP,4 2,5 ?,6 1,7 1,9 1,25 1,26 5,31 1,54 1,120 Maternal}
+{1 43,2 AP,5 ?,10 1,19 3,26 8,27 1,31 2,40 1,49 1,58 1,60 1,120 'Other Non-communicable Diseases'}
+{1 61,2 Bohol,5 ?,6 1,17 1,25 1,26 5,67 1,120 'Other Infectious Diseases'}
+{1 25,2 UP,4 2,5 ?,6 2,7 1,26 3,31 1,48 1,120 Maternal}
+{1 73,4 2,5 ?,25 1,26 4,31 2,36 1,39 1,45 1,120 'Renal Failure'}
+{1 14,2 Dar,5 ?,26 1,32 1,61 1,120 Fires}
+{1 44,2 AP,5 ?,26 3,44 1,120 Stroke}
+{1 59,2 UP,5 ?,6 2,18 1,19 1,37 1,44 1,120 Diabetes}
+{1 35,2 Dar,4 2,5 ?,26 1,32 1,72 1,120 Pneumonia}
+{1 54,2 UP,4 2,5 ?,6 1,19 3,26 6,31 4,35 1,44 1,76 1,85 1,120 'Other Infectious Diseases'}
+{1 30,2 Bohol,5 ?,10 1,15 1,25 1,26 5,61 2,73 2,120 Fires}
+{1 30,2 AP,5 ?,25 1,26 1,30 2,80 1,120 Suicide}
+{1 45,2 UP,4 2,5 ?,6 2,26 2,44 1,49 1,120 'Other Infectious Diseases'}
+{1 21,2 UP,5 ?,6 1,10 1,18 2,26 2,31 1,120 Pneumonia}
+{1 36,2 Pemba,5 ?,6 1,11 1,25 1,28 1,51 1,120 Drowning}
+{1 16,2 UP,5 ?,6 2,17 1,26 5,40 2,56 1,96 1,120 Pneumonia}
+{1 58,2 Bohol,5 ?,12 1,18 2,26 19,31 5,45 1,50 2,55 1,120 Diabetes}
+{1 53,5 ?,21 1,25 2,26 1,62 1,120 Leukemia/Lymphomas}
+{1 26,2 AP,3 2,4 2,5 ?,7 1,14 2,17 3,19 3,26 5,31 4,120 Maternal}
+{1 70,2 UP,5 ?,6 6,19 2,26 1,54 1,120 'Acute Myocardial Infarction'}
+{1 70,5 ?,19 1,26 4,36 1,43 1,120 'Renal Failure'}
+{1 70,2 UP,4 2,5 ?,6 4,12 1,19 1,26 1,58 1,120 'Acute Myocardial Infarction'}
+{1 75,2 Bohol,4 2,5 ?,10 1,19 1,25 2,26 8,27 3,31 1,41 1,55 1,120 Diarrhea/Dysentery}
+{1 20,2 UP,4 2,5 ?,6 3,19 1,20 1,24 1,26 3,120 Maternal}
+{1 38,2 AP,5 ?,10 2,26 4,31 2,120 'Other Non-communicable Diseases'}
+{1 68,2 Dar,5 ?,6 1,8 3,16 1,33 1,49 1,120 'Other Non-communicable Diseases'}
+{1 63,2 UP,5 ?,6 7,12 1,18 1,19 3,26 1,31 3,50 1,67 1,120 Pneumonia}
+{1 23,2 AP,3 1,4 2,5 ?,9 4,19 1,24 1,25 3,26 7,31 2,49 2,120 Maternal}
+{1 30,2 UP,5 ?,6 3,19 2,26 1,27 1,34 1,41 1,65 1}
+{1 63,2 Bohol,5 ?,13 1,18 1,25 1,26 11,29 1,31 5,45 1,120 Pneumonia}
+{1 23,2 Dar,5 ?,8 2,16 1,33 1,120 'Other Non-communicable Diseases'}
+{1 40,2 Pemba,4 2,5 ?,11 1,19 1,25 1,26 1,51 1,120 'Other Non-communicable Diseases'}
+{1 76,4 2,5 ?,6 1,21 1,26 1,36 1,51 1,54 1,105 1,120 Stroke}
+{1 68,2 UP,4 2,5 ?,6 3,18 3,19 2,25 1,26 1,29 1,31 3,45 1,120 'Acute Myocardial Infarction'}
+{1 40,2 AP,4 2,5 ?,26 2,59 1,61 1,120 Suicide}
+{1 26,2 UP,4 2,5 ?,6 4,19 2,26 5,31 1,54 1,67 1,120 'Renal Failure'}
+{1 50,2 AP,5 ?,15 1,25 2,26 1,120 AIDS}
+{1 41,2 AP,5 ?,25 1,26 4,60 1,64 2,120 TB}
+{1 67,2 Bohol,5 ?,17 4,18 1,25 1,26 12,31 3,75 1,76 1,120 'Acute Myocardial Infarction'}
+{1 85,2 Pemba,5 ?,6 1,11 1,26 2,51 1,120 Pneumonia}
+{1 49,2 UP,5 ?,6 3,10 1,17 1,19 2,31 2,34 1,41 1,67 1,120 'Renal Failure'}
+{1 62,2 UP,5 ?,6 1,10 1,13 2,19 1,26 4,29 2,31 1,120 Pneumonia}
+{1 15,2 Pemba,5 ?,6 1,11 1,25 1,28 1,51 1,120 Drowning}
+{1 70,2 UP,4 2,5 ?,6 1,17 1,19 1,120 COPD}
+{1 36,2 Bohol,4 2,5 ?,15 1,17 2,26 6,35 1,50 2,56 1,120 Diabetes}
+{1 48,2 AP,4 2,5 ?,19 1,21 1,25 2,26 4,31 1,61 1,80 1,120 Suicide}
+{1 70,2 UP,5 ?,6 7,17 1,19 4,26 2,39 2,54 1,120 Falls}
+{1 30,2 UP,5 ?,6 2,10 1,19 1,26 3,31 1,44 2,70 1,120 'Other Infectious Diseases'}
+{1 50,5 ?,16 1,26 2,44 1,120 Stroke}
+{1 64,5 ?,12 2,19 1,25 1,26 2,120 'Acute Myocardial Infarction'}
+{1 43,2 Bohol,4 2,5 ?,17 2,25 1,26 10,29 1,120 'Other Cardiovascular Diseases'}
+{1 56,2 AP,4 2,5 ?,19 1,26 4,31 4,120 Stroke}
+{1 49,5 ?,26 3,31 1,36 1,40 1,44 1,120 Stroke}
+{1 51,4 2,5 ?,12 1,26 5,120 Falls}
+{1 40,2 UP,5 ?,6 1,10 2,31 1,44 1,120 Pneumonia}
+{1 28,2 UP,5 ?,6 5,10 1,17 1,26 2,31 1,50 1,114 2,120 Pneumonia}
+{1 12,2 Bohol,5 ?,17 2,20 12,21 2,25 1,26 6,27 1,31 2,35 2,120 Diabetes}
+{1 25,2 Pemba,5 ?,6 1,11 1,19 1,25 1,31 1,35 1,51 1,120 Diabetes}
+{1 66,2 Bohol,4 2,5 ?,10 2,12 1,25 2,26 7,31 3,36 1,49 1,120 'Other Infectious Diseases'}
+{1 22,2 Bohol,3 2,4 2,5 ?,12 1,14 1,17 1,25 1,26 8,40 1,120 Maternal}
+{1 32,2 UP,5 ?,6 3,19 1,26 2,40 1,49 1,65 1}
+{1 13,2 UP,4 2,5 ?,6 1,26 2,120 'Road Traffic'}
+{1 35,2 AP,5 ?,10 1,25 2,26 3,31 5,120 'Renal Failure'}
+{1 70,2 UP,4 2,5 ?,6 1,12 1,18 1,19 2,25 1,26 2,31 1,54 1,120 'Acute Myocardial Infarction'}
+{1 39,2 AP,4 2,5 ?,10 1,12 1,25 2,26 3,40 1,120 'Other Cardiovascular Diseases'}
+{1 64,2 Bohol,4 2,5 ?,25 1,26 20,31 7,35 1,37 1,44 1,50 2,54 3,56 1,57 1,120 Stroke}
+{1 80,5 ?,26 6,36 1,39 1,44 1,70 1,78 1,120 'Other Cardiovascular Diseases'}
+{1 86,2 Bohol,5 ?,25 1,26 9,31 5,40 1,120 Pneumonia}
+{1 52,2 UP,5 ?,6 5,10 1,19 1,25 1,26 2,27 1,31 2,110 1,120 Diarrhea/Dysentery}
+{1 46,2 Bohol,5 ?,10 5,13 1,26 7,27 1,31 4,45 1,57 1,62 1,120 'Other Non-communicable Diseases'}
+{1 22,2 AP,4 2,5 ?,9 2,14 1,20 2,26 13,31 6,77 1,120 Maternal}
+{1 49,2 AP,4 2,5 ?,12 1,25 1,26 2,31 2,34 1,120 'Acute Myocardial Infarction'}
+{1 18,2 AP,5 ?,10 1,19 1,23 1,26 5,27 3,120 'Other Infectious Diseases'}
+{1 23,2 AP,4 2,5 ?,10 1,11 1,25 1,26 3,31 1,64 1,120 TB}
+{1 65,2 UP,5 ?,6 4,17 1,19 1,26 1,31 1,50 1,54 2,67 1,120 Diabetes}
+{1 37,2 UP,5 ?,6 1,26 2,31 1,120 'Other Infectious Diseases'}
+{1 50,2 AP,5 ?,19 1,26 4,120 'Other Non-communicable Diseases'}
+{1 35,2 Dar,4 2,5 ?,10 1,120 Maternal}
+{1 35,2 UP,5 ?,6 12,10 3,19 2,26 6,27 1,31 4,40 3,110 1,120 AIDS}
+{1 19,2 Dar,4 2,5 ?,6 2,25 1,32 1,120 Leukemia/Lymphomas}
+{1 91,2 AP,4 2,5 ?,25 1,26 1,27 1,31 1,39 1,44 1,53 1,70 1,120 'Road Traffic'}
+{1 70,2 AP,5 ?,19 1,25 2,26 2,31 3,34 2,120 Diarrhea/Dysentery}
+{1 65,2 Bohol,5 ?,17 2,25 1,26 2,45 1,55 1,120 'Renal Failure'}
+{1 48,2 AP,5 ?,19 2,31 4,49 1,117 1}
+{1 70,2 UP,5 ?,6 2,17 1,120 COPD}
+{1 36,2 Bohol,5 ?,6 1,25 1,26 3,40 1,64 1,120 TB}
+{1 78,2 Bohol,4 2,5 ?,10 1,12 4,18 1,26 11,31 1,44 1,54 1,56 1,70 1,120 Stroke}
+{1 60,2 UP,4 2,5 ?,6 1,18 2,26 2,31 1,37 2,120 Stroke}
+{1 35,2 Pemba,4 2,5 ?,6 1,9 1,11 1,25 1,120 Maternal}
+{1 55,2 UP,4 2,5 ?,6 2,17 1,19 2,58 1,120 'Renal Failure'}
+{1 66,2 AP,5 ?,25 1,26 2,30 2,31 2,59 1,120 Suicide}
+{1 35,2 UP,4 2,5 ?,6 4,10 1,19 1,26 1,27 2,34 1,41 1,49 1,94 1,120 Malaria}
+{1 26,2 AP,3 1,4 2,5 ?,7 1,14 1,19 1,26 4,31 1,40 2,120 Maternal}
+{1 74,2 Bohol,4 2,5 ?,24 1,25 1,26 6,54 1,56 1,120 Stroke}
+{1 21,2 Dar,5 ?,11 1,16 1,26 1,120 'Other Cardiovascular Diseases'}
+{1 38,2 UP,4 2,5 ?,6 2,7 1,26 2,31 1,70 1,120 Maternal}
+{1 54,2 AP,4 2,5 ?,19 1,25 3,26 7,31 1,53 1,120 'Other Non-communicable Diseases'}
+{1 40,2 Pemba,4 2,5 ?,25 1,120 Maternal}
+{1 36,2 AP,5 ?,26 1,31 3,65 1,120 'Other Cardiovascular Diseases'}
+{1 73,2 Bohol,5 ?,17 1,26 5,29 1,120 'Other Non-communicable Diseases'}
+{1 71,5 ?,15 1,21 1,26 1,35 2,120 'Other Cardiovascular Diseases'}
+{1 70,2 Bohol,4 2,5 ?,25 1,26 2,27 1,31 1,40 1,54 1,120 'Acute Myocardial Infarction'}
+{1 73,2 UP,5 ?,6 1,19 3,26 1,27 1,31 1,44 1,120 Stroke}
+{1 26,2 AP,5 ?,10 1,19 1,25 1,26 7,31 3,60 1,120 TB}
+{1 55,2 Bohol,4 2,5 ?,6 1,11 1,15 1,25 1,26 3,39 2,46 1,73 2,120 'Road Traffic'}
+{1 51,2 Bohol,5 ?,15 1,26 6,44 2,56 2,57 1,120 'Road Traffic'}
+{1 53,5 ?,25 1,26 1,44 1,120 'Road Traffic'}
+{1 31,4 2,5 ?,25 1,26 6,54 2,120 Maternal}
+{1 74,2 Bohol,5 ?,6 2,15 1,26 16,39 1,56 2,61 1,120 Diabetes}
+{1 65,2 UP,4 2,5 ?,6 10,17 2,19 1,25 1,26 2,27 3,50 2,54 1,120 'Acute Myocardial Infarction'}
+{1 58,2 Bohol,4 2,5 ?,11 2,13 3,21 1,25 3,26 4,29 3,120 'Other Non-communicable Diseases'}
+{1 66,2 AP,5 ?,25 2,26 1,31 1,39 1,53 1,70 1,120 Falls}
+{1 84,2 Bohol,5 ?,12 1,17 1,18 1,25 1,26 11,29 1,112 1,120 Pneumonia}
+{1 30,2 AP,4 2,5 ?,19 1,25 1,26 2,31 2,39 1,43 1,120 'Other Infectious Diseases'}
+{1 62,2 Dar,5 ?,6 1,13 1,16 1,19 1,26 1,32 1,33 1,120 'Prostate Cancer'}
+{1 25,2 AP,4 2,5 ?,7 1,10 2,18 1,25 1,26 6,29 1,31 3,40 1,120 Maternal}
+{1 54,2 Bohol,5 ?,17 3,25 1,26 4,35 1,50 1,54 1,120 Stroke}
+{1 39,2 AP,5 ?,26 2,27 2,31 2,35 1,50 1,120 Diabetes}
+{1 32,2 AP,5 ?,10 1,19 1,25 2,26 1,60 1,120 AIDS}
+{1 55,2 AP,5 ?,10 1,19 1,26 3,31 1,37 1,120 Stroke}
+{1 87,2 UP,5 ?,6 3,10 2,18 2,19 2,26 4,31 2,37 1,54 1,120 'Other Non-communicable Diseases'}
+{1 77,2 Bohol,5 ?,17 1,25 1,26 4,27 1,120 Stroke}
+{1 25,2 AP,5 ?,25 1,26 3,31 1,39 1,53 1,120 Homicide}
+{1 60,2 AP,5 ?,13 2,25 2,26 4,31 2,120 'Other Non-communicable Diseases'}
+{1 45,2 AP,5 ?,25 1,26 2,39 2,53 1,120 Epilepsy}
+{1 43,2 Bohol,5 ?,6 2,15 2,25 1,26 3,46 1,73 2,120 'Road Traffic'}
+{1 65,2 Bohol,5 ?,11 1,17 1,25 1,26 12,31 4,120 Stroke}
+{1 47,2 Bohol,4 2,5 ?,12 1,18 2,26 7,31 1,58 1,120 Stroke}
+{1 82,2 UP,4 2,5 ?,6 1,12 1,18 1,19 2,25 1,26 1,37 1,120 Stroke}
+{1 58,5 ?,6 1,21 2,25 1,26 6,31 1,35 1,36 1,78 1,120 Pneumonia}
+{1 40,2 UP,4 2,5 ?,6 3,10 1,19 1,25 1,26 2,31 2,50 1,65 1,120 Malaria}
+{1 85,2 UP,5 ?,6 2,19 2,44 1,120 Stroke}
+{1 29,2 Dar,4 2,5 ?,8 2,16 1,120 Pneumonia}
+{1 21,2 Pemba,4 2,5 ?,11 1,26 1,51 1,120 Maternal}
+{1 16,2 Dar,4 2,5 ?,8 2,16 1,120 Leukemia/Lymphomas}
+{1 40,2 AP,5 ?,25 1,26 3,58 1,60 2,120 AIDS}
+{1 35,2 AP,5 ?,11 1,25 2,26 6,31 1,40 1,64 2,120 TB}
+{1 55,2 UP,4 2,5 ?,6 5,12 1,17 1,18 1,19 1,26 3,27 1,120 'Acute Myocardial Infarction'}
+{1 70,2 UP,5 ?,6 1,25 1,120 'Other Injuries'}
+{1 37,2 AP,4 2,5 ?,12 1,17 1,19 1,25 1,26 4,31 2,54 1,67 1,120 'Other Non-communicable Diseases'}
+{1 15,2 Pemba,5 ?,6 1,11 1,25 1,51 1,120 Drowning}
+{1 47,2 AP,5 ?,31 1,120 'Road Traffic'}
+{1 62,2 AP,5 ?,18 1,19 1,26 1,34 1,120 Diarrhea/Dysentery}
+{1 45,2 Dar,5 ?,6 1,25 1,79 1,81 1,120 Suicide}
+{1 85,2 UP,4 2,5 ?,6 2,19 1,26 1,40 1,120 COPD}
+{1 66,2 Bohol,4 2,5 ?,11 1,12 1,17 1,18 1,25 2,26 12,27 1,31 1,35 1,58 1,120 'Acute Myocardial Infarction'}
+{1 82,2 UP,4 2,5 ?,6 4,12 1,19 2,26 1,34 1,41 1,120 'Acute Myocardial Infarction'}
+{1 32,2 Bohol,4 2,5 ?,9 2,20 3,24 2,25 1,26 3,31 1,83 1,120 Maternal}
+{1 70,2 AP,4 2,5 ?,21 1,25 1,26 2,120 Stroke}
+{1 42,2 UP,5 ?,6 2,10 2,31 1,44 1,120 Stroke}
+{1 60,2 UP,4 2,5 ?,6 4,10 1,66 1,120 'Renal Failure'}
+{1 45,2 UP,5 ?,6 1,25 1,26 1,120 'Other Injuries'}
+{1 60,4 2,5 ?,21 1,26 2,35 1,120 Diabetes}
+{1 47,2 AP,5 ?,18 1,25 1,26 1,37 1,120 Stroke}
+{1 50,2 UP,4 2,5 ?,6 1,19 1,25 1,27 1,43 2,52 1,120 'Bite of Venomous Animal'}
+{1 44,2 AP,5 ?,10 1,26 3,31 3,34 1,45 1,120 'Renal Failure'}
+{1 65,2 Bohol,4 2,5 ?,12 2,18 1,25 1,26 10,29 1,40 1,120 'Acute Myocardial Infarction'}
+{1 75,2 UP,5 ?,6 2,23 1,25 1,26 3,31 1,39 1,120 'Other Injuries'}
+{1 60,2 UP,5 ?,6 3,12 1,18 1,19 2,31 1,120 'Acute Myocardial Infarction'}
+{1 61,2 AP,5 ?,10 2,26 5,31 1,50 1,120 Diabetes}
+{1 25,2 UP,4 2,5 ?,6 1,19 1,24 1,26 2,120 Diarrhea/Dysentery}
+{1 55,2 AP,4 2,5 ?,26 3,120 'Acute Myocardial Infarction'}
+{1 50,2 UP,4 2,5 ?,6 2,17 1,19 1,26 3,31 1,120 Diarrhea/Dysentery}
+{1 45,2 AP,5 ?,26 5,64 2,120 TB}
+{1 63,2 Bohol,5 ?,15 2,25 1,26 3,40 1,73 1,120 'Road Traffic'}
+{1 25,2 AP,5 ?,25 1,26 1,27 1,31 1,39 2,46 1,47 1,53 1,73 1,120 'Road Traffic'}
+{1 65,2 AP,5 ?,10 1,19 1,25 2,26 6,31 4,40 1,49 1,54 4,120 Diarrhea/Dysentery}
+{1 50,2 AP,5 ?,12 1,25 1,45 2,70 1,120 'Renal Failure'}
+{1 42,2 Bohol,4 2,5 ?,19 1,25 1,26 8,27 1,29 2,31 1,44 1,120 'Other Infectious Diseases'}
+{1 81,5 ?,26 3,36 1,45 1,120 'Other Cardiovascular Diseases'}
+{1 65,2 Bohol,4 2,5 ?,6 1,10 1,12 1,25 2,26 1,27 2,31 1,35 1}
+{1 65,2 UP,4 2,5 ?,6 5,19 2,26 2,31 1,120 Diarrhea/Dysentery}
+{1 62,2 AP,5 ?,19 2,26 3,31 2,35 2,53 1,120 Diabetes}
+{1 30,2 Pemba,5 ?,11 1,17 1,26 1,29 1,51 1,54 1,120 Pneumonia}
+{1 49,2 Bohol,5 ?,17 1,25 1,26 1,120 Stroke}
+{1 70,2 UP,4 2,5 ?,6 1,26 1,120 Diarrhea/Dysentery}
+{1 32,2 Bohol,5 ?,10 1,26 1,31 1,90 1,120 'Other Infectious Diseases'}
+{1 79,2 Bohol,4 2,5 ?,10 1,17 1,25 1,26 6,27 1,120 Stroke}
+{1 21,2 Pemba,4 2,5 ?,6 1,11 1,25 1,51 1,120 Falls}
+{1 999,2 Dar,4 2,5 ?,32 1,120 Asthma}
+{1 51,2 Dar,5 ?,6 1,13 1,19 1,26 1,32 1,120 'Other Non-communicable Diseases'}
+{1 36,2 AP,5 ?,11 1,19 1,26 3,65 1,120 'Other Non-communicable Diseases'}
+{1 66,5 ?,22 1,26 3,36 1,120 Pneumonia}
+{1 56,2 Bohol,5 ?,17 2,25 1,26 7,31 2,54 1,55 2,120 'Renal Failure'}
+{1 50,2 AP,5 ?,120 AIDS}
+{1 65,2 UP,5 ?,6 1,11 1,26 2,40 1,96 1,120 Pneumonia}
+{1 78,2 Bohol,4 2,5 ?,10 1,11 4,12 3,25 1,26 3,31 1,36 1,54 2,120 'Other Cardiovascular Diseases'}
+{1 46,2 Bohol,4 2,5 ?,13 2,17 1,19 2,25 3,26 14,31 1,39 1,40 1,63 2,120 'Breast Cancer'}
+{1 12,2 UP,5 ?,6 4,15 1,26 4,47 1,120 'Road Traffic'}
+{1 22,2 AP,5 ?,17 1,19 1,26 3,27 1,40 1,120 TB}
+{1 45,2 AP,5 ?,10 2,19 1,26 6,31 1,40 1,58 1,120 TB}
+{1 15,2 UP,5 ?,6 1,25 1,26 1,39 1,120 'Road Traffic'}
+{1 48,2 Bohol,5 ?,26 7,54 1,120 Stroke}
+{1 47,2 Bohol,4 2,5 ?,11 3,13 2,26 7,31 4,49 3,62 4,63 2,120 'Breast Cancer'}
+{1 38,2 AP,4 2,5 ?,15 1,25 2,26 5,30 1,59 1,120 Fires}
+{1 70,2 Bohol,5 ?,25 1,26 4,27 1,31 2,120 Falls}
+{1 17,2 Bohol,3 2,4 2,5 ?,7 1,10 1,17 1,25 1,26 7,42 1,44 1,74 1,120 Maternal}
+{1 30,2 AP,5 ?,26 3,41 1,120 Epilepsy}
+{1 75,2 UP,4 2,5 ?,6 3,19 2,120 'Other Cardiovascular Diseases'}
+{1 49,2 Bohol,5 ?,6 1,12 2,15 1,17 2,25 1,26 16,31 4,35 3,39 1,40 2,50 2,120 'Acute Myocardial Infarction'}
+{1 999,2 Dar,4 ?,5 ?,6 2,19 1,26 2,32 1,120 TB}
+{1 36,2 UP,4 2,5 ?,6 1,26 1,52 1,120 Suicide}
+{1 81,2 Bohol,4 2,5 ?,25 1,26 15,31 1,39 2,51 1,56 1,120 Stroke}
+{1 64,2 Bohol,4 2,5 ?,11 1,25 1,26 8,35 1,41 1,45 1,55 1,120 Diabetes}
+{1 30,2 AP,5 ?,15 1,25 1,26 4,120 Falls}
+{1 80,2 Pemba,4 2,5 ?,6 1,10 1,11 1,51 1,54 1,120 'Other Non-communicable Diseases'}
+{1 24,2 Pemba,4 2,5 ?,17 1,120 Maternal}
+{1 58,2 UP,5 ?,6 5,17 1,18 2,19 3,26 1,31 1,37 1,39 1,120 Diabetes}
+{1 86,2 AP,5 ?,13 1,26 1,31 1,44 1,120 'Other Non-communicable Diseases'}
+{1 35,2 UP,4 2,5 ?,6 3,11 1,24 1,26 2,31 1,120 Pneumonia}
+{1 66,2 Bohol,4 2,5 ?,10 6,12 1,17 3,25 1,26 8,31 1,120 'Renal Failure'}
+{1 15,2 Pemba,5 ?,11 1,26 1,51 1,120 Drowning}
+{1 999,2 Dar,3 1,4 2,5 ?,6 1,120 Maternal}
+{1 25,2 Pemba,3 1,5 ?,10 2,25 1,26 1,120 'Other Infectious Diseases'}
+{1 43,2 Bohol,4 2,5 ?,10 1,13 1,25 1,26 2,31 1,120 'Cervical Cancer'}
+{1 73,4 2,5 ?,12 1,18 1,26 4,36 1,120 'Acute Myocardial Infarction'}
+{1 70,2 UP,4 2,5 ?,6 7,10 1,19 3,31 1,50 1,53 1,120 Diabetes}
+{1 85,2 Dar,5 ?,16 1,32 1,120 'Renal Failure'}
+{1 35,2 Bohol,4 2,5 ?,12 1,14 1,15 1,17 1,23 1,25 1,26 4,27 1,74 1,75 2,120 Maternal}
+{1 58,2 UP,5 ?,6 3,11 1,26 2,49 1,50 2}
+{1 37,2 UP,4 2,5 ?,6 12,10 1,12 2,18 2,19 3,26 2,31 2,34 1,41 1,65 1,87 1,120 AIDS}
+{1 47,2 Dar,5 ?,13 1,120 Leukemia/Lymphomas}
+{1 27,2 AP,5 ?,25 2,26 3,30 2,59 1,80 1,120 Suicide}
+{1 56,2 AP,5 ?,17 1,25 1,31 1,50 3,67 2,120 Diabetes}
+{1 85,2 UP,4 2,5 ?,6 3,19 2,26 2,31 2,54 1,120 Fires}
+{1 20,2 UP,4 2,5 ?,6 2,19 1,25 1,26 2,61 1,120 Maternal}
+{1 30,2 Pemba,4 2,5 ?,6 1,11 1,19 1,25 1,31 1,35 1,51 1,56 1,120 Diabetes}
+{1 13,2 Dar,4 2,5 ?,8 1,16 1,26 2,33 1,72 1,120 Diarrhea/Dysentery}
+{1 70,2 UP,4 2,5 ?,17 1,26 1,39 1,54 1,120 'Other Cardiovascular Diseases'}
+{1 18,2 UP,5 ?,6 7,10 3,17 1,19 3,26 3,50 1,120 Diabetes}
+{1 29,2 Bohol,5 ?,6 1,10 1,19 1,25 1,26 22,31 3,40 3,120 Pneumonia}
+{1 42,2 Dar,5 ?,6 1,8 1,120 Diabetes}
+{1 74,2 AP,4 2,5 ?,11 1,25 1,26 5,27 1,31 1,70 1,120 'Other Non-communicable Diseases'}
+{1 17,4 2,5 ?,6 1,26 1,36 1,40 1,78 1,120 Leukemia/Lymphomas}
+{1 79,2 Bohol,5 ?,6 1,10 2,11 3,13 1,17 2,25 3,26 10,31 2,61 2,62 1,120 'Prostate Cancer'}
+{1 50,2 Pemba,4 2,5 ?,6 1,10 1,11 1,25 1,51 1,66 1,120 Diarrhea/Dysentery}
+{1 65,2 AP,5 ?,13 2,25 1,40 1,120 'Colorectal Cancer'}
+{1 63,2 Bohol,5 ?,10 1,17 2,25 1,26 13,31 1,67 1,120 'Renal Failure'}
+{1 23,5 ?,6 1,11 1,15 2,19 1,20 1,21 1,26 2,33 1,36 1,59 1,61 1,120 Fires}
+{1 75,2 UP,5 ?,6 5,25 1,26 5,120 'Acute Myocardial Infarction'}
+{1 22,4 2,5 ?,6 1,21 2,22 2,26 4,120 'Other Non-communicable Diseases'}
+{1 18,2 Bohol,5 ?,17 1,25 1,26 9,31 1,120 Homicide}
+{1 64,2 UP,5 ?,6 1,10 1,26 2,120 COPD}
+{1 55,2 UP,5 ?,6 8,10 2,18 3,19 3,31 2,37 1,44 1,120 Stroke}
+{1 45,2 UP,5 ?,6 5,10 2,19 1,27 3,31 3,120 AIDS}
+{1 28,2 UP,4 2,5 ?,6 3,10 1,18 2,19 1,25 1,26 1,29 1,31 2,120 'Other Non-communicable Diseases'}
+{1 30,2 Bohol,5 ?,25 1,26 9,31 1,120 Homicide}
+{1 25,2 UP,4 2,5 ?,26 3,30 1,120 Fires}
+{1 54,4 2,5 ?,21 2,26 7,36 1,44 1,51 1,120 'Road Traffic'}
+{1 34,2 Dar,4 2,5 ?,6 1,13 1,19 1,26 1,63 1,120 'Breast Cancer'}
+{1 21,2 AP,4 2,5 ?,80 1,81 1,120 Fires}
+{1 38,2 AP,5 ?,10 1,25 2,26 2,31 1,40 1,58 1,120 Pneumonia}
+{1 72,2 UP,4 2,5 ?,6 4,19 2,26 1,120 'Renal Failure'}
+{1 58,2 UP,5 ?,6 1,31 1,38 1,43 1,120 'Bite of Venomous Animal'}
+{1 85,2 Bohol,5 ?,11 1,25 1,26 6,44 2,54 1,57 1,70 2,120 Stroke}
+{1 92,2 Bohol,4 2,5 ?,19 1,25 1,26 4,56 1,120 Stroke}
+{1 65,2 AP,5 ?,17 1,19 1,25 1,26 2,31 2,34 1,37 1,120 'Acute Myocardial Infarction'}
+{1 88,4 2,5 ?,17 1,26 1,27 1,36 1,120 Stroke}
+{1 65,2 Bohol,5 ?,25 1,26 20,27 1,29 1,31 5,43 1,45 4,50 2,64 4,74 2,120 Diabetes}
+{1 39,3 1,4 2,5 ?,7 1,26 5,31 2,36 1,54 1,120 Maternal}
+{1 30,2 AP,5 ?,25 1,26 1,31 1,61 1,67 1,120 'Renal Failure'}
+{1 50,2 AP,5 ?,19 1,25 1,54 1,120 'Acute Myocardial Infarction'}
+{1 51,2 Dar,5 ?,16 1,32 2,33 1,35 1,120 'Other Cardiovascular Diseases'}
+{1 19,2 Bohol,4 2,5 ?,10 1,12 3,17 4,26 6,27 1,31 1,54 1,120 'Other Cardiovascular Diseases'}
+{1 ?,5 ?,12 1,18 1,21 1,26 2,120 Diabetes}
+{1 69,2 Dar,4 2,5 ?,13 3,21 1,25 1,32 1,63 1,120 'Breast Cancer'}
+{1 45,4 2,5 ?,17 1,21 1,26 3,31 1,35 1,36 2,40 1,112 1,120 TB}
+{1 23,2 Bohol,4 2,5 ?,6 2,7 1,11 2,14 2,21 2,24 1,25 2,26 7,36 1,83 1,120 Maternal}
+{1 30,2 UP,4 2,5 ?,6 3,19 2,26 1,31 2,34 1,41 1,120 Diarrhea/Dysentery}
+{1 80,2 UP,5 ?,6 2,31 1,49 1,120 'Other Infectious Diseases'}
+{1 70,2 UP,4 2,5 ?,6 1,25 1,120 'Other Injuries'}
+{1 55,2 AP,4 2,5 ?,10 1,19 1,25 1,26 1,27 1,31 1,34 1,120 Stroke}
+{1 20,2 UP,4 2,5 ?,6 2,21 1,25 1,26 3,52 1,120 Poisonings}
+{1 58,2 Bohol,4 2,5 ?,10 1,13 1,17 3,25 2,26 9,31 2,35 1,56 1,65 1,120 'Colorectal Cancer'}
+{1 64,2 AP,5 ?,19 1,25 1,26 4,31 1,120 'Acute Myocardial Infarction'}
+{1 84,5 ?,6 1,120 Diabetes}
+{1 48,2 UP,5 ?,6 6,19 2,26 1,27 1,31 1,34 1,41 1,49 1,50 1,65 1}
+{1 44,2 AP,4 2,5 ?,26 1,31 1,37 1,120 Stroke}
+{1 78,2 Bohol,4 2,5 ?,6 3,25 1,26 4,40 1,45 1,120 Pneumonia}
+{1 58,2 UP,5 ?,6 4,10 2,17 1,26 2,31 2,44 1,120 'Renal Failure'}
+{1 52,2 AP,5 ?,17 1,25 1,26 3,31 1,120 'Other Non-communicable Diseases'}
+{1 50,2 UP,5 ?,6 2,17 1,19 1,26 1,50 1,54 1,120 Diabetes}
+{1 22,2 UP,5 ?,6 1,25 1,120 Falls}
+{1 50,2 Bohol,4 2,5 ?,12 1,18 1,26 5,57 1,120 Stroke}
+{1 27,2 UP,4 2,5 ?,6 4,9 1,10 1,19 1,26 2,31 1,65 1,120 Maternal}
+{1 35,2 AP,5 ?,25 1,26 4,58 1,64 1,120 TB}
+{1 45,2 UP,5 ?,6 4,17 1,19 1,26 2,31 1,120 'Other Cardiovascular Diseases'}
+{1 55,2 AP,4 2,5 ?,12 2,18 3,25 1,26 3,31 2,40 1,50 1,54 1,120 'Acute Myocardial Infarction'}
+{1 45,2 UP,5 ?,6 1,19 1,26 1,50 1,120 Diabetes}
+{1 30,2 AP,4 2,5 ?,17 2,25 2,26 2,31 2,120 'Other Cardiovascular Diseases'}
+{1 62,2 AP,5 ?,17 1,26 5,49 1,58 1,120 Asthma}
+{1 84,2 Bohol,5 ?,12 1,18 1,25 3,26 10,75 1,120 'Acute Myocardial Infarction'}
+{1 65,5 ?,12 1,36 1,120 'Other Non-communicable Diseases'}
+{1 66,2 Bohol,4 2,5 ?,15 1,25 1,26 5,39 2,46 1,73 1,120 'Road Traffic'}
+{1 37,2 Bohol,4 2,5 ?,12 3,17 2,25 1,26 17,31 1,40 1,49 1,120 'Other Cardiovascular Diseases'}
+{1 83,4 2,5 ?,26 1,36 1,61 1,120 COPD}
+{1 36,2 Dar,5 ?,6 1,8 3,13 1,16 1,25 1,33 1,120 Leukemia/Lymphomas}
+{1 62,2 AP,5 ?,12 1,120 Diarrhea/Dysentery}
+{1 80,2 Bohol,4 2,5 ?,6 1,11 1,25 1,26 6,31 1,35 2,50 1,54 1,120 'Other Non-communicable Diseases'}
+{1 64,4 2,5 ?,21 4,26 6,31 1,39 1,78 2,120 Stroke}
+{1 40,2 Dar,5 ?,6 1,8 3,16 1,49 1,120 Stroke}
+{1 22,3 3,4 2,5 ?,6 1,7 1,13 1,20 1,22 1,23 1,25 1,26 6,39 2,56 1,78 1,120 Maternal}
+{1 75,2 UP,4 2,5 ?,6 7,12 1,17 3,18 1,19 1,26 2,31 2,54 1,120 COPD}
+{1 48,2 Bohol,4 2,5 ?,25 1,26 4,31 1,45 2,120 'Other Non-communicable Diseases'}
+{1 46,2 Bohol,5 ?,10 1,12 1,17 4,25 1,26 13,27 2,45 2,55 1,120 'Acute Myocardial Infarction'}
+{1 56,2 Bohol,5 ?,10 1,17 1,19 2,26 4,31 1,37 1,40 1,120 Falls}
+{1 53,2 Dar,4 2,5 ?,8 2,16 1,25 1,26 1,120 'Stomach Cancer'}
+{1 55,2 UP,5 ?,6 2,19 1,26 1,31 1,120 Pneumonia}
+{1 35,2 UP,4 2,5 ?,6 3,19 2,26 1,31 2,34 1,41 1,120 Diarrhea/Dysentery}
+{1 68,2 AP,4 2,5 ?,10 2,17 2,18 1,21 1,25 1,26 1,31 1,58 1,120 Asthma}
+{1 64,2 AP,5 ?,26 7,27 1,31 1,49 1,65 1,86 1}
+{1 36,2 Dar,5 ?,6 1,8 3,16 1,25 1,120 Epilepsy}
+{1 50,2 Pemba,5 ?,6 1,11 1,25 1,51 1,59 1,120 Drowning}
+{1 27,2 Pemba,5 ?,6 1,11 1,25 1,51 1,79 1,120 Suicide}
+{1 21,2 UP,5 ?,6 4,10 1,19 1,26 3,27 1,120 'Renal Failure'}
+{1 22,2 AP,5 ?,25 1,26 3,120 'Other Injuries'}
+{1 22,2 UP,4 2,5 ?,6 4,10 2,19 1,26 1,27 1,120 TB}
+{1 72,5 ?,6 1,19 1,26 1,120 Poisonings}
+{1 44,2 AP,5 ?,25 1,26 2,120 TB}
+{1 29,2 AP,5 ?,15 1,20 1,25 1,26 2,120 'Road Traffic'}
+{1 63,5 ?,13 1,25 1,26 1,36 1,120 'Other Non-communicable Diseases'}
+{1 75,2 Pemba,4 2,5 ?,25 1,54 1,120 Pneumonia}
+{1 65,2 AP,5 ?,26 3,31 1,44 1,53 1,120 Stroke}
+{1 27,2 Dar,4 2,5 ?,6 1,8 3,16 1,33 1,120 Pneumonia}
+{1 60,5 ?,26 2,36 1,120 Stroke}
+{1 48,2 AP,4 2,5 ?,21 1,26 3,31 2,120 Stroke}
+{1 22,2 UP,4 2,5 ?,6 1,9 1,120 Maternal}
+{1 40,2 UP,4 2,5 ?,6 1,17 1,19 1,120 Maternal}
+{1 70,2 UP,5 ?,6 3,13 1,17 1,19 1,26 1,40 2,49 1,50 1,64 1,65 1,67 1,110 1,120 Diabetes}
+{1 48,2 AP,4 2,5 ?,10 1,26 4,31 1,120 'Other Infectious Diseases'}
+{1 50,2 Bohol,4 2,5 ?,10 1,17 1,25 1,26 15,31 1,120 'Other Non-communicable Diseases'}
+{1 28,2 UP,4 2,5 ?,6 3,12 1,17 1,19 2,27 1,54 1,67 1,120 'Other Cardiovascular Diseases'}
+{1 54,2 AP,5 ?,26 5,31 2,120 Stroke}
+{1 60,2 UP,4 2,5 ?,6 2,19 2,26 1,50 1,67 1,120 Pneumonia}
+{1 26,2 UP,5 ?,6 3,10 1,25 1,26 5,31 1,72 1,120 'Other Non-communicable Diseases'}
+{1 20,2 UP,4 2,5 ?,6 1,7 1,9 1,10 2,17 1,20 1,25 1,26 4,27 1,71 1,120 Maternal}
+{1 14,2 UP,4 2,5 ?,6 2,23 1,26 2,43 1,52 1,120 Poisonings}
+{1 35,2 UP,5 ?,6 2,39 1,53 1,120 Falls}
+{1 59,2 Bohol,5 ?,15 1,17 2,25 1,26 2,27 1,120 Poisonings}
+{1 48,2 AP,5 ?,26 4,31 1,120 Stroke}
+{1 15,2 UP,4 2,5 ?,6 4,10 1,19 3,26 5,31 1,56 1,87 1,120 'Other Infectious Diseases'}
+{1 52,2 Bohol,5 ?,13 1,17 1,25 1,26 3,31 1,41 1,54 1,75 1,120 Diabetes}
+{1 62,2 Bohol,5 ?,6 2,10 1,25 1,26 4,27 3,120 Stroke}
+{1 72,2 AP,5 ?,26 4,37 1,67 1,120 Diabetes}
+{1 65,2 UP,4 2,5 ?,6 1,10 1,31 1,120 'Other Infectious Diseases'}
+{1 28,2 UP,5 ?,6 2,19 1,26 1,31 1,120 'Other Non-communicable Diseases'}
+{1 18,2 UP,5 ?,6 3,26 2,31 1,120 TB}
+{1 25,2 UP,4 2,5 ?,6 5,7 1,10 1,20 1,24 1,25 2,31 2,120 Maternal}
+{1 42,4 2,5 ?,13 1,26 4,52 1,120 'Renal Failure'}
+{1 56,2 Bohol,4 2,5 ?,11 1,13 4,17 1,25 1,26 9,27 2,31 2,39 1,40 2,44 1,54 1,62 1,63 3,90 1,120 'Breast Cancer'}
+{1 85,2 Bohol,5 ?,11 3,26 9,31 1,33 1,36 1,81 1,120 'Prostate Cancer'}
+{1 38,2 UP,5 ?,6 2,17 1,19 1,26 1,27 1,31 1,49 1,67 1}
+{1 35,2 AP,5 ?,17 1,25 1,26 2,31 3,120 'Renal Failure'}
+{1 49,2 AP,4 2,5 ?,10 1,17 1,19 1,25 1,26 1,29 2,31 1,40 1,60 2,120 AIDS}
+{1 65,2 Bohol,4 2,5 ?,25 1,26 4,27 1,31 1,45 1,120 'Acute Myocardial Infarction'}
+{1 35,2 UP,4 2,5 ?,6 1,25 1,120 Fires}
+{1 32,2 Dar,4 2,5 ?,8 1,16 1,26 2,92 1,120 'Other Infectious Diseases'}
+{1 35,2 Bohol,5 ?,25 1,26 2,90 1,120 Homicide}
+{1 50,5 ?,6 1,21 1,26 3,36 1,51 1,70 1}
+{1 75,2 AP,5 ?,25 1,31 1,50 2,120 Stroke}
+{1 50,2 AP,5 ?,25 1,31 1,120 TB}
+{1 65,2 UP,5 ?,6 2,120 Diabetes}
+{1 40,2 UP,5 ?,6 10,10 1,12 1,17 1,18 1,19 2,26 4,27 2,31 3,87 1,120 'Renal Failure'}
+{1 47,2 AP,5 ?,10 1,25 1,26 3,65 1,67 1,120 'Other Non-communicable Diseases'}
+{1 43,3 4,4 2,5 ?,7 2,12 1,13 1,22 3,23 2,25 3,26 11,31 2,67 1,78 1,102 2,120 'Cervical Cancer'}
+{1 82,2 AP,4 2,5 ?,17 1,19 1,26 1,31 3,44 1,70 1,120 Stroke}
+{1 45,2 UP,4 2,5 ?,6 1,26 1,31 1,39 4,53 1,65 1,120 'Other Infectious Diseases'}
+{1 37,2 Dar,4 2,5 ?,8 3,16 1,33 1,120 Pneumonia}
+{1 54,4 2,5 ?}
+{1 60,2 AP,5 ?,17 1,25 2,26 3,31 1,40 2,58 2}
+{1 36,2 Dar,5 ?,6 1,8 3,15 1,16 1,47 1,120 'Road Traffic'}
+{1 36,2 Bohol,5 ?,12 3,17 1,18 2,25 1,26 9,58 2,120 'Other Cardiovascular Diseases'}
+{1 82,2 Bohol,5 ?,6 1,10 1,11 1,17 2,21 1,26 1,120 'Other Cardiovascular Diseases'}
+{1 55,2 UP,5 ?,6 1,10 1,18 2,19 3,26 2,37 2,44 1,50 1,54 1,120 Stroke}
+{1 72,2 UP,4 2,5 ?,6 4,15 1,19 2,26 4,31 1,44 1,45 1,49 1}
+{1 45,2 Pemba,4 2,5 ?,6 1,11 1,14 1,19 1,25 1,51 1,120 'Other Non-communicable Diseases'}
+{1 71,2 AP,4 2,5 ?,26 7,31 1,67 1,120 Leukemia/Lymphomas}
+{1 35,2 AP,4 2,5 ?,10 1,12 1,17 1,19 1,23 1,26 9,31 3,40 1,120 Pneumonia}
+{1 55,2 Bohol,4 2,5 ?,6 1,11 1,13 3,25 1,26 4,31 2,36 1,40 2,62 4,63 2,120 'Breast Cancer'}
+{1 75,2 UP,5 ?,6 3,19 1,26 3,50 1,54 1,120 'Renal Failure'}
+{1 72,2 UP,4 2,5 ?,6 1,19 1,26 2,31 2,44 1,70 1,120 'Other Cardiovascular Diseases'}
+{1 45,2 AP,5 ?,19 1,26 2,27 2,31 1,34 2,120 Diarrhea/Dysentery}
+{1 60,2 Bohol,5 ?,13 1,25 1,26 5,31 1,120 'Lung Cancer'}
+{1 ?,2 Dar,5 ?,26 2,32 1,54 1,120 Stroke}
+{1 23,2 UP,3 1,4 2,5 ?,6 1,7 1,26 1,31 1,54 1,87 1,120 Maternal}
+{1 50,2 AP,4 2,5 ?,25 1,26 1,31 1,120 Poisonings}
+{1 46,2 AP,4 2,5 ?,13 1,26 7,120 'Colorectal Cancer'}
+{1 45,2 AP,5 ?,25 2,27 1,45 1,49 1}
+{1 50,2 AP,5 ?,25 1,26 1,52 1,120 'Other Non-communicable Diseases'}
+{1 65,2 AP,5 ?,12 1,18 1,25 1,26 2,31 3,120 'Acute Myocardial Infarction'}
+{1 38,2 Pemba,4 2,5 ?,6 1,7 1,11 1,25 1,26 1,27 1,51 1,120 Maternal}
+{1 40,2 AP,5 ?,18 1,26 4,27 1,40 2,120 AIDS}
+{1 36,2 UP,4 2,5 ?,6 5,17 1,26 3,31 1,39 1,41 1,65 1}
+{1 51,2 AP,4 2,5 ?,12 2,25 1,26 1,31 1,44 1,67 1,70 2,120 Diabetes}
+{1 55,2 UP,5 ?,6 3,19 3,26 2,27 1,54 2,120 'Acute Myocardial Infarction'}
+{1 48,5 ?,120 'Other Non-communicable Diseases'}
+{1 23,5 ?,26 6,31 1,36 2,78 1,120 AIDS}
+{1 75,2 UP,5 ?,6 5,17 1,18 1,19 3,26 2,37 2,40 1,54 1,120 'Other Cardiovascular Diseases'}
+{1 45,2 UP,5 ?,6 2,26 2,31 1,50 1,120 Pneumonia}
+{1 28,2 AP,5 ?,25 1,26 3,31 2,39 1,46 1,120 'Road Traffic'}
+{1 89,2 Bohol,4 2,5 ?,17 2,25 1,26 11,64 1,120 COPD}
+{1 71,2 Bohol,4 2,5 ?,12 1,17 2,25 1,26 15,31 4,40 1,45 1,49 1,120 'Other Cardiovascular Diseases'}
+{1 82,2 Bohol,5 ?,12 1,17 1,18 1,25 1,26 13,29 1,31 1,40 2,54 1,112 1,120 'Acute Myocardial Infarction'}
+{1 65,2 Pemba,5 ?,26 1,56 1,120 Diabetes}
+{1 61,2 AP,4 2,5 ?,13 4,25 1,26 6,55 1,62 1,67 1,70 2,120 'Other Non-communicable Diseases'}
+{1 62,2 AP,4 2,5 ?,26 3,31 3,120 'Acute Myocardial Infarction'}
+{1 65,2 Dar,5 ?,8 4,16 1,25 1,120 'Prostate Cancer'}
+{1 20,2 Pemba,4 2,5 ?,6 1,11 1,25 1,51 1,56 1,120 Pneumonia}
+{1 66,2 Bohol,5 ?,17 3,25 1,26 12,35 2,50 3,54 1,56 3,120 'Acute Myocardial Infarction'}
+{1 33,3 1,4 2,5 ?,9 1,14 1,31 1,120 Maternal}
+{1 77,5 ?,10 1,12 1,18 1,26 2,27 1,31 2,54 2,120 'Renal Failure'}
+{1 32,2 Dar,4 2,5 ?,6 1,8 3,13 1,16 1,25 1,120 'Other Non-communicable Diseases'}
+{1 18,2 UP,5 ?,6 2,10 1,120 Malaria}
+{1 27,2 Dar,4 2,5 ?,8 2,16 1,33 1,120 AIDS}
+{1 72,2 Bohol,5 ?,12 1,25 1,26 8,31 1,37 1,44 1,56 1,64 1,70 1,120 Stroke}
+{1 66,5 ?,6 1,36 2}
+{1 52,2 UP,4 2,5 ?,6 1,26 1,31 1,40 2,120 Homicide}
+{1 88,2 Bohol,5 ?,11 1,19 1,25 2,26 12,27 1,39 1,46 2,120 Stroke}
+{1 22,2 UP,4 2,5 ?,6 3,7 1,20 4,23 1,25 1,26 4,48 1,71 1,120 Maternal}
+{1 24,2 UP,5 ?,6 1,25 1,61 1,120 Fires}
+{1 62,2 Bohol,4 2,5 ?,26 4,31 1,120 Stroke}
+{1 12,2 UP,4 2,5 ?,6 1,25 1,28 1,120 Drowning}
+{1 38,2 Bohol,5 ?,10 2,26 3,27 2,55 3,66 1,120 'Other Infectious Diseases'}
+{1 14,2 UP,5 ?,6 1,25 1,120 'Other Injuries'}
+{1 37,2 AP,5 ?,26 1,31 1,52 1,120 Poisonings}
+{1 55,2 UP,5 ?,6 2,12 1,18 2,26 1,120 'Acute Myocardial Infarction'}
+{1 81,2 Bohol,4 2,5 ?,10 4,17 3,25 1,26 10,31 2,41 1,110 1,120 Diarrhea/Dysentery}
+{1 66,4 2,5 ?,21 1,26 4,27 1,33 1,35 1,120 Diabetes}
+{1 49,5 ?,25 1,26 4,31 1,35 1,41 1,45 1,60 1,105 1,120 'Other Infectious Diseases'}
+{1 67,2 AP,4 2,5 ?,11 1,12 1,19 1,26 5,27 1,36 1,120 'Acute Myocardial Infarction'}
+{1 20,2 UP,4 2,5 ?,6 5,7 1,17 1,19 1,25 1,26 1,120 Maternal}
+{1 23,4 2,5 ?,120 Pneumonia}
+{1 50,2 UP,5 ?,6 3,26 1,49 1,54 1}
+{1 28,2 UP,4 2,5 ?,6 1,20 1,24 1,25 2,26 2,48 1,50 1,54 1,120 Maternal}
+{1 62,2 UP,5 ?,6 2,26 3,120 'Renal Failure'}
+{1 65,5 ?,19 1,26 2,36 2,44 1,78 1,120 Diabetes}
+{1 80,2 Bohol,4 2,5 ?,18 2,25 1,26 5,31 1,61 1,120 Stroke}
+{1 22,2 AP,3 1,4 2,5 ?,7 1,9 2,25 3,26 2,48 1,120 Maternal}
+{1 67,2 Bohol,5 ?,12 1,17 1,25 1,26 10,27 2,31 3,35 1,50 1,64 1,74 1,120 'Other Cardiovascular Diseases'}
+{1 20,2 Bohol,5 ?,10 1,26 2,120 'Other Infectious Diseases'}
+{1 93,2 Bohol,5 ?,6 1,11 2,25 2,26 9,31 1,51 1,57 2,120 'Renal Failure'}
+{1 28,2 UP,4 2,5 ?,6 6,19 4,26 1,31 2,54 1,120 Maternal}
+{1 77,4 2,5 ?,6 1,26 2,36 1,54 1,78 2,120 Stroke}
+{1 29,2 AP,4 2,5 ?,7 1,9 1,19 1,26 3,120 Maternal}
+{1 73,2 Bohol,4 2,5 ?,10 1,20 1,25 1,26 1,31 1,120 Stroke}
+{1 89,5 ?,26 1,78 3,120 'Renal Failure'}
+{1 55,2 UP,4 2,5 ?,6 1,25 1,26 1,30 1,120 Fires}
+{1 75,2 UP,5 ?,6 2,13 1,19 2,26 2,31 2,39 1,66 1}
+{1 60,2 AP,4 2,5 ?,25 2,26 5,31 2,50 2,54 1,120 Diabetes}
+{1 28,2 UP,4 2,5 ?,10 1,20 1,24 1,26 1,31 2,120 Maternal}
+{1 68,2 UP,5 ?,6 3,12 1,17 1,25 1,26 2,31 1,120 'Other Cardiovascular Diseases'}
+{1 36,5 ?,26 2,31 1,44 2,86 1,110 1}
+{1 32,2 AP,4 2,5 ?,9 2,20 1,22 1,25 1,26 2,30 1,61 1,80 1,81 1,120 Suicide}
+{1 87,2 UP,4 2,5 ?,6 1,26 1,31 1,94 1,120 Pneumonia}
+{1 27,2 UP,5 ?,6 3,25 1,26 4,31 1,34 2,41 2,70 1,120 'Other Infectious Diseases'}
+{1 15,2 UP,5 ?,6 7,10 1,19 2,26 2,31 1,67 1,120 'Renal Failure'}
+{1 27,2 Bohol,5 ?,6 2,12 1,17 2,26 1,36 1,120 'Other Non-communicable Diseases'}
+{1 38,2 AP,4 2,5 ?,6 1,25 1,26 2,38 1,43 1,52 1,120 'Bite of Venomous Animal'}
+{1 58,2 Bohol,5 ?,17 2,25 1,26 10,40 2,64 1,120 TB}
+{1 78,5 ?,26 2,36 1,120 Pneumonia}
+{1 46,2 AP,5 ?,15 1,26 3,31 3,46 1,120 'Road Traffic'}
+{1 28,2 AP,4 2,5 ?,12 3,19 3,25 1,26 3,31 1,120 'Other Cardiovascular Diseases'}
+{1 70,2 AP,5 ?,23 1,25 5,26 6,120 'Other Injuries'}
+{1 46,2 Bohol,5 ?,6 1,10 1,19 1,25 2,26 14,27 2,31 1,39 1,120 Pneumonia}
+{1 69,5 ?,19 1,31 1}
+{1 80,2 UP,5 ?,6 8,17 3,19 3,26 3,31 1,120 'Renal Failure'}
+{1 50,2 Dar,5 ?,6 1,19 1,26 1,32 1,120 Pneumonia}
+{1 29,2 AP,4 2,5 ?,19 1,25 1,31 2,54 2,120 Maternal}
+{1 71,2 Bohol,4 2,5 ?,11 1,25 2,26 7,31 1,35 1,37 1,54 1,56 1,120 Diabetes}
+{1 34,2 Pemba,4 2,5 ?,6 1,11 1,25 1,51 1,64 1,120 TB}
+{1 80,2 Pemba,5 ?,6 1,11 1,25 1,51 1,54 1,120 Pneumonia}
+{1 24,2 AP,5 ?,26 1,120 Poisonings}
+{1 42,2 Bohol,3 3,4 2,5 ?,7 2,14 1,18 1,20 2,23 1,25 1,26 16,31 5,42 1,45 1,49 2,55 1,74 1,76 3,120 Maternal}
+{1 18,2 Bohol,4 2,5 ?,10 1,12 2,17 2,25 1,26 13,27 1,29 1,31 3,120 'Other Non-communicable Diseases'}
+{1 33,2 UP,5 ?,6 3,10 1,19 2,26 1,34 1,41 1,65 1,120 AIDS}
+{1 46,2 UP,4 2,5 ?,6 3,17 1,26 1,31 1,45 1,48 2,120 'Renal Failure'}
+{1 37,5 ?,6 1,26 5,29 1,36 1,40 1,43 1,120 'Other Infectious Diseases'}
+{1 67,2 AP,5 ?,26 2,37 1,120 'Renal Failure'}
+{1 27,2 UP,4 2,5 ?,6 1,11 1,19 2,26 1,27 1,44 1,120 'Other Infectious Diseases'}
+{1 25,2 Dar,5 ?,32 1,60 1,120 AIDS}
+{1 28,2 UP,4 2,5 ?,6 1,7 1,26 4,31 2,120 'Renal Failure'}
+{1 35,2 AP,5 ?,25 1,26 4,60 2,120 AIDS}
+{1 49,2 Bohol,5 ?,10 3,17 3,25 1,26 10,29 1,31 2,40 3,120 Pneumonia}
+{1 70,2 UP,4 2,5 ?,6 1,17 1,19 1,120 'Other Cardiovascular Diseases'}
+{1 70,2 UP,5 ?,6 1,12 2,18 2,19 2,31 1,120 'Acute Myocardial Infarction'}
+{1 60,2 Dar,5 ?,8 1,16 1,26 3,120 'Other Cardiovascular Diseases'}
+{1 35,2 Pemba,4 2,5 ?,9 1,11 1,26 1,51 1,120 Maternal}
+{1 80,2 Bohol,5 ?,11 2,12 1,18 1,25 1,26 3,27 2,31 1,36 1,37 2,54 1,56 1,120 Stroke}
+{1 48,2 AP,5 ?,17 4,25 1,26 2,31 3,50 2,54 1,55 2,120 'Renal Failure'}
+{1 67,4 2,5 ?,25 1,26 5,36 1,50 2,55 1,67 1,120 Diabetes}
+{1 79,2 Bohol,5 ?,12 6,26 1,27 1,29 2,31 3,51 1,120 'Acute Myocardial Infarction'}
+{1 40,2 Bohol,5 ?,17 1,26 8,40 1,70 1,120 'Other Non-communicable Diseases'}
+{1 54,5 ?,25 1,26 4,49 1}
+{1 58,2 UP,5 ?,6 5,18 1,19 2,31 1,37 1,40 1,120 COPD}
+{1 32,2 AP,4 2,5 ?,26 2,31 1,120 Maternal}
+{1 48,2 Pemba,5 ?,6 1,11 1,25 1,28 1,51 1,120 Fires}
+{1 55,4 2,5 ?,13 2,26 1,36 1,120 'Colorectal Cancer'}
+{1 62,2 AP,4 2,5 ?,26 3,31 2,39 1,46 1,50 1,54 1,120 Diabetes}
+{1 72,2 AP,5 ?,25 1,26 7,31 1,37 1,120 'Renal Failure'}
+{1 17,2 UP,5 ?,6 1,26 1,27 1,38 1,43 1,120 'Bite of Venomous Animal'}
+{1 30,2 UP,4 2,5 ?,6 1,19 1,120 Maternal}
+{1 32,2 Dar,4 2,5 ?,19 1,26 1,32 1,120 TB}
+{1 44,4 2,5 ?,26 4,36 1,43 1,78 1,120 'Cervical Cancer'}
+{1 18,2 UP,4 2,5 ?,6 1,19 1,25 1,26 4,49 1,53 1,120 'Other Injuries'}
+{1 68,2 Pemba,5 ?,11 1,23 1,25 1,26 1,51 1,120 Falls}
+{1 43,2 UP,5 ?,6 4,26 2,31 2,54 2}
+{1 32,2 Pemba,5 ?,11 1,26 1,51 1,53 1,120 Falls}
+{1 33,2 UP,5 ?,6 3,17 1,40 1,45 1,120 'Other Cardiovascular Diseases'}
+{1 96,2 AP,5 ?,12 2,17 1,18 1,25 1,26 2,31 1,120 COPD}
+{1 60,2 UP,5 ?,6 3,12 1,15 1,18 1,19 2,26 1,44 1,47 1,50 1,120 Stroke}
+{1 57,2 UP,5 ?,6 4,12 1,19 2,40 1,45 1,50 1,54 1,120 'Acute Myocardial Infarction'}
+{1 78,4 2,5 ?,6 1,19 1,21 1,26 6,27 2,31 1,51 1,120 'Other Non-communicable Diseases'}
+{1 28,2 AP,5 ?,19 1,25 1,26 7,40 1,120 TB}
+{1 66,2 Bohol,4 2,5 ?,6 2,11 1,12 4,18 1,25 1,26 5,31 1,58 1,101 1,120 'Acute Myocardial Infarction'}
+{1 30,2 Dar,4 2,5 ?,6 1,8 2,72 1,120 'Other Non-communicable Diseases'}
+{1 83,2 Bohol,4 2,5 ?,25 1,26 6,40 2,120 Stroke}
+{1 54,2 Dar,5 ?,26 1,32 1,120 Stroke}
+{1 50,2 Bohol,5 ?,26 7,120 Homicide}
+{1 69,2 Bohol,5 ?,20 1,25 1,26 7,45 3,56 1,58 1,120 Stroke}
+{1 60,2 UP,4 2,5 ?,6 3,10 2,17 2,19 1,26 1,120 'Renal Failure'}
+{1 53,2 Bohol,5 ?,23 1,26 5,27 1,31 1,61 2,120 Fires}
+{1 44,5 ?,21 1,26 1,36 3,40 1,120 'Other Non-communicable Diseases'}
+{1 50,2 Bohol,4 2,5 ?,6 4,11 2,26 3,45 1,68 1,120 'Renal Failure'}
+{1 60,2 UP,4 2,5 ?,6 1,10 2,23 1,26 4,31 1,120 'Other Non-communicable Diseases'}
+{1 32,2 UP,4 2,5 ?,6 1,25 1,61 1,120 Homicide}
+{1 29,2 Bohol,5 ?,10 1,17 1,19 1,25 1,26 1,27 3,31 5,45 1,120 'Other Infectious Diseases'}
+{1 74,2 Bohol,4 2,5 ?,6 2,11 1,26 5,120 'Other Non-communicable Diseases'}
+{1 35,2 AP,5 ?,10 1,19 2,25 1,26 4,31 2,40 2,120 TB}
+{1 60,2 UP,5 ?,6 1,26 1,45 1,120 'Renal Failure'}
+{1 36,2 Bohol,4 2,5 ?,6 1,7 2,10 1,11 1,17 1,24 1,26 10,40 1,41 1,63 4,120 'Breast Cancer'}
+{1 72,2 Dar,4 2,5 ?,16 1,32 1,33 1,72 1,120 Pneumonia}
+{1 50,2 AP,4 2,5 ?,21 1,25 1,26 2,31 1,37 1,58 1,120 'Other Cardiovascular Diseases'}
+{1 68,2 AP,4 2,5 ?,10 2,25 1,26 4,27 1,34 1,39 1,50 3,120 Diabetes}
+{1 32,2 UP,4 2,5 ?,6 1,31 1,45 1,120 'Renal Failure'}
+{1 23,2 UP,4 2,5 ?,6 3,9 1,19 1,20 2,25 1,26 1,48 1,65 1,67 1,120 Maternal}
+{1 49,2 AP,5 ?,26 2,27 1,31 5,120 Stroke}
+{1 73,2 Bohol,5 ?,17 2,25 1,26 11,31 1,40 1,49 2,86 1,120 'Other Non-communicable Diseases'}
+{1 60,2 UP,4 2,5 ?,6 2,13 1,19 2,48 1,50 1,67 1,120 'Cervical Cancer'}
+{1 77,2 Bohol,5 ?,10 1,26 5,31 2,40 1,49 1,120 'Other Non-communicable Diseases'}
+{1 61,2 UP,4 2,5 ?,6 1,27 1,49 1}
+{1 60,2 Bohol,5 ?,10 3,12 1,19 1,25 1,26 9,31 1,40 2,54 1,55 2,120 'Renal Failure'}
+{1 23,2 UP,4 2,5 ?,6 2,7 1,19 1,26 6,49 1,120 Pneumonia}
+{1 21,2 AP,4 2,5 ?,17 2,19 1,26 6,30 1,31 2,80 1,120 Suicide}
+{1 62,2 Bohol,4 2,5 ?,25 1,26 5,31 1,35 1,56 1,120 'Acute Myocardial Infarction'}
+{1 43,2 Bohol,5 ?,17 2,25 1,26 23,31 6,33 1,44 4,46 2,112 1,120 'Acute Myocardial Infarction'}
+{1 13,2 Pemba,4 2,5 ?,6 1,11 1,28 1,51 1,120 Drowning}
+{1 37,2 AP,5 ?,26 5,31 1,44 2,120 AIDS}
+{1 68,2 AP,4 2,5 ?,26 2,31 2,50 1,120 Stroke}
+{1 52,2 Bohol,5 ?,25 1,26 6,39 2,70 1,73 1,120 'Road Traffic'}
+{1 60,2 UP,4 2,5 ?,6 6,17 2,19 2,26 3,31 2,50 1,54 1,67 1,120 COPD}
+{1 39,2 AP,5 ?,19 1,25 1,120 Poisonings}
+{1 18,5 ?,26 3,36 1,120 'Road Traffic'}
+{1 43,2 AP,5 ?,10 1,17 1,31 2,120 'Other Infectious Diseases'}
+{1 55,2 AP,4 2,5 ?,10 1,19 1,26 4,49 1,120 AIDS}
+{1 46,2 AP,5 ?,120 Falls}
+{1 27,2 UP,5 ?,6 5,25 1,26 3,31 2,43 1,120 'Bite of Venomous Animal'}
+{1 60,2 UP,5 ?,6 2,58 1,120 COPD}
+{1 36,2 Pemba,4 2,5 ?,11 1,26 1,120 Maternal}
+{1 28,4 2,5 ?,7 1,13 1,26 6,36 1,62 1,100 1,120 Leukemia/Lymphomas}
+{1 15,2 UP,5 ?,6 6,17 1,19 1,26 5,39 1,44 1,54 1,120 Pneumonia}
+{1 58,4 2,5 ?,13 1,26 4,62 1,120 'Cervical Cancer'}
+{1 57,2 Bohol,5 ?,10 2,17 1,25 1,49 1,56 1,120 'Other Non-communicable Diseases'}
+{1 83,2 Bohol,5 ?,6 1,11 1,26 11,28 1,31 1,37 1,39 1,41 1,44 1,46 1,70 1,120 Falls}
+{1 26,2 UP,4 2,5 ?,6 1,120 'Renal Failure'}
+{1 60,2 UP,5 ?,6 5,12 1,18 4,19 4,26 1,31 3,37 1,50 3,120 'Acute Myocardial Infarction'}
+{1 42,5 ?,25 1,26 5,31 1,35 1,120 'Other Injuries'}
+{1 65,2 UP,5 ?,6 4,10 1,26 7,31 1,53 1,120 Diabetes}
+{1 79,2 AP,4 2,5 ?,25 1,26 7,27 1,31 3,37 1,120 Stroke}
+{1 69,2 Bohol,4 2,5 ?,17 2,21 2,25 2,26 9,31 4,120 Pneumonia}
+{1 35,2 UP,5 ?,6 1,10 1,31 1,120 'Other Infectious Diseases'}
+{1 38,2 Dar,4 2,5 ?,16 1,19 1,26 3,32 1,33 1,64 1,120 Pneumonia}
+{1 22,2 UP,5 ?,6 2,26 1,120 Homicide}
+{1 31,2 UP,5 ?,6 4,10 1,12 1,18 1,19 4,120 'Other Cardiovascular Diseases'}
+{1 47,5 ?,36 1}
+{1 24,2 UP,4 2,5 ?,6 2,19 1,26 3,31 4,59 1,61 1,105 1,120 Fires}
+{1 24,2 AP,5 ?,10 1,17 2,19 4,26 10,120 TB}
+{1 35,2 UP,4 2,5 ?,6 1,7 2,9 1,20 1,24 1,26 2,31 1,120 Maternal}
+{1 32,5 ?,12 1,17 1,20 1,26 2,31 1,120 'Other Cardiovascular Diseases'}
+{1 999,2 Dar,5 ?,6 2,19 1,26 2,32 1,120 'Other Non-communicable Diseases'}
+{1 17,2 UP,4 2,5 ?,6 1,25 1,28 1,120 Drowning}
+{1 45,2 UP,5 ?,6 1,25 1,26 1,46 1,120 Homicide}
+{1 65,2 AP,5 ?,25 1,26 1,39 1,120 'Other Non-communicable Diseases'}
+{1 56,5 ?,19 1,26 1,31 1,120 'Acute Myocardial Infarction'}
+{1 51,2 Bohol,4 2,5 ?,17 1,19 2,25 1,26 3,29 1,40 1,120 'Other Non-communicable Diseases'}
+{1 77,4 2,5 ?,26 1,35 1,78 2,120 Diarrhea/Dysentery}
+{1 21,2 UP,4 2,5 ?,6 4,9 1,24 1,25 1,26 1,71 1,120 Maternal}
+{1 28,5 ?,25 1,26 3,51 1,120 Homicide}
+{1 27,2 AP,5 ?,25 1,26 2,27 2,34 2,120 Diarrhea/Dysentery}
+{1 50,2 UP,4 2,5 ?,6 3,31 2,54 1}
+{1 81,2 AP,4 2,5 ?,12 1,26 4,33 1,120 Pneumonia}
+{1 53,2 Bohol,4 2,5 ?,25 1,26 8,33 1,120 Homicide}
+{1 41,2 AP,5 ?,10 2,25 1,26 1,31 1,34 1,65 1,67 1,120 Diarrhea/Dysentery}
+{1 53,5 ?,26 1,36 1,120 Stroke}
+{1 58,2 Bohol,4 2,5 ?,11 2,17 1,26 1,36 1,120 Pneumonia}
+{1 32,2 UP,5 ?,6 2,26 3,27 1,31 2,52 2,81 1,120 Poisonings}
+{1 22,2 AP,5 ?,25 2,31 1,38 3,43 2,120 'Bite of Venomous Animal'}
+{1 75,2 AP,4 2,5 ?,17 1,25 1,26 2,31 3,120 'Other Cardiovascular Diseases'}
+{1 78,2 Bohol,5 ?,11 1,25 1,26 3,27 1,31 1,41 1,120 Diarrhea/Dysentery}
+{1 58,2 AP,5 ?,19 1,25 3,26 6,31 2,37 3,44 1,120 Epilepsy}
+{1 62,4 2,5 ?,21 1,120 Stroke}
+{1 39,2 Bohol,5 ?,6 1,10 1,17 1,19 1,25 1,26 5,31 1,120 TB}
+{1 65,2 UP,4 2,5 ?,6 2,12 1,18 3,19 2,26 2,31 1,120 'Acute Myocardial Infarction'}
+{1 65,2 UP,5 ?,6 5,17 2,19 3,26 1,27 1,31 1,40 1,120 'Lung Cancer'}
+{1 46,2 Bohol,5 ?,12 1,26 4,31 3,65 1,79 1,120 Suicide}
+{1 48,2 AP,5 ?,15 1,25 1,26 1,31 1,39 2,53 2,120 'Road Traffic'}
+{1 18,2 Dar,4 2,5 ?,16 1,32 1,33 1,120 Maternal}
+{1 20,2 UP,4 2,5 ?,6 1,9 1,19 1,120 Maternal}
+{1 16,2 UP,5 ?,6 1,25 1,120 'Road Traffic'}
+{1 79,5 ?,26 3,120 Diabetes}
+{1 19,2 Pemba,4 2,5 ?,6 1,10 1,11 1,25 1,31 1,120 'Other Non-communicable Diseases'}
+{1 58,2 AP,5 ?,10 3,17 1,19 1,25 1,26 4,31 2,49 1,65 1,72 1,120 Malaria}
+{1 66,2 Bohol,5 ?,12 1,25 1,26 7,40 2,45 4,120 'Other Non-communicable Diseases'}
+{1 74,2 Bohol,4 2,5 ?,6 2,11 1,17 2,26 3,35 1,40 1,50 1,120 Pneumonia}
+{1 55,2 UP,5 ?,6 2,120 'Acute Myocardial Infarction'}
+{1 19,4 2,5 ?,26 5,45 2,55 1,78 1,120 'Renal Failure'}
+{1 87,2 Dar,5 ?,8 2,16 1,120 Leukemia/Lymphomas}
+{1 69,4 2,5 ?,12 1,18 1,25 1,36 1,51 1,78 1,120 'Colorectal Cancer'}
+{1 65,2 AP,5 ?,25 1,26 2,37 2,120 Stroke}
+{1 37,2 AP,4 2,5 ?,17 2,25 4,26 10,31 4,45 2,54 1,67 1,120 'Renal Failure'}
+{1 30,2 Bohol,5 ?,10 1,17 1,25 1,26 6,31 1,120 Suicide}
+{1 47,2 Bohol,5 ?,6 1,25 1,26 6,43 1,120 'Other Infectious Diseases'}
+{1 34,2 UP,4 2,5 ?,6 1,17 1,19 2,25 1,26 5,27 2,31 1,34 1,41 1,53 1,71 1,120 Homicide}
+{1 38,4 2,5 ?,10 1,13 1,21 3,25 1,26 9,27 1,35 1,40 1,63 1,120 'Breast Cancer'}
+{1 49,4 2,5 ?,26 4,31 2,49 1,78 1,120 'Renal Failure'}
+{1 55,2 UP,5 ?,6 4,10 1,26 1,27 1,44 1,120 Malaria}
+{1 65,2 UP,5 ?,6 1,10 1,17 1,26 5,45 2,55 1,120 Diabetes}
+{1 25,2 UP,5 ?,6 1,25 1,120 'Other Injuries'}
+{1 14,2 AP,4 2,5 ?,17 2,25 2,26 3,30 1,31 1,120 Fires}
+{1 73,2 AP,5 ?,12 2,17 3,25 1,26 6,54 2,120 'Other Cardiovascular Diseases'}
+{1 26,2 Dar,5 ?,8 1,26 1,120 Homicide}
+{1 29,2 Bohol,4 2,5 ?,10 2,25 1,40 2,64 1,120 TB}
+{1 37,4 2,5 ?,25 1,26 4,36 1,62 2,120 Leukemia/Lymphomas}
+{1 58,4 2,5 ?,19 2,21 1,26 4,54 1,120 'Other Cardiovascular Diseases'}
+{1 55,2 UP,5 ?,6 4,18 2,19 3,50 1,54 1,120 'Other Cardiovascular Diseases'}
+{1 21,4 2,5 ?,6 1,26 1,36 3,120 Poisonings}
+{1 46,2 Dar,4 2,5 ?,6 1,25 1,26 1,72 1,120 'Renal Failure'}
+{1 27,2 Bohol,4 2,5 ?,10 1,17 1,25 1,26 15,31 1,55 1,67 1,82 1,120 'Renal Failure'}
+{1 37,5 ?,36 1,55 2,120 'Renal Failure'}
+{1 60,2 UP,5 ?,6 3,19 1,26 2,45 1,54 1,120 'Renal Failure'}
+{1 50,2 UP,5 ?,6 5,19 1,120 AIDS}
+{1 35,2 AP,5 ?,10 1,13 1,17 1,25 1,26 3,31 1,41 1,44 1,120 'Other Non-communicable Diseases'}
+{1 50,5 ?,6 1,26 2,120 'Road Traffic'}
+{1 28,2 Dar,5 ?,8 1,120 Pneumonia}
+{1 86,2 Bohol,5 ?,17 1,25 1,26 4,40 2,120 Pneumonia}
+{1 37,2 Bohol,5 ?,10 1,18 1,25 2,26 8,27 1,35 1,41 1,73 1,120 'Other Non-communicable Diseases'}
+{1 30,2 AP,3 3,4 2,5 ?,12 2,17 1,24 2,25 3,26 4,31 3,120 Maternal}
+{1 24,2 Bohol,4 2,5 ?,10 1,12 1,17 3,25 1,26 10,31 4,39 1,40 1,120 'Other Non-communicable Diseases'}
+{1 48,2 Bohol,5 ?,25 1,26 2,27 1,31 1,39 1,120 Leukemia/Lymphomas}
+{1 25,2 UP,5 ?,6 1,25 1,59 1,120 Falls}
+{1 79,2 UP,5 ?,6 4,19 1,50 1,120 Pneumonia}
+{1 59,2 UP,4 2,5 ?,6 5,19 1,26 2,58 2,120 COPD}
+{1 50,2 UP,5 ?,6 4,19 3,31 1,49 1,67 1}
+{1 84,2 Bohol,5 ?,17 1,18 1,19 1,25 1,26 8,29 1,37 1,75 1,120 Pneumonia}
+{1 46,2 Dar,4 2,5 ?,6 1,8 3,13 1,16 1,25 1,120 Leukemia/Lymphomas}
+{1 50,2 UP,5 ?,6 5,17 1,19 1,26 2,31 1,120 Epilepsy}
+{1 25,2 AP,4 2,5 ?,7 1,9 1,25 1,26 2,27 1,34 1,60 3,120 AIDS}
+{1 75,2 UP,4 2,5 ?,6 2,10 2,17 1,26 6,27 1,31 2,54 1,120 Diarrhea/Dysentery}
+{1 83,2 Bohol,4 2,5 ?,6 1,11 2,12 2,13 1,17 1,26 5,31 3,35 1,54 1,56 1,120 'Acute Myocardial Infarction'}
+{1 30,2 Bohol,5 ?,15 1,25 2,26 4,31 1,39 3,44 1,46 2,47 1,70 2,73 2,120 'Road Traffic'}
+{1 49,4 2,5 ?,19 1,26 1,35 1,102 1,120 'Colorectal Cancer'}
+{1 83,2 Bohol,5 ?,6 5,11 3,17 1,20 1,25 1,26 4,40 2,41 1,120 Diarrhea/Dysentery}
+{1 60,2 AP,5 ?,25 1,26 1,120 Falls}
+{1 19,2 Dar,5 ?,6 1,8 3,13 1,16 1,25 1,33 1,120 'Colorectal Cancer'}
+{1 999,2 Dar,5 ?,6 1,19 1,26 1,54 1,120 TB}
+{1 72,4 2,5 ?,36 1,67 1,120 'Cervical Cancer'}
+{1 53,2 UP,5 ?,6 1,26 2,31 2,120 'Other Non-communicable Diseases'}
+{1 40,2 UP,5 ?,6 1,10 1,17 1,19 1,26 1,40 1,120 AIDS}
+{1 45,2 UP,5 ?,6 4,25 1,26 3,120 Drowning}
+{1 76,2 Bohol,4 2,5 ?,17 2,19 1,26 1,31 1,40 1,41 1,120 Stroke}
+{1 48,5 ?,7 1,26 1,120 Pneumonia}
+{1 38,2 AP,4 2,5 ?,25 1,26 4,49 1,120 'Other Cardiovascular Diseases'}
+{1 29,2 Bohol,5 ?,17 1,18 1,20 1,25 1,26 8,31 1,45 2,55 3,120 'Renal Failure'}
+{1 13,2 AP,5 ?,15 1,17 1,26 3,44 1,59 1,120 Homicide}
+{1 30,2 UP,4 2,5 ?,6 1,7 1,17 1,19 1,26 1,120 Maternal}
+{1 28,2 UP,4 2,5 ?,6 2,26 1,27 1,120 Maternal}
+{1 72,2 Bohol,5 ?,10 1,17 3,25 1,26 7,27 1,64 1,120 'Acute Myocardial Infarction'}
+{1 63,2 Bohol,5 ?,6 2,11 2,12 2,17 2,26 1,31 1,120 'Other Cardiovascular Diseases'}
+{1 35,2 AP,5 ?,25 1,26 5,46 1,47 1,53 1,120 'Road Traffic'}
+{1 66,2 Bohol,4 2,5 ?,12 1,17 1,25 1,26 7,31 2,120 'Acute Myocardial Infarction'}
+{1 30,2 Dar,4 2,5 ?,120 TB}
+{1 45,2 Bohol,4 2,5 ?,6 1,25 1,26 5,37 1,54 1,55 1,120 Stroke}
+{1 34,2 UP,4 2,5 ?,6 1,7 2,26 2,120 Maternal}
+{1 35,2 Dar,4 2,5 ?,16 1,32 1,33 1,120 Diarrhea/Dysentery}
+{1 80,2 UP,4 2,5 ?,6 2,19 1,26 1,50 1,54 1,120 'Other Cardiovascular Diseases'}
+{1 32,2 Bohol,5 ?,15 1,25 1,26 5,28 2,120 Drowning}
+{1 65,2 AP,4 2,5 ?,25 1,26 1,27 1,31 2,44 1,120 Stroke}
+{1 999,2 Dar,4 2,5 ?,6 1,26 1,120 AIDS}
+{1 30,2 UP,4 2,5 ?,6 4,10 1,19 3,26 2,31 1,40 1,120 'Lung Cancer'}
+{0 Child,1 7,2 AP,4 2,5 ?,26 3,31 1,120 'Violent Death'}
+{0 Child,1 8,2 UP,4 2,5 ?,20 2,25 1,26 1,38 1,43 1,120 'Bite of Venomous Animal'}
+{0 Child,1 8,2 UP,3 3,4 2,5 ?,19 2,26 5,27 2,31 1,34 1,41 1,66 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,10 2,25 2,26 3,29 1,31 2,39 1,44 1,120 Sepsis}
+{0 Child,1 8,2 UP,5 ?,20 1,25 1,26 1,28 1,31 1,120 Drowning}
+{0 Child,1 9,2 AP,3 1,4 2,5 ?,25 1,26 3,27 1,38 5,43 3,52 1,120 'Bite of Venomous Animal'}
+{0 Child,1 1,2 AP,3 1,4 2,5 ?,23 1,25 1,26 4,120 Drowning}
+{0 Child,1 ?,2 Pemba,3 1,4 2,5 ?,10 1,25 1,120 Pneumonia}
+{0 Child,1 11,2 UP,4 2,5 ?,10 2,13 1,19 2,25 1,26 3,27 2,31 3,34 1,41 1,120 'Other Cancers'}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,10 3,11 1,20 5,25 1,26 6,27 1,29 1,40 3,119 1,120 Pneumonia}
+{0 Child,1 ?,2 Bohol,3 10,4 2,5 ?,10 1,11 1,17 1,20 6,25 1,26 12,31 1,41 1,120 Pneumonia}
+{0 Child,1 1,2 UP,3 6,5 ?,10 1,11 1,19 1,25 1,26 9,31 1,40 1,120 Sepsis}
+{0 Child,1 ?,2 Dar,5 ?,8 1,16 1,20 1,25 1,72 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 UP,5 ?,11 1,17 1,20 4,21 1,26 4,40 1,120 Pneumonia}
+{0 Child,1 1,2 AP,5 ?,10 1,25 2,26 1,29 2,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 UP,5 ?,17 2,20 1,24 1,26 2,27 2,31 2,120 Pneumonia}
+{0 Child,1 3,2 UP,3 11,5 ?,10 1,17 2,19 1,25 1,26 5,40 1,68 1,120 'Other Infectious Diseases'}
+{0 Child,1 11,2 UP,3 1,4 2,5 ?,25 1,38 1,43 1,120 'Bite of Venomous Animal'}
+{0 Child,1 8,2 UP,5 ?,20 6,26 7,44 1,53 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 Bohol,3 1,5 ?,6 2,7 2,12 1,17 2,19 1,20 2,24 1,25 1,26 20,29 1,31 2,33 1,40 1,42 1,45 1,74 1,101 1,120 Pneumonia}
+{0 Child,1 11,2 Dar,5 ?,8 2,16 1,120 Malaria}
+{0 Child,1 11,2 AP,5 ?,19 1,25 1,26 5,38 1,43 1,120 'Bite of Venomous Animal'}
+{0 Child,1 4,2 Bohol,3 1,4 2,5 ?,10 3,19 1,20 3,25 1,26 11,27 5,31 1,40 1,41 2,58 1,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,10 1,11 1,25 1,51 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 10,2 UP,3 3,4 2,5 ?,10 2,11 2,19 2,25 1,26 2,31 2,36 1,44 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 3,2 Bohol,4 2,5 ?,6 1,10 1,17 2,19 1,20 17,23 1,26 9,27 1,31 1,40 1,54 1,82 1,120 Pneumonia}
+{0 Child,1 4,2 Bohol,4 2,5 ?,10 1,20 1,26 1,29 1,31 1,45 1,120 Pneumonia}
+{0 Child,1 ?,2 AP,3 4,4 2,5 ?,19 1,25 2,26 5,27 2,31 3,34 2,41 1,43 1,120 Diarrhea/Dysentery}
+{0 Child,1 11,2 UP,5 ?,10 1,19 2,20 4,26 4,65 3,120 'Other Cancers'}
+{0 Child,1 7,2 Pemba,5 ?,15 1,26 1,39 1,53 1,120 'Road Traffic'}
+{0 Child,1 1,3 3,5 ?,7 1,21 4,25 3,26 2,31 4,36 1,51 1,120 Pneumonia}
+{0 Child,1 2,2 AP,4 2,5 ?,15 1,25 3,26 1,39 4,44 1,53 1,120 'Road Traffic'}
+{0 Child,1 1,2 UP,5 ?,10 2,19 1,20 4,25 1,26 5,29 1,31 3,44 1,120 Diarrhea/Dysentery}
+{0 Child,1 5,2 Bohol,5 ?,10 2,17 1,25 1,26 6,31 1,40 1,44 1,87 1,120 Meningitis}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,10 2,12 2,17 1,26 8,40 2,41 1,68 1,74 1,120 'Other Cardiovascular Diseases'}
+{0 Child,1 1,2 UP,5 ?,20 1,25 1,30 1,120 Fires}
+{0 Child,1 2,2 Dar,4 2,5 ?,26 1,27 1,40 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Bohol,3 3,4 2,5 ?,10 2,11 1,22 1,25 1,26 3,66 2,68 4,119 2,120 'Other Cancers'}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,10 1,11 1,26 4,31 2,36 1,68 1,120 Pneumonia}
+{0 Child,1 2,2 AP,4 2,5 ?,25 1,26 1,120 Drowning}
+{0 Child,1 ?,2 Bohol,3 7,4 2,5 ?,10 1,19 1,20 1,24 1,26 14,27 1,29 1,31 3,39 1,40 2,49 1,63 1,120 Pneumonia}
+{0 Child,1 ?,2 UP,3 1,5 ?,25 1,43 2,52 1,120 'Bite of Venomous Animal'}
+{0 Child,1 9,2 UP,3 5,5 ?,25 1,26 3,31 1,120 'Other Infectious Diseases'}
+{0 Child,1 ?,2 AP,3 4,4 2,5 ?,10 3,14 1,26 2,31 1,82 1,120 Sepsis}
+{0 Child,1 11,2 UP,4 2,5 ?,20 1,25 1,46 1,120 'Road Traffic'}
+{0 Child,1 6,2 Dar,4 2,5 ?,20 1,25 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 1,2 Pemba,4 2,5 ?,6 1,10 1,11 1,17 1,27 1,31 1,51 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 2,2 UP,3 1,4 2,5 ?,20 1,25 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 4,2 UP,5 ?,11 1,20 2,21 1,25 1,26 1,120 Falls}
+{0 Child,1 ?,2 AP,3 3,5 ?,10 1,19 3,24 1,26 4,29 2,31 1,40 1,120 Pneumonia}
+{0 Child,1 1,2 Pemba,5 ?,6 1,11 1,25 1,51 1,66 1,120 Diarrhea/Dysentery}
+{0 Child,1 2,2 Dar,5 ?,8 1,16 1,26 1,92 1,120 'Other Cardiovascular Diseases'}
+{0 Child,1 4,2 UP,5 ?,10 1,11 1,20 5,25 1,26 4,31 2,120 Meningitis}
+{0 Child,1 ?,2 Bohol,3 3,4 2,5 ?,10 3,11 1,12 1,17 1,22 1,25 1,26 10,31 3,40 2,68 2,75 1,120 Sepsis}
+{0 Child,1 ?,2 Bohol,3 5,5 ?,17 1,25 1,26 2,27 2,31 1,120 Diarrhea/Dysentery}
+{0 Child,1 10,2 UP,5 ?,20 6,26 2,27 2,120 Poisonings}
+{0 Child,1 ?,2 UP,5 ?,19 1,20 2,26 2,31 1,120 Sepsis}
+{0 Child,1 1,2 Dar,3 1,5 ?,8 3,16 1,25 1,33 1,72 1,120 Malaria}
+{0 Child,1 9,2 AP,5 ?,10 2,25 1,26 1,31 1,82 1,120 'Hemorrhagic fever'}
+{0 Child,1 2,2 Pemba,4 2,5 ?,6 1,11 1,25 1,51 1,72 1,120 Diarrhea/Dysentery}
+{0 Child,1 2,2 UP,4 2,5 ?,10 1,19 1,20 2,26 2,120 Sepsis}
+{0 Child,1 4,2 UP,5 ?,11 2,19 1,20 5,26 4,29 1,31 1,120 'Other Infectious Diseases'}
+{0 Child,1 ?,2 Bohol,5 ?,6 3,11 1,12 1,20 8,21 3,22 1,25 1,26 2,120 Pneumonia}
+{0 Child,1 ?,2 UP,3 4,5 ?,6 1,10 2,25 1,26 5,31 3,44 1,120 Encephalitis}
+{0 Child,1 9,2 AP,5 ?,24 1,25 2,26 4,30 1,31 2,59 1,120 Fires}
+{0 Child,1 ?,2 UP,5 ?,10 1,11 2,19 2,20 4,26 3,31 4,120 Diarrhea/Dysentery}
+{0 Child,1 7,2 AP,4 2,5 ?,19 2,26 5,31 1,65 2,120 'Other Digestive Diseases'}
+{0 Child,1 5,2 UP,5 ?,20 2,25 1,26 2,30 1,120 Fires}
+{0 Child,1 ?,2 Bohol,5 ?,12 1,29 1,40 1,120 Pneumonia}
+{0 Child,1 4,2 AP,5 ?,17 1,25 1,26 2,30 3,31 1,120 Fires}
+{0 Child,1 1,2 Pemba,4 2,5 ?,6 1,10 1,11 1,25 1,51 1,120 Pneumonia}
+{0 Child,1 1,2 Dar,4 2,5 ?,6 1,10 1,32 1,72 1,120 Sepsis}
+{0 Child,1 11,2 UP,3 3,4 2,5 ?,10 1,17 1,19 1,26 3,31 1,120 'Other Cardiovascular Diseases'}
+{0 Child,1 1,2 UP,3 3,5 ?,10 1,17 1,19 1,26 2,120 Sepsis}
+{0 Child,1 10,2 UP,5 ?,20 5,25 1,27 1,34 1,41 1,120 Diarrhea/Dysentery}
+{0 Child,1 9,2 Pemba,4 2,5 ?,25 1,29 1,120 Pneumonia}
+{0 Child,1 10,2 UP,5 ?,15 1,20 1,25 1,47 1,120 'Road Traffic'}
+{0 Child,1 11,2 Bohol,4 2,5 ?,10 1,25 1,26 1,27 3,31 3,120 Diarrhea/Dysentery}
+{0 Child,1 4,2 UP,3 8,5 ?,10 2,17 4,19 2,25 1,26 7,31 3,40 2,68 1,120 Measles}
+{0 Child,1 ?,2 AP,3 3,4 2,5 ?,10 1,17 1,20 1,26 6,40 1,120 Pneumonia}
+{0 Child,1 2,2 AP,3 2,4 2,5 ?,19 1,25 1,26 6,31 1,120 Diarrhea/Dysentery}
+{0 Child,1 9,2 UP,5 ?,20 3,26 3,31 1,120 'Violent Death'}
+{0 Child,1 ?,2 UP,5 ?,6 1,27 1,39 1,120 Pneumonia}
+{0 Child,1 3,2 Bohol,3 1,4 2,5 ?,10 2,12 1,17 1,22 1,25 1,26 10,28 1,31 5,53 1,90 1,120 Falls}
+{0 Child,1 1,2 Dar,5 ?,10 1,19 1,26 1,72 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Bohol,3 2,5 ?,10 4,17 4,25 1,26 16,29 2,40 1,112 1,120 Pneumonia}
+{0 Child,1 9,2 UP,5 ?,6 1,120 Encephalitis}
+{0 Child,1 4,2 UP,3 4,4 2,5 ?,10 1,11 3,19 2,26 3,31 1,44 2,57 1,120 Encephalitis}
+{0 Child,1 ?,2 AP,4 2,5 ?,12 1,17 1,24 1,25 1,26 3,31 1,120 Pneumonia}
+{0 Child,1 2,2 UP,3 5,5 ?,25 1,26 2,27 2,31 1,120 Diarrhea/Dysentery}
+{0 Child,1 4,2 Pemba,5 ?,11 1,26 1,51 1,120 Diarrhea/Dysentery}
+{0 Child,1 8,2 UP,3 5,5 ?,19 1,25 1,26 5,27 2,31 1,34 2,41 2,120 Diarrhea/Dysentery}
+{0 Child,1 1,2 UP,5 ?,10 2,11 1,19 1,20 5,26 3,31 3,44 2,120 Meningitis}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,6 1,10 1,11 1,25 1,120 Pneumonia}
+{0 Child,1 ?,2 UP,4 2,5 ?,11 1,19 1,20 4,21 1,26 4,31 6,36 1,120 Pneumonia}
+{0 Child,1 4,2 UP,5 ?,10 1,11 1,19 1,20 2,26 5,120 Encephalitis}
+{0 Child,1 ?,2 AP,3 1,4 2,5 ?,10 1,13 1,25 1,26 4,65 1,120 'Other Digestive Diseases'}
+{0 Child,1 7,2 UP,5 ?,20 3,23 1,26 2,27 1,34 1,41 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 AP,3 2,4 2,5 ?,9 1,17 3,22 1,25 2,26 5,31 3,58 1,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,5 ?,6 1,10 1,11 1,26 1,51 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 Dar,4 2,5 ?,26 1,29 1,32 1,72 1,120 Diarrhea/Dysentery}
+{0 Child,1 7,2 AP,5 ?,10 3,25 1,82 1,120 Encephalitis}
+{0 Child,1 10,2 Dar,5 ?,6 1,25 1,26 2,32 1,120 Drowning}
+{0 Child,1 6,2 UP,4 2,5 ?,20 2,26 2,120 Drowning}
+{0 Child,1 3,2 UP,3 9,5 ?,17 1,19 2,26 7,31 1,65 1,120 'Other Infectious Diseases'}
+{0 Child,1 10,2 UP,5 ?,10 2,17 1,19 2,20 7,25 1,26 5,31 2,61 1,68 1,70 1,120 'Hemorrhagic fever'}
+{0 Child,1 11,2 Bohol,4 2,5 ?,6 1,10 3,11 1,17 1,20 2,25 1,26 4,27 1,31 2,68 2,120 Sepsis}
+{0 Child,1 7,2 AP,5 ?,16 1,25 2,26 1,31 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 6,2 UP,5 ?,10 1,19 1,23 1,26 1,31 1,120 'Other Cardiovascular Diseases'}
+{0 Child,1 ?,2 Dar,5 ?,8 1,16 1,20 1,25 1,26 1,29 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 1,2 Bohol,5 ?,6 1,7 1,10 1,20 5,21 1,25 1,26 4,31 2,66 1,70 1,120 Pneumonia}
+{0 Child,1 3,2 UP,5 ?,20 5,25 1,26 2,27 1,34 1,41 1,120 Diarrhea/Dysentery}
+{0 Child,1 5,2 UP,4 2,5 ?,20 1,25 1,26 2,31 1,120 Diarrhea/Dysentery}
+{0 Child,1 1,2 Dar,4 2,5 ?,8 1,26 1,120 Pneumonia}
+{0 Child,1 ?,2 AP,3 2,4 2,5 ?,12 2,24 1,25 1,26 2,120 Pneumonia}
+{0 Child,1 4,2 AP,4 2,5 ?,26 1,39 1,53 2,70 1,120 Falls}
+{0 Child,1 10,2 UP,5 ?,20 1,25 1,120 Falls}
+{0 Child,1 ?,2 UP,5 ?,11 1,12 1,17 1,20 5,24 1,25 1,26 4,31 1,120 'Other Cardiovascular Diseases'}
+{0 Child,1 3,2 Bohol,4 2,5 ?,10 2,17 3,19 1,20 10,25 2,26 7,58 3,112 1,120 Pneumonia}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,10 2,20 6,21 1,26 1,29 2,40 3,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,3 1,4 2,5 ?,25 1,72 1,120 Malaria}
+{0 Child,1 4,2 UP,5 ?,10 1,17 1,19 3,20 8,26 5,44 1,66 1,120 Meningitis}
+{0 Child,1 ?,2 UP,3 1,5 ?,20 4,22 1,26 3,120 Sepsis}
+{0 Child,1 4,2 AP,4 2,5 ?,21 4,25 1,26 5,120 Drowning}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,6 1,11 1,25 1,51 1,65 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 Dar,5 ?,6 1,16 1,26 1,32 1,72 1,120 Malaria}
+{0 Child,1 4,2 AP,4 2,5 ?,15 1,23 1,25 3,26 5,46 1,47 2,53 1,120 'Road Traffic'}
+{0 Child,1 ?,2 Bohol,3 5,4 2,5 ?,10 1,12 4,17 2,19 5,20 2,21 1,24 1,25 2,26 11,27 1,29 1,31 1,40 5,119 1,120 'Other Cardiovascular Diseases'}
+{0 Child,1 3,2 UP,3 7,5 ?,10 2,19 1,25 1,26 4,31 2,68 1,120 Measles}
+{0 Child,1 2,2 AP,3 2,4 2,5 ?,10 1,12 1,17 1,22 1,25 2,26 7,31 2,58 2,120 'Other Cardiovascular Diseases'}
+{0 Child,1 6,2 AP,3 1,4 2,5 ?,26 2,31 3,49 1,57 1,65 1,120 'Other Digestive Diseases'}
+{0 Child,1 1,2 Bohol,5 ?,6 1,17 1,20 5,21 2,25 1,26 9,31 2,120 Poisonings}
+{0 Child,1 2,2 Bohol,3 1,4 2,5 ?,17 2,26 1,29 1,31 1,40 1,45 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 1,2 Bohol,5 ?,11 2,20 1,25 1,26 1,27 1,31 1,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,5 ?,6 1,11 1,29 1,31 1,51 1,120 Pneumonia}
+{0 Child,1 7,2 UP,4 2,5 ?,10 1,19 1,20 3,26 1,27 1,44 2,70 1,120 Encephalitis}
+{0 Child,1 7,2 AP,5 ?,25 2,26 2,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 4,2 Pemba,5 ?,11 1,26 1,51 1,120 Diarrhea/Dysentery}
+{0 Child,1 10,2 UP,4 2,5 ?,20 1,26 1,28 1,120 Drowning}
+{0 Child,1 3,2 AP,4 2,5 ?,21 1,26 1,81 1,120 'Violent Death'}
+{0 Child,1 ?,2 AP,5 ?,10 1,19 1,25 1,26 5,31 3,120 Diarrhea/Dysentery}
+{0 Child,1 ?,3 1,4 2,5 ?,22 1,26 1,31 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 6,2 UP,4 2,5 ?,20 1,25 1,120 Drowning}
+{0 Child,1 ?,2 Dar,4 2,5 ?,8 1,16 1,29 1,120 Meningitis}
+{0 Child,1 5,2 UP,5 ?,10 1,11 1,17 2,19 1,20 3,26 2,27 1,31 1,34 1,41 1,120 Diarrhea/Dysentery}
+{0 Child,1 10,2 UP,3 7,4 2,5 ?,10 2,17 1,19 2,26 2,27 1,31 3,34 1,41 1,45 1,72 1,120 Measles}
+{0 Child,1 9,2 UP,4 2,5 ?,11 1,20 2,25 2,26 1,27 1,34 1,41 1,66 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 AP,5 ?,10 2,17 1,20 2,26 8,31 1,82 1,120 Malaria}
+{0 Child,1 11,2 AP,5 ?,23 1,25 1,26 3,30 3,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 8,2 UP,5 ?,20 4,26 5,120 'Violent Death'}
+{0 Child,1 ?,2 AP,4 2,5 ?,12 4,20 4,26 5,31 3,120 Pneumonia}
+{0 Child,1 9,2 AP,4 2,5 ?,15 2,21 1,25 2,26 1,31 1,53 1,120 'Road Traffic'}
+{0 Child,1 6,2 Bohol,4 2,5 ?,6 1,10 2,20 10,21 1,26 10,87 2,120 'Other Infectious Diseases'}
+{0 Child,1 ?,2 UP,3 1,4 2,5 ?,20 4,24 1,26 1,68 2,120 Sepsis}
+{0 Child,1 4,2 UP,3 2,5 ?,25 1,39 1,53 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 AP,3 1,4 2,5 ?,24 1,26 5,29 1,120 Pneumonia}
+{0 Child,1 4,2 UP,3 1,4 2,5 ?,10 2,11 1,19 1,20 4,26 6,27 1,31 4,120 Meningitis}
+{0 Child,1 ?,2 Bohol,3 7,5 ?,11 1,17 1,21 1,22 1,25 2,26 13,27 1,29 1,31 2,40 2,65 1,68 1,119 1,120 Sepsis}
+{0 Child,1 5,2 UP,4 2,5 ?,20 2,25 1,26 1,120 Falls}
+{0 Child,1 8,2 UP,5 ?,10 2,26 3,27 1,31 3,39 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 1,2 UP,5 ?,19 1,20 5,25 1,26 4,27 1,31 1,34 1,41 1,68 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Bohol,3 8,5 ?,11 2,21 1,25 1,26 7,40 2,120 Pneumonia}
+{0 Child,1 4,2 Bohol,4 2,5 ?,10 1,11 1,25 1,26 2,29 1,31 2,120 Pneumonia}
+{0 Child,1 ?,2 Dar,4 ?,5 ?,8 1,16 1,26 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 UP,5 ?,20 2,25 1,34 1,41 1,120 Diarrhea/Dysentery}
+{0 Child,1 9,2 Dar,5 ?,8 3,16 1,120 'Other Digestive Diseases'}
+{0 Child,1 ?,2 AP,3 12,5 ?,7 1,9 1,10 1,17 2,19 2,21 1,22 1,26 10,31 2,40 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,5 ?,24 1,26 2,29 1,36 1,120 'Other Digestive Diseases'}
+{0 Child,1 5,2 UP,4 2,5 ?,11 1,20 3,25 2,26 1,53 1,120 Falls}
+{0 Child,1 ?,2 Pemba,3 1,5 ?,11 1,14 1,20 1,26 1,39 1,51 1,64 1,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,6 1,11 1,25 1,27 1,51 1,66 1,120 Pneumonia}
+{0 Child,1 2,2 AP,5 ?,17 1,21 2,25 1,26 6,30 2,31 1,120 Fires}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,6 1,10 1,11 1,25 1,51 1,120 Pneumonia}
+{0 Child,1 4,2 UP,3 3,4 2,5 ?,11 1,19 1,26 3,27 1,29 1,34 1,41 1,120 Meningitis}
+{0 Child,1 6,2 UP,3 7,4 2,5 ?,11 1,17 1,19 1,25 1,26 6,29 1,31 2,40 1,120 'Other Infectious Diseases'}
+{0 Child,1 4,2 UP,5 ?,10 1,19 1,20 3,25 2,26 9,31 3,34 2,40 1,41 2,120 Diarrhea/Dysentery}
+{0 Child,1 1,2 AP,5 ?,15 2,25 2,26 2,120 'Road Traffic'}
+{0 Child,1 ?,2 Pemba,3 1,5 ?,11 1,14 1,31 1,51 1,120 Pneumonia}
+{0 Child,1 8,2 UP,5 ?,15 1,20 1,25 1,47 1,53 1,120 'Road Traffic'}
+{0 Child,1 1,2 UP,3 1,4 2,5 ?,10 2,20 2,26 2,31 3,64 1,66 2,95 1,120 'Other Infectious Diseases'}
+{0 Child,1 ?,2 UP,3 4,5 ?,11 1,17 1,19 1,22 1,26 3,29 1,120 Pneumonia}
+{0 Child,1 ?,2 Dar,5 ?,6 1,8 3,16 1,25 1,59 1,120 Fires}
+{0 Child,1 2,2 UP,4 2,5 ?,15 1,20 1,25 1,26 1,46 1,47 1,120 'Road Traffic'}
+{0 Child,1 7,5 ?,6 1,10 2,20 2,21 3,26 4,36 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 AP,4 2,5 ?,25 2,26 2,29 2,31 1,120 Pneumonia}
+{0 Child,1 ?,2 Bohol,3 1,5 ?,6 1,10 4,20 1,21 1,22 1,26 4,27 2,29 1,31 4,39 1,120 Sepsis}
+{0 Child,1 7,2 UP,3 5,5 ?,11 1,17 2,19 1,25 2,26 5,38 1,43 1,120 'Bite of Venomous Animal'}
+{0 Child,1 ?,2 AP,5 ?,17 1,26 8,31 2,44 1,70 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 6,2 Bohol,3 1,4 2,5 ?,10 4,25 2,26 9,31 4,82 1,120 'Hemorrhagic fever'}
+{0 Child,1 5,2 UP,3 2,5 ?,19 2,25 1,26 4,27 1,34 1,41 1,66 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 AP,3 2,5 ?,14 1,20 4,22 1,25 3,26 6,31 1,48 1,69 1,120 Pneumonia}
+{0 Child,1 3,2 UP,4 2,5 ?,20 4,26 4,120 'Other Cancers'}
+{0 Child,1 2,2 Pemba,4 2,5 ?,10 1,26 1,120 Pneumonia}
+{0 Child,1 2,2 UP,5 ?,20 1,25 1,26 1,120 Falls}
+{0 Child,1 3,2 AP,4 2,5 ?,21 2,25 2,26 4,30 5,31 1,59 1,80 1,120 Fires}
+{0 Child,1 1,2 Dar,3 1,4 2,5 ?,8 3,16 1,24 1,26 2,33 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,10 1,11 1,12 1,20 8,21 1,25 1,26 1,31 2,40 1,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,10 1,26 1,51 1,120 Malaria}
+{0 Child,1 4,2 UP,3 3,5 ?,20 1,26 1,120 'Bite of Venomous Animal'}
+{0 Child,1 2,2 UP,4 2,5 ?,11 1,20 1,25 1,26 1,38 1,43 1,87 1,120 'Bite of Venomous Animal'}
+{0 Child,1 7,2 Pemba,5 ?,6 1,11 1,28 1,51 1,120 Falls}
+{0 Child,1 8,2 UP,3 8,5 ?,10 1,17 2,19 2,25 1,26 5,31 5,68 2,120 Measles}
+{0 Child,1 ?,2 Pemba,5 ?,6 1,10 1,11 1,25 1,51 1,66 1,120 Diarrhea/Dysentery}
+{0 Child,1 1,2 Pemba,4 2,5 ?,6 1,10 1,11 1,25 1,51 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Bohol,3 3,4 2,5 ?,10 1,11 1,12 1,22 1,25 1,26 13,31 4,39 2,40 1,63 1,120 Pneumonia}
+{0 Child,1 11,2 AP,4 2,5 ?,15 1,25 1,26 4,31 1,47 1,120 'Road Traffic'}
+{0 Child,1 2,2 Bohol,5 ?,10 2,17 1,19 1,25 1,26 4,27 1,29 1,120 'Other Digestive Diseases'}
+{0 Child,1 2,2 AP,3 3,4 2,5 ?,17 1,25 2,26 6,31 3,120 Pneumonia}
+{0 Child,1 7,2 UP,3 1,5 ?,15 2,25 1,47 1,120 'Road Traffic'}
+{0 Child,1 ?,2 Pemba,3 1,4 2,5 ?,10 1,25 1,120 Pneumonia}
+{0 Child,1 4,2 UP,4 2,5 ?,11 1,20 3,23 1,26 4,46 1,47 1,70 1,120 'Road Traffic'}
+{0 Child,1 ?,2 UP,4 2,5 ?,10 1,19 1,20 4,21 1,23 1,26 6,31 2,120 Drowning}
+{0 Child,1 ?,2 AP,4 2,5 ?,15 1,25 3,26 2,30 1,59 2,80 1,120 Fires}
+{0 Child,1 3,2 Bohol,5 ?,12 1,20 2,25 1,26 4,27 1,31 1,39 2,46 1,57 3,120 Falls}
+{0 Child,1 1,2 UP,4 2,5 ?,10 1,17 1,19 3,20 6,22 1,26 6,44 1,120 Meningitis}
+{0 Child,1 5,2 Bohol,5 ?,6 1,11 1,20 1,25 1,26 2,120 Diarrhea/Dysentery}
+{0 Child,1 1,2 Pemba,4 2,5 ?,6 1,11 1,29 1,51 1,120 Pneumonia}
+{0 Child,1 2,2 Pemba,3 1,4 2,5 ?,10 1,25 1,120 Pneumonia}
+{0 Child,1 2,2 Bohol,5 ?,6 1,10 2,16 1,25 2,26 4,58 1,120 Diarrhea/Dysentery}
+{0 Child,1 2,2 UP,4 2,5 ?,19 1,20 4,26 3,31 3,34 1,41 1,120 'Other Infectious Diseases'}
+{0 Child,1 11,2 UP,5 ?,20 3,25 1,26 1,31 1,43 1,120 Drowning}
+{0 Child,1 9,2 UP,5 ?,20 1,25 1,26 1,38 1,43 1,120 'Bite of Venomous Animal'}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,10 2,12 1,22 1,25 2,26 7,31 2,40 1,120 Pneumonia}
+{0 Child,1 10,2 UP,3 8,4 2,5 ?,17 1,25 2,26 7,39 1,53 2,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 3,2 Dar,5 ?,10 1,26 1,32 1,72 1,120 Malaria}
+{0 Child,1 6,5 ?,7 1,20 2,22 3,26 5,31 1,69 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 AP,3 2,4 2,5 ?,22 1,25 1,26 11,27 1,31 2,120 Pneumonia}
+{0 Child,1 5,2 UP,3 1,5 ?,20 4,26 2,43 1,52 1,120 Measles}
+{0 Child,1 4,2 UP,5 ?,11 1,20 2,26 1,31 1,120 Pneumonia}
+{0 Child,1 6,2 Bohol,5 ?,12 2,17 1,25 1,26 5,31 5,51 1,120 'Other Cardiovascular Diseases'}
+{0 Child,1 8,2 Pemba,3 1,4 2,5 ?,10 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 UP,4 2,5 ?,10 1,17 1,19 1,20 1,26 4,27 1,34 1,41 1,120 Sepsis}
+{0 Child,1 2,2 Dar,5 ?,16 1,32 1,33 1,72 1,120 'Other Cardiovascular Diseases'}
+{0 Child,1 1,2 Bohol,3 1,5 ?,10 1,24 1,25 1,26 3,120 Pneumonia}
+{0 Child,1 11,2 AP,5 ?,25 2,38 1,43 1,120 'Bite of Venomous Animal'}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,10 2,12 1,20 5,24 1,25 1,26 11,31 2,120 Pneumonia}
+{0 Child,1 10,2 UP,5 ?,12 1,20 5,25 1,26 4,47 1,53 1,120 'Road Traffic'}
+{0 Child,1 ?,2 AP,5 ?,25 1,26 3,29 1,31 1,120 Pneumonia}
+{0 Child,1 7,2 UP,5 ?,20 5,25 1,26 3,39 1,120 'Road Traffic'}
+{0 Child,1 ?,2 Bohol,5 ?,17 1,19 2,29 1,31 1,40 1,120 Sepsis}
+{0 Child,1 3,2 Dar,3 1,5 ?,8 3,16 1,25 1,33 1,120 'Other Digestive Diseases'}
+{0 Child,1 6,2 UP,3 1,5 ?,18 1,21 1,26 1,59 1,120 'Violent Death'}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,10 1,12 1,20 1,22 1,24 1,25 1,26 5,29 1,40 1,120 Pneumonia}
+{0 Child,1 10,2 Bohol,4 2,5 ?,10 1,15 1,20 2,25 1,26 6,27 1,39 1,54 1,120 Falls}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,10 2,17 1,18 1,20 3,26 2,40 1,44 1,51 1,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,5 ?,10 1,11 1,20 1,24 1,25 1,31 1,51 1,120 Pneumonia}
+{0 Child,1 ?,2 UP,5 ?,11 1,19 2,20 4,22 1,24 1,26 4,29 1,39 1,120 Sepsis}
+{0 Child,1 ?,2 Dar,4 2,5 ?,29 1,32 1,72 1,120 Pneumonia}
+{0 Child,1 6,2 Pemba,5 ?,26 1,51 1,120 Diarrhea/Dysentery}
+{0 Child,1 1,2 UP,5 ?,10 1,11 3,19 1,20 6,21 2,26 2,31 1,36 1,44 1,120 Encephalitis}
+{0 Child,1 3,2 Bohol,4 2,5 ?,10 2,17 3,20 7,25 2,26 6,31 2,40 1,120 'Other Cancers'}
+{0 Child,1 8,2 UP,3 8,4 2,5 ?,17 1,19 1,24 1,26 8,31 1,40 1,53 1,120 'Violent Death'}
+{0 Child,1 ?,2 Dar,4 2,5 ?,16 1,26 1,32 1,72 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,6 1,10 1,11 1,25 1,51 1,66 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,6 1,11 1,25 1,51 1,120 Fires}
+{0 Child,1 3,2 Dar,4 2,5 ?,16 1,32 1,72 1,120 'Other Cardiovascular Diseases'}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,6 1,10 1,11 1,19 1,25 1,26 1,51 1,72 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 4,2 Pemba,5 ?,6 1,11 1,15 1,25 1,120 'Road Traffic'}
+{0 Child,1 ?,2 UP,3 1,5 ?,17 1,19 2,20 1,21 2,26 4,29 1,31 1,120 Pneumonia}
+{0 Child,1 ?,2 Dar,4 2,5 ?,16 1,26 1,29 1,32 1,120 Malaria}
+{0 Child,1 ?,2 Bohol,3 2,5 ?,6 2,11 1,20 1,21 1,25 1,26 5,31 2,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,3 1,5 ?,25 1,27 1,66 1,120 Pneumonia}
+{0 Child,1 ?,2 Bohol,3 1,5 ?,10 2,19 1,20 1,26 6,31 2,120 Sepsis}
+{0 Child,1 5,2 UP,3 3,5 ?,11 1,26 3,120 'Other Infectious Diseases'}
+{0 Child,1 10,2 UP,3 4,5 ?,11 1,17 1,26 5,39 1,53 2,120 'Violent Death'}
+{0 Child,1 8,2 Bohol,5 ?,10 2,17 1,20 1,25 1,26 8,27 1,31 2,111 1,120 'Hemorrhagic fever'}
+{0 Child,1 9,2 Pemba,4 2,5 ?,6 1,10 1,11 1,20 1,25 2,26 1,27 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 9,2 Bohol,4 2,5 ?,10 4,18 1,25 1,26 21,31 1,120 'Other Digestive Diseases'}
+{0 Child,1 3,2 Pemba,4 2,5 ?,6 1,10 1,11 1,25 1,27 1,51 1,120 Diarrhea/Dysentery}
+{0 Child,1 4,2 Pemba,5 ?,6 1,11 1,25 1,51 1,120 Diarrhea/Dysentery}
+{0 Child,1 1,2 Dar,4 2,5 ?,6 1,8 1,16 1,19 1,26 1,33 1,120 Sepsis}
+{0 Child,1 2,2 AP,3 3,4 2,5 ?,25 2,26 2,120 Drowning}
+{0 Child,1 2,2 UP,5 ?,10 1,12 1,19 1,20 1,26 2,27 1,31 1,120 Encephalitis}
+{0 Child,1 ?,2 Pemba,5 ?,6 1,10 1,26 2,29 1,31 1,51 1,120 Pneumonia}
+{0 Child,1 10,2 AP,5 ?,10 1,12 2,25 1,26 2,58 1,120 'Other Cancers'}
+{0 Child,1 2,2 Dar,4 2,5 ?,8 1,10 1,20 1,25 1,26 1,120 Sepsis}
+{0 Child,1 2,2 Pemba,5 ?,6 1,11 1,25 1,51 1,120 Fires}
+{0 Child,1 3,2 Bohol,4 2,5 ?,10 1,25 1,26 4,82 1,120 'Hemorrhagic fever'}
+{0 Child,1 ?,2 Bohol,3 1,5 ?,10 2,17 2,25 1,26 3,40 1,75 1,120 Pneumonia}
+{0 Child,1 5,2 UP,3 6,4 2,5 ?,10 1,17 1,19 2,21 1,25 1,26 6,27 1,31 1,34 1,36 1,41 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,10 1,17 1,25 1,120 Pneumonia}
+{0 Child,1 8,2 UP,3 1,5 ?,20 1,25 1,26 1,31 1,43 1,120 'Bite of Venomous Animal'}
+{0 Child,1 5,2 Pemba,4 2,5 ?,15 1,26 1,51 1,120 'Road Traffic'}
+{0 Child,1 ?,2 Bohol,5 ?,10 1,20 5,26 4,49 1,120 Pneumonia}
+{0 Child,1 7,2 UP,5 ?,15 1,17 1,20 5,26 2,39 2,46 1,120 'Road Traffic'}
+{0 Child,1 2,2 AP,5 ?,25 2,26 1,30 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 9,2 AP,4 2,5 ?,10 3,25 1,26 1,31 1,82 3,120 'Hemorrhagic fever'}
+{0 Child,1 3,4 2,5 ?,10 2,17 1,26 7,31 1,120 'Other Digestive Diseases'}
+{0 Child,1 5,2 UP,3 8,5 ?,6 1,10 3,11 1,19 3,26 10,44 1,82 1,120 'Hemorrhagic fever'}
+{0 Child,1 3,2 UP,4 2,5 ?,20 1,25 1,26 1,30 1,59 2,120 Fires}
+{0 Child,1 ?,2 AP,5 ?,25 2,31 1,120 Sepsis}
+{0 Child,1 5,2 Dar,4 2,5 ?,15 1,26 1,32 1,120 'Road Traffic'}
+{0 Child,1 3,2 Dar,3 1,4 2,5 ?,8 3,16 1,25 1,59 1,120 Fires}
+{0 Child,1 ?,2 Dar,4 2,5 ?,26 1,29 1,32 1,120 Malaria}
+{0 Child,1 2,2 UP,5 ?,10 1,19 2,20 4,26 5,31 1,34 1,41 1,44 1,65 1,120 'Other Infectious Diseases'}
+{0 Child,1 3,2 Bohol,5 ?,10 3,17 4,20 2,21 2,25 1,26 5,27 1,68 1,120 'Other Infectious Diseases'}
+{0 Child,1 ?,2 Pemba,3 1,5 ?,25 1,120 Diarrhea/Dysentery}
+{0 Child,1 6,2 UP,5 ?,20 2,26 2,120 Drowning}
+{0 Child,1 ?,2 Bohol,3 4,4 2,5 ?,12 1,22 1,23 1,26 9,27 3,29 1,31 1,40 1,120 Pneumonia}
+{0 Child,1 6,2 AP,4 2,5 ?,10 1,19 1,22 1,25 1,26 2,31 1,34 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 AP,4 2,5 ?,17 1,25 1,26 4,29 3,31 1,120 Pneumonia}
+{0 Child,1 1,2 Pemba,5 ?,6 1,11 1,25 1,51 1,120 Pneumonia}
+{0 Child,1 6,2 UP,4 2,5 ?,11 1,20 1,25 1,26 1,27 1,34 1,41 1,66 1,120 Diarrhea/Dysentery}
+{0 Child,1 2,2 Bohol,5 ?,15 1,17 1,20 1,26 8,39 2,44 1,46 1,73 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 2,2 AP,3 1,5 ?,23 1,25 1,26 1,120 Drowning}
+{0 Child,1 ?,2 Dar,4 2,5 ?,120 Sepsis}
+{0 Child,1 6,2 Bohol,5 ?,10 1,11 1,13 2,20 2,25 1,26 6,27 1,31 2,39 1,44 1,57 1,62 3,120 'Other Cancers'}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,11 1,20 1,26 1,40 1,120 Pneumonia}
+{0 Child,1 2,2 Dar,4 2,5 ?,8 1,72 1,120 Malaria}
+{0 Child,1 3,2 AP,5 ?,12 1,19 1,20 2,22 1,24 1,26 3,31 1,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,10 1,26 1,120 Pneumonia}
+{0 Child,1 11,2 Dar,5 ?,6 1,8 3,16 1,25 1,120 Fires}
+{0 Child,1 2,2 UP,5 ?,20 4,25 1,26 3,120 Falls}
+{0 Child,1 ?,2 AP,4 2,5 ?,9 1,10 1,13 1,20 2,24 1,25 2,26 3,29 1,31 6,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,6 1,10 1,11 1,25 1,51 1,66 1,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,6 1,11 1,25 1,29 1,51 1,120 Pneumonia}
+{0 Child,1 ?,2 UP,4 2,5 ?,17 1,25 1,26 1,31 1,40 1,95 1,120 Sepsis}
+{0 Child,1 7,2 AP,5 ?,10 1,19 1,20 2,26 4,31 2,33 1,120 Malaria}
+{0 Child,1 ?,2 Bohol,5 ?,10 1,12 2,24 1,26 8,27 2,28 1,31 2,40 2,120 'Other Cardiovascular Diseases'}
+{0 Child,1 ?,2 AP,3 3,5 ?,7 1,17 1,22 1,25 1,26 5,29 3,31 1,120 Pneumonia}
+{0 Child,1 6,2 UP,5 ?,10 1,19 2,20 10,26 7,27 2,31 4,57 1,68 1,120 'Hemorrhagic fever'}
+{0 Child,1 ?,2 AP,3 1,5 ?,9 1,17 1,25 1,26 2,120 Pneumonia}
+{0 Child,1 10,2 AP,5 ?,25 1,26 3,120 Fires}
+{0 Child,1 ?,2 AP,3 1,4 2,5 ?,10 2,22 1,26 2,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,6 1,10 2,11 1,21 1,25 1,26 3,31 2,40 3,120 Pneumonia}
+{0 Child,1 ?,2 Bohol,5 ?,6 1,11 1,20 2,21 2,24 1,25 1,26 6,27 4,29 1,31 3,120 Pneumonia}
+{0 Child,1 ?,2 Dar,4 2,5 ?,8 3,16 2,26 1,120 Pneumonia}
+{0 Child,1 3,2 UP,5 ?,17 1,19 1,20 1,26 2,27 1,31 1,120 Poisonings}
+{0 Child,1 3,2 Pemba,4 2,5 ?,26 1,27 1,51 1,66 1,120 Diarrhea/Dysentery}
+{0 Child,1 3,2 UP,3 2,4 2,5 ?,10 1,19 1,26 1,120 Sepsis}
+{0 Child,1 4,2 UP,4 2,5 ?,20 1,26 3,52 2,120 'Violent Death'}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,6 1,11 1,24 1,25 2,26 5,36 2,68 2,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,3 1,4 2,5 ?,25 1,29 1,120 Pneumonia}
+{0 Child,1 4,2 UP,5 ?,11 1,20 1,25 1,27 1,66 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Dar,4 2,5 ?,8 3,16 1,20 1,25 1,33 1,72 1,120 Malaria}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,12 2,17 2,20 4,26 1,27 1,29 2,66 1,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,21 1,26 1,27 1,66 1,120 Pneumonia}
+{0 Child,1 9,2 AP,4 2,5 ?,26 3,31 1,79 1,120 'Violent Death'}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,10 3,12 1,17 1,19 1,20 5,24 1,26 7,31 1,49 1,120 Sepsis}
+{0 Child,1 ?,2 Bohol,4 2,5 ?,7 1,11 1,12 1,26 1,31 1,40 3,42 1,120 Pneumonia}
+{0 Child,1 11,2 UP,4 2,5 ?,20 1,21 1,25 2,26 2,120 Drowning}
+{0 Child,1 1,2 UP,4 2,5 ?,10 1,17 1,19 1,20 5,26 3,27 1,29 1,31 2,40 3,68 1,120 Pneumonia}
+{0 Child,1 4,2 UP,3 5,5 ?,10 1,19 3,26 5,65 1,66 1,120 'Other Infectious Diseases'}
+{0 Child,1 9,2 UP,5 ?,11 1,20 1,25 1,26 1,120 Drowning}
+{0 Child,1 10,2 UP,4 2,5 ?,6 1,10 1,11 2,17 1,19 1,20 3,26 3,31 2,39 1,120 'Other Infectious Diseases'}
+{0 Child,1 ?,2 Dar,4 2,5 ?,8 3,16 1,20 1,33 1,120 Meningitis}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,10 1,26 1,51 1,120 Pneumonia}
+{0 Child,1 1,2 Pemba,4 2,5 ?,26 1,29 1,51 1,120 Pneumonia}
+{0 Child,1 9,2 Bohol,4 2,5 ?,20 2,25 1,26 4,31 1,60 1,120 'Other Digestive Diseases'}
+{0 Child,1 11,2 Pemba,4 2,5 ?,6 1,11 1,25 1,51 1,52 1,120 Poisonings}
+{0 Child,1 7,2 UP,3 5,5 ?,10 2,19 2,21 1,25 1,26 4,31 5,36 1,43 1,68 1,120 Measles}
+{0 Child,1 4,2 Bohol,5 ?,25 1,26 14,27 1,29 2,31 4,40 1,68 1,82 1,120 'Hemorrhagic fever'}
+{0 Child,1 1,2 Pemba,4 2,5 ?,6 1,10 1,25 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,3 1,4 2,5 ?,22 1,26 5,36 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 5,2 Dar,4 2,5 ?,6 1,16 1,26 1,32 1,33 1,72 1,120 Pneumonia}
+{0 Child,1 ?,2 Bohol,3 1,4 2,5 ?,6 2,11 1,17 1,20 1,21 1,26 2,27 1,29 1,40 1,41 1,120 Pneumonia}
+{0 Child,1 ?,2 UP,4 2,5 ?,11 2,20 5,25 1,26 7,27 1,31 2,39 1,57 1,120 Falls}
+{0 Child,1 9,2 Bohol,4 2,5 ?,15 1,26 6,39 1,46 1,57 1,73 1,120 'Road Traffic'}
+{0 Child,1 8,2 UP,5 ?,11 1,20 3,25 1,26 2,71 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 6,2 Bohol,5 ?,10 1,17 1,20 2,25 1,26 8,31 1,40 1,66 2,120 Pneumonia}
+{0 Child,1 5,2 AP,4 2,5 ?,21 1,23 2,25 2,26 2,30 3,80 1,120 'Violent Death'}
+{0 Child,1 9,2 AP,3 1,5 ?,17 1,19 1,24 1,25 2,26 4,31 1,120 Sepsis}
+{0 Child,1 ?,2 Pemba,5 ?,6 1,11 1,25 1,51 1,66 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,10 1,17 1,26 1,120 Pneumonia}
+{0 Child,1 ?,2 Pemba,5 ?,10 1,26 1,120 Pneumonia}
+{0 Child,1 7,2 Pemba,5 ?,25 1,120 Pneumonia}
+{0 Child,1 ?,2 AP,5 ?,25 1,26 2,29 1,34 4,67 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Pemba,3 1,5 ?,10 1,25 1,66 1,120 Diarrhea/Dysentery}
+{0 Child,1 8,2 UP,5 ?,10 1,19 1,20 3,26 4,31 1,39 2,120 Falls}
+{0 Child,1 9,2 UP,5 ?,10 1,19 2,20 8,26 7,31 3,66 1,68 1,120 Measles}
+{0 Child,1 10,2 UP,4 2,5 ?,10 1,17 1,19 1,20 9,26 6,31 2,41 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 5,2 UP,5 ?,20 2,25 1,31 1,39 2,43 1,120 'Bite of Venomous Animal'}
+{0 Child,1 4,2 AP,4 2,5 ?,10 1,25 1,31 1,34 1,120 Sepsis}
+{0 Child,1 ?,2 Bohol,5 ?,10 1,12 2,20 1,26 5,120 Pneumonia}
+{0 Child,1 1,2 Pemba,3 1,5 ?,25 1,120 Pneumonia}
+{0 Child,1 2,2 UP,5 ?,19 2,20 8,25 1,26 10,31 3,34 1,41 1,120 Diarrhea/Dysentery}
+{0 Child,1 ?,2 Pemba,5 ?,6 1,10 1,11 1,25 1,51 1,120 Diarrhea/Dysentery}
+{0 Child,1 7,2 Dar,4 2,5 ?,6 1,8 3,16 1,25 1,33 1,120 Sepsis}
+{0 Child,1 5,2 UP,3 7,4 2,5 ?,10 2,17 1,19 4,26 7,27 1,29 1,31 4,72 1,120 Diarrhea/Dysentery}
+{0 Child,1 7,4 2,5 ?,20 1,22 1,26 8,31 2,44 1,78 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 Bohol,3 1,4 2,5 ?,7 1,14 1,17 1,19 2,26 5,27 1,29 1,39 1,40 1,120 Pneumonia}
+{0 Child,1 1,2 UP,5 ?,10 1,19 1,20 4,26 5,27 1,49 1,120 'Other Infectious Diseases'}
+{0 Child,1 ?,2 Pemba,5 ?,10 1,17 1,26 1,120 Pneumonia}
+{0 Child,1 2,2 UP,3 1,4 2,5 ?,17 1,20 3,24 1,26 4,27 1,31 1,34 1,39 3,41 1,120 Meningitis}
+{0 Child,1 ?,2 AP,3 1,4 2,5 ?,10 1,22 1,25 1,26 3,65 1,120 Meningitis}
+{0 Child,1 8,2 UP,5 ?,11 1,20 2,26 1,120 Falls}
+{0 Child,1 10,2 UP,5 ?,11 1,19 1,20 1,25 1,26 2,120 Drowning}
+{0 Child,1 ?,2 Pemba,4 2,5 ?,6 1,10 1,11 1,25 1,51 1,120 Pneumonia}
+{0 Child,1 4,2 AP,5 ?,10 1,25 2,26 1,31 1,82 1,120 'Hemorrhagic fever'}
+{0 Child,1 4,2 AP,3 7,4 2,5 ?,9 1,10 6,19 2,22 1,26 7,31 6,34 1,44 1,120 Encephalitis}
+{0 Child,1 ?,2 Pemba,3 1,5 ?,10 1,25 1,120 Pneumonia}
+{0 Child,1 11,2 AP,4 2,5 ?,10 1,19 1,23 2,26 4,27 1,31 1,72 2,120 'Violent Death'}
+{0 Child,1 2,4 2,5 ?,26 1,31 1,39 1,120 'Other Defined Causes of Child Deaths'}
+{0 Child,1 ?,2 UP,3 2,5 ?,10 2,26 3,44 1,120 Encephalitis}
+{0 Child,1 ?,2 UP,5 28,11 1,12 2,17 1,18 1,19 1,20 4,26 5,31 2,65 1,120 Pneumonia}
+{0 Child,1 1,2 Pemba,5 ?,11 1,26 1,51 1,58 1,120 Pneumonia}
+{0 Neonate,1 ?,2 Pemba,3 1,9 1,25 1,31 1,120 Stillbirth}
+{0 Neonate,1 ?,3 2,5 12,22 1,24 1,26 3,51 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 2,4 2,7 1,17 1,22 1,26 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,11 1,16 1,25 2,26 1,48 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,21 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 3,4 2,7 1,9 1,21 4,24 5,26 11,54 1,75 3,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 2,14 1,22 1,23 1,78 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,3 3,4 2,5 3,12 1,18 1,36 1,49 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,11 1,26 2,51 1,71 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,4 2,9 1,11 1,51 1,83 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 1,4 2,7 2,17 1,22 1,23 1,24 1,26 2,42 1,69 1,74 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 3,4 2,7 3,14 1,17 1,19 1,26 1,42 3,74 2,85 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Bohol,3 2,4 2,5 1,7 1,9 1,17 1,25 1,26 6,31 1,42 1,74 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 4,4 2,6 1,7 2,17 1,21 3,23 2,24 2,26 11,43 1,48 2,74 1,75 2,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 1,5 3,21 1,22 1,25 1,26 2,31 1,48 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,3 6,4 2,5 1,9 1,17 1,21 1,22 1,25 1,26 4,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,4 2,5 1,11 1,25 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,5 1,9 1,20 3,22 1,25 2,26 3,48 2,54 2,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 6,5 1,7 1,12 1,17 2,22 1,24 2,26 6,29 1,120 Pneumonia}
+{0 Neonate,1 ?,2 AP,4 2,7 1,9 3,12 1,20 2,21 1,23 1,26 1,77 1,116 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 2,4 2,7 1,9 1,22 1,26 3,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 2,5 4,7 1,17 1,22 1,25 1,26 7,31 2,48 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 3,9 1,14 2,23 1,26 3,31 1,71 1,78 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 4,4 2,5 1,11 2,17 2,25 1,26 2,31 1,120 Pneumonia}
+{0 Neonate,1 ?,2 Bohol,3 4,5 26,7 2,14 2,25 1,26 5,31 1,54 1,74 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,5 1,10 1,11 1,14 1,25 1,31 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,3 1,6 1,11 1,14 1,17 1,22 1,24 1,25 1,26 2,51 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 1,7 1,9 1,14 1,26 3,27 2,54 1,78 4,85 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,8 3,16 1,17 1,33 1,120 Pneumonia}
+{0 Neonate,1 ?,2 Pemba,3 2,11 2,17 1,22 2,26 3,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,9 3,20 1,23 1,26 1,31 2,116 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,11 1,14 1,23 1,51 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,4 2,9 2,26 3,31 1,78 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 3,6 1,7 2,19 1,20 1,21 5,23 1,24 1,26 9,48 1,54 5,75 2,85 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 3,5 3,17 1,19 1,24 2,26 3,34 1,41 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 2,4 2,10 1,17 1,19 1,26 4,65 1,78 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 3,4 2,5 1,14 2,17 1,19 1,20 1,25 1,26 1,31 2,42 1,74 1,79 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,14 1,21 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,11 1,22 1,31 1,51 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,9 1,10 1,19 1,21 1,26 1,71 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,4 2,7 1,9 1,11 1,26 1,31 2,51 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 1,5 10,7 1,10 1,21 1,22 1,26 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 3,7 2,14 2,21 4,23 1,26 5,39 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 1,9 3,26 2,48 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 7,4 2,7 2,9 1,11 1,14 1,17 1,25 1,26 9,48 3,69 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 6,4 2,7 1,24 1,25 1,26 6,31 2,39 2,42 1,83 1,90 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Dar,4 2,5 1,6 1,19 1,26 1,120 Pneumonia}
+{0 Neonate,1 ?,2 Bohol,3 4,4 2,7 3,9 1,17 2,20 3,21 1,23 1,24 3,26 14,31 4,54 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,11 1,17 1,22 1,25 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,3 4,7 1,22 1,26 11,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 1,4 2,9 2,12 1,17 2,25 1,26 5,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,9 1,11 1,14 1,24 1,25 1,51 1,54 1,77 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 4,4 2,21 1,23 2,26 7,31 1,42 2,61 1,75 1,85 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 3,4 2,7 2,23 1,24 1,26 8,42 1,75 2,83 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,4 2,5 1,8 2,16 1,20 1,25 1,84 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,9 2,14 1,17 1,19 1,20 4,23 1,24 1,26 6,69 1,77 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 UP,3 5,5 3,17 1,24 1,25 1,26 4,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,3 1,5 2,22 1,25 1,26 2,69 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 AP,3 4,4 2,17 2,22 2,25 2,26 4,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Dar,5 1,6 1,32 1,63 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 7,4 2,5 1,6 1,11 1,14 3,17 1,21 1,22 1,26 7,31 2,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 UP,3 3,5 1,7 1,9 1,14 1,24 1,25 1,26 5,31 1,78 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 2,5 7,14 1,17 1,22 1,25 1,26 2,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Bohol,5 6,6 1,10 1,14 1,17 2,20 10,21 2,24 4,25 1,26 6,27 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 AP,3 1,5 1,7 1,17 2,20 5,21 1,23 1,26 4,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Bohol,5 3,7 2,9 1,11 1,17 1,20 1,24 1,26 4,36 2,54 2,85 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,5 23,6 2,11 1,20 7,21 1,22 1,26 2,39 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Bohol,4 2,7 3,14 1,23 1,26 5,42 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,11 1,26 1,51 1,120 Stillbirth}
+{0 Neonate,1 ?,3 1,7 2,22 1,25 1,26 10,51 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,4 2,9 1,26 4,31 1,78 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 2,4 2,7 4,10 2,14 1,24 2,26 13,31 2,42 1,48 1,54 3,85 1,116 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,22 1,25 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 1,7 1,9 5,25 1,26 5,27 1,31 1,39 7,46 1,70 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 10,5 2,7 1,9 2,17 2,21 1,22 4,24 1,25 2,26 5,31 2,77 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 2,9 4,14 1,21 1,23 1,26 5,27 1,31 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 3,14 1,21 1,26 2,31 1,39 1,71 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 1,4 2,7 3,17 1,24 2,25 1,26 7,42 1,54 1,69 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,7 1,9 4,10 1,20 3,21 1,26 6,39 2,44 1,53 1,120 Stillbirth}
+{0 Neonate,1 ?,3 2,23 1,25 1,26 3,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 4,4 2,5 2,9 2,17 1,22 1,25 2,26 6,31 2,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,5 10,10 1,11 1,20 1,24 1,25 1,31 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,5 8,17 1,26 3,120 'Congenital malformation'}
+{0 Neonate,1 ?,3 1,5 3,24 1,26 2,77 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 2,9 1,11 2,14 1,21 1,26 4,39 1,78 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 4,5 1,7 1,14 1,17 1,19 1,26 3,42 1,77 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 2,5 1,11 1,17 2,20 1,22 1,24 1,25 1,26 2,31 1,45 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,3 1,5 4,8 3,16 1,17 1,25 1,84 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 2,7 1,9 2,11 1,14 2,20 5,21 1,26 7,31 1,48 2,85 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,3 3,4 2,5 3,17 2,25 1,26 2,69 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 6,7 1,14 1,21 1,23 1,24 2,26 6,42 2,48 2,75 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,7 1,11 1,14 1,25 1,120 Stillbirth}
+{0 Neonate,1 ?,3 1,4 2,5 6,19 2,22 1,26 4,31 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 1,9 1,10 1,11 1,19 1,25 1,26 3,48 1,71 1,78 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,9 1,21 1,22 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 2,22 1,23 1,26 3,48 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 1,5 1,20 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 6,4 2,20 1,23 2,25 1,26 5,31 1,42 1,48 1,75 1,120 Stillbirth}
+{0 Neonate,1 ?,3 1,5 3,26 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 UP,3 1,4 2,7 1,9 2,10 1,19 1,21 1,78 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 9,5 5,11 2,17 2,19 1,22 1,24 1,26 12,31 1,71 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 4,5 2,7 1,9 1,17 4,21 2,26 10,31 1,83 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,4 2,6 1,22 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 2,9 2,11 1,14 1,23 1,26 3,78 2,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,5 2,9 1,10 1,17 1,19 1,20 1,24 1,26 3,31 1,68 1,78 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,4 2,5 2,10 1,29 1,32 1,120 Pneumonia}
+{0 Neonate,1 ?,2 Bohol,7 2,11 1,12 1,19 1,24 2,26 2,27 1,69 2,75 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,5 1,8 1,16 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,3 2,5 3,22 2,26 5,33 1,36 1,43 1,69 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,4 2,5 11,10 1,20 1,25 1,26 2,31 3,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,2 Pemba,4 2,26 1,71 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 4,7 2,14 2,21 1,23 1,24 1,26 3,31 1,42 1,48 1,116 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 1,12 1,14 1,17 1,21 1,26 2,85 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 6,4 2,5 3,9 1,21 1,22 2,25 1,26 7,31 1,48 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,3 1,4 2,5 10,12 1,26 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Pemba,4 2,6 1,22 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,21 1,25 1,48 1,72 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 5,5 1,7 1,14 1,17 2,25 2,26 10,42 1,54 2,69 1,76 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,3 2,5 8,26 7,31 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,3 3,25 1,26 2,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Pemba,3 2,11 1,17 1,22 1,25 1,51 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 2,4 2,5 3,17 1,20 4,22 1,24 1,26 5,31 3,39 1,69 2,77 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 UP,7 1,9 1,26 5,78 4,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,3 1,5 1,8 2,16 1,25 1,33 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,3 1,4 2,5 2,11 1,26 4,36 1,77 1,83 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,3 2,11 1,26 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 3,5 2,21 2,24 1,26 6,31 1,42 1,69 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 5,4 2,5 1,7 2,11 1,14 2,17 1,20 1,22 2,23 1,24 1,25 1,26 11,31 1,36 1,77 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 6,7 1,17 1,23 1,24 3,26 3,42 1,48 1,51 1,74 2,75 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,21 1,25 1,71 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,3 1,9 1,26 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Bohol,3 6,4 2,5 1,6 1,7 3,9 1,10 1,17 2,20 1,24 2,25 1,26 6,31 1,40 1,42 1,69 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,4 2,9 1,11 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 2,17 1,25 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Bohol,3 2,7 2,21 3,23 1,24 3,26 8,75 1,83 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,11 1,14 1,71 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 6,5 2,7 1,9 1,11 1,14 2,17 2,24 1,25 3,26 6,31 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 4,4 2,5 1,7 2,14 1,23 1,25 1,26 11,31 1,42 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,3 1,4 2,5 3,9 1,14 1,17 1,22 2,25 1,26 7,31 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,4 2,20 1,22 1,25 1,26 1,120 Stillbirth}
+{0 Neonate,1 ?,3 1,5 6,26 3,31 1,76 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Bohol,3 4,4 2,7 2,10 1,21 1,22 1,23 1,26 10,31 1,42 1,74 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,11 1,22 1,23 1,51 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 4,4 2,7 1,9 2,12 1,22 1,23 1,24 1,25 1,26 6,48 1,71 1,78 2,85 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 6,4 2,5 12,17 2,19 2,24 1,25 1,26 6,31 1,69 1,73 1,75 1,119 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,4 2,5 15,8 1,16 1,33 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Pemba,6 1,22 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 2,5 20,17 2,18 1,22 1,25 3,26 6,27 1,31 2,44 1,120 Pneumonia}
+{0 Neonate,1 ?,3 4,4 2,5 18,23 1,24 1,25 1,26 5,39 1,44 1,69 1,77 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,7 1,11 1,14 1,25 1,26 1,51 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,5 1,17 1,19 1,20 5,21 1,26 3,31 1,54 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 3,5 4,17 1,24 1,25 1,26 5,31 1,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,11 1,22 1,51 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 UP,3 2,4 2,7 1,22 1,26 2,45 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 7,7 1,14 4,20 1,21 5,23 1,26 10,42 1,48 3,76 1,116 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,14 1,21 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 3,5 4,14 1,17 1,21 1,24 1,25 1,26 4,31 3,120 Pneumonia}
+{0 Neonate,1 ?,2 Bohol,3 5,4 2,7 3,24 1,25 2,26 3,31 1,42 2,74 1,77 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,11 1,22 1,26 1,51 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,6 2,11 1,14 1,17 1,22 1,24 1,25 1,26 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,4 2,7 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,20 1,26 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,4 2,14 1,20 2,23 1,26 1,31 1,54 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,3 3,14 1,17 1,22 1,25 1,26 5,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 4,6 1,7 1,12 1,17 1,20 2,21 1,24 1,26 11,46 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,3 3,5 5,9 1,14 1,21 2,22 2,26 5,69 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 1,12 1,14 1,17 2,25 1,26 4,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,3 2,7 2,25 2,26 1,48 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 6,4 2,7 2,10 1,14 3,20 1,21 2,23 1,26 10,31 1,48 1,75 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,4 2,9 1,31 1,78 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 7,5 8,6 1,7 1,14 1,22 1,26 3,27 1,31 2,42 1,74 2,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 UP,3 3,4 2,9 3,10 1,14 1,19 1,22 1,23 1,24 1,26 3,31 3,71 1,78 2,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 1,4 2,5 2,9 3,22 1,25 1,26 3,27 2,31 2,48 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 2,5 4,7 1,24 1,25 1,26 5,31 2,42 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 2,4 2,7 1,25 1,26 3,48 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 1,4 2,7 1,10 1,17 1,20 1,26 8,42 1,74 1,83 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Dar,3 1,5 1,8 2,16 1,25 1,33 1,72 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 2,4 2,7 1,9 3,11 1,14 1,23 1,26 3,31 1,53 1,78 3,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,5 4,32 1,84 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,3 3,4 2,26 3,31 1,54 3,69 1,83 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 7,4 2,5 3,9 2,22 4,25 1,26 7,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 4,5 4,7 3,9 1,10 2,12 1,14 1,17 1,24 1,25 1,26 10,31 1,48 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 8,7 1,17 1,21 1,23 1,26 11,31 1,39 1,74 1,75 1,76 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 4,7 1,9 1,14 1,17 1,22 1,24 1,25 1,26 10,31 1,78 6,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,7 1,11 1,14 1,25 1,26 1,51 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 7,7 1,9 2,21 5,23 2,24 2,26 6,42 1,48 1,75 3,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 9,5 6,9 1,10 1,11 1,17 1,19 2,24 2,26 5,39 1,44 1,78 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,4 2,5 1,6 1,10 1,11 1,25 1,31 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,11 1,25 1,84 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,5 1,11 1,14 1,25 1,31 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Dar,3 1,8 1,16 1,21 1,25 1,26 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,3 1,11 1,17 1,26 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 1,4 2,5 14,6 1,7 4,9 1,10 1,12 1,20 1,21 1,24 1,25 1,26 11,31 3,42 1,69 2,84 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 2,4 2,11 1,22 1,51 1,77 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,3 3,4 2,9 1,22 1,23 1,25 1,26 3,48 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,4 2,5 15,7 1,24 1,26 1,63 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,7 1,9 3,10 1,11 1,19 1,25 1,26 2,31 1,78 3,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 2,7 1,21 4,23 1,24 2,26 3,74 1,76 1,120 Stillbirth}
+{0 Neonate,1 ?,3 1,21 1,25 1,26 1,36 1,120 Stillbirth}
+{0 Neonate,1 ?,3 1,5 5,21 1,25 1,26 3,36 1,76 1,78 1,119 1,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,2 AP,3 1,4 2,5 2,20 1,24 1,25 1,26 1,31 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Dar,3 1,14 1,21 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 2,7 2,11 1,14 2,21 1,26 2,51 2,77 2,83 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,4 2,5 11,9 5,14 1,17 1,20 6,23 1,24 3,27 1,31 4,65 3,77 1,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,2 UP,3 9,5 1,17 1,21 1,24 1,25 1,26 4,31 2,69 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,21 1,25 1,48 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,5 1,8 3,16 1,25 1,33 1,84 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 1,5 26,7 1,12 1,14 1,20 2,22 1,25 2,26 4,31 2,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Dar,4 2,5 9,8 2,16 1,26 1,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,2 AP,3 1,4 2,25 1,26 2,48 2,53 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,21 1,25 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,3 1,5 7,17 3,22 1,25 1,26 3,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,5 1,11 1,14 1,25 1,31 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,9 1,11 1,16 1,25 1,48 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 2,4 2,5 1,11 2,14 1,17 1,22 1,26 4,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 3,9 1,17 1,20 1,24 1,25 2,26 2,42 1,69 2,74 1,77 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,21 1,24 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 4,4 2,7 5,9 3,20 2,23 1,26 6,42 2,74 1,75 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,11 1,14 1,25 1,51 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,4 2,5 8,8 2,16 1,20 1,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,3 4,5 7,7 3,22 1,26 11,39 1,53 1,54 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 2,5 27,9 2,10 1,17 1,19 1,20 1,21 1,24 1,26 5,31 3,78 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,5 24,7 1,12 2,25 1,26 8,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,3 2,4 2,11 1,14 1,22 1,26 2,51 1,71 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 2,4 2,9 1,14 1,23 1,26 2,31 1,78 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 3,4 2,21 1,23 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 1,5 3,7 1,14 1,17 3,20 1,25 2,26 3,42 1,74 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 7,4 2,5 15,7 1,12 2,14 1,17 1,19 1,22 1,25 1,26 4,31 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,9 1,11 1,22 1,26 1,51 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,5 3,7 1,9 1,19 1,20 5,24 2,26 4,27 1,31 2,34 1,39 1,41 1,78 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 AP,5 6,20 1,22 1,23 1,26 5,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Bohol,3 3,7 2,14 1,20 1,21 6,23 3,24 1,26 7,42 1,75 1,85 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,5 4,6 1,22 1,26 2,32 1,33 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,11 1,22 1,23 1,26 1,51 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 5,4 2,5 2,7 2,9 1,17 2,21 4,26 12,27 1,31 1,42 2,54 4,74 1,101 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 3,4 2,5 3,11 1,14 1,17 1,22 1,23 1,24 1,26 4,31 2,78 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,3 2,4 2,5 1,7 1,9 1,17 2,20 2,22 2,25 3,26 5,31 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,5 2,7 1,12 1,17 1,20 1,22 1,26 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 6,14 1,22 1,26 3,45 1,48 1,67 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 6,9 1,21 1,23 3,24 2,26 6,74 2,75 1,85 3,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,5 27,7 1,20 2,24 3,26 5,39 2,120 Pneumonia}
+{0 Neonate,1 ?,2 Bohol,3 1,4 2,5 9,7 2,10 1,17 2,21 1,24 3,25 1,26 9,31 3,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,5 11,9 1,31 1,70 1,119 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 UP,4 2,7 1,10 1,11 1,17 1,19 1,26 2,68 1,78 3,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,4 2,5 1,9 1,26 1,71 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 5,4 2,5 1,10 1,11 1,17 1,26 4,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 2,4 2,26 4,42 1,54 1,75 1,76 1,83 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,5 4,9 1,20 1,25 1,26 2,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,22 1,23 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,7 2,11 1,31 1,61 1,78 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,5 14,9 1,14 1,17 1,20 5,24 2,26 3,29 1,31 1,120 Pneumonia}
+{0 Neonate,1 ?,2 Bohol,3 4,4 2,5 19,7 1,17 1,19 1,20 2,24 2,25 1,26 12,31 2,42 1,48 1,54 1,69 1,77 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 3,5 8,7 2,14 2,19 1,26 7,31 2,42 1,69 1,77 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 3,4 2,7 1,21 1,23 1,24 1,26 7,75 2,83 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,4 2,7 1,21 1,22 1,26 2,84 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 4,9 2,10 1,11 1,14 2,19 1,23 1,25 1,26 7,71 1,78 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,5 26,8 1,20 1,25 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 5,4 2,7 1,9 1,10 1,20 1,23 1,24 1,25 2,26 9,31 1,39 1,42 1,74 2,120 Stillbirth}
+{0 Neonate,1 ?,5 9,7 1,12 1,26 3,31 2,36 1,78 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 1,4 2,5 1,7 1,12 1,25 2,26 5,27 1,31 1,42 1,73 1,74 1,75 1,77 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,3 1,5 2,8 2,16 1,17 1,25 1,33 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,21 1,22 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 3,4 2,5 1,7 2,9 1,20 1,22 1,24 1,25 1,26 2,27 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 3,5 3,9 1,17 2,22 1,25 1,26 2,29 1,31 1,54 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,4 2,5 23,26 2,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,5 20,26 2,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Dar,5 3,8 2,16 1,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,2 Bohol,3 1,7 1,10 1,24 2,26 5,42 1,69 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 3,4 2,7 1,9 1,14 2,17 1,21 1,25 1,26 6,31 1,39 1,69 1,77 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,3 1,5 15,8 1,24 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 4,9 1,23 1,26 5,42 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 1,4 2,7 1,25 1,26 2,48 1,120 Stillbirth}
+{0 Neonate,1 ?,3 2,5 6,7 1,26 2,31 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 5,4 2,17 1,22 1,25 1,26 1,48 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 6,9 1,23 1,24 3,26 4,42 1,74 1,75 2,83 2,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 2,9 3,11 1,26 4,34 1,41 1,78 4,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,11 1,25 1,26 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,3 1,22 1,25 1,26 4,31 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 2,5 2,7 1,12 1,17 1,22 2,25 2,26 5,31 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,9 1,12 1,17 2,21 1,22 1,24 2,25 2,26 5,31 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 3,7 1,10 2,12 1,17 1,19 2,24 1,26 4,31 1,54 1,78 2,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,4 2,7 1,9 1,20 2,23 1,26 2,31 1,116 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 2,7 3,21 1,24 1,26 11,42 1,54 2,75 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,11 1,14 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 2,4 2,9 2,11 1,25 1,31 1,51 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 5,4 2,7 1,15 1,20 1,23 1,24 2,26 7,42 1,75 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,4 2,9 3,20 2,23 1,26 1,31 1,116 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 1,9 2,25 1,26 2,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 5,4 2,5 3,7 1,17 1,22 1,25 1,26 6,27 1,31 1,39 1,48 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,3 4,24 1,26 8,31 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 1,5 5,6 2,14 1,20 5,21 4,26 10,36 1,42 1,66 1,69 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,7 1,9 2,25 1,26 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,5 1,6 1,24 1,32 1,120 Pneumonia}
+{0 Neonate,1 ?,2 UP,3 2,4 2,6 1,7 1,17 1,21 1,24 1,26 2,85 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,5 27,31 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 UP,7 1,10 1,19 1,21 1,26 2,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,5 16,9 2,12 1,20 2,26 3,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Pemba,4 2,9 1,11 1,51 1,71 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 6,10 1,20 1,23 1,24 1,26 6,31 2,42 2,74 3,76 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,7 1,9 3,11 1,26 1,60 1,78 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 7,4 2,5 2,9 1,10 1,14 1,17 1,20 3,21 3,24 3,25 2,26 5,29 2,31 3,40 1,42 1,54 1,120 Pneumonia}
+{0 Neonate,1 ?,2 Bohol,3 2,7 1,9 1,20 2,21 2,23 3,24 1,26 6,31 1,35 1,42 1,48 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 3,4 2,5 1,7 1,17 1,24 1,25 1,26 8,31 2,42 1,75 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Dar,5 3,8 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Bohol,3 5,7 2,14 1,21 2,23 2,25 1,26 4,31 1,42 1,73 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 1,7 1,9 2,11 1,26 2,71 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 5,7 1,14 1,20 3,23 1,24 2,25 1,26 8,42 1,54 2,74 1,77 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 5,5 3,6 1,7 2,9 1,21 1,24 1,25 1,26 11,31 2,42 1,74 2,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,2 UP,3 2,7 2,9 1,14 2,21 1,26 1,27 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 2,5 6,9 1,11 1,20 3,24 2,26 4,54 1,56 1,75 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 1,4 2,7 1,20 1,21 1,23 1,24 2,26 5,42 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 1,5 1,17 1,20 5,24 1,25 1,26 2,69 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,7 1,14 1,23 1,26 5,42 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 3,22 1,25 1,26 4,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 2,22 1,25 1,26 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,3 1,11 1,14 1,17 1,20 1,26 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 5,4 2,5 1,7 2,10 1,17 1,20 1,21 1,24 3,25 1,26 7,27 1,31 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Bohol,3 4,7 4,10 1,15 1,21 1,23 1,26 9,42 1,48 1,75 1,116 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 1,5 5,7 1,22 1,26 4,78 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 2,9 4,14 1,23 1,25 1,26 4,31 5,71 1,78 3,85 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 5,5 1,7 1,9 2,14 1,17 1,20 1,24 2,26 3,31 1,78 2,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 2,4 2,9 1,14 1,23 1,26 1,31 1,71 1,78 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,5 10,8 1,16 3,26 1,31 1,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,2 Dar,8 1,16 1,21 1,26 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 9,5 27,10 1,17 1,19 1,24 3,26 4,31 5,34 2,41 2,65 1,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,2 UP,3 2,9 2,21 1,23 1,26 2,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,11 1,14 1,31 1,51 1,71 1,83 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 3,26 5,31 1,44 1,76 1,83 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 2,5 5,7 1,17 1,22 1,26 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,4 2,7 2,23 1,26 4,31 1,39 1,42 2,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 1,7 3,9 3,25 1,26 2,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,21 1,26 2,71 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,11 1,22 1,25 1,51 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,3 1,4 2,5 3,26 2,43 1,54 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 3,9 1,11 1,14 1,26 4,31 2,39 1,85 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 1,4 2,11 2,20 1,24 5,26 5,31 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 Bohol,3 1,6 1,7 3,11 1,17 1,20 2,24 1,26 10,54 3,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,3 1,4 2,9 1,11 1,14 1,26 1,51 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 7,4 2,9 1,22 4,25 2,26 5,39 2,44 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,7 1,9 1,11 1,16 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,4 2,5 1,7 1,9 1,10 1,14 1,20 2,23 1,26 2,31 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 2,9 2,10 1,14 1,19 1,20 1,26 3,31 2,39 1,78 1,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 4,4 2,5 4,7 1,9 4,10 1,17 2,21 1,22 4,25 1,26 7,45 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 AP,3 1,4 2,5 2,25 1,26 3,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 2,5 10,6 1,7 4,9 1,14 1,20 1,21 1,24 2,25 3,26 7,27 1,54 3,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 3,4 2,5 1,7 2,11 1,20 1,24 1,25 1,26 8,31 2,42 1,74 3,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 UP,3 2,4 2,7 1,9 1,11 1,14 1,17 1,19 1,23 1,26 5,66 1,78 4,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 9,5 3,7 1,9 2,10 1,14 2,17 1,19 3,25 1,26 3,31 2,48 1,65 1,78 2,120 Pneumonia}
+{0 Neonate,1 ?,2 Dar,3 1,4 2,5 5,8 2,16 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,11 1,22 1,51 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,4 2,7 1,9 3,10 1,11 1,19 1,26 5,31 2,78 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Bohol,3 3,4 2,5 3,6 1,14 1,17 1,19 1,21 1,26 5,31 2,69 1,76 1,77 1,83 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Pemba,3 1,5 3,11 1,14 1,25 1,31 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Pemba,4 2,6 1,11 1,14 1,25 1,51 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 3,4 2,11 1,17 1,26 2,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,4 2,5 6,7 2,9 1,19 1,20 3,25 1,26 5,31 2,65 1,78 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,4 2,5 12,8 1,16 1,120 Meningitis/Sepsis}
+{0 Neonate,1 ?,2 AP,3 1,9 1,25 1,26 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Pemba,6 1,11 1,25 1,51 1,71 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 2,4 2,5 1,7 1,22 1,26 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 3,5 1,9 1,14 1,17 1,22 1,24 1,26 3,78 1,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 2,5 2,9 1,17 1,19 1,26 2,27 1,31 1,78 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Dar,5 6,16 1,32 1,72 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 3,5 9,7 2,9 1,26 3,31 2,42 1,74 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 AP,3 2,9 3,17 1,24 1,25 1,26 2,120 Stillbirth}
+{0 Neonate,1 ?,2 AP,3 2,4 2,7 1,22 2,24 1,25 1,26 3,31 1,120 'Congenital malformation'}
+{0 Neonate,1 ?,3 3,4 2,7 2,21 1,26 4,31 1,105 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,7 1,9 1,10 1,17 1,19 1,20 2,21 1,26 2,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 UP,3 4,7 1,9 1,17 1,22 1,24 1,25 1,26 4,31 2,53 1,54 1,78 2,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 UP,3 1,5 1,17 1,22 1,25 1,26 2,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 AP,3 2,5 1,7 2,26 1,27 1,48 2,120 'Birth asphyxia'}
+{0 Neonate,1 ?,2 Bohol,3 2,7 1,21 1,23 1,24 1,26 7,31 1,42 1,48 1,54 1,75 1,120 Stillbirth}
+{0 Neonate,1 ?,2 Dar,4 2,5 2,16 1,17 1,32 1,33 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,2 Bohol,3 4,4 2,14 1,23 3,26 5,42 2,85 1,120 Stillbirth}
+{0 Neonate,1 ?,2 UP,3 3,7 1,17 1,22 1,24 4,25 2,26 5,31 1,48 1,120 'Preterm Delivery'}
+{0 Neonate,1 ?,3 2,5 1,17 1,26 2,31 1,46 2,120 'Congenital malformation'}
+{0 Neonate,1 ?,2 UP,3 2,9 1,14 1,23 1,26 2,71 1,78 2,120 Stillbirth}

@@ -11,7 +11,7 @@ import weka.core.Instances;
 
 public class ParamOptimizationHoldOut {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		if(args.length != 5) {
 			System.out.println("El programa necesita 2 argumentos:\\n1) Ruta del conjunto de entrenamiento train.arff\n2)Ruta del dev.arff \n3)LearningRate Begin \n4) LearningRate End\n5)Ruta del resultado , resultadoParametrosOptimos.txt");
 			System.exit(1);
@@ -54,12 +54,12 @@ public class ParamOptimizationHoldOut {
 		double optLR=0;
         double optM=0;
         double optWeightFM=0;
-        for(double l=lrB;l<=lrE;l+=0.1){
-        	for(double m=0.5;m<=1;m+=0.1){
+        for(double l=lrB;l<=lrE;l+=0.01){
+        	for(double m=0.5;m<=0.8;m+=0.1){
         		System.out.println("Iteracion "+l+", "+m);
         		result.append("Iteracion "+l+", "+m);
              	cls=new MultilayerPerceptron();
-        		cls.setTrainingTime(20);
+        		cls.setTrainingTime(1000);
         		cls.setLearningRate(l);
         		cls.setMomentum(m);
         		try {
@@ -73,6 +73,8 @@ public class ParamOptimizationHoldOut {
 				}
         		fMeasure=eval.weightedFMeasure();
         		result.append(" --> "+optWeightFM+" vs "+ fMeasure + "\n");
+        		result.append(eval.toSummaryString());
+        		result.append(eval.toClassDetailsString());
         		System.out.println(fMeasure);
         		System.out.println(optWeightFM);
         		if(fMeasure>optWeightFM) {
