@@ -592,15 +592,14 @@ public class Utils {
 		}
     	return unlabeled;
     }
-    public static void predict(Classifier cls,Instances unlabeled,String outPath) {
+    public static void predict(Classifier cls,Instances labeled,String outPath) {
     	try {
 			PrintWriter pw=new PrintWriter(outPath);
-			for(int i=0;i<unlabeled.numInstances();i++) {
+			for(int i=0;i<labeled.numInstances();i++) {
 				double clsvalue;
 				try {
-					clsvalue = cls.classifyInstance(unlabeled.instance(i));
-					unlabeled.instance(i).setClassValue(clsvalue);
-					pw.write(i+","+unlabeled.classAttribute().value((int) clsvalue)+"\n");
+					clsvalue = cls.classifyInstance(labeled.instance(i));
+					pw.write(i+","+labeled.classAttribute().value((int) clsvalue)+"\n");
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

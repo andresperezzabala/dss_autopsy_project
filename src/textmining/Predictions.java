@@ -30,8 +30,7 @@ public class Predictions {
 			System.out.println("Error al cargar el test");
 		}
 		//pone a missing value la clase de unlabeled
-		Instances unlabeled = unlabel(labeled,"gs_text34");
-		predict(cls, unlabeled, args[2]);
+		predict(cls, labeled, args[2]);
 		
 	}
 
