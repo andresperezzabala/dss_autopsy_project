@@ -1,0 +1,2233 @@
+0,Other Cardiovascular Diseases
+1,Maternal
+2,Maternal
+3,Fires
+4,Falls
+5,Diarrhea/Dysentery
+6,Stroke
+7,Maternal
+8,Suicide
+9,Renal Failure
+10,Stroke
+11,Acute Myocardial Infarction
+12,Renal Failure
+13,Epilepsy
+14,Renal Failure
+15,Stroke
+16,Renal Failure
+17,Malaria
+18,Stroke
+19,Stroke
+20,Diarrhea/Dysentery
+21,TB
+22,Stroke
+23,Road Traffic
+24,Diarrhea/Dysentery
+25,Maternal
+26,Acute Myocardial Infarction
+27,Maternal
+28,Renal Failure
+29,Breast Cancer
+30,Leukemia/Lymphomas
+31,Acute Myocardial Infarction
+32,Other Cardiovascular Diseases
+33,Suicide
+34,Falls
+35,Acute Myocardial Infarction
+36,Acute Myocardial Infarction
+37,Falls
+38,Breast Cancer
+39,Renal Failure
+40,Breast Cancer
+41,Renal Failure
+42,Stroke
+43,Pneumonia
+44,Other Infectious Diseases
+45,Bite of Venomous Animal
+46,AIDS
+47,Cirrhosis
+48,AIDS
+49,Other Non-communicable Diseases
+50,Stroke
+51,Stroke
+52,AIDS
+53,Cirrhosis
+54,AIDS
+55,Epilepsy
+56,COPD
+57,Cirrhosis
+58,Pneumonia
+59,Malaria
+60,Stroke
+61,Poisonings
+62,Stroke
+63,Falls
+64,AIDS
+65,COPD
+66,Stomach Cancer
+67,Suicide
+68,TB
+69,Other Injuries
+70,Maternal
+71,Maternal
+72,Other Cardiovascular Diseases
+73,Cirrhosis
+74,Other Cardiovascular Diseases
+75,Other Non-communicable Diseases
+76,Cirrhosis
+77,Fires
+78,Maternal
+79,AIDS
+80,Pneumonia
+81,Cirrhosis
+82,Stroke
+83,Drowning
+84,AIDS
+85,Renal Failure
+86,Other Cardiovascular Diseases
+87,Cervical Cancer
+88,Maternal
+89,Stroke
+90,Renal Failure
+91,Maternal
+92,Cirrhosis
+93,COPD
+94,Cirrhosis
+95,Stroke
+96,COPD
+97,Acute Myocardial Infarction
+98,Other Cardiovascular Diseases
+99,Maternal
+100,Falls
+101,AIDS
+102,Other Infectious Diseases
+103,Renal Failure
+104,Other Non-communicable Diseases
+105,Pneumonia
+106,Fires
+107,Maternal
+108,AIDS
+109,TB
+110,Fires
+111,Stroke
+112,Stroke
+113,Other Cardiovascular Diseases
+114,Diabetes
+115,Suicide
+116,Renal Failure
+117,Diabetes
+118,Renal Failure
+119,Maternal
+120,Diabetes
+121,Maternal
+122,Maternal
+123,Stroke
+124,Pneumonia
+125,AIDS
+126,Diarrhea/Dysentery
+127,Other Non-communicable Diseases
+128,AIDS
+129,Maternal
+130,Other Cardiovascular Diseases
+131,Acute Myocardial Infarction
+132,Cirrhosis
+133,Other Non-communicable Diseases
+134,Diarrhea/Dysentery
+135,Stroke
+136,Cirrhosis
+137,Asthma
+138,Other Cardiovascular Diseases
+139,Diabetes
+140,Cirrhosis
+141,Other Non-communicable Diseases
+142,Fires
+143,Fires
+144,Maternal
+145,Suicide
+146,Other Non-communicable Diseases
+147,Other Non-communicable Diseases
+148,Cirrhosis
+149,Cirrhosis
+150,Stroke
+151,AIDS
+152,Cirrhosis
+153,Bite of Venomous Animal
+154,Other Cardiovascular Diseases
+155,Cirrhosis
+156,Maternal
+157,Maternal
+158,Pneumonia
+159,Suicide
+160,Maternal
+161,Cirrhosis
+162,Other Cardiovascular Diseases
+163,Epilepsy
+164,TB
+165,Cirrhosis
+166,Stroke
+167,Other Non-communicable Diseases
+168,Other Non-communicable Diseases
+169,Renal Failure
+170,Fires
+171,Pneumonia
+172,Fires
+173,Renal Failure
+174,Maternal
+175,Suicide
+176,Pneumonia
+177,Leukemia/Lymphomas
+178,Road Traffic
+179,Other Infectious Diseases
+180,Stroke
+181,Cirrhosis
+182,Stroke
+183,Suicide
+184,Breast Cancer
+185,Falls
+186,AIDS
+187,Suicide
+188,Breast Cancer
+189,Pneumonia
+190,Maternal
+191,AIDS
+192,AIDS
+193,Maternal
+194,Maternal
+195,AIDS
+196,Lung Cancer
+197,Bite of Venomous Animal
+198,Homicide
+199,TB
+200,AIDS
+201,Maternal
+202,Diabetes
+203,Stroke
+204,Other Infectious Diseases
+205,Other Cardiovascular Diseases
+206,Other Infectious Diseases
+207,Cirrhosis
+208,Cirrhosis
+209,Cirrhosis
+210,Epilepsy
+211,Breast Cancer
+212,Other Non-communicable Diseases
+213,AIDS
+214,Other Infectious Diseases
+215,Maternal
+216,Stroke
+217,Other Cardiovascular Diseases
+218,Lung Cancer
+219,Acute Myocardial Infarction
+220,Stroke
+221,Breast Cancer
+222,Renal Failure
+223,Renal Failure
+224,Other Infectious Diseases
+225,Other Non-communicable Diseases
+226,Pneumonia
+227,Renal Failure
+228,Diarrhea/Dysentery
+229,Stroke
+230,AIDS
+231,Other Injuries
+232,Stroke
+233,AIDS
+234,Pneumonia
+235,Stroke
+236,Renal Failure
+237,Prostate Cancer
+238,Maternal
+239,Renal Failure
+240,Acute Myocardial Infarction
+241,Stroke
+242,AIDS
+243,Pneumonia
+244,Stroke
+245,Other Non-communicable Diseases
+246,Breast Cancer
+247,Falls
+248,TB
+249,Pneumonia
+250,Pneumonia
+251,Cirrhosis
+252,Drowning
+253,Pneumonia
+254,Renal Failure
+255,Acute Myocardial Infarction
+256,Stroke
+257,Renal Failure
+258,AIDS
+259,Other Non-communicable Diseases
+260,Stroke
+261,Other Non-communicable Diseases
+262,Diabetes
+263,Renal Failure
+264,Stroke
+265,Maternal
+266,TB
+267,Stroke
+268,AIDS
+269,Cervical Cancer
+270,Cirrhosis
+271,Cervical Cancer
+272,Stroke
+273,Other Non-communicable Diseases
+274,AIDS
+275,Stroke
+276,Renal Failure
+277,Other Non-communicable Diseases
+278,Other Non-communicable Diseases
+279,Drowning
+280,Other Non-communicable Diseases
+281,Fires
+282,Prostate Cancer
+283,Stroke
+284,Other Non-communicable Diseases
+285,Other Non-communicable Diseases
+286,Diarrhea/Dysentery
+287,Other Infectious Diseases
+288,Other Infectious Diseases
+289,Acute Myocardial Infarction
+290,Diarrhea/Dysentery
+291,Stroke
+292,Other Non-communicable Diseases
+293,Other Non-communicable Diseases
+294,Bite of Venomous Animal
+295,Pneumonia
+296,Cervical Cancer
+297,Cirrhosis
+298,Pneumonia
+299,Cirrhosis
+300,Stroke
+301,Stroke
+302,Stroke
+303,Stroke
+304,Cirrhosis
+305,Cirrhosis
+306,AIDS
+307,Other Injuries
+308,Acute Myocardial Infarction
+309,Cirrhosis
+310,Stroke
+311,Breast Cancer
+312,Homicide
+313,Renal Failure
+314,Stroke
+315,AIDS
+316,Cirrhosis
+317,Cirrhosis
+318,TB
+319,AIDS
+320,Stroke
+321,Other Non-communicable Diseases
+322,Renal Failure
+323,Renal Failure
+324,Other Non-communicable Diseases
+325,Acute Myocardial Infarction
+326,Diabetes
+327,Other Injuries
+328,Maternal
+329,Other Non-communicable Diseases
+330,AIDS
+331,Acute Myocardial Infarction
+332,Stroke
+333,Renal Failure
+334,Stroke
+335,Other Cardiovascular Diseases
+336,Pneumonia
+337,Other Injuries
+338,Stroke
+339,Cirrhosis
+340,Cirrhosis
+341,Cirrhosis
+342,COPD
+343,Other Non-communicable Diseases
+344,Maternal
+345,Diarrhea/Dysentery
+346,Cirrhosis
+347,Renal Failure
+348,Other Cardiovascular Diseases
+349,AIDS
+350,TB
+351,Pneumonia
+352,Breast Cancer
+353,Maternal
+354,Stroke
+355,Diarrhea/Dysentery
+356,Cervical Cancer
+357,Acute Myocardial Infarction
+358,Other Infectious Diseases
+359,Pneumonia
+360,TB
+361,Falls
+362,Other Non-communicable Diseases
+363,Drowning
+364,Cirrhosis
+365,Pneumonia
+366,Other Cardiovascular Diseases
+367,Other Non-communicable Diseases
+368,Other Non-communicable Diseases
+369,AIDS
+370,Cirrhosis
+371,Colorectal Cancer
+372,Stroke
+373,Renal Failure
+374,TB
+375,Cirrhosis
+376,Other Infectious Diseases
+377,Falls
+378,Acute Myocardial Infarction
+379,Epilepsy
+380,Cirrhosis
+381,Pneumonia
+382,Stroke
+383,Pneumonia
+384,Falls
+385,Stroke
+386,Maternal
+387,Other Non-communicable Diseases
+388,Renal Failure
+389,Renal Failure
+390,Breast Cancer
+391,Pneumonia
+392,Stroke
+393,Other Cardiovascular Diseases
+394,Other Non-communicable Diseases
+395,AIDS
+396,TB
+397,Maternal
+398,Acute Myocardial Infarction
+399,Renal Failure
+400,Other Injuries
+401,Other Cardiovascular Diseases
+402,Other Cancers
+403,Malaria
+404,Other Non-communicable Diseases
+405,Stroke
+406,Cirrhosis
+407,Stroke
+408,Leukemia/Lymphomas
+409,Drowning
+410,Pneumonia
+411,Stroke
+412,Malaria
+413,Breast Cancer
+414,Diabetes
+415,Stroke
+416,Bite of Venomous Animal
+417,Renal Failure
+418,Other Non-communicable Diseases
+419,Other Non-communicable Diseases
+420,AIDS
+421,Malaria
+422,Suicide
+423,Stroke
+424,Other Cardiovascular Diseases
+425,Renal Failure
+426,Stroke
+427,Other Non-communicable Diseases
+428,Pneumonia
+429,Diabetes
+430,Stroke
+431,Falls
+432,Stroke
+433,Cirrhosis
+434,Diarrhea/Dysentery
+435,Other Non-communicable Diseases
+436,Cirrhosis
+437,Road Traffic
+438,Maternal
+439,Fires
+440,Other Cardiovascular Diseases
+441,Stroke
+442,AIDS
+443,Road Traffic
+444,Diarrhea/Dysentery
+445,Maternal
+446,Acute Myocardial Infarction
+447,Falls
+448,Stroke
+449,Pneumonia
+450,Pneumonia
+451,Breast Cancer
+452,Road Traffic
+453,Maternal
+454,Cervical Cancer
+455,Stroke
+456,AIDS
+457,Diabetes
+458,Cirrhosis
+459,Other Cardiovascular Diseases
+460,AIDS
+461,TB
+462,COPD
+463,Homicide
+464,Renal Failure
+465,Other Non-communicable Diseases
+466,Asthma
+467,Drowning
+468,Diabetes
+469,Maternal
+470,Pneumonia
+471,Stroke
+472,Breast Cancer
+473,Stroke
+474,Stroke
+475,Cirrhosis
+476,Malaria
+477,Cirrhosis
+478,Acute Myocardial Infarction
+479,Other Non-communicable Diseases
+480,Renal Failure
+481,Other Non-communicable Diseases
+482,Malaria
+483,Acute Myocardial Infarction
+484,Epilepsy
+485,Cirrhosis
+486,Other Non-communicable Diseases
+487,Cervical Cancer
+488,Acute Myocardial Infarction
+489,Stroke
+490,Other Cardiovascular Diseases
+491,Stroke
+492,AIDS
+493,Breast Cancer
+494,Pneumonia
+495,AIDS
+496,Pneumonia
+497,Cirrhosis
+498,Cervical Cancer
+499,Stroke
+500,Acute Myocardial Infarction
+501,Other Cardiovascular Diseases
+502,Epilepsy
+503,Acute Myocardial Infarction
+504,Fires
+505,Other Cardiovascular Diseases
+506,Other Non-communicable Diseases
+507,AIDS
+508,Maternal
+509,Maternal
+510,Pneumonia
+511,Pneumonia
+512,AIDS
+513,Renal Failure
+514,Renal Failure
+515,Stroke
+516,Other Infectious Diseases
+517,AIDS
+518,Cirrhosis
+519,Pneumonia
+520,Acute Myocardial Infarction
+521,Pneumonia
+522,Stroke
+523,Other Injuries
+524,Diabetes
+525,AIDS
+526,Other Non-communicable Diseases
+527,Diabetes
+528,Maternal
+529,Other Non-communicable Diseases
+530,Diarrhea/Dysentery
+531,AIDS
+532,AIDS
+533,Epilepsy
+534,Stroke
+535,Renal Failure
+536,Pneumonia
+537,Pneumonia
+538,Other Non-communicable Diseases
+539,Malaria
+540,Stroke
+541,Cirrhosis
+542,Acute Myocardial Infarction
+543,Maternal
+544,Diarrhea/Dysentery
+545,Diabetes
+546,Fires
+547,AIDS
+548,Other Injuries
+549,AIDS
+550,Diarrhea/Dysentery
+551,Other Cardiovascular Diseases
+552,Breast Cancer
+553,Other Non-communicable Diseases
+554,Homicide
+555,AIDS
+556,Pneumonia
+557,Stroke
+558,Cirrhosis
+559,Stroke
+560,Diarrhea/Dysentery
+561,TB
+562,AIDS
+563,Homicide
+564,Pneumonia
+565,Diarrhea/Dysentery
+566,Pneumonia
+567,Acute Myocardial Infarction
+568,Other Non-communicable Diseases
+569,Poisonings
+570,Breast Cancer
+571,Cirrhosis
+572,Asthma
+573,Other Non-communicable Diseases
+574,Cirrhosis
+575,Cervical Cancer
+576,Stroke
+577,Other Non-communicable Diseases
+578,Pneumonia
+579,Other Cardiovascular Diseases
+580,Pneumonia
+581,Other Non-communicable Diseases
+582,Cirrhosis
+583,Diabetes
+584,AIDS
+585,Maternal
+586,TB
+587,Pneumonia
+588,Falls
+589,Other Non-communicable Diseases
+590,Stroke
+591,Maternal
+592,Acute Myocardial Infarction
+593,Prostate Cancer
+594,Cirrhosis
+595,Stroke
+596,Road Traffic
+597,Stroke
+598,Renal Failure
+599,AIDS
+600,Cirrhosis
+601,Stroke
+602,Other Injuries
+603,Acute Myocardial Infarction
+604,Renal Failure
+605,AIDS
+606,Cirrhosis
+607,Other Cardiovascular Diseases
+608,Leukemia/Lymphomas
+609,Other Infectious Diseases
+610,Breast Cancer
+611,Other Infectious Diseases
+612,Suicide
+613,Breast Cancer
+614,Diarrhea/Dysentery
+615,Malaria
+616,Fires
+617,Acute Myocardial Infarction
+618,Cirrhosis
+619,Cirrhosis
+620,Diabetes
+621,Breast Cancer
+622,Other Infectious Diseases
+623,Cirrhosis
+624,Pneumonia
+625,Bite of Venomous Animal
+626,Stroke
+627,Maternal
+628,Malaria
+629,Diabetes
+630,AIDS
+631,Malaria
+632,Maternal
+633,Cirrhosis
+634,Cirrhosis
+635,Renal Failure
+636,Fires
+637,Cirrhosis
+638,Maternal
+639,Maternal
+640,Drowning
+641,COPD
+642,AIDS
+643,Road Traffic
+644,Cirrhosis
+645,Cirrhosis
+646,Maternal
+647,Bite of Venomous Animal
+648,Diarrhea/Dysentery
+649,Epilepsy
+650,Suicide
+651,Acute Myocardial Infarction
+652,Diabetes
+653,Road Traffic
+654,Acute Myocardial Infarction
+655,Stroke
+656,Stroke
+657,Maternal
+658,Maternal
+659,Stroke
+660,TB
+661,AIDS
+662,Acute Myocardial Infarction
+663,Diarrhea/Dysentery
+664,Other Non-communicable Diseases
+665,Other Infectious Diseases
+666,Diabetes
+667,Cirrhosis
+668,AIDS
+669,Malaria
+670,Road Traffic
+671,Other Injuries
+672,Cirrhosis
+673,Drowning
+674,Renal Failure
+675,Diarrhea/Dysentery
+676,Other Cardiovascular Diseases
+677,AIDS
+678,Acute Myocardial Infarction
+679,Stroke
+680,Lung Cancer
+681,Maternal
+682,COPD
+683,Maternal
+684,Pneumonia
+685,Other Infectious Diseases
+686,Renal Failure
+687,Maternal
+688,Malaria
+689,Renal Failure
+690,Diarrhea/Dysentery
+691,Falls
+692,Other Injuries
+693,Acute Myocardial Infarction
+694,Drowning
+695,Renal Failure
+696,Cirrhosis
+697,Fires
+698,Cirrhosis
+699,Maternal
+700,Other Infectious Diseases
+701,Renal Failure
+702,Renal Failure
+703,TB
+704,Renal Failure
+705,AIDS
+706,Stroke
+707,Renal Failure
+708,Stroke
+709,Drowning
+710,Stroke
+711,Renal Failure
+712,Epilepsy
+713,Pneumonia
+714,Fires
+715,AIDS
+716,Acute Myocardial Infarction
+717,Stroke
+718,Renal Failure
+719,Renal Failure
+720,Renal Failure
+721,Stroke
+722,Maternal
+723,Diabetes
+724,Prostate Cancer
+725,Stroke
+726,Pneumonia
+727,Pneumonia
+728,AIDS
+729,Falls
+730,Pneumonia
+731,Other Non-communicable Diseases
+732,Stroke
+733,Stroke
+734,Other Injuries
+735,Diabetes
+736,Renal Failure
+737,Maternal
+738,Asthma
+739,Maternal
+740,Diarrhea/Dysentery
+741,AIDS
+742,Other Non-communicable Diseases
+743,Other Non-communicable Diseases
+744,Acute Myocardial Infarction
+745,Other Infectious Diseases
+746,AIDS
+747,AIDS
+748,Diabetes
+749,Diabetes
+750,AIDS
+751,Diabetes
+752,AIDS
+753,Epilepsy
+754,Maternal
+755,Asthma
+756,Other Infectious Diseases
+757,AIDS
+758,Other Cardiovascular Diseases
+759,Diarrhea/Dysentery
+760,Pneumonia
+761,Pneumonia
+762,TB
+763,Other Cardiovascular Diseases
+764,Pneumonia
+765,Diabetes
+766,Diarrhea/Dysentery
+767,Fires
+768,AIDS
+769,Cirrhosis
+770,Pneumonia
+771,Drowning
+772,Maternal
+773,AIDS
+774,Other Non-communicable Diseases
+775,Maternal
+776,Renal Failure
+777,Other Non-communicable Diseases
+778,Renal Failure
+779,Stroke
+780,Malaria
+781,Maternal
+782,Other Injuries
+783,Suicide
+784,Cirrhosis
+785,Cirrhosis
+786,Drowning
+787,COPD
+788,Pneumonia
+789,Cirrhosis
+790,Epilepsy
+791,Stroke
+792,Cirrhosis
+793,Acute Myocardial Infarction
+794,Diarrhea/Dysentery
+795,Pneumonia
+796,AIDS
+797,TB
+798,Renal Failure
+799,Maternal
+800,Diarrhea/Dysentery
+801,Other Non-communicable Diseases
+802,Stroke
+803,Diabetes
+804,Stroke
+805,Pneumonia
+806,Fires
+807,Renal Failure
+808,Road Traffic
+809,TB
+810,Other Non-communicable Diseases
+811,Pneumonia
+812,Renal Failure
+813,Pneumonia
+814,Drowning
+815,AIDS
+816,Diabetes
+817,Suicide
+818,AIDS
+819,Stroke
+820,AIDS
+821,Cirrhosis
+822,Pneumonia
+823,Renal Failure
+824,Pneumonia
+825,Stroke
+826,AIDS
+827,Pneumonia
+828,Renal Failure
+829,Diabetes
+830,Stroke
+831,Maternal
+832,Cirrhosis
+833,AIDS
+834,Diarrhea/Dysentery
+835,Stroke
+836,AIDS
+837,Stroke
+838,Stroke
+839,Stroke
+840,AIDS
+841,Colorectal Cancer
+842,Maternal
+843,Diarrhea/Dysentery
+844,Other Infectious Diseases
+845,AIDS
+846,Renal Failure
+847,AIDS
+848,AIDS
+849,Maternal
+850,Malaria
+851,AIDS
+852,Stroke
+853,Diarrhea/Dysentery
+854,Acute Myocardial Infarction
+855,Renal Failure
+856,Pneumonia
+857,AIDS
+858,Acute Myocardial Infarction
+859,Stroke
+860,Maternal
+861,Renal Failure
+862,Fires
+863,Diarrhea/Dysentery
+864,Maternal
+865,Stroke
+866,AIDS
+867,Maternal
+868,Maternal
+869,Pneumonia
+870,Other Non-communicable Diseases
+871,Other Non-communicable Diseases
+872,Cirrhosis
+873,Stroke
+874,Stroke
+875,AIDS
+876,Road Traffic
+877,Stroke
+878,Pneumonia
+879,Cirrhosis
+880,Stroke
+881,Acute Myocardial Infarction
+882,Pneumonia
+883,Epilepsy
+884,Other Non-communicable Diseases
+885,Bite of Venomous Animal
+886,Prostate Cancer
+887,Malaria
+888,Acute Myocardial Infarction
+889,Stroke
+890,Epilepsy
+891,Stroke
+892,Stroke
+893,Stroke
+894,AIDS
+895,Stomach Cancer
+896,Falls
+897,Road Traffic
+898,Other Non-communicable Diseases
+899,Other Non-communicable Diseases
+900,Stroke
+901,Cirrhosis
+902,Maternal
+903,Stroke
+904,Cervical Cancer
+905,Maternal
+906,AIDS
+907,AIDS
+908,TB
+909,Acute Myocardial Infarction
+910,Other Injuries
+911,Renal Failure
+912,Pneumonia
+913,Renal Failure
+914,Diarrhea/Dysentery
+915,Suicide
+916,Malaria
+917,Acute Myocardial Infarction
+918,Renal Failure
+919,Maternal
+920,Stroke
+921,AIDS
+922,Diarrhea/Dysentery
+923,Other Injuries
+924,Stroke
+925,Stroke
+926,Poisonings
+927,Renal Failure
+928,Other Cardiovascular Diseases
+929,Homicide
+930,Acute Myocardial Infarction
+931,AIDS
+932,Other Infectious Diseases
+933,Renal Failure
+934,AIDS
+935,TB
+936,Road Traffic
+937,Road Traffic
+938,Suicide
+939,Renal Failure
+940,Pneumonia
+941,Cirrhosis
+942,Acute Myocardial Infarction
+943,AIDS
+944,Diabetes
+945,Pneumonia
+946,Acute Myocardial Infarction
+947,AIDS
+948,Other Infectious Diseases
+949,Stroke
+950,Diabetes
+951,Cervical Cancer
+952,Leukemia/Lymphomas
+953,AIDS
+954,Cirrhosis
+955,Stroke
+956,AIDS
+957,Pneumonia
+958,Acute Myocardial Infarction
+959,Other Non-communicable Diseases
+960,Road Traffic
+961,Renal Failure
+962,Other Non-communicable Diseases
+963,Stroke
+964,Stroke
+965,Breast Cancer
+966,Suicide
+967,Stroke
+968,Maternal
+969,Renal Failure
+970,AIDS
+971,Other Cardiovascular Diseases
+972,TB
+973,AIDS
+974,Stroke
+975,Diabetes
+976,Renal Failure
+977,Pneumonia
+978,Maternal
+979,Stroke
+980,Renal Failure
+981,Maternal
+982,Other Cardiovascular Diseases
+983,Pneumonia
+984,Cervical Cancer
+985,Other Non-communicable Diseases
+986,Other Non-communicable Diseases
+987,Other Cardiovascular Diseases
+988,Malaria
+989,Other Non-communicable Diseases
+990,Stroke
+991,Diabetes
+992,Other Cardiovascular Diseases
+993,Leukemia/Lymphomas
+994,Suicide
+995,Diabetes
+996,Malaria
+997,Fires
+998,Diabetes
+999,Cervical Cancer
+1000,Stroke
+1001,AIDS
+1002,Pneumonia
+1003,Other Non-communicable Diseases
+1004,Stroke
+1005,Other Non-communicable Diseases
+1006,Other Non-communicable Diseases
+1007,Pneumonia
+1008,Other Cancers
+1009,Other Non-communicable Diseases
+1010,Road Traffic
+1011,AIDS
+1012,Stroke
+1013,Other Non-communicable Diseases
+1014,Pneumonia
+1015,Stroke
+1016,Other Infectious Diseases
+1017,Pneumonia
+1018,Other Non-communicable Diseases
+1019,Fires
+1020,Stroke
+1021,Breast Cancer
+1022,Suicide
+1023,TB
+1024,AIDS
+1025,Bite of Venomous Animal
+1026,Stroke
+1027,Stroke
+1028,Stroke
+1029,COPD
+1030,TB
+1031,Maternal
+1032,Renal Failure
+1033,Renal Failure
+1034,Stroke
+1035,Other Cardiovascular Diseases
+1036,Acute Myocardial Infarction
+1037,Breast Cancer
+1038,COPD
+1039,Maternal
+1040,Diarrhea/Dysentery
+1041,Cirrhosis
+1042,Stroke
+1043,Diarrhea/Dysentery
+1044,Maternal
+1045,Colorectal Cancer
+1046,Diarrhea/Dysentery
+1047,Cirrhosis
+1048,AIDS
+1049,Stroke
+1050,Other Non-communicable Diseases
+1051,Renal Failure
+1052,AIDS
+1053,Malaria
+1054,Other Injuries
+1055,Other Cardiovascular Diseases
+1056,Maternal
+1057,TB
+1058,Pneumonia
+1059,Acute Myocardial Infarction
+1060,Pneumonia
+1061,Epilepsy
+1062,COPD
+1063,Stroke
+1064,Cirrhosis
+1065,Road Traffic
+1066,Other Cardiovascular Diseases
+1067,Other Non-communicable Diseases
+1068,Other Non-communicable Diseases
+1069,AIDS
+1070,Diabetes
+1071,Stroke
+1072,TB
+1073,Falls
+1074,Other Cardiovascular Diseases
+1075,Diabetes
+1076,Renal Failure
+1077,AIDS
+1078,Cervical Cancer
+1079,AIDS
+1080,Diarrhea/Dysentery
+1081,Asthma
+1082,Cirrhosis
+1083,TB
+1084,Fires
+1085,Suicide
+1086,AIDS
+1087,Renal Failure
+1088,AIDS
+1089,Cirrhosis
+1090,Renal Failure
+1091,Renal Failure
+1092,Other Non-communicable Diseases
+1093,Other Non-communicable Diseases
+1094,AIDS
+1095,Cervical Cancer
+1096,Cirrhosis
+1097,Stroke
+1098,Maternal
+1099,AIDS
+1100,Cirrhosis
+1101,Renal Failure
+1102,Other Non-communicable Diseases
+1103,Renal Failure
+1104,Renal Failure
+1105,Maternal
+1106,Pneumonia
+1107,Maternal
+1108,Maternal
+1109,Falls
+1110,Acute Myocardial Infarction
+1111,Renal Failure
+1112,AIDS
+1113,Other Non-communicable Diseases
+1114,Acute Myocardial Infarction
+1115,AIDS
+1116,Other Infectious Diseases
+1117,AIDS
+1118,AIDS
+1119,Maternal
+1120,Pneumonia
+1121,Breast Cancer
+1122,Other Non-communicable Diseases
+1123,Renal Failure
+1124,Other Non-communicable Diseases
+1125,AIDS
+1126,Renal Failure
+1127,AIDS
+1128,Cervical Cancer
+1129,Stroke
+1130,AIDS
+1131,Diabetes
+1132,Renal Failure
+1133,Stroke
+1134,Acute Myocardial Infarction
+1135,Malaria
+1136,Other Non-communicable Diseases
+1137,Renal Failure
+1138,Falls
+1139,Cervical Cancer
+1140,Stroke
+1141,COPD
+1142,Road Traffic
+1143,Other Cardiovascular Diseases
+1144,AIDS
+1145,Stroke
+1146,Pneumonia
+1147,Maternal
+1148,Renal Failure
+1149,Other Non-communicable Diseases
+1150,Breast Cancer
+1151,Diabetes
+1152,Cirrhosis
+1153,Diarrhea/Dysentery
+1154,Colorectal Cancer
+1155,Stroke
+1156,Maternal
+1157,Stroke
+1158,Renal Failure
+1159,Cirrhosis
+1160,Poisonings
+1161,Acute Myocardial Infarction
+1162,Maternal
+1163,TB
+1164,Other Infectious Diseases
+1165,Other Cardiovascular Diseases
+1166,Stroke
+1167,Cirrhosis
+1168,Cirrhosis
+1169,Stroke
+1170,Pneumonia
+1171,AIDS
+1172,Pneumonia
+1173,Other Non-communicable Diseases
+1174,Other Cardiovascular Diseases
+1175,Falls
+1176,Maternal
+1177,Stroke
+1178,Other Cardiovascular Diseases
+1179,Diabetes
+1180,Stroke
+1181,Maternal
+1182,Falls
+1183,Breast Cancer
+1184,AIDS
+1185,Cervical Cancer
+1186,Stroke
+1187,Cirrhosis
+1188,Maternal
+1189,Homicide
+1190,Maternal
+1191,Fires
+1192,Other Non-communicable Diseases
+1193,Drowning
+1194,Renal Failure
+1195,Other Injuries
+1196,Stroke
+1197,Acute Myocardial Infarction
+1198,Pneumonia
+1199,Stroke
+1200,AIDS
+1201,Falls
+1202,Maternal
+1203,Stroke
+1204,Cirrhosis
+1205,Maternal
+1206,Pneumonia
+1207,Cirrhosis
+1208,Stroke
+1209,Maternal
+1210,Acute Myocardial Infarction
+1211,Other Infectious Diseases
+1212,Stroke
+1213,AIDS
+1214,Stroke
+1215,Maternal
+1216,Stroke
+1217,Cirrhosis
+1218,Fires
+1219,Pneumonia
+1220,Renal Failure
+1221,Other Infectious Diseases
+1222,COPD
+1223,Stroke
+1224,Maternal
+1225,AIDS
+1226,Renal Failure
+1227,Pneumonia
+1228,Acute Myocardial Infarction
+1229,Bite of Venomous Animal
+1230,Lung Cancer
+1231,Cirrhosis
+1232,Road Traffic
+1233,Diarrhea/Dysentery
+1234,Other Injuries
+1235,Other Infectious Diseases
+1236,Cirrhosis
+1237,Other Cardiovascular Diseases
+1238,TB
+1239,Suicide
+1240,Diabetes
+1241,Diabetes
+1242,Other Non-communicable Diseases
+1243,AIDS
+1244,Maternal
+1245,Acute Myocardial Infarction
+1246,Diarrhea/Dysentery
+1247,Maternal
+1248,Other Non-communicable Diseases
+1249,Stroke
+1250,Falls
+1251,AIDS
+1252,Maternal
+1253,AIDS
+1254,Pneumonia
+1255,AIDS
+1256,Acute Myocardial Infarction
+1257,AIDS
+1258,Maternal
+1259,Stroke
+1260,Diabetes
+1261,Diabetes
+1262,Other Cardiovascular Diseases
+1263,Other Non-communicable Diseases
+1264,Cirrhosis
+1265,Stroke
+1266,Renal Failure
+1267,Drowning
+1268,Other Non-communicable Diseases
+1269,Falls
+1270,Stroke
+1271,Bite of Venomous Animal
+1272,AIDS
+1273,Breast Cancer
+1274,Cirrhosis
+1275,Maternal
+1276,Other Injuries
+1277,TB
+1278,Falls
+1279,COPD
+1280,Other Cardiovascular Diseases
+1281,Falls
+1282,Acute Myocardial Infarction
+1283,Stroke
+1284,AIDS
+1285,Acute Myocardial Infarction
+1286,Breast Cancer
+1287,Pneumonia
+1288,TB
+1289,Other Non-communicable Diseases
+1290,Renal Failure
+1291,Other Cardiovascular Diseases
+1292,Other Injuries
+1293,Cirrhosis
+1294,Pneumonia
+1295,Maternal
+1296,Fires
+1297,Renal Failure
+1298,Other Cardiovascular Diseases
+1299,Diarrhea/Dysentery
+1300,AIDS
+1301,Breast Cancer
+1302,Breast Cancer
+1303,Stroke
+1304,Diabetes
+1305,Maternal
+1306,Maternal
+1307,Diarrhea/Dysentery
+1308,Cirrhosis
+1309,Diabetes
+1310,Other Non-communicable Diseases
+1311,Cirrhosis
+1312,Stroke
+1313,Maternal
+1314,Suicide
+1315,Stroke
+1316,Stroke
+1317,Drowning
+1318,Renal Failure
+1319,Other Cardiovascular Diseases
+1320,Stroke
+1321,Renal Failure
+1322,Diarrhea/Dysentery
+1323,Cirrhosis
+1324,AIDS
+1325,Other Infectious Diseases
+1326,AIDS
+1327,Cirrhosis
+1328,COPD
+1329,Maternal
+1330,Maternal
+1331,Stroke
+1332,Other Non-communicable Diseases
+1333,Stroke
+1334,Stroke
+1335,AIDS
+1336,Acute Myocardial Infarction
+1337,Cirrhosis
+1338,Pneumonia
+1339,Stroke
+1340,Stroke
+1341,AIDS
+1342,Other Cardiovascular Diseases
+1343,AIDS
+1344,AIDS
+1345,Cirrhosis
+1346,Fires
+1347,TB
+1348,Maternal
+1349,Other Non-communicable Diseases
+1350,Leukemia/Lymphomas
+1351,Drowning
+1352,Other Injuries
+1353,Stroke
+1354,Cirrhosis
+1355,Stroke
+1356,Stroke
+1357,Maternal
+1358,Cirrhosis
+1359,Diarrhea/Dysentery
+1360,Malaria
+1361,Other Non-communicable Diseases
+1362,Other Non-communicable Diseases
+1363,Malaria
+1364,Cirrhosis
+1365,Other Cardiovascular Diseases
+1366,Poisonings
+1367,Bite of Venomous Animal
+1368,Renal Failure
+1369,Other Infectious Diseases
+1370,Stroke
+1371,Stroke
+1372,Stroke
+1373,Acute Myocardial Infarction
+1374,Acute Myocardial Infarction
+1375,Other Non-communicable Diseases
+1376,Road Traffic
+1377,Breast Cancer
+1378,Maternal
+1379,Other Injuries
+1380,Cirrhosis
+1381,Other Non-communicable Diseases
+1382,Malaria
+1383,Renal Failure
+1384,Diabetes
+1385,Stroke
+1386,Renal Failure
+1387,Stroke
+1388,Diabetes
+1389,Stroke
+1390,Maternal
+1391,Other Non-communicable Diseases
+1392,Other Non-communicable Diseases
+1393,Maternal
+1394,Stomach Cancer
+1395,Stroke
+1396,Stroke
+1397,Renal Failure
+1398,Other Injuries
+1399,Suicide
+1400,Other Cardiovascular Diseases
+1401,TB
+1402,Other Infectious Diseases
+1403,Other Non-communicable Diseases
+1404,Other Non-communicable Diseases
+1405,Stroke
+1406,Cirrhosis
+1407,Cervical Cancer
+1408,Other Non-communicable Diseases
+1409,Cirrhosis
+1410,Renal Failure
+1411,AIDS
+1412,Renal Failure
+1413,Cirrhosis
+1414,TB
+1415,Other Non-communicable Diseases
+1416,Stroke
+1417,Epilepsy
+1418,Other Cardiovascular Diseases
+1419,Other Infectious Diseases
+1420,Fires
+1421,Pneumonia
+1422,COPD
+1423,AIDS
+1424,Stroke
+1425,Breast Cancer
+1426,Pneumonia
+1427,Maternal
+1428,Breast Cancer
+1429,Acute Myocardial Infarction
+1430,Road Traffic
+1431,Other Non-communicable Diseases
+1432,Pneumonia
+1433,Renal Failure
+1434,Other Non-communicable Diseases
+1435,AIDS
+1436,Renal Failure
+1437,AIDS
+1438,Pneumonia
+1439,Other Injuries
+1440,Pneumonia
+1441,Pneumonia
+1442,Renal Failure
+1443,Renal Failure
+1444,Renal Failure
+1445,Maternal
+1446,AIDS
+1447,Acute Myocardial Infarction
+1448,Acute Myocardial Infarction
+1449,Road Traffic
+1450,Stroke
+1451,Cervical Cancer
+1452,Stroke
+1453,Maternal
+1454,TB
+1455,Malaria
+1456,Other Cardiovascular Diseases
+1457,Stroke
+1458,Diabetes
+1459,AIDS
+1460,Violent Death
+1461,Bite of Venomous Animal
+1462,Diarrhea/Dysentery
+1463,Pneumonia
+1464,Drowning
+1465,Bite of Venomous Animal
+1466,Violent Death
+1467,Other Defined Causes of Child Deaths
+1468,Diarrhea/Dysentery
+1469,Pneumonia
+1470,Pneumonia
+1471,Other Infectious Diseases
+1472,Pneumonia
+1473,Pneumonia
+1474,Pneumonia
+1475,Sepsis
+1476,Measles
+1477,Bite of Venomous Animal
+1478,Violent Death
+1479,Other Cardiovascular Diseases
+1480,Malaria
+1481,Bite of Venomous Animal
+1482,Diarrhea/Dysentery
+1483,Pneumonia
+1484,Other Infectious Diseases
+1485,Pneumonia
+1486,Pneumonia
+1487,Diarrhea/Dysentery
+1488,Other Infectious Diseases
+1489,Other Defined Causes of Child Deaths
+1490,Other Digestive Diseases
+1491,Road Traffic
+1492,Pneumonia
+1493,Other Digestive Diseases
+1494,Other Cardiovascular Diseases
+1495,Fires
+1496,Pneumonia
+1497,Pneumonia
+1498,Pneumonia
+1499,Other Defined Causes of Child Deaths
+1500,Pneumonia
+1501,Sepsis
+1502,Encephalitis
+1503,Diarrhea/Dysentery
+1504,Road Traffic
+1505,Other Cardiovascular Diseases
+1506,Pneumonia
+1507,Diarrhea/Dysentery
+1508,Other Defined Causes of Child Deaths
+1509,Pneumonia
+1510,Diarrhea/Dysentery
+1511,Other Defined Causes of Child Deaths
+1512,Other Defined Causes of Child Deaths
+1513,Pneumonia
+1514,Sepsis
+1515,Other Defined Causes of Child Deaths
+1516,Sepsis
+1517,Meningitis
+1518,Hemorrhagic fever
+1519,Diarrhea/Dysentery
+1520,Sepsis
+1521,Pneumonia
+1522,Other Defined Causes of Child Deaths
+1523,Encephalitis
+1524,Fires
+1525,Encephalitis
+1526,Sepsis
+1527,Fires
+1528,Pneumonia
+1529,Fires
+1530,Other Defined Causes of Child Deaths
+1531,Malaria
+1532,Diarrhea/Dysentery
+1533,Encephalitis
+1534,Diarrhea/Dysentery
+1535,Pneumonia
+1536,Road Traffic
+1537,Diarrhea/Dysentery
+1538,Other Cardiovascular Diseases
+1539,Pneumonia
+1540,Other Defined Causes of Child Deaths
+1541,Violent Death
+1542,Sepsis
+1543,Pneumonia
+1544,Malaria
+1545,Pneumonia
+1546,Violent Death
+1547,Sepsis
+1548,Pneumonia
+1549,Other Infectious Diseases
+1550,Pneumonia
+1551,Diarrhea/Dysentery
+1552,Encephalitis
+1553,Pneumonia
+1554,Pneumonia
+1555,Sepsis
+1556,Pneumonia
+1557,Falls
+1558,Other Cardiovascular Diseases
+1559,Pneumonia
+1560,Pneumonia
+1561,Hemorrhagic fever
+1562,Pneumonia
+1563,Violent Death
+1564,Sepsis
+1565,Pneumonia
+1566,Pneumonia
+1567,Renal Failure
+1568,Drowning
+1569,Pneumonia
+1570,Diarrhea/Dysentery
+1571,Diarrhea/Dysentery
+1572,Diarrhea/Dysentery
+1573,Pneumonia
+1574,Other Cardiovascular Diseases
+1575,Violent Death
+1576,Sepsis
+1577,Pneumonia
+1578,Pneumonia
+1579,Pneumonia
+1580,Diarrhea/Dysentery
+1581,Sepsis
+1582,Meningitis
+1583,Violent Death
+1584,Diarrhea/Dysentery
+1585,Malaria
+1586,Road Traffic
+1587,Other Cardiovascular Diseases
+1588,Measles
+1589,Other Cardiovascular Diseases
+1590,Sepsis
+1591,Other Defined Causes of Child Deaths
+1592,Pneumonia
+1593,Diarrhea/Dysentery
+1594,Pneumonia
+1595,Sepsis
+1596,Hemorrhagic fever
+1597,Pneumonia
+1598,Drowning
+1599,Violent Death
+1600,Diarrhea/Dysentery
+1601,Other Defined Causes of Child Deaths
+1602,Diarrhea/Dysentery
+1603,Pneumonia
+1604,Diarrhea/Dysentery
+1605,Meningitis
+1606,Diarrhea/Dysentery
+1607,Hemorrhagic fever
+1608,Fires
+1609,Violent Death
+1610,Other Cardiovascular Diseases
+1611,Road Traffic
+1612,Pneumonia
+1613,Pneumonia
+1614,Falls
+1615,Pneumonia
+1616,Diarrhea/Dysentery
+1617,Pneumonia
+1618,Diarrhea/Dysentery
+1619,Meningitis
+1620,Diarrhea/Dysentery
+1621,Pneumonia
+1622,Pneumonia
+1623,Pneumonia
+1624,Diarrhea/Dysentery
+1625,Malaria
+1626,Sepsis
+1627,Sepsis
+1628,Falls
+1629,Pneumonia
+1630,Diarrhea/Dysentery
+1631,Fires
+1632,Pneumonia
+1633,Diarrhea/Dysentery
+1634,Pneumonia
+1635,Diarrhea/Dysentery
+1636,Road Traffic
+1637,Other Non-communicable Diseases
+1638,Road Traffic
+1639,Violent Death
+1640,Sepsis
+1641,Poisonings
+1642,Road Traffic
+1643,Other Digestive Diseases
+1644,Pneumonia
+1645,Sepsis
+1646,Bite of Venomous Animal
+1647,Hemorrhagic fever
+1648,Hemorrhagic fever
+1649,Diarrhea/Dysentery
+1650,Diarrhea/Dysentery
+1651,Violent Death
+1652,Pneumonia
+1653,Sepsis
+1654,Fires
+1655,Pneumonia
+1656,Other Cardiovascular Diseases
+1657,Pneumonia
+1658,Violent Death
+1659,Bite of Venomous Animal
+1660,Drowning
+1661,Measles
+1662,Pneumonia
+1663,Other Defined Causes of Child Deaths
+1664,Pneumonia
+1665,Road Traffic
+1666,Pneumonia
+1667,Hemorrhagic fever
+1668,Road Traffic
+1669,Other Defined Causes of Child Deaths
+1670,Road Traffic
+1671,Other Defined Causes of Child Deaths
+1672,Fires
+1673,Road Traffic
+1674,Other Defined Causes of Child Deaths
+1675,Other Defined Causes of Child Deaths
+1676,Pneumonia
+1677,Pneumonia
+1678,Other Defined Causes of Child Deaths
+1679,Diarrhea/Dysentery
+1680,Bite of Venomous Animal
+1681,Bite of Venomous Animal
+1682,Pneumonia
+1683,Falls
+1684,Pneumonia
+1685,Pneumonia
+1686,Diarrhea/Dysentery
+1687,Sepsis
+1688,Violent Death
+1689,Other Defined Causes of Child Deaths
+1690,Pneumonia
+1691,Diarrhea/Dysentery
+1692,Malaria
+1693,Other Defined Causes of Child Deaths
+1694,Bite of Venomous Animal
+1695,Other Cardiovascular Diseases
+1696,Drowning
+1697,Pneumonia
+1698,Violent Death
+1699,Other Defined Causes of Child Deaths
+1700,Other Cardiovascular Diseases
+1701,Sepsis
+1702,Pneumonia
+1703,Pneumonia
+1704,Pneumonia
+1705,Diarrhea/Dysentery
+1706,Meningitis
+1707,Pneumonia
+1708,Pneumonia
+1709,Meningitis
+1710,Pneumonia
+1711,Sepsis
+1712,Malaria
+1713,Pneumonia
+1714,Other Defined Causes of Child Deaths
+1715,Diarrhea/Dysentery
+1716,Pneumonia
+1717,Road Traffic
+1718,Sepsis
+1719,Pneumonia
+1720,Other Defined Causes of Child Deaths
+1721,Diarrhea/Dysentery
+1722,Other Digestive Diseases
+1723,Violent Death
+1724,Falls
+1725,Other Digestive Diseases
+1726,Diarrhea/Dysentery
+1727,Pneumonia
+1728,Pneumonia
+1729,Diarrhea/Dysentery
+1730,Pneumonia
+1731,Diarrhea/Dysentery
+1732,Sepsis
+1733,Pneumonia
+1734,Other Cardiovascular Diseases
+1735,Diarrhea/Dysentery
+1736,Diarrhea/Dysentery
+1737,Pneumonia
+1738,Pneumonia
+1739,Diarrhea/Dysentery
+1740,Pneumonia
+1741,Bite of Venomous Animal
+1742,Road Traffic
+1743,Other Defined Causes of Child Deaths
+1744,Road Traffic
+1745,Fires
+1746,Hemorrhagic fever
+1747,Other Defined Causes of Child Deaths
+1748,Encephalitis
+1749,Fires
+1750,Diarrhea/Dysentery
+1751,Road Traffic
+1752,Fires
+1753,Pneumonia
+1754,Other Infectious Diseases
+1755,Pneumonia
+1756,Diarrhea/Dysentery
+1757,Violent Death
+1758,Pneumonia
+1759,Sepsis
+1760,Pneumonia
+1761,Diarrhea/Dysentery
+1762,Diarrhea/Dysentery
+1763,Other Defined Causes of Child Deaths
+1764,Drowning
+1765,Diarrhea/Dysentery
+1766,Other Cancers
+1767,Pneumonia
+1768,Diarrhea/Dysentery
+1769,Diarrhea/Dysentery
+1770,Pneumonia
+1771,Other Cardiovascular Diseases
+1772,Other Defined Causes of Child Deaths
+1773,Diarrhea/Dysentery
+1774,Pneumonia
+1775,Pneumonia
+1776,Pneumonia
+1777,Hemorrhagic fever
+1778,Diarrhea/Dysentery
+1779,Pneumonia
+1780,Other Infectious Diseases
+1781,Hemorrhagic fever
+1782,Road Traffic
+1783,Sepsis
+1784,Pneumonia
+1785,Pneumonia
+1786,Diarrhea/Dysentery
+1787,Sepsis
+1788,Diarrhea/Dysentery
+1789,Sepsis
+1790,Poisonings
+1791,Pneumonia
+1792,Pneumonia
+1793,Diarrhea/Dysentery
+1794,Diarrhea/Dysentery
+1795,Pneumonia
+1796,Diarrhea/Dysentery
+1797,Fires
+1798,Other Cardiovascular Diseases
+1799,Other Cardiovascular Diseases
+1800,Diarrhea/Dysentery
+1801,Pneumonia
+1802,Other Infectious Diseases
+1803,Other Defined Causes of Child Deaths
+1804,Meningitis
+1805,Pneumonia
+1806,Pneumonia
+1807,Pneumonia
+1808,Other Defined Causes of Child Deaths
+1809,Drowning
+1810,Encephalitis
+1811,Pneumonia
+1812,Pneumonia
+1813,Other Defined Causes of Child Deaths
+1814,Meningitis
+1815,Pneumonia
+1816,Pneumonia
+1817,Road Traffic
+1818,Falls
+1819,Diarrhea/Dysentery
+1820,Stillbirth
+1821,Hemorrhagic fever
+1822,Diarrhea/Dysentery
+1823,Pneumonia
+1824,Diarrhea/Dysentery
+1825,Other Defined Causes of Child Deaths
+1826,Diarrhea/Dysentery
+1827,Diarrhea/Dysentery
+1828,Meningitis
+1829,Fires
+1830,Falls
+1831,Falls
+1832,Malaria
+1833,Other Defined Causes of Child Deaths
+1834,Other Defined Causes of Child Deaths
+1835,Diarrhea/Dysentery
+1836,Pneumonia
+1837,Meningitis
+1838,Pneumonia
+1839,Other Defined Causes of Child Deaths
+1840,Other Defined Causes of Child Deaths
+1841,Other Infectious Diseases
+1842,Pneumonia
+1843,Meningitis
+1844,Sepsis
+1845,Violent Death
+1846,Other Defined Causes of Child Deaths
+1847,Pneumonia
+1848,Hemorrhagic fever
+1849,Malaria
+1850,Diarrhea/Dysentery
+1851,Malaria
+1852,Other Defined Causes of Child Deaths
+1853,Meningitis
+1854,Sepsis
+1855,Pneumonia
+1856,Stillbirth
+1857,Congenital malformation
+1858,Preterm Delivery
+1859,Stillbirth
+1860,Stillbirth
+1861,Stillbirth
+1862,Stillbirth
+1863,Preterm Delivery
+1864,Stillbirth
+1865,Stillbirth
+1866,Stillbirth
+1867,Meningitis/Sepsis
+1868,Birth asphyxia
+1869,Stillbirth
+1870,Stillbirth
+1871,Birth asphyxia
+1872,Stillbirth
+1873,Stillbirth
+1874,Birth asphyxia
+1875,Stillbirth
+1876,Preterm Delivery
+1877,Birth asphyxia
+1878,Stillbirth
+1879,Preterm Delivery
+1880,Congenital malformation
+1881,Stillbirth
+1882,Birth asphyxia
+1883,Stillbirth
+1884,Preterm Delivery
+1885,Preterm Delivery
+1886,Stillbirth
+1887,Birth asphyxia
+1888,Stillbirth
+1889,Stillbirth
+1890,Birth asphyxia
+1891,Preterm Delivery
+1892,Birth asphyxia
+1893,Stillbirth
+1894,Stillbirth
+1895,Stillbirth
+1896,Preterm Delivery
+1897,Preterm Delivery
+1898,Stillbirth
+1899,Stillbirth
+1900,Birth asphyxia
+1901,Birth asphyxia
+1902,Meningitis/Sepsis
+1903,Stillbirth
+1904,Birth asphyxia
+1905,Birth asphyxia
+1906,Preterm Delivery
+1907,Preterm Delivery
+1908,Stillbirth
+1909,Stillbirth
+1910,Preterm Delivery
+1911,Stillbirth
+1912,Birth asphyxia
+1913,Stillbirth
+1914,Birth asphyxia
+1915,Preterm Delivery
+1916,Congenital malformation
+1917,Birth asphyxia
+1918,Birth asphyxia
+1919,Birth asphyxia
+1920,Birth asphyxia
+1921,Birth asphyxia
+1922,Congenital malformation
+1923,Stillbirth
+1924,Stillbirth
+1925,Preterm Delivery
+1926,Stillbirth
+1927,Meningitis/Sepsis
+1928,Stillbirth
+1929,Congenital malformation
+1930,Preterm Delivery
+1931,Stillbirth
+1932,Birth asphyxia
+1933,Preterm Delivery
+1934,Stillbirth
+1935,Stillbirth
+1936,Congenital malformation
+1937,Birth asphyxia
+1938,Birth asphyxia
+1939,Stillbirth
+1940,Birth asphyxia
+1941,Preterm Delivery
+1942,Pneumonia
+1943,Preterm Delivery
+1944,Stillbirth
+1945,Congenital malformation
+1946,Stillbirth
+1947,Stillbirth
+1948,Preterm Delivery
+1949,Stillbirth
+1950,Preterm Delivery
+1951,Stillbirth
+1952,Birth asphyxia
+1953,Stillbirth
+1954,Preterm Delivery
+1955,Stillbirth
+1956,Birth asphyxia
+1957,Preterm Delivery
+1958,Stillbirth
+1959,Stillbirth
+1960,Birth asphyxia
+1961,Preterm Delivery
+1962,Preterm Delivery
+1963,Preterm Delivery
+1964,Preterm Delivery
+1965,Congenital malformation
+1966,Preterm Delivery
+1967,Stillbirth
+1968,Preterm Delivery
+1969,Birth asphyxia
+1970,Preterm Delivery
+1971,Stillbirth
+1972,Stillbirth
+1973,Congenital malformation
+1974,Birth asphyxia
+1975,Stillbirth
+1976,Birth asphyxia
+1977,Preterm Delivery
+1978,Stillbirth
+1979,Preterm Delivery
+1980,Stillbirth
+1981,Stillbirth
+1982,Preterm Delivery
+1983,Stillbirth
+1984,Stillbirth
+1985,Stillbirth
+1986,Birth asphyxia
+1987,Preterm Delivery
+1988,Stillbirth
+1989,Birth asphyxia
+1990,Stillbirth
+1991,Birth asphyxia
+1992,Congenital malformation
+1993,Stillbirth
+1994,Congenital malformation
+1995,Congenital malformation
+1996,Preterm Delivery
+1997,Stillbirth
+1998,Congenital malformation
+1999,Stillbirth
+2000,Preterm Delivery
+2001,Preterm Delivery
+2002,Stillbirth
+2003,Congenital malformation
+2004,Stillbirth
+2005,Preterm Delivery
+2006,Birth asphyxia
+2007,Birth asphyxia
+2008,Preterm Delivery
+2009,Preterm Delivery
+2010,Stillbirth
+2011,Stillbirth
+2012,Preterm Delivery
+2013,Preterm Delivery
+2014,Preterm Delivery
+2015,Birth asphyxia
+2016,Stillbirth
+2017,Birth asphyxia
+2018,Stillbirth
+2019,Birth asphyxia
+2020,Preterm Delivery
+2021,Birth asphyxia
+2022,Birth asphyxia
+2023,Stillbirth
+2024,Stillbirth
+2025,Stillbirth
+2026,Preterm Delivery
+2027,Stillbirth
+2028,Stillbirth
+2029,Stillbirth
+2030,Stillbirth
+2031,Meningitis/Sepsis
+2032,Preterm Delivery
+2033,Stillbirth
+2034,Preterm Delivery
+2035,Stillbirth
+2036,Preterm Delivery
+2037,Meningitis/Sepsis
+2038,Stillbirth
+2039,Birth asphyxia
+2040,Preterm Delivery
+2041,Stillbirth
+2042,Birth asphyxia
+2043,Stillbirth
+2044,Preterm Delivery
+2045,Birth asphyxia
+2046,Preterm Delivery
+2047,Birth asphyxia
+2048,Preterm Delivery
+2049,Preterm Delivery
+2050,Stillbirth
+2051,Preterm Delivery
+2052,Stillbirth
+2053,Stillbirth
+2054,Preterm Delivery
+2055,Preterm Delivery
+2056,Congenital malformation
+2057,Stillbirth
+2058,Preterm Delivery
+2059,Preterm Delivery
+2060,Birth asphyxia
+2061,Stillbirth
+2062,Preterm Delivery
+2063,Congenital malformation
+2064,Preterm Delivery
+2065,Stillbirth
+2066,Stillbirth
+2067,Birth asphyxia
+2068,Preterm Delivery
+2069,Stillbirth
+2070,Preterm Delivery
+2071,Preterm Delivery
+2072,Birth asphyxia
+2073,Stillbirth
+2074,Birth asphyxia
+2075,Preterm Delivery
+2076,Birth asphyxia
+2077,Birth asphyxia
+2078,Congenital malformation
+2079,Stillbirth
+2080,Stillbirth
+2081,Stillbirth
+2082,Birth asphyxia
+2083,Preterm Delivery
+2084,Preterm Delivery
+2085,Preterm Delivery
+2086,Stillbirth
+2087,Stillbirth
+2088,Preterm Delivery
+2089,Congenital malformation
+2090,TB
+2091,Stillbirth
+2092,Birth asphyxia
+2093,Preterm Delivery
+2094,Congenital malformation
+2095,Stillbirth
+2096,Congenital malformation
+2097,Meningitis/Sepsis
+2098,Congenital malformation
+2099,Stillbirth
+2100,Preterm Delivery
+2101,Preterm Delivery
+2102,Stillbirth
+2103,Birth asphyxia
+2104,Stillbirth
+2105,Stillbirth
+2106,Pneumonia
+2107,Preterm Delivery
+2108,Preterm Delivery
+2109,Stillbirth
+2110,Preterm Delivery
+2111,Stillbirth
+2112,Preterm Delivery
+2113,Stillbirth
+2114,Congenital malformation
+2115,Preterm Delivery
+2116,Preterm Delivery
+2117,Stillbirth
+2118,Congenital malformation
+2119,Birth asphyxia
+2120,Congenital malformation
+2121,Congenital malformation
+2122,Preterm Delivery
+2123,Preterm Delivery
+2124,Stillbirth
+2125,Preterm Delivery
+2126,Stillbirth
+2127,Stillbirth
+2128,Preterm Delivery
+2129,Birth asphyxia
+2130,Stillbirth
+2131,Stillbirth
+2132,Stillbirth
+2133,Preterm Delivery
+2134,Birth asphyxia
+2135,Congenital malformation
+2136,Birth asphyxia
+2137,Stillbirth
+2138,Stillbirth
+2139,Stillbirth
+2140,Stillbirth
+2141,Stillbirth
+2142,Stillbirth
+2143,Stillbirth
+2144,Birth asphyxia
+2145,Stillbirth
+2146,Birth asphyxia
+2147,Stillbirth
+2148,Preterm Delivery
+2149,Preterm Delivery
+2150,Congenital malformation
+2151,Preterm Delivery
+2152,Congenital malformation
+2153,Stillbirth
+2154,Stillbirth
+2155,Stillbirth
+2156,Pneumonia
+2157,Stillbirth
+2158,Preterm Delivery
+2159,Preterm Delivery
+2160,Stillbirth
+2161,Stillbirth
+2162,Stillbirth
+2163,Birth asphyxia
+2164,Birth asphyxia
+2165,Birth asphyxia
+2166,Stillbirth
+2167,Birth asphyxia
+2168,Stillbirth
+2169,Preterm Delivery
+2170,Stillbirth
+2171,Birth asphyxia
+2172,Birth asphyxia
+2173,Stillbirth
+2174,Preterm Delivery
+2175,Stillbirth
+2176,Birth asphyxia
+2177,Stillbirth
+2178,Meningitis/Sepsis
+2179,Preterm Delivery
+2180,Meningitis
+2181,Stillbirth
+2182,Stillbirth
+2183,Preterm Delivery
+2184,Preterm Delivery
+2185,Stillbirth
+2186,Stillbirth
+2187,Meningitis/Sepsis
+2188,Stillbirth
+2189,Stillbirth
+2190,Birth asphyxia
+2191,Birth asphyxia
+2192,Birth asphyxia
+2193,Stillbirth
+2194,Congenital malformation
+2195,Stillbirth
+2196,Stillbirth
+2197,Birth asphyxia
+2198,Pneumonia
+2199,Congenital malformation
+2200,Stillbirth
+2201,Birth asphyxia
+2202,Stillbirth
+2203,Birth asphyxia
+2204,Preterm Delivery
+2205,Birth asphyxia
+2206,Stillbirth
+2207,Preterm Delivery
+2208,Birth asphyxia
+2209,Stillbirth
+2210,Stillbirth
+2211,Preterm Delivery
+2212,Preterm Delivery
+2213,Stillbirth
+2214,Birth asphyxia
+2215,Preterm Delivery
+2216,Birth asphyxia
+2217,Birth asphyxia
+2218,Preterm Delivery
+2219,Meningitis/Sepsis
+2220,Congenital malformation
+2221,Preterm Delivery
+2222,Birth asphyxia
+2223,Birth asphyxia
+2224,Birth asphyxia
+2225,Birth asphyxia
+2226,Stillbirth
+2227,Stillbirth
+2228,Preterm Delivery
+2229,Stillbirth
+2230,Birth asphyxia
+2231,Preterm Delivery
+2232,Stillbirth
