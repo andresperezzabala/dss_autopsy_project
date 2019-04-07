@@ -24,6 +24,8 @@ import weka.attributeSelection.Ranker;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Enumeration;
 import java.util.HashSet;
@@ -594,12 +596,16 @@ public class Utils {
     }
     public static void predict(Classifier cls,Instances labeled,String outPath) {
     	try {
-			PrintWriter pw=new PrintWriter(outPath);
+			PrintWriter pw=new PrintWriter(new FileWriter(outPath,true));
+			int aciertos=0;
 			for(int i=0;i<labeled.numInstances();i++) {
 				double clsvalue;
 				try {
 					clsvalue = cls.classifyInstance(labeled.instance(i));
-					pw.write(i+","+labeled.classAttribute().value((int) clsvalue)+"\n");
+					//escribe un indice mas la clase predecida + la real	
+					pw.write(i+", Prediccion: "+labeled.classAttribute().value((int) clsvalue)+", Real: "+labeled.classAttribute().value((int)labeled.get(i).classValue())+"\n");
+					if(clsvalue==labeled.instance(i).classValue())
+						aciertos++;
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -608,6 +614,9 @@ public class Utils {
 			pw.flush();
 			pw.close();
 		} catch (FileNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
