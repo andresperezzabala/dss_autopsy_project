@@ -27,6 +27,8 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Enumeration;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -647,11 +649,33 @@ public class Utils {
      * @return
      */
     public static int[] stringIntArrayToIntArray(String ar){
+        ar =  ar.replace("\n", "");
+        ar =  ar.replace(" ", "");
         String[] integerStrings = ar.split(",");
         int[] integers = new int[integerStrings.length];
         for (int i = 0; i < integers.length; i++){
             integers[i] = Integer.parseInt(integerStrings[i]);
         }
         return integers;
+    }
+
+
+    /**
+     * Read a file to string.
+     * @param filePath
+     * @return
+     */
+    public static String readAllBytesJava7(String filePath)
+    {
+        String content = "";
+        try
+        {
+            content = new String ( Files.readAllBytes( Paths.get(filePath) ) );
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+        return content;
     }
 }
