@@ -622,4 +622,36 @@ public class Utils {
 		}
     	
     }
+
+
+
+    /**
+     * Convierte un int[] a un string con formato "1,2,4,5"
+     * @param ar
+     * @return
+     */
+    public static String intArrayToString(int[] ar) {
+        String result = "";
+        for (int i = 0; i < ar.length; i++) {
+            result += ar[i];
+            if (i != ar.length -1) {
+                result += ",";
+            }
+        }
+        return result;
+    }
+
+    /**
+     * Convierte un string con formato "1,2,4,5" a un int[]
+     * @param ar
+     * @return
+     */
+    public static int[] stringIntArrayToIntArray(String ar){
+        String[] integerStrings = ar.split(",");
+        int[] integers = new int[integerStrings.length];
+        for (int i = 0; i < integers.length; i++){
+            integers[i] = Integer.parseInt(integerStrings[i]);
+        }
+        return integers;
+    }
 }
