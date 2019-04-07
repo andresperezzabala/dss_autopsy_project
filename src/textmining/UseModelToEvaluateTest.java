@@ -57,5 +57,6 @@ public class UseModelToEvaluateTest {
         }
         
         printToFile(results, resultsPath);
+        predict(cls, test, resultsPath);;
     }
 }
