@@ -1,4 +1,4 @@
-package textmining;
+package estimaciones;
 
 import weka.classifiers.Evaluation;
 import weka.classifiers.bayes.NaiveBayes;
@@ -7,6 +7,9 @@ import weka.core.Instances;
 
 import static utils.Utils.*;
 
+/**
+ * Se encarga de estimar la calidad del modelo.
+ */
 public class EstimacionCalidadNoHonestaNaiveBayes {
 
     public static void main(String[] args) {

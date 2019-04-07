@@ -7,6 +7,9 @@ import weka.classifiers.Classifier;
 import weka.classifiers.bayes.NaiveBayes;
 import weka.core.Instances;
 
+/**
+ * Crea un modelo Naive Bayes.
+ */
 public class TrainingModel {
 
 	public static void main(String[] args) {

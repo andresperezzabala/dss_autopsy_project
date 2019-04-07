@@ -7,6 +7,10 @@ import weka.filters.unsupervised.attribute.Remove;
 
 import static utils.Utils.*;
 
+/**
+ * Hace seleccion de atributos de un archivo_bow.arff. Tambien guarda los atributos del filtro en un archivo, para que adaptar
+ * otros archivos usando la misma seleccion de atributos sea sencillo.
+ */
 public class AutopsyBow2AS {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package textmining;
+package estimaciones;
 
 import weka.classifiers.Evaluation;
 import weka.classifiers.functions.MultilayerPerceptron;
@@ -8,6 +8,9 @@ import java.util.Random;
 
 import static utils.Utils.*;
 
+/**
+ * Se encarga de estimar la calidad del modelo.
+ */
 public class EstimacionCalidadHoldOutMultilayerPerceptron {
 
     public static void main(String[] args) {

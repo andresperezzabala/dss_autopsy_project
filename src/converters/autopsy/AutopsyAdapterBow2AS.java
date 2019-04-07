@@ -7,6 +7,9 @@ import weka.filters.unsupervised.attribute.Remove;
 
 import static utils.Utils.*;
 
+/**
+ * Sirve para adaptar un archivo_bow.arff a la seleccion de atributos aplicada a otro anteriormente.
+ */
 public class AutopsyAdapterBow2AS {
 
 	public static void main(String[] args) {
