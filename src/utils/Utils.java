@@ -27,6 +27,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Enumeration;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Random;
 
 import static weka.classifiers.lazy.IBk.*;
@@ -582,5 +583,35 @@ public class Utils {
         System.out.println("momento optimo es: "+optM);
         double[] optParams= {optLR,optM};
         return optParams;
+    }
+    public static Instances unlabel(Instances toUnlabel,String attName) {
+		Instances unlabeled=new Instances(toUnlabel);
+		Iterator<Instance> itr=unlabeled.iterator();
+		while(itr.hasNext()) {
+			itr.next().setClassMissing();
+		}
+    	return unlabeled;
+    }
+    public static void predict(Classifier cls,Instances unlabeled,String outPath) {
+    	try {
+			PrintWriter pw=new PrintWriter(outPath);
+			for(int i=0;i<unlabeled.numInstances();i++) {
+				double clsvalue;
+				try {
+					clsvalue = cls.classifyInstance(unlabeled.instance(i));
+					unlabeled.instance(i).setClassValue(clsvalue);
+					pw.write(unlabeled.classAttribute().value((int) clsvalue));
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			pw.flush();
+			pw.close();
+		} catch (FileNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+    	
     }
 }
