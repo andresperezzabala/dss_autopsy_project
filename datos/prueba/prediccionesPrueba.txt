@@ -1,1 +1,0 @@
-0, Prediccion: Cirrhosis, Real: Cirrhosis
