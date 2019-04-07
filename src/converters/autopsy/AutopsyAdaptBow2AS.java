@@ -51,7 +51,7 @@ public class AutopsyAdaptBow2AS {
         Remove filter = new Remove();
         try {
         	trainBow.deleteAttributeAt(0);
-        	int[] attributes=filterAttributesRanked(trainBow, 105);
+        	int[] attributes=filterAttributesRanked(trainBow, 83);
 			filter.setAttributeIndicesArray(attributes);
 			filter.setInvertSelection(true);
 			filter.setInputFormat(trainBow);

@@ -2231,3 +2231,2236 @@
 2230,Birth asphyxia,Preterm Delivery
 2231,Preterm Delivery,Congenital malformation
 2232,Stillbirth,Stillbirth
+0, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+1, Prediccion: Maternal, Real: Maternal
+2, Prediccion: Maternal, Real: Maternal
+3, Prediccion: Fires, Real: Fires
+4, Prediccion: Falls, Real: Road Traffic
+5, Prediccion: Diarrhea/Dysentery, Real: TB
+6, Prediccion: Stroke, Real: COPD
+7, Prediccion: Maternal, Real: Maternal
+8, Prediccion: Suicide, Real: Suicide
+9, Prediccion: Renal Failure, Real: Renal Failure
+10, Prediccion: Stroke, Real: Other Non-communicable Diseases
+11, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+12, Prediccion: Renal Failure, Real: Diarrhea/Dysentery
+13, Prediccion: Epilepsy, Real: AIDS
+14, Prediccion: Renal Failure, Real: Renal Failure
+15, Prediccion: Stroke, Real: Other Cardiovascular Diseases
+16, Prediccion: Renal Failure, Real: Other Cardiovascular Diseases
+17, Prediccion: Malaria, Real: Maternal
+18, Prediccion: Stroke, Real: Stroke
+19, Prediccion: Stroke, Real: Diabetes
+20, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+21, Prediccion: TB, Real: Renal Failure
+22, Prediccion: Stroke, Real: COPD
+23, Prediccion: Road Traffic, Real: Road Traffic
+24, Prediccion: Diarrhea/Dysentery, Real: Maternal
+25, Prediccion: Maternal, Real: Cirrhosis
+26, Prediccion: Acute Myocardial Infarction, Real: Pneumonia
+27, Prediccion: Maternal, Real: Maternal
+28, Prediccion: Renal Failure, Real: Renal Failure
+29, Prediccion: Breast Cancer, Real: AIDS
+30, Prediccion: Leukemia/Lymphomas, Real: Colorectal Cancer
+31, Prediccion: Acute Myocardial Infarction, Real: Diabetes
+32, Prediccion: Other Cardiovascular Diseases, Real: Leukemia/Lymphomas
+33, Prediccion: Suicide, Real: Suicide
+34, Prediccion: Falls, Real: Other Non-communicable Diseases
+35, Prediccion: Acute Myocardial Infarction, Real: Renal Failure
+36, Prediccion: Acute Myocardial Infarction, Real: Pneumonia
+37, Prediccion: Falls, Real: Homicide
+38, Prediccion: Breast Cancer, Real: Esophageal Cancer
+39, Prediccion: Renal Failure, Real: AIDS
+40, Prediccion: Breast Cancer, Real: Breast Cancer
+41, Prediccion: Renal Failure, Real: Other Cardiovascular Diseases
+42, Prediccion: Stroke, Real: Stroke
+43, Prediccion: Pneumonia, Real: COPD
+44, Prediccion: Other Infectious Diseases, Real: Malaria
+45, Prediccion: Bite of Venomous Animal, Real: Other Cardiovascular Diseases
+46, Prediccion: AIDS, Real: Pneumonia
+47, Prediccion: Cirrhosis, Real: Other Infectious Diseases
+48, Prediccion: AIDS, Real: Diabetes
+49, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+50, Prediccion: Stroke, Real: Maternal
+51, Prediccion: Stroke, Real: Stroke
+52, Prediccion: AIDS, Real: Cirrhosis
+53, Prediccion: Cirrhosis, Real: Leukemia/Lymphomas
+54, Prediccion: AIDS, Real: AIDS
+55, Prediccion: Epilepsy, Real: Homicide
+56, Prediccion: COPD, Real: Other Cardiovascular Diseases
+57, Prediccion: Cirrhosis, Real: Cirrhosis
+58, Prediccion: Pneumonia, Real: Stroke
+59, Prediccion: Malaria, Real: Pneumonia
+60, Prediccion: Stroke, Real: Other Infectious Diseases
+61, Prediccion: Poisonings, Real: Bite of Venomous Animal
+62, Prediccion: Stroke, Real: Stroke
+63, Prediccion: Falls, Real: Homicide
+64, Prediccion: AIDS, Real: AIDS
+65, Prediccion: COPD, Real: Renal Failure
+66, Prediccion: Stomach Cancer, Real: Breast Cancer
+67, Prediccion: Suicide, Real: TB
+68, Prediccion: TB, Real: Lung Cancer
+69, Prediccion: Other Injuries, Real: Renal Failure
+70, Prediccion: Maternal, Real: Maternal
+71, Prediccion: Maternal, Real: Maternal
+72, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+73, Prediccion: Cirrhosis, Real: AIDS
+74, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+75, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+76, Prediccion: Cirrhosis, Real: Diabetes
+77, Prediccion: Fires, Real: Fires
+78, Prediccion: Maternal, Real: Maternal
+79, Prediccion: AIDS, Real: Stroke
+80, Prediccion: Pneumonia, Real: Pneumonia
+81, Prediccion: Cirrhosis, Real: Stroke
+82, Prediccion: Stroke, Real: Stroke
+83, Prediccion: Drowning, Real: Drowning
+84, Prediccion: AIDS, Real: Prostate Cancer
+85, Prediccion: Renal Failure, Real: Cirrhosis
+86, Prediccion: Other Cardiovascular Diseases, Real: Pneumonia
+87, Prediccion: Cervical Cancer, Real: Maternal
+88, Prediccion: Maternal, Real: Epilepsy
+89, Prediccion: Stroke, Real: Renal Failure
+90, Prediccion: Renal Failure, Real: Other Infectious Diseases
+91, Prediccion: Maternal, Real: Maternal
+92, Prediccion: Cirrhosis, Real: Cirrhosis
+93, Prediccion: COPD, Real: COPD
+94, Prediccion: Cirrhosis, Real: Pneumonia
+95, Prediccion: Stroke, Real: Stroke
+96, Prediccion: COPD, Real: TB
+97, Prediccion: Acute Myocardial Infarction, Real: TB
+98, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+99, Prediccion: Maternal, Real: Maternal
+100, Prediccion: Falls, Real: Other Injuries
+101, Prediccion: AIDS, Real: Homicide
+102, Prediccion: Other Infectious Diseases, Real: Fires
+103, Prediccion: Renal Failure, Real: Renal Failure
+104, Prediccion: Other Non-communicable Diseases, Real: Colorectal Cancer
+105, Prediccion: Pneumonia, Real: TB
+106, Prediccion: Fires, Real: Suicide
+107, Prediccion: Maternal, Real: Pneumonia
+108, Prediccion: AIDS, Real: Pneumonia
+109, Prediccion: TB, Real: Pneumonia
+110, Prediccion: Fires, Real: Fires
+111, Prediccion: Stroke, Real: Acute Myocardial Infarction
+112, Prediccion: Stroke, Real: Stroke
+113, Prediccion: Other Cardiovascular Diseases, Real: AIDS
+114, Prediccion: Diabetes, Real: TB
+115, Prediccion: Suicide, Real: Fires
+116, Prediccion: Renal Failure, Real: AIDS
+117, Prediccion: Diabetes, Real: Pneumonia
+118, Prediccion: Renal Failure, Real: Other Cardiovascular Diseases
+119, Prediccion: Maternal, Real: TB
+120, Prediccion: Diabetes, Real: Renal Failure
+121, Prediccion: Maternal, Real: Pneumonia
+122, Prediccion: Maternal, Real: Other Non-communicable Diseases
+123, Prediccion: Stroke, Real: Other Non-communicable Diseases
+124, Prediccion: Pneumonia, Real: TB
+125, Prediccion: AIDS, Real: Renal Failure
+126, Prediccion: Diarrhea/Dysentery, Real: Other Cardiovascular Diseases
+127, Prediccion: Other Non-communicable Diseases, Real: Stroke
+128, Prediccion: AIDS, Real: AIDS
+129, Prediccion: Maternal, Real: Maternal
+130, Prediccion: Other Cardiovascular Diseases, Real: Other Infectious Diseases
+131, Prediccion: Acute Myocardial Infarction, Real: Drowning
+132, Prediccion: Cirrhosis, Real: Cirrhosis
+133, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+134, Prediccion: Diarrhea/Dysentery, Real: Other Non-communicable Diseases
+135, Prediccion: Stroke, Real: Pneumonia
+136, Prediccion: Cirrhosis, Real: Cirrhosis
+137, Prediccion: Asthma, Real: TB
+138, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+139, Prediccion: Diabetes, Real: Diabetes
+140, Prediccion: Cirrhosis, Real: Cirrhosis
+141, Prediccion: Other Non-communicable Diseases, Real: Other Cardiovascular Diseases
+142, Prediccion: Fires, Real: Maternal
+143, Prediccion: Fires, Real: Suicide
+144, Prediccion: Maternal, Real: Malaria
+145, Prediccion: Suicide, Real: Suicide
+146, Prediccion: Other Non-communicable Diseases, Real: Acute Myocardial Infarction
+147, Prediccion: Other Non-communicable Diseases, Real: Lung Cancer
+148, Prediccion: Cirrhosis, Real: Cirrhosis
+149, Prediccion: Cirrhosis, Real: Other Infectious Diseases
+150, Prediccion: Stroke, Real: Other Non-communicable Diseases
+151, Prediccion: AIDS, Real: AIDS
+152, Prediccion: Cirrhosis, Real: Suicide
+153, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+154, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+155, Prediccion: Cirrhosis, Real: Other Non-communicable Diseases
+156, Prediccion: Maternal, Real: Pneumonia
+157, Prediccion: Maternal, Real: Maternal
+158, Prediccion: Pneumonia, Real: Colorectal Cancer
+159, Prediccion: Suicide, Real: Diarrhea/Dysentery
+160, Prediccion: Maternal, Real: Maternal
+161, Prediccion: Cirrhosis, Real: AIDS
+162, Prediccion: Other Cardiovascular Diseases, Real: COPD
+163, Prediccion: Epilepsy, Real: AIDS
+164, Prediccion: TB, Real: Pneumonia
+165, Prediccion: Cirrhosis, Real: Other Cardiovascular Diseases
+166, Prediccion: Stroke, Real: Homicide
+167, Prediccion: Other Non-communicable Diseases, Real: Leukemia/Lymphomas
+168, Prediccion: Other Non-communicable Diseases, Real: Falls
+169, Prediccion: Renal Failure, Real: Other Injuries
+170, Prediccion: Fires, Real: Suicide
+171, Prediccion: Pneumonia, Real: Other Injuries
+172, Prediccion: Fires, Real: COPD
+173, Prediccion: Renal Failure, Real: Other Cardiovascular Diseases
+174, Prediccion: Maternal, Real: Maternal
+175, Prediccion: Suicide, Real: COPD
+176, Prediccion: Pneumonia, Real: Pneumonia
+177, Prediccion: Leukemia/Lymphomas, Real: Lung Cancer
+178, Prediccion: Road Traffic, Real: Road Traffic
+179, Prediccion: Other Infectious Diseases, Real: Other Non-communicable Diseases
+180, Prediccion: Stroke, Real: Stroke
+181, Prediccion: Cirrhosis, Real: Cirrhosis
+182, Prediccion: Stroke, Real: Stroke
+183, Prediccion: Suicide, Real: Suicide
+184, Prediccion: Breast Cancer, Real: Other Infectious Diseases
+185, Prediccion: Falls, Real: TB
+186, Prediccion: AIDS, Real: Poisonings
+187, Prediccion: Suicide, Real: Suicide
+188, Prediccion: Breast Cancer, Real: Other Non-communicable Diseases
+189, Prediccion: Pneumonia, Real: Road Traffic
+190, Prediccion: Maternal, Real: Other Infectious Diseases
+191, Prediccion: AIDS, Real: Suicide
+192, Prediccion: AIDS, Real: Other Non-communicable Diseases
+193, Prediccion: Maternal, Real: AIDS
+194, Prediccion: Maternal, Real: Other Non-communicable Diseases
+195, Prediccion: AIDS, Real: TB
+196, Prediccion: Lung Cancer, Real: Renal Failure
+197, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+198, Prediccion: Homicide, Real: Falls
+199, Prediccion: TB, Real: Pneumonia
+200, Prediccion: AIDS, Real: Other Infectious Diseases
+201, Prediccion: Maternal, Real: Maternal
+202, Prediccion: Diabetes, Real: Diabetes
+203, Prediccion: Stroke, Real: Pneumonia
+204, Prediccion: Other Infectious Diseases, Real: Pneumonia
+205, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+206, Prediccion: Other Infectious Diseases, Real: Other Infectious Diseases
+207, Prediccion: Cirrhosis, Real: Pneumonia
+208, Prediccion: Cirrhosis, Real: Other Infectious Diseases
+209, Prediccion: Cirrhosis, Real: Lung Cancer
+210, Prediccion: Epilepsy, Real: Other Injuries
+211, Prediccion: Breast Cancer, Real: Breast Cancer
+212, Prediccion: Other Non-communicable Diseases, Real: COPD
+213, Prediccion: AIDS, Real: Falls
+214, Prediccion: Other Infectious Diseases, Real: Pneumonia
+215, Prediccion: Maternal, Real: Stroke
+216, Prediccion: Stroke, Real: Other Infectious Diseases
+217, Prediccion: Other Cardiovascular Diseases, Real: Stroke
+218, Prediccion: Lung Cancer, Real: Lung Cancer
+219, Prediccion: Acute Myocardial Infarction, Real: Diarrhea/Dysentery
+220, Prediccion: Stroke, Real: Pneumonia
+221, Prediccion: Breast Cancer, Real: Leukemia/Lymphomas
+222, Prediccion: Renal Failure, Real: Other Infectious Diseases
+223, Prediccion: Renal Failure, Real: Stroke
+224, Prediccion: Other Infectious Diseases, Real: Pneumonia
+225, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+226, Prediccion: Pneumonia, Real: Homicide
+227, Prediccion: Renal Failure, Real: Diarrhea/Dysentery
+228, Prediccion: Diarrhea/Dysentery, Real: TB
+229, Prediccion: Stroke, Real: Stroke
+230, Prediccion: AIDS, Real: Malaria
+231, Prediccion: Other Injuries, Real: Falls
+232, Prediccion: Stroke, Real: Leukemia/Lymphomas
+233, Prediccion: AIDS, Real: Other Infectious Diseases
+234, Prediccion: Pneumonia, Real: Falls
+235, Prediccion: Stroke, Real: Stroke
+236, Prediccion: Renal Failure, Real: Other Cardiovascular Diseases
+237, Prediccion: Prostate Cancer, Real: Diabetes
+238, Prediccion: Maternal, Real: Maternal
+239, Prediccion: Renal Failure, Real: Stroke
+240, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+241, Prediccion: Stroke, Real: Stroke
+242, Prediccion: AIDS, Real: Poisonings
+243, Prediccion: Pneumonia, Real: Other Non-communicable Diseases
+244, Prediccion: Stroke, Real: Falls
+245, Prediccion: Other Non-communicable Diseases, Real: Cirrhosis
+246, Prediccion: Breast Cancer, Real: Acute Myocardial Infarction
+247, Prediccion: Falls, Real: Other Injuries
+248, Prediccion: TB, Real: AIDS
+249, Prediccion: Pneumonia, Real: Pneumonia
+250, Prediccion: Pneumonia, Real: Diabetes
+251, Prediccion: Cirrhosis, Real: Breast Cancer
+252, Prediccion: Drowning, Real: Drowning
+253, Prediccion: Pneumonia, Real: Pneumonia
+254, Prediccion: Renal Failure, Real: Cirrhosis
+255, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+256, Prediccion: Stroke, Real: Diabetes
+257, Prediccion: Renal Failure, Real: Renal Failure
+258, Prediccion: AIDS, Real: Other Non-communicable Diseases
+259, Prediccion: Other Non-communicable Diseases, Real: Diarrhea/Dysentery
+260, Prediccion: Stroke, Real: COPD
+261, Prediccion: Other Non-communicable Diseases, Real: Breast Cancer
+262, Prediccion: Diabetes, Real: Diabetes
+263, Prediccion: Renal Failure, Real: Other Infectious Diseases
+264, Prediccion: Stroke, Real: AIDS
+265, Prediccion: Maternal, Real: Maternal
+266, Prediccion: TB, Real: AIDS
+267, Prediccion: Stroke, Real: Other Non-communicable Diseases
+268, Prediccion: AIDS, Real: Pneumonia
+269, Prediccion: Cervical Cancer, Real: Other Non-communicable Diseases
+270, Prediccion: Cirrhosis, Real: TB
+271, Prediccion: Cervical Cancer, Real: Colorectal Cancer
+272, Prediccion: Stroke, Real: Acute Myocardial Infarction
+273, Prediccion: Other Non-communicable Diseases, Real: Acute Myocardial Infarction
+274, Prediccion: AIDS, Real: Stroke
+275, Prediccion: Stroke, Real: Renal Failure
+276, Prediccion: Renal Failure, Real: COPD
+277, Prediccion: Other Non-communicable Diseases, Real: Renal Failure
+278, Prediccion: Other Non-communicable Diseases, Real: Suicide
+279, Prediccion: Drowning, Real: Suicide
+280, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+281, Prediccion: Fires, Real: Suicide
+282, Prediccion: Prostate Cancer, Real: Other Non-communicable Diseases
+283, Prediccion: Stroke, Real: Other Infectious Diseases
+284, Prediccion: Other Non-communicable Diseases, Real: Other Cardiovascular Diseases
+285, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+286, Prediccion: Diarrhea/Dysentery, Real: Maternal
+287, Prediccion: Other Infectious Diseases, Real: Pneumonia
+288, Prediccion: Other Infectious Diseases, Real: Other Infectious Diseases
+289, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+290, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+291, Prediccion: Stroke, Real: Stroke
+292, Prediccion: Other Non-communicable Diseases, Real: Road Traffic
+293, Prediccion: Other Non-communicable Diseases, Real: Renal Failure
+294, Prediccion: Bite of Venomous Animal, Real: Asthma
+295, Prediccion: Pneumonia, Real: Pneumonia
+296, Prediccion: Cervical Cancer, Real: Breast Cancer
+297, Prediccion: Cirrhosis, Real: Road Traffic
+298, Prediccion: Pneumonia, Real: Acute Myocardial Infarction
+299, Prediccion: Cirrhosis, Real: Other Non-communicable Diseases
+300, Prediccion: Stroke, Real: Stroke
+301, Prediccion: Stroke, Real: Pneumonia
+302, Prediccion: Stroke, Real: Stroke
+303, Prediccion: Stroke, Real: Renal Failure
+304, Prediccion: Cirrhosis, Real: AIDS
+305, Prediccion: Cirrhosis, Real: Other Non-communicable Diseases
+306, Prediccion: AIDS, Real: Falls
+307, Prediccion: Other Injuries, Real: Drowning
+308, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+309, Prediccion: Cirrhosis, Real: Cirrhosis
+310, Prediccion: Stroke, Real: Stroke
+311, Prediccion: Breast Cancer, Real: Breast Cancer
+312, Prediccion: Homicide, Real: Renal Failure
+313, Prediccion: Renal Failure, Real: Renal Failure
+314, Prediccion: Stroke, Real: AIDS
+315, Prediccion: AIDS, Real: Homicide
+316, Prediccion: Cirrhosis, Real: Cirrhosis
+317, Prediccion: Cirrhosis, Real: AIDS
+318, Prediccion: TB, Real: Cirrhosis
+319, Prediccion: AIDS, Real: Lung Cancer
+320, Prediccion: Stroke, Real: Pneumonia
+321, Prediccion: Other Non-communicable Diseases, Real: Diarrhea/Dysentery
+322, Prediccion: Renal Failure, Real: Pneumonia
+323, Prediccion: Renal Failure, Real: Road Traffic
+324, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+325, Prediccion: Acute Myocardial Infarction, Real: Stroke
+326, Prediccion: Diabetes, Real: Acute Myocardial Infarction
+327, Prediccion: Other Injuries, Real: Falls
+328, Prediccion: Maternal, Real: Maternal
+329, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+330, Prediccion: AIDS, Real: Falls
+331, Prediccion: Acute Myocardial Infarction, Real: Pneumonia
+332, Prediccion: Stroke, Real: Cervical Cancer
+333, Prediccion: Renal Failure, Real: Other Cardiovascular Diseases
+334, Prediccion: Stroke, Real: COPD
+335, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+336, Prediccion: Pneumonia, Real: Pneumonia
+337, Prediccion: Other Injuries, Real: Homicide
+338, Prediccion: Stroke, Real: Stroke
+339, Prediccion: Cirrhosis, Real: Other Non-communicable Diseases
+340, Prediccion: Cirrhosis, Real: Falls
+341, Prediccion: Cirrhosis, Real: Diarrhea/Dysentery
+342, Prediccion: COPD, Real: Other Non-communicable Diseases
+343, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+344, Prediccion: Maternal, Real: Other Non-communicable Diseases
+345, Prediccion: Diarrhea/Dysentery, Real: Diabetes
+346, Prediccion: Cirrhosis, Real: Stroke
+347, Prediccion: Renal Failure, Real: Renal Failure
+348, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+349, Prediccion: AIDS, Real: AIDS
+350, Prediccion: TB, Real: Renal Failure
+351, Prediccion: Pneumonia, Real: AIDS
+352, Prediccion: Breast Cancer, Real: Breast Cancer
+353, Prediccion: Maternal, Real: Pneumonia
+354, Prediccion: Stroke, Real: Pneumonia
+355, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+356, Prediccion: Cervical Cancer, Real: AIDS
+357, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+358, Prediccion: Other Infectious Diseases, Real: Renal Failure
+359, Prediccion: Pneumonia, Real: Acute Myocardial Infarction
+360, Prediccion: TB, Real: AIDS
+361, Prediccion: Falls, Real: Road Traffic
+362, Prediccion: Other Non-communicable Diseases, Real: Maternal
+363, Prediccion: Drowning, Real: Falls
+364, Prediccion: Cirrhosis, Real: Cirrhosis
+365, Prediccion: Pneumonia, Real: Pneumonia
+366, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+367, Prediccion: Other Non-communicable Diseases, Real: Colorectal Cancer
+368, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+369, Prediccion: AIDS, Real: COPD
+370, Prediccion: Cirrhosis, Real: Cirrhosis
+371, Prediccion: Colorectal Cancer, Real: Breast Cancer
+372, Prediccion: Stroke, Real: Stroke
+373, Prediccion: Renal Failure, Real: Diabetes
+374, Prediccion: TB, Real: TB
+375, Prediccion: Cirrhosis, Real: Road Traffic
+376, Prediccion: Other Infectious Diseases, Real: Road Traffic
+377, Prediccion: Falls, Real: Stroke
+378, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+379, Prediccion: Epilepsy, Real: Renal Failure
+380, Prediccion: Cirrhosis, Real: Cirrhosis
+381, Prediccion: Pneumonia, Real: Maternal
+382, Prediccion: Stroke, Real: Stroke
+383, Prediccion: Pneumonia, Real: Pneumonia
+384, Prediccion: Falls, Real: Other Injuries
+385, Prediccion: Stroke, Real: Acute Myocardial Infarction
+386, Prediccion: Maternal, Real: Maternal
+387, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+388, Prediccion: Renal Failure, Real: Other Non-communicable Diseases
+389, Prediccion: Renal Failure, Real: AIDS
+390, Prediccion: Breast Cancer, Real: Breast Cancer
+391, Prediccion: Pneumonia, Real: Acute Myocardial Infarction
+392, Prediccion: Stroke, Real: Road Traffic
+393, Prediccion: Other Cardiovascular Diseases, Real: Fires
+394, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+395, Prediccion: AIDS, Real: Homicide
+396, Prediccion: TB, Real: TB
+397, Prediccion: Maternal, Real: Other Infectious Diseases
+398, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+399, Prediccion: Renal Failure, Real: Road Traffic
+400, Prediccion: Other Injuries, Real: Other Non-communicable Diseases
+401, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+402, Prediccion: Other Cancers, Real: Stroke
+403, Prediccion: Malaria, Real: COPD
+404, Prediccion: Other Non-communicable Diseases, Real: Colorectal Cancer
+405, Prediccion: Stroke, Real: Other Cardiovascular Diseases
+406, Prediccion: Cirrhosis, Real: AIDS
+407, Prediccion: Stroke, Real: Acute Myocardial Infarction
+408, Prediccion: Leukemia/Lymphomas, Real: Renal Failure
+409, Prediccion: Drowning, Real: Drowning
+410, Prediccion: Pneumonia, Real: Pneumonia
+411, Prediccion: Stroke, Real: Stroke
+412, Prediccion: Malaria, Real: COPD
+413, Prediccion: Breast Cancer, Real: Pneumonia
+414, Prediccion: Diabetes, Real: Other Cardiovascular Diseases
+415, Prediccion: Stroke, Real: Stroke
+416, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+417, Prediccion: Renal Failure, Real: Cervical Cancer
+418, Prediccion: Other Non-communicable Diseases, Real: Lung Cancer
+419, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+420, Prediccion: AIDS, Real: Acute Myocardial Infarction
+421, Prediccion: Malaria, Real: Renal Failure
+422, Prediccion: Suicide, Real: Suicide
+423, Prediccion: Stroke, Real: Stroke
+424, Prediccion: Other Cardiovascular Diseases, Real: Lung Cancer
+425, Prediccion: Renal Failure, Real: Cervical Cancer
+426, Prediccion: Stroke, Real: Stroke
+427, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+428, Prediccion: Pneumonia, Real: Stroke
+429, Prediccion: Diabetes, Real: Diabetes
+430, Prediccion: Stroke, Real: Pneumonia
+431, Prediccion: Falls, Real: Homicide
+432, Prediccion: Stroke, Real: Cirrhosis
+433, Prediccion: Cirrhosis, Real: Cirrhosis
+434, Prediccion: Diarrhea/Dysentery, Real: Renal Failure
+435, Prediccion: Other Non-communicable Diseases, Real: Other Infectious Diseases
+436, Prediccion: Cirrhosis, Real: Pneumonia
+437, Prediccion: Road Traffic, Real: Road Traffic
+438, Prediccion: Maternal, Real: Diabetes
+439, Prediccion: Fires, Real: Fires
+440, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+441, Prediccion: Stroke, Real: Stroke
+442, Prediccion: AIDS, Real: AIDS
+443, Prediccion: Road Traffic, Real: Stroke
+444, Prediccion: Diarrhea/Dysentery, Real: TB
+445, Prediccion: Maternal, Real: Renal Failure
+446, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+447, Prediccion: Falls, Real: Other Infectious Diseases
+448, Prediccion: Stroke, Real: Other Infectious Diseases
+449, Prediccion: Pneumonia, Real: AIDS
+450, Prediccion: Pneumonia, Real: Pneumonia
+451, Prediccion: Breast Cancer, Real: Stomach Cancer
+452, Prediccion: Road Traffic, Real: Road Traffic
+453, Prediccion: Maternal, Real: Maternal
+454, Prediccion: Cervical Cancer, Real: Acute Myocardial Infarction
+455, Prediccion: Stroke, Real: Other Non-communicable Diseases
+456, Prediccion: AIDS, Real: COPD
+457, Prediccion: Diabetes, Real: Fires
+458, Prediccion: Cirrhosis, Real: AIDS
+459, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+460, Prediccion: AIDS, Real: Renal Failure
+461, Prediccion: TB, Real: Diarrhea/Dysentery
+462, Prediccion: COPD, Real: Falls
+463, Prediccion: Homicide, Real: Homicide
+464, Prediccion: Renal Failure, Real: Other Infectious Diseases
+465, Prediccion: Other Non-communicable Diseases, Real: Breast Cancer
+466, Prediccion: Asthma, Real: Other Non-communicable Diseases
+467, Prediccion: Drowning, Real: Drowning
+468, Prediccion: Diabetes, Real: Diabetes
+469, Prediccion: Maternal, Real: Maternal
+470, Prediccion: Pneumonia, Real: Stroke
+471, Prediccion: Stroke, Real: Stroke
+472, Prediccion: Breast Cancer, Real: Breast Cancer
+473, Prediccion: Stroke, Real: Pneumonia
+474, Prediccion: Stroke, Real: Stroke
+475, Prediccion: Cirrhosis, Real: Maternal
+476, Prediccion: Malaria, Real: Malaria
+477, Prediccion: Cirrhosis, Real: Lung Cancer
+478, Prediccion: Acute Myocardial Infarction, Real: Diarrhea/Dysentery
+479, Prediccion: Other Non-communicable Diseases, Real: Renal Failure
+480, Prediccion: Renal Failure, Real: AIDS
+481, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+482, Prediccion: Malaria, Real: Renal Failure
+483, Prediccion: Acute Myocardial Infarction, Real: Colorectal Cancer
+484, Prediccion: Epilepsy, Real: AIDS
+485, Prediccion: Cirrhosis, Real: Acute Myocardial Infarction
+486, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+487, Prediccion: Cervical Cancer, Real: Stroke
+488, Prediccion: Acute Myocardial Infarction, Real: Diarrhea/Dysentery
+489, Prediccion: Stroke, Real: Homicide
+490, Prediccion: Other Cardiovascular Diseases, Real: Renal Failure
+491, Prediccion: Stroke, Real: Other Non-communicable Diseases
+492, Prediccion: AIDS, Real: AIDS
+493, Prediccion: Breast Cancer, Real: Breast Cancer
+494, Prediccion: Pneumonia, Real: Road Traffic
+495, Prediccion: AIDS, Real: Acute Myocardial Infarction
+496, Prediccion: Pneumonia, Real: Other Non-communicable Diseases
+497, Prediccion: Cirrhosis, Real: Stroke
+498, Prediccion: Cervical Cancer, Real: Diabetes
+499, Prediccion: Stroke, Real: Stroke
+500, Prediccion: Acute Myocardial Infarction, Real: Other Cardiovascular Diseases
+501, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+502, Prediccion: Epilepsy, Real: Malaria
+503, Prediccion: Acute Myocardial Infarction, Real: Diabetes
+504, Prediccion: Fires, Real: Homicide
+505, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+506, Prediccion: Other Non-communicable Diseases, Real: Cirrhosis
+507, Prediccion: AIDS, Real: Homicide
+508, Prediccion: Maternal, Real: Other Non-communicable Diseases
+509, Prediccion: Maternal, Real: Malaria
+510, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+511, Prediccion: Pneumonia, Real: Pneumonia
+512, Prediccion: AIDS, Real: AIDS
+513, Prediccion: Renal Failure, Real: Other Infectious Diseases
+514, Prediccion: Renal Failure, Real: Diabetes
+515, Prediccion: Stroke, Real: Falls
+516, Prediccion: Other Infectious Diseases, Real: Poisonings
+517, Prediccion: AIDS, Real: Stroke
+518, Prediccion: Cirrhosis, Real: Diabetes
+519, Prediccion: Pneumonia, Real: Other Infectious Diseases
+520, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+521, Prediccion: Pneumonia, Real: TB
+522, Prediccion: Stroke, Real: Stroke
+523, Prediccion: Other Injuries, Real: Other Injuries
+524, Prediccion: Diabetes, Real: Diabetes
+525, Prediccion: AIDS, Real: AIDS
+526, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+527, Prediccion: Diabetes, Real: Diabetes
+528, Prediccion: Maternal, Real: Other Infectious Diseases
+529, Prediccion: Other Non-communicable Diseases, Real: Other Cardiovascular Diseases
+530, Prediccion: Diarrhea/Dysentery, Real: Acute Myocardial Infarction
+531, Prediccion: AIDS, Real: AIDS
+532, Prediccion: AIDS, Real: Other Cardiovascular Diseases
+533, Prediccion: Epilepsy, Real: Renal Failure
+534, Prediccion: Stroke, Real: Epilepsy
+535, Prediccion: Renal Failure, Real: Other Cardiovascular Diseases
+536, Prediccion: Pneumonia, Real: Other Non-communicable Diseases
+537, Prediccion: Pneumonia, Real: Stroke
+538, Prediccion: Other Non-communicable Diseases, Real: Diarrhea/Dysentery
+539, Prediccion: Malaria, Real: Asthma
+540, Prediccion: Stroke, Real: Pneumonia
+541, Prediccion: Cirrhosis, Real: Cirrhosis
+542, Prediccion: Acute Myocardial Infarction, Real: Diabetes
+543, Prediccion: Maternal, Real: Poisonings
+544, Prediccion: Diarrhea/Dysentery, Real: Other Infectious Diseases
+545, Prediccion: Diabetes, Real: Stroke
+546, Prediccion: Fires, Real: Fires
+547, Prediccion: AIDS, Real: Stroke
+548, Prediccion: Other Injuries, Real: Road Traffic
+549, Prediccion: AIDS, Real: Other Infectious Diseases
+550, Prediccion: Diarrhea/Dysentery, Real: TB
+551, Prediccion: Other Cardiovascular Diseases, Real: Breast Cancer
+552, Prediccion: Breast Cancer, Real: Breast Cancer
+553, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+554, Prediccion: Homicide, Real: Falls
+555, Prediccion: AIDS, Real: Suicide
+556, Prediccion: Pneumonia, Real: Breast Cancer
+557, Prediccion: Stroke, Real: Diabetes
+558, Prediccion: Cirrhosis, Real: Stroke
+559, Prediccion: Stroke, Real: Diabetes
+560, Prediccion: Diarrhea/Dysentery, Real: Other Non-communicable Diseases
+561, Prediccion: TB, Real: AIDS
+562, Prediccion: AIDS, Real: Stroke
+563, Prediccion: Homicide, Real: Drowning
+564, Prediccion: Pneumonia, Real: TB
+565, Prediccion: Diarrhea/Dysentery, Real: Diabetes
+566, Prediccion: Pneumonia, Real: COPD
+567, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+568, Prediccion: Other Non-communicable Diseases, Real: Lung Cancer
+569, Prediccion: Poisonings, Real: Poisonings
+570, Prediccion: Breast Cancer, Real: Breast Cancer
+571, Prediccion: Cirrhosis, Real: AIDS
+572, Prediccion: Asthma, Real: Other Cardiovascular Diseases
+573, Prediccion: Other Non-communicable Diseases, Real: Breast Cancer
+574, Prediccion: Cirrhosis, Real: Stroke
+575, Prediccion: Cervical Cancer, Real: Maternal
+576, Prediccion: Stroke, Real: Stroke
+577, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+578, Prediccion: Pneumonia, Real: Pneumonia
+579, Prediccion: Other Cardiovascular Diseases, Real: Other Injuries
+580, Prediccion: Pneumonia, Real: Acute Myocardial Infarction
+581, Prediccion: Other Non-communicable Diseases, Real: Stomach Cancer
+582, Prediccion: Cirrhosis, Real: AIDS
+583, Prediccion: Diabetes, Real: Esophageal Cancer
+584, Prediccion: AIDS, Real: COPD
+585, Prediccion: Maternal, Real: Diarrhea/Dysentery
+586, Prediccion: TB, Real: Diarrhea/Dysentery
+587, Prediccion: Pneumonia, Real: Poisonings
+588, Prediccion: Falls, Real: Other Infectious Diseases
+589, Prediccion: Other Non-communicable Diseases, Real: Stomach Cancer
+590, Prediccion: Stroke, Real: Stroke
+591, Prediccion: Maternal, Real: Malaria
+592, Prediccion: Acute Myocardial Infarction, Real: Stroke
+593, Prediccion: Prostate Cancer, Real: Colorectal Cancer
+594, Prediccion: Cirrhosis, Real: Cirrhosis
+595, Prediccion: Stroke, Real: Other Cardiovascular Diseases
+596, Prediccion: Road Traffic, Real: Road Traffic
+597, Prediccion: Stroke, Real: AIDS
+598, Prediccion: Renal Failure, Real: Maternal
+599, Prediccion: AIDS, Real: Cirrhosis
+600, Prediccion: Cirrhosis, Real: Cirrhosis
+601, Prediccion: Stroke, Real: Stroke
+602, Prediccion: Other Injuries, Real: Homicide
+603, Prediccion: Acute Myocardial Infarction, Real: Diabetes
+604, Prediccion: Renal Failure, Real: Other Non-communicable Diseases
+605, Prediccion: AIDS, Real: Other Infectious Diseases
+606, Prediccion: Cirrhosis, Real: Other Cardiovascular Diseases
+607, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+608, Prediccion: Leukemia/Lymphomas, Real: Stomach Cancer
+609, Prediccion: Other Infectious Diseases, Real: Suicide
+610, Prediccion: Breast Cancer, Real: Other Cardiovascular Diseases
+611, Prediccion: Other Infectious Diseases, Real: Diarrhea/Dysentery
+612, Prediccion: Suicide, Real: Suicide
+613, Prediccion: Breast Cancer, Real: Diarrhea/Dysentery
+614, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+615, Prediccion: Malaria, Real: Diabetes
+616, Prediccion: Fires, Real: Fires
+617, Prediccion: Acute Myocardial Infarction, Real: COPD
+618, Prediccion: Cirrhosis, Real: Cirrhosis
+619, Prediccion: Cirrhosis, Real: Other Non-communicable Diseases
+620, Prediccion: Diabetes, Real: Stroke
+621, Prediccion: Breast Cancer, Real: Poisonings
+622, Prediccion: Other Infectious Diseases, Real: Other Infectious Diseases
+623, Prediccion: Cirrhosis, Real: Stroke
+624, Prediccion: Pneumonia, Real: Falls
+625, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+626, Prediccion: Stroke, Real: Other Non-communicable Diseases
+627, Prediccion: Maternal, Real: Maternal
+628, Prediccion: Malaria, Real: Malaria
+629, Prediccion: Diabetes, Real: Pneumonia
+630, Prediccion: AIDS, Real: Other Cardiovascular Diseases
+631, Prediccion: Malaria, Real: Asthma
+632, Prediccion: Maternal, Real: Maternal
+633, Prediccion: Cirrhosis, Real: AIDS
+634, Prediccion: Cirrhosis, Real: Cirrhosis
+635, Prediccion: Renal Failure, Real: Fires
+636, Prediccion: Fires, Real: Fires
+637, Prediccion: Cirrhosis, Real: Cirrhosis
+638, Prediccion: Maternal, Real: Other Non-communicable Diseases
+639, Prediccion: Maternal, Real: Maternal
+640, Prediccion: Drowning, Real: Drowning
+641, Prediccion: COPD, Real: Other Cardiovascular Diseases
+642, Prediccion: AIDS, Real: Poisonings
+643, Prediccion: Road Traffic, Real: Road Traffic
+644, Prediccion: Cirrhosis, Real: Cirrhosis
+645, Prediccion: Cirrhosis, Real: Renal Failure
+646, Prediccion: Maternal, Real: Other Cardiovascular Diseases
+647, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+648, Prediccion: Diarrhea/Dysentery, Real: COPD
+649, Prediccion: Epilepsy, Real: Falls
+650, Prediccion: Suicide, Real: Suicide
+651, Prediccion: Acute Myocardial Infarction, Real: Other Cardiovascular Diseases
+652, Prediccion: Diabetes, Real: Lung Cancer
+653, Prediccion: Road Traffic, Real: Road Traffic
+654, Prediccion: Acute Myocardial Infarction, Real: Pneumonia
+655, Prediccion: Stroke, Real: Stroke
+656, Prediccion: Stroke, Real: Cervical Cancer
+657, Prediccion: Maternal, Real: Pneumonia
+658, Prediccion: Maternal, Real: Other Cardiovascular Diseases
+659, Prediccion: Stroke, Real: Other Cardiovascular Diseases
+660, Prediccion: TB, Real: TB
+661, Prediccion: AIDS, Real: Maternal
+662, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+663, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+664, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+665, Prediccion: Other Infectious Diseases, Real: Road Traffic
+666, Prediccion: Diabetes, Real: Stroke
+667, Prediccion: Cirrhosis, Real: Pneumonia
+668, Prediccion: AIDS, Real: Other Non-communicable Diseases
+669, Prediccion: Malaria, Real: Malaria
+670, Prediccion: Road Traffic, Real: Road Traffic
+671, Prediccion: Other Injuries, Real: Other Injuries
+672, Prediccion: Cirrhosis, Real: Cirrhosis
+673, Prediccion: Drowning, Real: Drowning
+674, Prediccion: Renal Failure, Real: Stroke
+675, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+676, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+677, Prediccion: AIDS, Real: Cirrhosis
+678, Prediccion: Acute Myocardial Infarction, Real: Pneumonia
+679, Prediccion: Stroke, Real: Diabetes
+680, Prediccion: Lung Cancer, Real: Other Non-communicable Diseases
+681, Prediccion: Maternal, Real: Maternal
+682, Prediccion: COPD, Real: COPD
+683, Prediccion: Maternal, Real: Homicide
+684, Prediccion: Pneumonia, Real: Acute Myocardial Infarction
+685, Prediccion: Other Infectious Diseases, Real: Cirrhosis
+686, Prediccion: Renal Failure, Real: Drowning
+687, Prediccion: Maternal, Real: Maternal
+688, Prediccion: Malaria, Real: Diabetes
+689, Prediccion: Renal Failure, Real: Bite of Venomous Animal
+690, Prediccion: Diarrhea/Dysentery, Real: Poisonings
+691, Prediccion: Falls, Real: Stomach Cancer
+692, Prediccion: Other Injuries, Real: Homicide
+693, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+694, Prediccion: Drowning, Real: Drowning
+695, Prediccion: Renal Failure, Real: Poisonings
+696, Prediccion: Cirrhosis, Real: Diarrhea/Dysentery
+697, Prediccion: Fires, Real: Fires
+698, Prediccion: Cirrhosis, Real: Diabetes
+699, Prediccion: Maternal, Real: Cirrhosis
+700, Prediccion: Other Infectious Diseases, Real: COPD
+701, Prediccion: Renal Failure, Real: Colorectal Cancer
+702, Prediccion: Renal Failure, Real: Stroke
+703, Prediccion: TB, Real: Diabetes
+704, Prediccion: Renal Failure, Real: Diarrhea/Dysentery
+705, Prediccion: AIDS, Real: Epilepsy
+706, Prediccion: Stroke, Real: Other Non-communicable Diseases
+707, Prediccion: Renal Failure, Real: Other Cardiovascular Diseases
+708, Prediccion: Stroke, Real: COPD
+709, Prediccion: Drowning, Real: Drowning
+710, Prediccion: Stroke, Real: Epilepsy
+711, Prediccion: Renal Failure, Real: Diarrhea/Dysentery
+712, Prediccion: Epilepsy, Real: Leukemia/Lymphomas
+713, Prediccion: Pneumonia, Real: Pneumonia
+714, Prediccion: Fires, Real: AIDS
+715, Prediccion: AIDS, Real: AIDS
+716, Prediccion: Acute Myocardial Infarction, Real: Cirrhosis
+717, Prediccion: Stroke, Real: Stroke
+718, Prediccion: Renal Failure, Real: Falls
+719, Prediccion: Renal Failure, Real: Other Infectious Diseases
+720, Prediccion: Renal Failure, Real: Diarrhea/Dysentery
+721, Prediccion: Stroke, Real: Other Non-communicable Diseases
+722, Prediccion: Maternal, Real: Acute Myocardial Infarction
+723, Prediccion: Diabetes, Real: Falls
+724, Prediccion: Prostate Cancer, Real: Stomach Cancer
+725, Prediccion: Stroke, Real: Acute Myocardial Infarction
+726, Prediccion: Pneumonia, Real: Pneumonia
+727, Prediccion: Pneumonia, Real: Stroke
+728, Prediccion: AIDS, Real: AIDS
+729, Prediccion: Falls, Real: Other Injuries
+730, Prediccion: Pneumonia, Real: Pneumonia
+731, Prediccion: Other Non-communicable Diseases, Real: Bite of Venomous Animal
+732, Prediccion: Stroke, Real: Other Cardiovascular Diseases
+733, Prediccion: Stroke, Real: Other Non-communicable Diseases
+734, Prediccion: Other Injuries, Real: Diabetes
+735, Prediccion: Diabetes, Real: Acute Myocardial Infarction
+736, Prediccion: Renal Failure, Real: Falls
+737, Prediccion: Maternal, Real: Other Injuries
+738, Prediccion: Asthma, Real: Acute Myocardial Infarction
+739, Prediccion: Maternal, Real: Other Infectious Diseases
+740, Prediccion: Diarrhea/Dysentery, Real: AIDS
+741, Prediccion: AIDS, Real: AIDS
+742, Prediccion: Other Non-communicable Diseases, Real: Fires
+743, Prediccion: Other Non-communicable Diseases, Real: Other Cardiovascular Diseases
+744, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+745, Prediccion: Other Infectious Diseases, Real: Other Non-communicable Diseases
+746, Prediccion: AIDS, Real: TB
+747, Prediccion: AIDS, Real: AIDS
+748, Prediccion: Diabetes, Real: Diabetes
+749, Prediccion: Diabetes, Real: Diabetes
+750, Prediccion: AIDS, Real: Fires
+751, Prediccion: Diabetes, Real: Cirrhosis
+752, Prediccion: AIDS, Real: Renal Failure
+753, Prediccion: Epilepsy, Real: Other Injuries
+754, Prediccion: Maternal, Real: Malaria
+755, Prediccion: Asthma, Real: Diabetes
+756, Prediccion: Other Infectious Diseases, Real: Suicide
+757, Prediccion: AIDS, Real: Malaria
+758, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+759, Prediccion: Diarrhea/Dysentery, Real: Diabetes
+760, Prediccion: Pneumonia, Real: Acute Myocardial Infarction
+761, Prediccion: Pneumonia, Real: AIDS
+762, Prediccion: TB, Real: Other Cardiovascular Diseases
+763, Prediccion: Other Cardiovascular Diseases, Real: Asthma
+764, Prediccion: Pneumonia, Real: Leukemia/Lymphomas
+765, Prediccion: Diabetes, Real: TB
+766, Prediccion: Diarrhea/Dysentery, Real: Renal Failure
+767, Prediccion: Fires, Real: Fires
+768, Prediccion: AIDS, Real: Cirrhosis
+769, Prediccion: Cirrhosis, Real: Falls
+770, Prediccion: Pneumonia, Real: Pneumonia
+771, Prediccion: Drowning, Real: Drowning
+772, Prediccion: Maternal, Real: Maternal
+773, Prediccion: AIDS, Real: Other Non-communicable Diseases
+774, Prediccion: Other Non-communicable Diseases, Real: Other Infectious Diseases
+775, Prediccion: Maternal, Real: Maternal
+776, Prediccion: Renal Failure, Real: Renal Failure
+777, Prediccion: Other Non-communicable Diseases, Real: Fires
+778, Prediccion: Renal Failure, Real: Stroke
+779, Prediccion: Stroke, Real: Diabetes
+780, Prediccion: Malaria, Real: Pneumonia
+781, Prediccion: Maternal, Real: Other Infectious Diseases
+782, Prediccion: Other Injuries, Real: Fires
+783, Prediccion: Suicide, Real: Suicide
+784, Prediccion: Cirrhosis, Real: Other Infectious Diseases
+785, Prediccion: Cirrhosis, Real: Pneumonia
+786, Prediccion: Drowning, Real: Drowning
+787, Prediccion: COPD, Real: Pneumonia
+788, Prediccion: Pneumonia, Real: Diabetes
+789, Prediccion: Cirrhosis, Real: Leukemia/Lymphomas
+790, Prediccion: Epilepsy, Real: Maternal
+791, Prediccion: Stroke, Real: Acute Myocardial Infarction
+792, Prediccion: Cirrhosis, Real: Renal Failure
+793, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+794, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+795, Prediccion: Pneumonia, Real: Maternal
+796, Prediccion: AIDS, Real: Other Non-communicable Diseases
+797, Prediccion: TB, Real: Other Non-communicable Diseases
+798, Prediccion: Renal Failure, Real: Pneumonia
+799, Prediccion: Maternal, Real: Maternal
+800, Prediccion: Diarrhea/Dysentery, Real: Cirrhosis
+801, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+802, Prediccion: Stroke, Real: Other Non-communicable Diseases
+803, Prediccion: Diabetes, Real: Other Non-communicable Diseases
+804, Prediccion: Stroke, Real: Stroke
+805, Prediccion: Pneumonia, Real: Acute Myocardial Infarction
+806, Prediccion: Fires, Real: Suicide
+807, Prediccion: Renal Failure, Real: Renal Failure
+808, Prediccion: Road Traffic, Real: AIDS
+809, Prediccion: TB, Real: TB
+810, Prediccion: Other Non-communicable Diseases, Real: Acute Myocardial Infarction
+811, Prediccion: Pneumonia, Real: Pneumonia
+812, Prediccion: Renal Failure, Real: Renal Failure
+813, Prediccion: Pneumonia, Real: Pneumonia
+814, Prediccion: Drowning, Real: Drowning
+815, Prediccion: AIDS, Real: COPD
+816, Prediccion: Diabetes, Real: Diabetes
+817, Prediccion: Suicide, Real: Suicide
+818, Prediccion: AIDS, Real: Falls
+819, Prediccion: Stroke, Real: Other Infectious Diseases
+820, Prediccion: AIDS, Real: Stroke
+821, Prediccion: Cirrhosis, Real: Acute Myocardial Infarction
+822, Prediccion: Pneumonia, Real: Other Cardiovascular Diseases
+823, Prediccion: Renal Failure, Real: Stroke
+824, Prediccion: Pneumonia, Real: Stroke
+825, Prediccion: Stroke, Real: Falls
+826, Prediccion: AIDS, Real: Pneumonia
+827, Prediccion: Pneumonia, Real: Pneumonia
+828, Prediccion: Renal Failure, Real: Diabetes
+829, Prediccion: Diabetes, Real: Diabetes
+830, Prediccion: Stroke, Real: Other Infectious Diseases
+831, Prediccion: Maternal, Real: Maternal
+832, Prediccion: Cirrhosis, Real: Cirrhosis
+833, Prediccion: AIDS, Real: Road Traffic
+834, Prediccion: Diarrhea/Dysentery, Real: Renal Failure
+835, Prediccion: Stroke, Real: Acute Myocardial Infarction
+836, Prediccion: AIDS, Real: Other Cardiovascular Diseases
+837, Prediccion: Stroke, Real: Stroke
+838, Prediccion: Stroke, Real: Other Cardiovascular Diseases
+839, Prediccion: Stroke, Real: Pneumonia
+840, Prediccion: AIDS, Real: Diarrhea/Dysentery
+841, Prediccion: Colorectal Cancer, Real: Other Non-communicable Diseases
+842, Prediccion: Maternal, Real: Maternal
+843, Prediccion: Diarrhea/Dysentery, Real: Acute Myocardial Infarction
+844, Prediccion: Other Infectious Diseases, Real: Other Infectious Diseases
+845, Prediccion: AIDS, Real: TB
+846, Prediccion: Renal Failure, Real: Diabetes
+847, Prediccion: AIDS, Real: Other Infectious Diseases
+848, Prediccion: AIDS, Real: Other Non-communicable Diseases
+849, Prediccion: Maternal, Real: Maternal
+850, Prediccion: Malaria, Real: AIDS
+851, Prediccion: AIDS, Real: Leukemia/Lymphomas
+852, Prediccion: Stroke, Real: Road Traffic
+853, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+854, Prediccion: Acute Myocardial Infarction, Real: Renal Failure
+855, Prediccion: Renal Failure, Real: Cirrhosis
+856, Prediccion: Pneumonia, Real: COPD
+857, Prediccion: AIDS, Real: TB
+858, Prediccion: Acute Myocardial Infarction, Real: Stroke
+859, Prediccion: Stroke, Real: Stroke
+860, Prediccion: Maternal, Real: Maternal
+861, Prediccion: Renal Failure, Real: Renal Failure
+862, Prediccion: Fires, Real: Suicide
+863, Prediccion: Diarrhea/Dysentery, Real: Malaria
+864, Prediccion: Maternal, Real: Maternal
+865, Prediccion: Stroke, Real: Stroke
+866, Prediccion: AIDS, Real: Other Cardiovascular Diseases
+867, Prediccion: Maternal, Real: Maternal
+868, Prediccion: Maternal, Real: Other Non-communicable Diseases
+869, Prediccion: Pneumonia, Real: Maternal
+870, Prediccion: Other Non-communicable Diseases, Real: Other Cardiovascular Diseases
+871, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+872, Prediccion: Cirrhosis, Real: Other Cardiovascular Diseases
+873, Prediccion: Stroke, Real: Acute Myocardial Infarction
+874, Prediccion: Stroke, Real: Stroke
+875, Prediccion: AIDS, Real: TB
+876, Prediccion: Road Traffic, Real: Road Traffic
+877, Prediccion: Stroke, Real: Road Traffic
+878, Prediccion: Pneumonia, Real: Road Traffic
+879, Prediccion: Cirrhosis, Real: Maternal
+880, Prediccion: Stroke, Real: Diabetes
+881, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+882, Prediccion: Pneumonia, Real: Other Non-communicable Diseases
+883, Prediccion: Epilepsy, Real: Falls
+884, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+885, Prediccion: Bite of Venomous Animal, Real: Other Infectious Diseases
+886, Prediccion: Prostate Cancer, Real: Prostate Cancer
+887, Prediccion: Malaria, Real: Maternal
+888, Prediccion: Acute Myocardial Infarction, Real: Stroke
+889, Prediccion: Stroke, Real: Diabetes
+890, Prediccion: Epilepsy, Real: AIDS
+891, Prediccion: Stroke, Real: Stroke
+892, Prediccion: Stroke, Real: Other Non-communicable Diseases
+893, Prediccion: Stroke, Real: Stroke
+894, Prediccion: AIDS, Real: Homicide
+895, Prediccion: Stomach Cancer, Real: Other Non-communicable Diseases
+896, Prediccion: Falls, Real: Epilepsy
+897, Prediccion: Road Traffic, Real: Road Traffic
+898, Prediccion: Other Non-communicable Diseases, Real: Stroke
+899, Prediccion: Other Non-communicable Diseases, Real: Stroke
+900, Prediccion: Stroke, Real: Stroke
+901, Prediccion: Cirrhosis, Real: Pneumonia
+902, Prediccion: Maternal, Real: Malaria
+903, Prediccion: Stroke, Real: Stroke
+904, Prediccion: Cervical Cancer, Real: Pneumonia
+905, Prediccion: Maternal, Real: Maternal
+906, Prediccion: AIDS, Real: Leukemia/Lymphomas
+907, Prediccion: AIDS, Real: AIDS
+908, Prediccion: TB, Real: TB
+909, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+910, Prediccion: Other Injuries, Real: Other Injuries
+911, Prediccion: Renal Failure, Real: Other Non-communicable Diseases
+912, Prediccion: Pneumonia, Real: Drowning
+913, Prediccion: Renal Failure, Real: Road Traffic
+914, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+915, Prediccion: Suicide, Real: Suicide
+916, Prediccion: Malaria, Real: COPD
+917, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+918, Prediccion: Renal Failure, Real: Acute Myocardial Infarction
+919, Prediccion: Maternal, Real: Maternal
+920, Prediccion: Stroke, Real: Stroke
+921, Prediccion: AIDS, Real: Stroke
+922, Prediccion: Diarrhea/Dysentery, Real: Renal Failure
+923, Prediccion: Other Injuries, Real: Other Injuries
+924, Prediccion: Stroke, Real: Diabetes
+925, Prediccion: Stroke, Real: Stroke
+926, Prediccion: Poisonings, Real: Bite of Venomous Animal
+927, Prediccion: Renal Failure, Real: Renal Failure
+928, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+929, Prediccion: Homicide, Real: Other Injuries
+930, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+931, Prediccion: AIDS, Real: Diabetes
+932, Prediccion: Other Infectious Diseases, Real: Diarrhea/Dysentery
+933, Prediccion: Renal Failure, Real: Acute Myocardial Infarction
+934, Prediccion: AIDS, Real: Diarrhea/Dysentery
+935, Prediccion: TB, Real: TB
+936, Prediccion: Road Traffic, Real: Road Traffic
+937, Prediccion: Road Traffic, Real: Road Traffic
+938, Prediccion: Suicide, Real: Diarrhea/Dysentery
+939, Prediccion: Renal Failure, Real: Renal Failure
+940, Prediccion: Pneumonia, Real: Other Infectious Diseases
+941, Prediccion: Cirrhosis, Real: Other Cardiovascular Diseases
+942, Prediccion: Acute Myocardial Infarction, Real: Cirrhosis
+943, Prediccion: AIDS, Real: Diarrhea/Dysentery
+944, Prediccion: Diabetes, Real: Diabetes
+945, Prediccion: Pneumonia, Real: Pneumonia
+946, Prediccion: Acute Myocardial Infarction, Real: Stroke
+947, Prediccion: AIDS, Real: Diarrhea/Dysentery
+948, Prediccion: Other Infectious Diseases, Real: Other Infectious Diseases
+949, Prediccion: Stroke, Real: Stroke
+950, Prediccion: Diabetes, Real: Falls
+951, Prediccion: Cervical Cancer, Real: Asthma
+952, Prediccion: Leukemia/Lymphomas, Real: Other Non-communicable Diseases
+953, Prediccion: AIDS, Real: Other Non-communicable Diseases
+954, Prediccion: Cirrhosis, Real: Pneumonia
+955, Prediccion: Stroke, Real: Renal Failure
+956, Prediccion: AIDS, Real: AIDS
+957, Prediccion: Pneumonia, Real: Pneumonia
+958, Prediccion: Acute Myocardial Infarction, Real: Other Cardiovascular Diseases
+959, Prediccion: Other Non-communicable Diseases, Real: Breast Cancer
+960, Prediccion: Road Traffic, Real: Road Traffic
+961, Prediccion: Renal Failure, Real: TB
+962, Prediccion: Other Non-communicable Diseases, Real: TB
+963, Prediccion: Stroke, Real: Road Traffic
+964, Prediccion: Stroke, Real: Stroke
+965, Prediccion: Breast Cancer, Real: Breast Cancer
+966, Prediccion: Suicide, Real: Fires
+967, Prediccion: Stroke, Real: Falls
+968, Prediccion: Maternal, Real: Maternal
+969, Prediccion: Renal Failure, Real: Epilepsy
+970, Prediccion: AIDS, Real: Other Cardiovascular Diseases
+971, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+972, Prediccion: TB, Real: TB
+973, Prediccion: AIDS, Real: Suicide
+974, Prediccion: Stroke, Real: Stroke
+975, Prediccion: Diabetes, Real: Diabetes
+976, Prediccion: Renal Failure, Real: Falls
+977, Prediccion: Pneumonia, Real: Other Non-communicable Diseases
+978, Prediccion: Maternal, Real: Maternal
+979, Prediccion: Stroke, Real: Diabetes
+980, Prediccion: Renal Failure, Real: Other Non-communicable Diseases
+981, Prediccion: Maternal, Real: Pneumonia
+982, Prediccion: Other Cardiovascular Diseases, Real: Renal Failure
+983, Prediccion: Pneumonia, Real: Drowning
+984, Prediccion: Cervical Cancer, Real: Maternal
+985, Prediccion: Other Non-communicable Diseases, Real: Other Infectious Diseases
+986, Prediccion: Other Non-communicable Diseases, Real: Cervical Cancer
+987, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+988, Prediccion: Malaria, Real: Diabetes
+989, Prediccion: Other Non-communicable Diseases, Real: Renal Failure
+990, Prediccion: Stroke, Real: Maternal
+991, Prediccion: Diabetes, Real: Cirrhosis
+992, Prediccion: Other Cardiovascular Diseases, Real: AIDS
+993, Prediccion: Leukemia/Lymphomas, Real: Leukemia/Lymphomas
+994, Prediccion: Suicide, Real: Suicide
+995, Prediccion: Diabetes, Real: Diabetes
+996, Prediccion: Malaria, Real: Fires
+997, Prediccion: Fires, Real: Maternal
+998, Prediccion: Diabetes, Real: Diabetes
+999, Prediccion: Cervical Cancer, Real: Diarrhea/Dysentery
+1000, Prediccion: Stroke, Real: Other Cardiovascular Diseases
+1001, Prediccion: AIDS, Real: Diabetes
+1002, Prediccion: Pneumonia, Real: Pneumonia
+1003, Prediccion: Other Non-communicable Diseases, Real: Diabetes
+1004, Prediccion: Stroke, Real: Other Non-communicable Diseases
+1005, Prediccion: Other Non-communicable Diseases, Real: Leukemia/Lymphomas
+1006, Prediccion: Other Non-communicable Diseases, Real: Prostate Cancer
+1007, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1008, Prediccion: Other Cancers, Real: Colorectal Cancer
+1009, Prediccion: Other Non-communicable Diseases, Real: Renal Failure
+1010, Prediccion: Road Traffic, Real: Fires
+1011, Prediccion: AIDS, Real: Acute Myocardial Infarction
+1012, Prediccion: Stroke, Real: Other Non-communicable Diseases
+1013, Prediccion: Other Non-communicable Diseases, Real: Homicide
+1014, Prediccion: Pneumonia, Real: COPD
+1015, Prediccion: Stroke, Real: Stroke
+1016, Prediccion: Other Infectious Diseases, Real: AIDS
+1017, Prediccion: Pneumonia, Real: Other Non-communicable Diseases
+1018, Prediccion: Other Non-communicable Diseases, Real: Homicide
+1019, Prediccion: Fires, Real: Fires
+1020, Prediccion: Stroke, Real: Road Traffic
+1021, Prediccion: Breast Cancer, Real: Breast Cancer
+1022, Prediccion: Suicide, Real: Fires
+1023, Prediccion: TB, Real: Pneumonia
+1024, Prediccion: AIDS, Real: Renal Failure
+1025, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1026, Prediccion: Stroke, Real: Stroke
+1027, Prediccion: Stroke, Real: Stroke
+1028, Prediccion: Stroke, Real: Acute Myocardial Infarction
+1029, Prediccion: COPD, Real: Stroke
+1030, Prediccion: TB, Real: Diabetes
+1031, Prediccion: Maternal, Real: Maternal
+1032, Prediccion: Renal Failure, Real: Renal Failure
+1033, Prediccion: Renal Failure, Real: Acute Myocardial Infarction
+1034, Prediccion: Stroke, Real: Other Cardiovascular Diseases
+1035, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+1036, Prediccion: Acute Myocardial Infarction, Real: Diabetes
+1037, Prediccion: Breast Cancer, Real: Breast Cancer
+1038, Prediccion: COPD, Real: TB
+1039, Prediccion: Maternal, Real: Maternal
+1040, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1041, Prediccion: Cirrhosis, Real: Other Infectious Diseases
+1042, Prediccion: Stroke, Real: Other Injuries
+1043, Prediccion: Diarrhea/Dysentery, Real: Stroke
+1044, Prediccion: Maternal, Real: Poisonings
+1045, Prediccion: Colorectal Cancer, Real: Colorectal Cancer
+1046, Prediccion: Diarrhea/Dysentery, Real: Acute Myocardial Infarction
+1047, Prediccion: Cirrhosis, Real: Diabetes
+1048, Prediccion: AIDS, Real: Cirrhosis
+1049, Prediccion: Stroke, Real: Stroke
+1050, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+1051, Prediccion: Renal Failure, Real: Renal Failure
+1052, Prediccion: AIDS, Real: Other Non-communicable Diseases
+1053, Prediccion: Malaria, Real: Diabetes
+1054, Prediccion: Other Injuries, Real: Falls
+1055, Prediccion: Other Cardiovascular Diseases, Real: Stroke
+1056, Prediccion: Maternal, Real: Maternal
+1057, Prediccion: TB, Real: TB
+1058, Prediccion: Pneumonia, Real: Other Cardiovascular Diseases
+1059, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+1060, Prediccion: Pneumonia, Real: Diabetes
+1061, Prediccion: Epilepsy, Real: Other Cardiovascular Diseases
+1062, Prediccion: COPD, Real: Asthma
+1063, Prediccion: Stroke, Real: Acute Myocardial Infarction
+1064, Prediccion: Cirrhosis, Real: Other Non-communicable Diseases
+1065, Prediccion: Road Traffic, Real: Road Traffic
+1066, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+1067, Prediccion: Other Non-communicable Diseases, Real: COPD
+1068, Prediccion: Other Non-communicable Diseases, Real: Leukemia/Lymphomas
+1069, Prediccion: AIDS, Real: Diarrhea/Dysentery
+1070, Prediccion: Diabetes, Real: Other Non-communicable Diseases
+1071, Prediccion: Stroke, Real: Stroke
+1072, Prediccion: TB, Real: Stroke
+1073, Prediccion: Falls, Real: Maternal
+1074, Prediccion: Other Cardiovascular Diseases, Real: COPD
+1075, Prediccion: Diabetes, Real: Other Non-communicable Diseases
+1076, Prediccion: Renal Failure, Real: Acute Myocardial Infarction
+1077, Prediccion: AIDS, Real: Falls
+1078, Prediccion: Cervical Cancer, Real: Stomach Cancer
+1079, Prediccion: AIDS, Real: Pneumonia
+1080, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1081, Prediccion: Asthma, Real: Asthma
+1082, Prediccion: Cirrhosis, Real: Cirrhosis
+1083, Prediccion: TB, Real: Epilepsy
+1084, Prediccion: Fires, Real: Drowning
+1085, Prediccion: Suicide, Real: Suicide
+1086, Prediccion: AIDS, Real: Renal Failure
+1087, Prediccion: Renal Failure, Real: Other Injuries
+1088, Prediccion: AIDS, Real: TB
+1089, Prediccion: Cirrhosis, Real: Poisonings
+1090, Prediccion: Renal Failure, Real: TB
+1091, Prediccion: Renal Failure, Real: Road Traffic
+1092, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+1093, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+1094, Prediccion: AIDS, Real: Stroke
+1095, Prediccion: Cervical Cancer, Real: Pneumonia
+1096, Prediccion: Cirrhosis, Real: Stroke
+1097, Prediccion: Stroke, Real: Stroke
+1098, Prediccion: Maternal, Real: Maternal
+1099, Prediccion: AIDS, Real: Maternal
+1100, Prediccion: Cirrhosis, Real: Diabetes
+1101, Prediccion: Renal Failure, Real: Other Infectious Diseases
+1102, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+1103, Prediccion: Renal Failure, Real: Other Cardiovascular Diseases
+1104, Prediccion: Renal Failure, Real: Stroke
+1105, Prediccion: Maternal, Real: Pneumonia
+1106, Prediccion: Pneumonia, Real: Other Non-communicable Diseases
+1107, Prediccion: Maternal, Real: Maternal
+1108, Prediccion: Maternal, Real: Poisonings
+1109, Prediccion: Falls, Real: Falls
+1110, Prediccion: Acute Myocardial Infarction, Real: Poisonings
+1111, Prediccion: Renal Failure, Real: Stroke
+1112, Prediccion: AIDS, Real: Other Infectious Diseases
+1113, Prediccion: Other Non-communicable Diseases, Real: Diabetes
+1114, Prediccion: Acute Myocardial Infarction, Real: Stroke
+1115, Prediccion: AIDS, Real: Diabetes
+1116, Prediccion: Other Infectious Diseases, Real: Other Infectious Diseases
+1117, Prediccion: AIDS, Real: Other Non-communicable Diseases
+1118, Prediccion: AIDS, Real: TB
+1119, Prediccion: Maternal, Real: Maternal
+1120, Prediccion: Pneumonia, Real: Renal Failure
+1121, Prediccion: Breast Cancer, Real: Breast Cancer
+1122, Prediccion: Other Non-communicable Diseases, Real: Prostate Cancer
+1123, Prediccion: Renal Failure, Real: Cirrhosis
+1124, Prediccion: Other Non-communicable Diseases, Real: Renal Failure
+1125, Prediccion: AIDS, Real: AIDS
+1126, Prediccion: Renal Failure, Real: Acute Myocardial Infarction
+1127, Prediccion: AIDS, Real: Fires
+1128, Prediccion: Cervical Cancer, Real: Other Infectious Diseases
+1129, Prediccion: Stroke, Real: Homicide
+1130, Prediccion: AIDS, Real: Cirrhosis
+1131, Prediccion: Diabetes, Real: Stroke
+1132, Prediccion: Renal Failure, Real: TB
+1133, Prediccion: Stroke, Real: Diabetes
+1134, Prediccion: Acute Myocardial Infarction, Real: Renal Failure
+1135, Prediccion: Malaria, Real: Other Non-communicable Diseases
+1136, Prediccion: Other Non-communicable Diseases, Real: Cervical Cancer
+1137, Prediccion: Renal Failure, Real: Stroke
+1138, Prediccion: Falls, Real: Other Infectious Diseases
+1139, Prediccion: Cervical Cancer, Real: Pneumonia
+1140, Prediccion: Stroke, Real: Cirrhosis
+1141, Prediccion: COPD, Real: Cirrhosis
+1142, Prediccion: Road Traffic, Real: Road Traffic
+1143, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+1144, Prediccion: AIDS, Real: Other Cardiovascular Diseases
+1145, Prediccion: Stroke, Real: Stroke
+1146, Prediccion: Pneumonia, Real: Cirrhosis
+1147, Prediccion: Maternal, Real: Other Non-communicable Diseases
+1148, Prediccion: Renal Failure, Real: Leukemia/Lymphomas
+1149, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+1150, Prediccion: Breast Cancer, Real: Breast Cancer
+1151, Prediccion: Diabetes, Real: Renal Failure
+1152, Prediccion: Cirrhosis, Real: Other Cardiovascular Diseases
+1153, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1154, Prediccion: Colorectal Cancer, Real: Lung Cancer
+1155, Prediccion: Stroke, Real: Stroke
+1156, Prediccion: Maternal, Real: Maternal
+1157, Prediccion: Stroke, Real: Poisonings
+1158, Prediccion: Renal Failure, Real: Colorectal Cancer
+1159, Prediccion: Cirrhosis, Real: Cirrhosis
+1160, Prediccion: Poisonings, Real: Other Non-communicable Diseases
+1161, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+1162, Prediccion: Maternal, Real: Maternal
+1163, Prediccion: TB, Real: AIDS
+1164, Prediccion: Other Infectious Diseases, Real: Cirrhosis
+1165, Prediccion: Other Cardiovascular Diseases, Real: Diabetes
+1166, Prediccion: Stroke, Real: Acute Myocardial Infarction
+1167, Prediccion: Cirrhosis, Real: Other Non-communicable Diseases
+1168, Prediccion: Cirrhosis, Real: AIDS
+1169, Prediccion: Stroke, Real: Other Cardiovascular Diseases
+1170, Prediccion: Pneumonia, Real: Pneumonia
+1171, Prediccion: AIDS, Real: Road Traffic
+1172, Prediccion: Pneumonia, Real: COPD
+1173, Prediccion: Other Non-communicable Diseases, Real: Other Cardiovascular Diseases
+1174, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+1175, Prediccion: Falls, Real: Diabetes
+1176, Prediccion: Maternal, Real: Other Non-communicable Diseases
+1177, Prediccion: Stroke, Real: Acute Myocardial Infarction
+1178, Prediccion: Other Cardiovascular Diseases, Real: Prostate Cancer
+1179, Prediccion: Diabetes, Real: Pneumonia
+1180, Prediccion: Stroke, Real: Acute Myocardial Infarction
+1181, Prediccion: Maternal, Real: Maternal
+1182, Prediccion: Falls, Real: Renal Failure
+1183, Prediccion: Breast Cancer, Real: Other Non-communicable Diseases
+1184, Prediccion: AIDS, Real: Malaria
+1185, Prediccion: Cervical Cancer, Real: AIDS
+1186, Prediccion: Stroke, Real: Stroke
+1187, Prediccion: Cirrhosis, Real: Cirrhosis
+1188, Prediccion: Maternal, Real: Homicide
+1189, Prediccion: Homicide, Real: Stroke
+1190, Prediccion: Maternal, Real: Maternal
+1191, Prediccion: Fires, Real: Fires
+1192, Prediccion: Other Non-communicable Diseases, Real: Stroke
+1193, Prediccion: Drowning, Real: Drowning
+1194, Prediccion: Renal Failure, Real: Other Infectious Diseases
+1195, Prediccion: Other Injuries, Real: Other Injuries
+1196, Prediccion: Stroke, Real: Poisonings
+1197, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+1198, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1199, Prediccion: Stroke, Real: Diabetes
+1200, Prediccion: AIDS, Real: Other Infectious Diseases
+1201, Prediccion: Falls, Real: Acute Myocardial Infarction
+1202, Prediccion: Maternal, Real: Maternal
+1203, Prediccion: Stroke, Real: Pneumonia
+1204, Prediccion: Cirrhosis, Real: Cirrhosis
+1205, Prediccion: Maternal, Real: Maternal
+1206, Prediccion: Pneumonia, Real: Renal Failure
+1207, Prediccion: Cirrhosis, Real: Diabetes
+1208, Prediccion: Stroke, Real: Stroke
+1209, Prediccion: Maternal, Real: Maternal
+1210, Prediccion: Acute Myocardial Infarction, Real: Other Cardiovascular Diseases
+1211, Prediccion: Other Infectious Diseases, Real: Other Infectious Diseases
+1212, Prediccion: Stroke, Real: Renal Failure
+1213, Prediccion: AIDS, Real: Maternal
+1214, Prediccion: Stroke, Real: Stroke
+1215, Prediccion: Maternal, Real: Maternal
+1216, Prediccion: Stroke, Real: Stroke
+1217, Prediccion: Cirrhosis, Real: Renal Failure
+1218, Prediccion: Fires, Real: Fires
+1219, Prediccion: Pneumonia, Real: Cirrhosis
+1220, Prediccion: Renal Failure, Real: Diabetes
+1221, Prediccion: Other Infectious Diseases, Real: Maternal
+1222, Prediccion: COPD, Real: Other Cardiovascular Diseases
+1223, Prediccion: Stroke, Real: Cirrhosis
+1224, Prediccion: Maternal, Real: Suicide
+1225, Prediccion: AIDS, Real: Pneumonia
+1226, Prediccion: Renal Failure, Real: Other Infectious Diseases
+1227, Prediccion: Pneumonia, Real: Renal Failure
+1228, Prediccion: Acute Myocardial Infarction, Real: Other Non-communicable Diseases
+1229, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1230, Prediccion: Lung Cancer, Real: TB
+1231, Prediccion: Cirrhosis, Real: Pneumonia
+1232, Prediccion: Road Traffic, Real: Road Traffic
+1233, Prediccion: Diarrhea/Dysentery, Real: Other Cardiovascular Diseases
+1234, Prediccion: Other Injuries, Real: Other Injuries
+1235, Prediccion: Other Infectious Diseases, Real: Pneumonia
+1236, Prediccion: Cirrhosis, Real: Cirrhosis
+1237, Prediccion: Other Cardiovascular Diseases, Real: Renal Failure
+1238, Prediccion: TB, Real: Pneumonia
+1239, Prediccion: Suicide, Real: Maternal
+1240, Prediccion: Diabetes, Real: Diabetes
+1241, Prediccion: Diabetes, Real: TB
+1242, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+1243, Prediccion: AIDS, Real: Poisonings
+1244, Prediccion: Maternal, Real: Maternal
+1245, Prediccion: Acute Myocardial Infarction, Real: Other Non-communicable Diseases
+1246, Prediccion: Diarrhea/Dysentery, Real: AIDS
+1247, Prediccion: Maternal, Real: Renal Failure
+1248, Prediccion: Other Non-communicable Diseases, Real: Other Infectious Diseases
+1249, Prediccion: Stroke, Real: Renal Failure
+1250, Prediccion: Falls, Real: Other Infectious Diseases
+1251, Prediccion: AIDS, Real: AIDS
+1252, Prediccion: Maternal, Real: Renal Failure
+1253, Prediccion: AIDS, Real: AIDS
+1254, Prediccion: Pneumonia, Real: Pneumonia
+1255, Prediccion: AIDS, Real: Other Cardiovascular Diseases
+1256, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+1257, Prediccion: AIDS, Real: Other Cardiovascular Diseases
+1258, Prediccion: Maternal, Real: Maternal
+1259, Prediccion: Stroke, Real: Stroke
+1260, Prediccion: Diabetes, Real: Renal Failure
+1261, Prediccion: Diabetes, Real: Diabetes
+1262, Prediccion: Other Cardiovascular Diseases, Real: Acute Myocardial Infarction
+1263, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+1264, Prediccion: Cirrhosis, Real: Cirrhosis
+1265, Prediccion: Stroke, Real: COPD
+1266, Prediccion: Renal Failure, Real: Maternal
+1267, Prediccion: Drowning, Real: Fires
+1268, Prediccion: Other Non-communicable Diseases, Real: Colorectal Cancer
+1269, Prediccion: Falls, Real: Diabetes
+1270, Prediccion: Stroke, Real: Renal Failure
+1271, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1272, Prediccion: AIDS, Real: Maternal
+1273, Prediccion: Breast Cancer, Real: TB
+1274, Prediccion: Cirrhosis, Real: Cervical Cancer
+1275, Prediccion: Maternal, Real: Other Injuries
+1276, Prediccion: Other Injuries, Real: Falls
+1277, Prediccion: TB, Real: Cirrhosis
+1278, Prediccion: Falls, Real: Falls
+1279, Prediccion: COPD, Real: Other Cardiovascular Diseases
+1280, Prediccion: Other Cardiovascular Diseases, Real: COPD
+1281, Prediccion: Falls, Real: Stroke
+1282, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+1283, Prediccion: Stroke, Real: Other Non-communicable Diseases
+1284, Prediccion: AIDS, Real: TB
+1285, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+1286, Prediccion: Breast Cancer, Real: Other Non-communicable Diseases
+1287, Prediccion: Pneumonia, Real: Stroke
+1288, Prediccion: TB, Real: Stroke
+1289, Prediccion: Other Non-communicable Diseases, Real: Homicide
+1290, Prediccion: Renal Failure, Real: Stroke
+1291, Prediccion: Other Cardiovascular Diseases, Real: Renal Failure
+1292, Prediccion: Other Injuries, Real: Fires
+1293, Prediccion: Cirrhosis, Real: Other Non-communicable Diseases
+1294, Prediccion: Pneumonia, Real: Renal Failure
+1295, Prediccion: Maternal, Real: Other Non-communicable Diseases
+1296, Prediccion: Fires, Real: Homicide
+1297, Prediccion: Renal Failure, Real: Other Infectious Diseases
+1298, Prediccion: Other Cardiovascular Diseases, Real: Other Non-communicable Diseases
+1299, Prediccion: Diarrhea/Dysentery, Real: TB
+1300, Prediccion: AIDS, Real: Renal Failure
+1301, Prediccion: Breast Cancer, Real: Breast Cancer
+1302, Prediccion: Breast Cancer, Real: Pneumonia
+1303, Prediccion: Stroke, Real: Other Cardiovascular Diseases
+1304, Prediccion: Diabetes, Real: Diabetes
+1305, Prediccion: Maternal, Real: Renal Failure
+1306, Prediccion: Maternal, Real: Maternal
+1307, Prediccion: Diarrhea/Dysentery, Real: Stroke
+1308, Prediccion: Cirrhosis, Real: Other Non-communicable Diseases
+1309, Prediccion: Diabetes, Real: Cervical Cancer
+1310, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+1311, Prediccion: Cirrhosis, Real: Cirrhosis
+1312, Prediccion: Stroke, Real: Renal Failure
+1313, Prediccion: Maternal, Real: Pneumonia
+1314, Prediccion: Suicide, Real: Suicide
+1315, Prediccion: Stroke, Real: Acute Myocardial Infarction
+1316, Prediccion: Stroke, Real: Acute Myocardial Infarction
+1317, Prediccion: Drowning, Real: Drowning
+1318, Prediccion: Renal Failure, Real: AIDS
+1319, Prediccion: Other Cardiovascular Diseases, Real: Stroke
+1320, Prediccion: Stroke, Real: Road Traffic
+1321, Prediccion: Renal Failure, Real: COPD
+1322, Prediccion: Diarrhea/Dysentery, Real: Poisonings
+1323, Prediccion: Cirrhosis, Real: Road Traffic
+1324, Prediccion: AIDS, Real: Other Infectious Diseases
+1325, Prediccion: Other Infectious Diseases, Real: AIDS
+1326, Prediccion: AIDS, Real: Falls
+1327, Prediccion: Cirrhosis, Real: Bite of Venomous Animal
+1328, Prediccion: COPD, Real: COPD
+1329, Prediccion: Maternal, Real: Maternal
+1330, Prediccion: Maternal, Real: Leukemia/Lymphomas
+1331, Prediccion: Stroke, Real: Pneumonia
+1332, Prediccion: Other Non-communicable Diseases, Real: Cervical Cancer
+1333, Prediccion: Stroke, Real: Other Non-communicable Diseases
+1334, Prediccion: Stroke, Real: Falls
+1335, Prediccion: AIDS, Real: Renal Failure
+1336, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+1337, Prediccion: Cirrhosis, Real: Other Injuries
+1338, Prediccion: Pneumonia, Real: Diabetes
+1339, Prediccion: Stroke, Real: Stroke
+1340, Prediccion: Stroke, Real: Pneumonia
+1341, Prediccion: AIDS, Real: Other Infectious Diseases
+1342, Prediccion: Other Cardiovascular Diseases, Real: Pneumonia
+1343, Prediccion: AIDS, Real: Homicide
+1344, Prediccion: AIDS, Real: Other Cardiovascular Diseases
+1345, Prediccion: Cirrhosis, Real: Cirrhosis
+1346, Prediccion: Fires, Real: Fires
+1347, Prediccion: TB, Real: TB
+1348, Prediccion: Maternal, Real: Maternal
+1349, Prediccion: Other Non-communicable Diseases, Real: Other Cardiovascular Diseases
+1350, Prediccion: Leukemia/Lymphomas, Real: Other Non-communicable Diseases
+1351, Prediccion: Drowning, Real: Drowning
+1352, Prediccion: Other Injuries, Real: Homicide
+1353, Prediccion: Stroke, Real: Other Non-communicable Diseases
+1354, Prediccion: Cirrhosis, Real: Acute Myocardial Infarction
+1355, Prediccion: Stroke, Real: Other Non-communicable Diseases
+1356, Prediccion: Stroke, Real: Diarrhea/Dysentery
+1357, Prediccion: Maternal, Real: Maternal
+1358, Prediccion: Cirrhosis, Real: Homicide
+1359, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1360, Prediccion: Malaria, Real: Cirrhosis
+1361, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+1362, Prediccion: Other Non-communicable Diseases, Real: Homicide
+1363, Prediccion: Malaria, Real: Diarrhea/Dysentery
+1364, Prediccion: Cirrhosis, Real: Stroke
+1365, Prediccion: Other Cardiovascular Diseases, Real: Pneumonia
+1366, Prediccion: Poisonings, Real: Poisonings
+1367, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1368, Prediccion: Renal Failure, Real: Other Cardiovascular Diseases
+1369, Prediccion: Other Infectious Diseases, Real: Diarrhea/Dysentery
+1370, Prediccion: Stroke, Real: Epilepsy
+1371, Prediccion: Stroke, Real: Stroke
+1372, Prediccion: Stroke, Real: TB
+1373, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+1374, Prediccion: Acute Myocardial Infarction, Real: Lung Cancer
+1375, Prediccion: Other Non-communicable Diseases, Real: Suicide
+1376, Prediccion: Road Traffic, Real: Road Traffic
+1377, Prediccion: Breast Cancer, Real: Maternal
+1378, Prediccion: Maternal, Real: Maternal
+1379, Prediccion: Other Injuries, Real: Road Traffic
+1380, Prediccion: Cirrhosis, Real: Diabetes
+1381, Prediccion: Other Non-communicable Diseases, Real: Other Non-communicable Diseases
+1382, Prediccion: Malaria, Real: Malaria
+1383, Prediccion: Renal Failure, Real: Other Non-communicable Diseases
+1384, Prediccion: Diabetes, Real: Pneumonia
+1385, Prediccion: Stroke, Real: Acute Myocardial Infarction
+1386, Prediccion: Renal Failure, Real: Renal Failure
+1387, Prediccion: Stroke, Real: Leukemia/Lymphomas
+1388, Prediccion: Diabetes, Real: Colorectal Cancer
+1389, Prediccion: Stroke, Real: Stroke
+1390, Prediccion: Maternal, Real: Renal Failure
+1391, Prediccion: Other Non-communicable Diseases, Real: Suicide
+1392, Prediccion: Other Non-communicable Diseases, Real: Other Infectious Diseases
+1393, Prediccion: Maternal, Real: Homicide
+1394, Prediccion: Stomach Cancer, Real: Breast Cancer
+1395, Prediccion: Stroke, Real: Renal Failure
+1396, Prediccion: Stroke, Real: Malaria
+1397, Prediccion: Renal Failure, Real: Diabetes
+1398, Prediccion: Other Injuries, Real: Other Injuries
+1399, Prediccion: Suicide, Real: Fires
+1400, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+1401, Prediccion: TB, Real: Homicide
+1402, Prediccion: Other Infectious Diseases, Real: TB
+1403, Prediccion: Other Non-communicable Diseases, Real: Leukemia/Lymphomas
+1404, Prediccion: Other Non-communicable Diseases, Real: Other Cardiovascular Diseases
+1405, Prediccion: Stroke, Real: Other Cardiovascular Diseases
+1406, Prediccion: Cirrhosis, Real: Poisonings
+1407, Prediccion: Cervical Cancer, Real: Renal Failure
+1408, Prediccion: Other Non-communicable Diseases, Real: Renal Failure
+1409, Prediccion: Cirrhosis, Real: Renal Failure
+1410, Prediccion: Renal Failure, Real: Renal Failure
+1411, Prediccion: AIDS, Real: AIDS
+1412, Prediccion: Renal Failure, Real: Other Non-communicable Diseases
+1413, Prediccion: Cirrhosis, Real: Road Traffic
+1414, Prediccion: TB, Real: Pneumonia
+1415, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+1416, Prediccion: Stroke, Real: Other Non-communicable Diseases
+1417, Prediccion: Epilepsy, Real: Maternal
+1418, Prediccion: Other Cardiovascular Diseases, Real: Other Non-communicable Diseases
+1419, Prediccion: Other Infectious Diseases, Real: Leukemia/Lymphomas
+1420, Prediccion: Fires, Real: Falls
+1421, Prediccion: Pneumonia, Real: Pneumonia
+1422, Prediccion: COPD, Real: COPD
+1423, Prediccion: AIDS, Real: Cirrhosis
+1424, Prediccion: Stroke, Real: Pneumonia
+1425, Prediccion: Breast Cancer, Real: Leukemia/Lymphomas
+1426, Prediccion: Pneumonia, Real: Epilepsy
+1427, Prediccion: Maternal, Real: AIDS
+1428, Prediccion: Breast Cancer, Real: Diarrhea/Dysentery
+1429, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+1430, Prediccion: Road Traffic, Real: Road Traffic
+1431, Prediccion: Other Non-communicable Diseases, Real: Colorectal Cancer
+1432, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1433, Prediccion: Renal Failure, Real: Falls
+1434, Prediccion: Other Non-communicable Diseases, Real: Colorectal Cancer
+1435, Prediccion: AIDS, Real: TB
+1436, Prediccion: Renal Failure, Real: Cervical Cancer
+1437, Prediccion: AIDS, Real: Other Non-communicable Diseases
+1438, Prediccion: Pneumonia, Real: AIDS
+1439, Prediccion: Other Injuries, Real: Drowning
+1440, Prediccion: Pneumonia, Real: Stroke
+1441, Prediccion: Pneumonia, Real: Pneumonia
+1442, Prediccion: Renal Failure, Real: Other Cardiovascular Diseases
+1443, Prediccion: Renal Failure, Real: Renal Failure
+1444, Prediccion: Renal Failure, Real: Homicide
+1445, Prediccion: Maternal, Real: Maternal
+1446, Prediccion: AIDS, Real: Maternal
+1447, Prediccion: Acute Myocardial Infarction, Real: Acute Myocardial Infarction
+1448, Prediccion: Acute Myocardial Infarction, Real: Other Cardiovascular Diseases
+1449, Prediccion: Road Traffic, Real: Road Traffic
+1450, Prediccion: Stroke, Real: Acute Myocardial Infarction
+1451, Prediccion: Cervical Cancer, Real: TB
+1452, Prediccion: Stroke, Real: Stroke
+1453, Prediccion: Maternal, Real: Maternal
+1454, Prediccion: TB, Real: Diarrhea/Dysentery
+1455, Prediccion: Malaria, Real: Other Cardiovascular Diseases
+1456, Prediccion: Other Cardiovascular Diseases, Real: Drowning
+1457, Prediccion: Stroke, Real: Stroke
+1458, Prediccion: Diabetes, Real: AIDS
+1459, Prediccion: AIDS, Real: Lung Cancer
+1460, Prediccion: Violent Death, Real: Violent Death
+1461, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1462, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1463, Prediccion: Pneumonia, Real: Sepsis
+1464, Prediccion: Drowning, Real: Drowning
+1465, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1466, Prediccion: Violent Death, Real: Drowning
+1467, Prediccion: Other Defined Causes of Child Deaths, Real: Pneumonia
+1468, Prediccion: Diarrhea/Dysentery, Real: Other Cancers
+1469, Prediccion: Pneumonia, Real: Pneumonia
+1470, Prediccion: Pneumonia, Real: Pneumonia
+1471, Prediccion: Other Infectious Diseases, Real: Sepsis
+1472, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1473, Prediccion: Pneumonia, Real: Pneumonia
+1474, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1475, Prediccion: Sepsis, Real: Pneumonia
+1476, Prediccion: Measles, Real: Other Infectious Diseases
+1477, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1478, Prediccion: Violent Death, Real: Other Defined Causes of Child Deaths
+1479, Prediccion: Other Cardiovascular Diseases, Real: Pneumonia
+1480, Prediccion: Malaria, Real: Malaria
+1481, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1482, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1483, Prediccion: Pneumonia, Real: Other Defined Causes of Child Deaths
+1484, Prediccion: Other Infectious Diseases, Real: Other Defined Causes of Child Deaths
+1485, Prediccion: Pneumonia, Real: Pneumonia
+1486, Prediccion: Pneumonia, Real: Pneumonia
+1487, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1488, Prediccion: Other Infectious Diseases, Real: Other Cancers
+1489, Prediccion: Other Defined Causes of Child Deaths, Real: Road Traffic
+1490, Prediccion: Other Digestive Diseases, Real: Pneumonia
+1491, Prediccion: Road Traffic, Real: Road Traffic
+1492, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1493, Prediccion: Other Digestive Diseases, Real: Meningitis
+1494, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+1495, Prediccion: Fires, Real: Fires
+1496, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1497, Prediccion: Pneumonia, Real: Other Cancers
+1498, Prediccion: Pneumonia, Real: Pneumonia
+1499, Prediccion: Other Defined Causes of Child Deaths, Real: Drowning
+1500, Prediccion: Pneumonia, Real: Pneumonia
+1501, Prediccion: Sepsis, Real: Bite of Venomous Animal
+1502, Prediccion: Encephalitis, Real: Other Infectious Diseases
+1503, Prediccion: Diarrhea/Dysentery, Real: Sepsis
+1504, Prediccion: Road Traffic, Real: Road Traffic
+1505, Prediccion: Other Cardiovascular Diseases, Real: Other Defined Causes of Child Deaths
+1506, Prediccion: Pneumonia, Real: Other Defined Causes of Child Deaths
+1507, Prediccion: Diarrhea/Dysentery, Real: Other Defined Causes of Child Deaths
+1508, Prediccion: Other Defined Causes of Child Deaths, Real: Falls
+1509, Prediccion: Pneumonia, Real: Pneumonia
+1510, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1511, Prediccion: Other Defined Causes of Child Deaths, Real: Other Cardiovascular Diseases
+1512, Prediccion: Other Defined Causes of Child Deaths, Real: Meningitis
+1513, Prediccion: Pneumonia, Real: Sepsis
+1514, Prediccion: Sepsis, Real: Diarrhea/Dysentery
+1515, Prediccion: Other Defined Causes of Child Deaths, Real: Poisonings
+1516, Prediccion: Sepsis, Real: Sepsis
+1517, Prediccion: Meningitis, Real: Malaria
+1518, Prediccion: Hemorrhagic fever, Real: Hemorrhagic fever
+1519, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1520, Prediccion: Sepsis, Real: Sepsis
+1521, Prediccion: Pneumonia, Real: Other Infectious Diseases
+1522, Prediccion: Other Defined Causes of Child Deaths, Real: Pneumonia
+1523, Prediccion: Encephalitis, Real: Encephalitis
+1524, Prediccion: Fires, Real: Fires
+1525, Prediccion: Encephalitis, Real: Diarrhea/Dysentery
+1526, Prediccion: Sepsis, Real: Other Digestive Diseases
+1527, Prediccion: Fires, Real: Fires
+1528, Prediccion: Pneumonia, Real: Pneumonia
+1529, Prediccion: Fires, Real: Fires
+1530, Prediccion: Other Defined Causes of Child Deaths, Real: Pneumonia
+1531, Prediccion: Malaria, Real: Sepsis
+1532, Prediccion: Diarrhea/Dysentery, Real: Other Cardiovascular Diseases
+1533, Prediccion: Encephalitis, Real: Sepsis
+1534, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1535, Prediccion: Pneumonia, Real: Pneumonia
+1536, Prediccion: Road Traffic, Real: Road Traffic
+1537, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1538, Prediccion: Other Cardiovascular Diseases, Real: Measles
+1539, Prediccion: Pneumonia, Real: Pneumonia
+1540, Prediccion: Other Defined Causes of Child Deaths, Real: Diarrhea/Dysentery
+1541, Prediccion: Violent Death, Real: Violent Death
+1542, Prediccion: Sepsis, Real: Pneumonia
+1543, Prediccion: Pneumonia, Real: Falls
+1544, Prediccion: Malaria, Real: Diarrhea/Dysentery
+1545, Prediccion: Pneumonia, Real: Pneumonia
+1546, Prediccion: Violent Death, Real: Encephalitis
+1547, Prediccion: Sepsis, Real: Encephalitis
+1548, Prediccion: Pneumonia, Real: Pneumonia
+1549, Prediccion: Other Infectious Diseases, Real: Diarrhea/Dysentery
+1550, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1551, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1552, Prediccion: Encephalitis, Real: Meningitis
+1553, Prediccion: Pneumonia, Real: Pneumonia
+1554, Prediccion: Pneumonia, Real: Pneumonia
+1555, Prediccion: Sepsis, Real: Encephalitis
+1556, Prediccion: Pneumonia, Real: Other Digestive Diseases
+1557, Prediccion: Falls, Real: Diarrhea/Dysentery
+1558, Prediccion: Other Cardiovascular Diseases, Real: Pneumonia
+1559, Prediccion: Pneumonia, Real: Other Defined Causes of Child Deaths
+1560, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1561, Prediccion: Hemorrhagic fever, Real: Encephalitis
+1562, Prediccion: Pneumonia, Real: Drowning
+1563, Prediccion: Violent Death, Real: Drowning
+1564, Prediccion: Sepsis, Real: Other Infectious Diseases
+1565, Prediccion: Pneumonia, Real: Hemorrhagic fever
+1566, Prediccion: Pneumonia, Real: Sepsis
+1567, Prediccion: Renal Failure, Real: Other Defined Causes of Child Deaths
+1568, Prediccion: Drowning, Real: Other Cardiovascular Diseases
+1569, Prediccion: Pneumonia, Real: Other Defined Causes of Child Deaths
+1570, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1571, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1572, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1573, Prediccion: Pneumonia, Real: Pneumonia
+1574, Prediccion: Other Cardiovascular Diseases, Real: Pneumonia
+1575, Prediccion: Violent Death, Real: Falls
+1576, Prediccion: Sepsis, Real: Falls
+1577, Prediccion: Pneumonia, Real: Other Cardiovascular Diseases
+1578, Prediccion: Pneumonia, Real: Pneumonia
+1579, Prediccion: Pneumonia, Real: Pneumonia
+1580, Prediccion: Diarrhea/Dysentery, Real: Malaria
+1581, Prediccion: Sepsis, Real: Meningitis
+1582, Prediccion: Meningitis, Real: Sepsis
+1583, Prediccion: Violent Death, Real: Drowning
+1584, Prediccion: Diarrhea/Dysentery, Real: Other Defined Causes of Child Deaths
+1585, Prediccion: Malaria, Real: Malaria
+1586, Prediccion: Road Traffic, Real: Road Traffic
+1587, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+1588, Prediccion: Measles, Real: Measles
+1589, Prediccion: Other Cardiovascular Diseases, Real: Other Cardiovascular Diseases
+1590, Prediccion: Sepsis, Real: Other Digestive Diseases
+1591, Prediccion: Other Defined Causes of Child Deaths, Real: Poisonings
+1592, Prediccion: Pneumonia, Real: Other Defined Causes of Child Deaths
+1593, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1594, Prediccion: Pneumonia, Real: Pneumonia
+1595, Prediccion: Sepsis, Real: Encephalitis
+1596, Prediccion: Hemorrhagic fever, Real: Other Defined Causes of Child Deaths
+1597, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1598, Prediccion: Drowning, Real: Drowning
+1599, Prediccion: Violent Death, Real: Violent Death
+1600, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1601, Prediccion: Other Defined Causes of Child Deaths, Real: Other Defined Causes of Child Deaths
+1602, Prediccion: Diarrhea/Dysentery, Real: Drowning
+1603, Prediccion: Pneumonia, Real: Meningitis
+1604, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1605, Prediccion: Meningitis, Real: Measles
+1606, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1607, Prediccion: Hemorrhagic fever, Real: Malaria
+1608, Prediccion: Fires, Real: Other Defined Causes of Child Deaths
+1609, Prediccion: Violent Death, Real: Violent Death
+1610, Prediccion: Other Cardiovascular Diseases, Real: Pneumonia
+1611, Prediccion: Road Traffic, Real: Road Traffic
+1612, Prediccion: Pneumonia, Real: Other Infectious Diseases
+1613, Prediccion: Pneumonia, Real: Sepsis
+1614, Prediccion: Falls, Real: Other Defined Causes of Child Deaths
+1615, Prediccion: Pneumonia, Real: Pneumonia
+1616, Prediccion: Diarrhea/Dysentery, Real: Meningitis
+1617, Prediccion: Pneumonia, Real: Sepsis
+1618, Prediccion: Diarrhea/Dysentery, Real: Falls
+1619, Prediccion: Meningitis, Real: Other Defined Causes of Child Deaths
+1620, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1621, Prediccion: Pneumonia, Real: Pneumonia
+1622, Prediccion: Pneumonia, Real: Pneumonia
+1623, Prediccion: Pneumonia, Real: Other Defined Causes of Child Deaths
+1624, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1625, Prediccion: Malaria, Real: Other Digestive Diseases
+1626, Prediccion: Sepsis, Real: Other Defined Causes of Child Deaths
+1627, Prediccion: Sepsis, Real: Other Digestive Diseases
+1628, Prediccion: Falls, Real: Falls
+1629, Prediccion: Pneumonia, Real: Pneumonia
+1630, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1631, Prediccion: Fires, Real: Fires
+1632, Prediccion: Pneumonia, Real: Pneumonia
+1633, Prediccion: Diarrhea/Dysentery, Real: Meningitis
+1634, Prediccion: Pneumonia, Real: Other Infectious Diseases
+1635, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1636, Prediccion: Road Traffic, Real: Road Traffic
+1637, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
+1638, Prediccion: Road Traffic, Real: Road Traffic
+1639, Prediccion: Violent Death, Real: Other Infectious Diseases
+1640, Prediccion: Sepsis, Real: Pneumonia
+1641, Prediccion: Poisonings, Real: Fires
+1642, Prediccion: Road Traffic, Real: Road Traffic
+1643, Prediccion: Other Digestive Diseases, Real: Other Defined Causes of Child Deaths
+1644, Prediccion: Pneumonia, Real: Pneumonia
+1645, Prediccion: Sepsis, Real: Sepsis
+1646, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1647, Prediccion: Hemorrhagic fever, Real: Other Defined Causes of Child Deaths
+1648, Prediccion: Hemorrhagic fever, Real: Hemorrhagic fever
+1649, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1650, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1651, Prediccion: Violent Death, Real: Other Cancers
+1652, Prediccion: Pneumonia, Real: Pneumonia
+1653, Prediccion: Sepsis, Real: Falls
+1654, Prediccion: Fires, Real: Fires
+1655, Prediccion: Pneumonia, Real: Other Defined Causes of Child Deaths
+1656, Prediccion: Other Cardiovascular Diseases, Real: Pneumonia
+1657, Prediccion: Pneumonia, Real: Malaria
+1658, Prediccion: Violent Death, Real: Bite of Venomous Animal
+1659, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1660, Prediccion: Drowning, Real: Falls
+1661, Prediccion: Measles, Real: Measles
+1662, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1663, Prediccion: Other Defined Causes of Child Deaths, Real: Diarrhea/Dysentery
+1664, Prediccion: Pneumonia, Real: Pneumonia
+1665, Prediccion: Road Traffic, Real: Road Traffic
+1666, Prediccion: Pneumonia, Real: Other Digestive Diseases
+1667, Prediccion: Hemorrhagic fever, Real: Pneumonia
+1668, Prediccion: Road Traffic, Real: Road Traffic
+1669, Prediccion: Other Defined Causes of Child Deaths, Real: Pneumonia
+1670, Prediccion: Road Traffic, Real: Road Traffic
+1671, Prediccion: Other Defined Causes of Child Deaths, Real: Drowning
+1672, Prediccion: Fires, Real: Fires
+1673, Prediccion: Road Traffic, Real: Falls
+1674, Prediccion: Other Defined Causes of Child Deaths, Real: Meningitis
+1675, Prediccion: Other Defined Causes of Child Deaths, Real: Diarrhea/Dysentery
+1676, Prediccion: Pneumonia, Real: Pneumonia
+1677, Prediccion: Pneumonia, Real: Pneumonia
+1678, Prediccion: Other Defined Causes of Child Deaths, Real: Diarrhea/Dysentery
+1679, Prediccion: Diarrhea/Dysentery, Real: Other Infectious Diseases
+1680, Prediccion: Bite of Venomous Animal, Real: Drowning
+1681, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1682, Prediccion: Pneumonia, Real: Pneumonia
+1683, Prediccion: Falls, Real: Other Defined Causes of Child Deaths
+1684, Prediccion: Pneumonia, Real: Malaria
+1685, Prediccion: Pneumonia, Real: Other Defined Causes of Child Deaths
+1686, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1687, Prediccion: Sepsis, Real: Measles
+1688, Prediccion: Violent Death, Real: Pneumonia
+1689, Prediccion: Other Defined Causes of Child Deaths, Real: Other Cardiovascular Diseases
+1690, Prediccion: Pneumonia, Real: Other Defined Causes of Child Deaths
+1691, Prediccion: Diarrhea/Dysentery, Real: Sepsis
+1692, Prediccion: Malaria, Real: Other Cardiovascular Diseases
+1693, Prediccion: Other Defined Causes of Child Deaths, Real: Pneumonia
+1694, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1695, Prediccion: Other Cardiovascular Diseases, Real: Pneumonia
+1696, Prediccion: Drowning, Real: Road Traffic
+1697, Prediccion: Pneumonia, Real: Pneumonia
+1698, Prediccion: Violent Death, Real: Road Traffic
+1699, Prediccion: Other Defined Causes of Child Deaths, Real: Sepsis
+1700, Prediccion: Other Cardiovascular Diseases, Real: Other Digestive Diseases
+1701, Prediccion: Sepsis, Real: Violent Death
+1702, Prediccion: Pneumonia, Real: Pneumonia
+1703, Prediccion: Pneumonia, Real: Falls
+1704, Prediccion: Pneumonia, Real: Pneumonia
+1705, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1706, Prediccion: Meningitis, Real: Sepsis
+1707, Prediccion: Pneumonia, Real: Pneumonia
+1708, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1709, Prediccion: Meningitis, Real: Encephalitis
+1710, Prediccion: Pneumonia, Real: Other Cancers
+1711, Prediccion: Sepsis, Real: Violent Death
+1712, Prediccion: Malaria, Real: Diarrhea/Dysentery
+1713, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1714, Prediccion: Other Defined Causes of Child Deaths, Real: Fires
+1715, Prediccion: Diarrhea/Dysentery, Real: Other Cardiovascular Diseases
+1716, Prediccion: Pneumonia, Real: Other Defined Causes of Child Deaths
+1717, Prediccion: Road Traffic, Real: Road Traffic
+1718, Prediccion: Sepsis, Real: Pneumonia
+1719, Prediccion: Pneumonia, Real: Malaria
+1720, Prediccion: Other Defined Causes of Child Deaths, Real: Pneumonia
+1721, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1722, Prediccion: Other Digestive Diseases, Real: Sepsis
+1723, Prediccion: Violent Death, Real: Other Infectious Diseases
+1724, Prediccion: Falls, Real: Violent Death
+1725, Prediccion: Other Digestive Diseases, Real: Hemorrhagic fever
+1726, Prediccion: Diarrhea/Dysentery, Real: Other Defined Causes of Child Deaths
+1727, Prediccion: Pneumonia, Real: Other Digestive Diseases
+1728, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1729, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1730, Prediccion: Pneumonia, Real: Sepsis
+1731, Prediccion: Diarrhea/Dysentery, Real: Drowning
+1732, Prediccion: Sepsis, Real: Encephalitis
+1733, Prediccion: Pneumonia, Real: Pneumonia
+1734, Prediccion: Other Cardiovascular Diseases, Real: Other Cancers
+1735, Prediccion: Diarrhea/Dysentery, Real: Sepsis
+1736, Prediccion: Diarrhea/Dysentery, Real: Fires
+1737, Prediccion: Pneumonia, Real: Hemorrhagic fever
+1738, Prediccion: Pneumonia, Real: Pneumonia
+1739, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1740, Prediccion: Pneumonia, Real: Pneumonia
+1741, Prediccion: Bite of Venomous Animal, Real: Bite of Venomous Animal
+1742, Prediccion: Road Traffic, Real: Road Traffic
+1743, Prediccion: Other Defined Causes of Child Deaths, Real: Pneumonia
+1744, Prediccion: Road Traffic, Real: Road Traffic
+1745, Prediccion: Fires, Real: Other Defined Causes of Child Deaths
+1746, Prediccion: Hemorrhagic fever, Real: Hemorrhagic fever
+1747, Prediccion: Other Defined Causes of Child Deaths, Real: Other Digestive Diseases
+1748, Prediccion: Encephalitis, Real: Hemorrhagic fever
+1749, Prediccion: Fires, Real: Fires
+1750, Prediccion: Diarrhea/Dysentery, Real: Sepsis
+1751, Prediccion: Road Traffic, Real: Road Traffic
+1752, Prediccion: Fires, Real: Fires
+1753, Prediccion: Pneumonia, Real: Malaria
+1754, Prediccion: Other Infectious Diseases, Real: Other Infectious Diseases
+1755, Prediccion: Pneumonia, Real: Other Infectious Diseases
+1756, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1757, Prediccion: Violent Death, Real: Drowning
+1758, Prediccion: Pneumonia, Real: Pneumonia
+1759, Prediccion: Sepsis, Real: Other Defined Causes of Child Deaths
+1760, Prediccion: Pneumonia, Real: Pneumonia
+1761, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1762, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1763, Prediccion: Other Defined Causes of Child Deaths, Real: Other Defined Causes of Child Deaths
+1764, Prediccion: Drowning, Real: Drowning
+1765, Prediccion: Diarrhea/Dysentery, Real: Sepsis
+1766, Prediccion: Other Cancers, Real: Other Cancers
+1767, Prediccion: Pneumonia, Real: Pneumonia
+1768, Prediccion: Diarrhea/Dysentery, Real: Malaria
+1769, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1770, Prediccion: Pneumonia, Real: Pneumonia
+1771, Prediccion: Other Cardiovascular Diseases, Real: Fires
+1772, Prediccion: Other Defined Causes of Child Deaths, Real: Falls
+1773, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1774, Prediccion: Pneumonia, Real: Pneumonia
+1775, Prediccion: Pneumonia, Real: Pneumonia
+1776, Prediccion: Pneumonia, Real: Sepsis
+1777, Prediccion: Hemorrhagic fever, Real: Malaria
+1778, Prediccion: Diarrhea/Dysentery, Real: Other Cardiovascular Diseases
+1779, Prediccion: Pneumonia, Real: Pneumonia
+1780, Prediccion: Other Infectious Diseases, Real: Hemorrhagic fever
+1781, Prediccion: Hemorrhagic fever, Real: Pneumonia
+1782, Prediccion: Road Traffic, Real: Fires
+1783, Prediccion: Sepsis, Real: Diarrhea/Dysentery
+1784, Prediccion: Pneumonia, Real: Pneumonia
+1785, Prediccion: Pneumonia, Real: Pneumonia
+1786, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1787, Prediccion: Sepsis, Real: Poisonings
+1788, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1789, Prediccion: Sepsis, Real: Sepsis
+1790, Prediccion: Poisonings, Real: Violent Death
+1791, Prediccion: Pneumonia, Real: Pneumonia
+1792, Prediccion: Pneumonia, Real: Pneumonia
+1793, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1794, Prediccion: Diarrhea/Dysentery, Real: Malaria
+1795, Prediccion: Pneumonia, Real: Pneumonia
+1796, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1797, Prediccion: Fires, Real: Violent Death
+1798, Prediccion: Other Cardiovascular Diseases, Real: Sepsis
+1799, Prediccion: Other Cardiovascular Diseases, Real: Pneumonia
+1800, Prediccion: Diarrhea/Dysentery, Real: Drowning
+1801, Prediccion: Pneumonia, Real: Pneumonia
+1802, Prediccion: Other Infectious Diseases, Real: Other Infectious Diseases
+1803, Prediccion: Other Defined Causes of Child Deaths, Real: Drowning
+1804, Prediccion: Meningitis, Real: Other Infectious Diseases
+1805, Prediccion: Pneumonia, Real: Meningitis
+1806, Prediccion: Pneumonia, Real: Pneumonia
+1807, Prediccion: Pneumonia, Real: Pneumonia
+1808, Prediccion: Other Defined Causes of Child Deaths, Real: Other Digestive Diseases
+1809, Prediccion: Drowning, Real: Poisonings
+1810, Prediccion: Encephalitis, Real: Measles
+1811, Prediccion: Pneumonia, Real: Hemorrhagic fever
+1812, Prediccion: Pneumonia, Real: Other Defined Causes of Child Deaths
+1813, Prediccion: Other Defined Causes of Child Deaths, Real: Other Defined Causes of Child Deaths
+1814, Prediccion: Meningitis, Real: Pneumonia
+1815, Prediccion: Pneumonia, Real: Pneumonia
+1816, Prediccion: Pneumonia, Real: Falls
+1817, Prediccion: Road Traffic, Real: Road Traffic
+1818, Prediccion: Falls, Real: Other Defined Causes of Child Deaths
+1819, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1820, Prediccion: Stillbirth, Real: Violent Death
+1821, Prediccion: Hemorrhagic fever, Real: Sepsis
+1822, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1823, Prediccion: Pneumonia, Real: Pneumonia
+1824, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1825, Prediccion: Other Defined Causes of Child Deaths, Real: Pneumonia
+1826, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1827, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1828, Prediccion: Meningitis, Real: Falls
+1829, Prediccion: Fires, Real: Measles
+1830, Prediccion: Falls, Real: Other Defined Causes of Child Deaths
+1831, Prediccion: Falls, Real: Bite of Venomous Animal
+1832, Prediccion: Malaria, Real: Sepsis
+1833, Prediccion: Other Defined Causes of Child Deaths, Real: Pneumonia
+1834, Prediccion: Other Defined Causes of Child Deaths, Real: Pneumonia
+1835, Prediccion: Diarrhea/Dysentery, Real: Diarrhea/Dysentery
+1836, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1837, Prediccion: Meningitis, Real: Sepsis
+1838, Prediccion: Pneumonia, Real: Diarrhea/Dysentery
+1839, Prediccion: Other Defined Causes of Child Deaths, Real: Other Defined Causes of Child Deaths
+1840, Prediccion: Other Defined Causes of Child Deaths, Real: Pneumonia
+1841, Prediccion: Other Infectious Diseases, Real: Other Infectious Diseases
+1842, Prediccion: Pneumonia, Real: Pneumonia
+1843, Prediccion: Meningitis, Real: Meningitis
+1844, Prediccion: Sepsis, Real: Meningitis
+1845, Prediccion: Violent Death, Real: Falls
+1846, Prediccion: Other Defined Causes of Child Deaths, Real: Drowning
+1847, Prediccion: Pneumonia, Real: Pneumonia
+1848, Prediccion: Hemorrhagic fever, Real: Hemorrhagic fever
+1849, Prediccion: Malaria, Real: Encephalitis
+1850, Prediccion: Diarrhea/Dysentery, Real: Pneumonia
+1851, Prediccion: Malaria, Real: Violent Death
+1852, Prediccion: Other Defined Causes of Child Deaths, Real: Other Defined Causes of Child Deaths
+1853, Prediccion: Meningitis, Real: Encephalitis
+1854, Prediccion: Sepsis, Real: Pneumonia
+1855, Prediccion: Pneumonia, Real: Pneumonia
+1856, Prediccion: Stillbirth, Real: Stillbirth
+1857, Prediccion: Congenital malformation, Real: Preterm Delivery
+1858, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1859, Prediccion: Stillbirth, Real: Stillbirth
+1860, Prediccion: Stillbirth, Real: Stillbirth
+1861, Prediccion: Stillbirth, Real: Stillbirth
+1862, Prediccion: Stillbirth, Real: Birth asphyxia
+1863, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1864, Prediccion: Stillbirth, Real: Stillbirth
+1865, Prediccion: Stillbirth, Real: Stillbirth
+1866, Prediccion: Stillbirth, Real: Stillbirth
+1867, Prediccion: Meningitis/Sepsis, Real: Congenital malformation
+1868, Prediccion: Birth asphyxia, Real: Birth asphyxia
+1869, Prediccion: Stillbirth, Real: Stillbirth
+1870, Prediccion: Stillbirth, Real: Birth asphyxia
+1871, Prediccion: Birth asphyxia, Real: Preterm Delivery
+1872, Prediccion: Stillbirth, Real: Birth asphyxia
+1873, Prediccion: Stillbirth, Real: Birth asphyxia
+1874, Prediccion: Birth asphyxia, Real: Pneumonia
+1875, Prediccion: Stillbirth, Real: Stillbirth
+1876, Prediccion: Preterm Delivery, Real: Stillbirth
+1877, Prediccion: Birth asphyxia, Real: Birth asphyxia
+1878, Prediccion: Stillbirth, Real: Stillbirth
+1879, Prediccion: Preterm Delivery, Real: Pneumonia
+1880, Prediccion: Congenital malformation, Real: Preterm Delivery
+1881, Prediccion: Stillbirth, Real: Birth asphyxia
+1882, Prediccion: Birth asphyxia, Real: Stillbirth
+1883, Prediccion: Stillbirth, Real: Preterm Delivery
+1884, Prediccion: Preterm Delivery, Real: Pneumonia
+1885, Prediccion: Preterm Delivery, Real: Birth asphyxia
+1886, Prediccion: Stillbirth, Real: Stillbirth
+1887, Prediccion: Birth asphyxia, Real: Stillbirth
+1888, Prediccion: Stillbirth, Real: Stillbirth
+1889, Prediccion: Stillbirth, Real: Stillbirth
+1890, Prediccion: Birth asphyxia, Real: Preterm Delivery
+1891, Prediccion: Preterm Delivery, Real: Birth asphyxia
+1892, Prediccion: Birth asphyxia, Real: Congenital malformation
+1893, Prediccion: Stillbirth, Real: Stillbirth
+1894, Prediccion: Stillbirth, Real: Preterm Delivery
+1895, Prediccion: Stillbirth, Real: Stillbirth
+1896, Prediccion: Preterm Delivery, Real: Stillbirth
+1897, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1898, Prediccion: Stillbirth, Real: Stillbirth
+1899, Prediccion: Stillbirth, Real: Stillbirth
+1900, Prediccion: Birth asphyxia, Real: Birth asphyxia
+1901, Prediccion: Birth asphyxia, Real: Congenital malformation
+1902, Prediccion: Meningitis/Sepsis, Real: Pneumonia
+1903, Prediccion: Stillbirth, Real: Preterm Delivery
+1904, Prediccion: Birth asphyxia, Real: Birth asphyxia
+1905, Prediccion: Birth asphyxia, Real: Stillbirth
+1906, Prediccion: Preterm Delivery, Real: Birth asphyxia
+1907, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1908, Prediccion: Stillbirth, Real: Stillbirth
+1909, Prediccion: Stillbirth, Real: Stillbirth
+1910, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1911, Prediccion: Stillbirth, Real: Congenital malformation
+1912, Prediccion: Birth asphyxia, Real: Birth asphyxia
+1913, Prediccion: Stillbirth, Real: Congenital malformation
+1914, Prediccion: Birth asphyxia, Real: Congenital malformation
+1915, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1916, Prediccion: Congenital malformation, Real: Congenital malformation
+1917, Prediccion: Birth asphyxia, Real: Preterm Delivery
+1918, Prediccion: Birth asphyxia, Real: Congenital malformation
+1919, Prediccion: Birth asphyxia, Real: Congenital malformation
+1920, Prediccion: Birth asphyxia, Real: Congenital malformation
+1921, Prediccion: Birth asphyxia, Real: Preterm Delivery
+1922, Prediccion: Congenital malformation, Real: Congenital malformation
+1923, Prediccion: Stillbirth, Real: Stillbirth
+1924, Prediccion: Stillbirth, Real: Stillbirth
+1925, Prediccion: Preterm Delivery, Real: Stillbirth
+1926, Prediccion: Stillbirth, Real: Stillbirth
+1927, Prediccion: Meningitis/Sepsis, Real: Stillbirth
+1928, Prediccion: Stillbirth, Real: Preterm Delivery
+1929, Prediccion: Congenital malformation, Real: Stillbirth
+1930, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1931, Prediccion: Stillbirth, Real: Stillbirth
+1932, Prediccion: Birth asphyxia, Real: Stillbirth
+1933, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1934, Prediccion: Stillbirth, Real: Stillbirth
+1935, Prediccion: Stillbirth, Real: Stillbirth
+1936, Prediccion: Congenital malformation, Real: Birth asphyxia
+1937, Prediccion: Birth asphyxia, Real: Birth asphyxia
+1938, Prediccion: Birth asphyxia, Real: Congenital malformation
+1939, Prediccion: Stillbirth, Real: Preterm Delivery
+1940, Prediccion: Birth asphyxia, Real: Stillbirth
+1941, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1942, Prediccion: Pneumonia, Real: Preterm Delivery
+1943, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1944, Prediccion: Stillbirth, Real: Birth asphyxia
+1945, Prediccion: Congenital malformation, Real: Preterm Delivery
+1946, Prediccion: Stillbirth, Real: Stillbirth
+1947, Prediccion: Stillbirth, Real: Stillbirth
+1948, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1949, Prediccion: Stillbirth, Real: Stillbirth
+1950, Prediccion: Preterm Delivery, Real: Stillbirth
+1951, Prediccion: Stillbirth, Real: Stillbirth
+1952, Prediccion: Birth asphyxia, Real: Birth asphyxia
+1953, Prediccion: Stillbirth, Real: Stillbirth
+1954, Prediccion: Preterm Delivery, Real: Congenital malformation
+1955, Prediccion: Stillbirth, Real: Stillbirth
+1956, Prediccion: Birth asphyxia, Real: Birth asphyxia
+1957, Prediccion: Preterm Delivery, Real: Birth asphyxia
+1958, Prediccion: Stillbirth, Real: Stillbirth
+1959, Prediccion: Stillbirth, Real: Stillbirth
+1960, Prediccion: Birth asphyxia, Real: Preterm Delivery
+1961, Prediccion: Preterm Delivery, Real: Pneumonia
+1962, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1963, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1964, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1965, Prediccion: Congenital malformation, Real: Meningitis/Sepsis
+1966, Prediccion: Preterm Delivery, Real: Stillbirth
+1967, Prediccion: Stillbirth, Real: Stillbirth
+1968, Prediccion: Preterm Delivery, Real: Stillbirth
+1969, Prediccion: Birth asphyxia, Real: Birth asphyxia
+1970, Prediccion: Preterm Delivery, Real: Congenital malformation
+1971, Prediccion: Stillbirth, Real: Stillbirth
+1972, Prediccion: Stillbirth, Real: Stillbirth
+1973, Prediccion: Congenital malformation, Real: Preterm Delivery
+1974, Prediccion: Birth asphyxia, Real: Preterm Delivery
+1975, Prediccion: Stillbirth, Real: Congenital malformation
+1976, Prediccion: Birth asphyxia, Real: Stillbirth
+1977, Prediccion: Preterm Delivery, Real: Congenital malformation
+1978, Prediccion: Stillbirth, Real: Stillbirth
+1979, Prediccion: Preterm Delivery, Real: Congenital malformation
+1980, Prediccion: Stillbirth, Real: Preterm Delivery
+1981, Prediccion: Stillbirth, Real: Stillbirth
+1982, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1983, Prediccion: Stillbirth, Real: Preterm Delivery
+1984, Prediccion: Stillbirth, Real: Stillbirth
+1985, Prediccion: Stillbirth, Real: Birth asphyxia
+1986, Prediccion: Birth asphyxia, Real: Congenital malformation
+1987, Prediccion: Preterm Delivery, Real: Preterm Delivery
+1988, Prediccion: Stillbirth, Real: Stillbirth
+1989, Prediccion: Birth asphyxia, Real: Congenital malformation
+1990, Prediccion: Stillbirth, Real: Stillbirth
+1991, Prediccion: Birth asphyxia, Real: Stillbirth
+1992, Prediccion: Congenital malformation, Real: Preterm Delivery
+1993, Prediccion: Stillbirth, Real: Birth asphyxia
+1994, Prediccion: Congenital malformation, Real: Birth asphyxia
+1995, Prediccion: Congenital malformation, Real: Stillbirth
+1996, Prediccion: Preterm Delivery, Real: Congenital malformation
+1997, Prediccion: Stillbirth, Real: Stillbirth
+1998, Prediccion: Congenital malformation, Real: Preterm Delivery
+1999, Prediccion: Stillbirth, Real: Stillbirth
+2000, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2001, Prediccion: Preterm Delivery, Real: Congenital malformation
+2002, Prediccion: Stillbirth, Real: Stillbirth
+2003, Prediccion: Congenital malformation, Real: Pneumonia
+2004, Prediccion: Stillbirth, Real: Preterm Delivery
+2005, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2006, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2007, Prediccion: Birth asphyxia, Real: Meningitis/Sepsis
+2008, Prediccion: Preterm Delivery, Real: Congenital malformation
+2009, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2010, Prediccion: Stillbirth, Real: Stillbirth
+2011, Prediccion: Stillbirth, Real: Birth asphyxia
+2012, Prediccion: Preterm Delivery, Real: Pneumonia
+2013, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2014, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2015, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2016, Prediccion: Stillbirth, Real: Stillbirth
+2017, Prediccion: Birth asphyxia, Real: Stillbirth
+2018, Prediccion: Stillbirth, Real: Birth asphyxia
+2019, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2020, Prediccion: Preterm Delivery, Real: Birth asphyxia
+2021, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2022, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2023, Prediccion: Stillbirth, Real: Stillbirth
+2024, Prediccion: Stillbirth, Real: Stillbirth
+2025, Prediccion: Stillbirth, Real: Stillbirth
+2026, Prediccion: Preterm Delivery, Real: Congenital malformation
+2027, Prediccion: Stillbirth, Real: Stillbirth
+2028, Prediccion: Stillbirth, Real: Preterm Delivery
+2029, Prediccion: Stillbirth, Real: Preterm Delivery
+2030, Prediccion: Stillbirth, Real: Stillbirth
+2031, Prediccion: Meningitis/Sepsis, Real: Birth asphyxia
+2032, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2033, Prediccion: Stillbirth, Real: Stillbirth
+2034, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2035, Prediccion: Stillbirth, Real: Preterm Delivery
+2036, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2037, Prediccion: Meningitis/Sepsis, Real: Preterm Delivery
+2038, Prediccion: Stillbirth, Real: Stillbirth
+2039, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2040, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2041, Prediccion: Stillbirth, Real: Stillbirth
+2042, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2043, Prediccion: Stillbirth, Real: Birth asphyxia
+2044, Prediccion: Preterm Delivery, Real: Stillbirth
+2045, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2046, Prediccion: Preterm Delivery, Real: Birth asphyxia
+2047, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2048, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2049, Prediccion: Preterm Delivery, Real: Birth asphyxia
+2050, Prediccion: Stillbirth, Real: Stillbirth
+2051, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2052, Prediccion: Stillbirth, Real: Stillbirth
+2053, Prediccion: Stillbirth, Real: Stillbirth
+2054, Prediccion: Preterm Delivery, Real: Stillbirth
+2055, Prediccion: Preterm Delivery, Real: Meningitis/Sepsis
+2056, Prediccion: Congenital malformation, Real: Birth asphyxia
+2057, Prediccion: Stillbirth, Real: Stillbirth
+2058, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2059, Prediccion: Preterm Delivery, Real: Meningitis/Sepsis
+2060, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2061, Prediccion: Stillbirth, Real: Stillbirth
+2062, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2063, Prediccion: Congenital malformation, Real: Birth asphyxia
+2064, Prediccion: Preterm Delivery, Real: Meningitis/Sepsis
+2065, Prediccion: Stillbirth, Real: Stillbirth
+2066, Prediccion: Stillbirth, Real: Birth asphyxia
+2067, Prediccion: Birth asphyxia, Real: Congenital malformation
+2068, Prediccion: Preterm Delivery, Real: Birth asphyxia
+2069, Prediccion: Stillbirth, Real: Stillbirth
+2070, Prediccion: Preterm Delivery, Real: Birth asphyxia
+2071, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2072, Prediccion: Birth asphyxia, Real: Stillbirth
+2073, Prediccion: Stillbirth, Real: Stillbirth
+2074, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2075, Prediccion: Preterm Delivery, Real: Meningitis/Sepsis
+2076, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2077, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2078, Prediccion: Congenital malformation, Real: Birth asphyxia
+2079, Prediccion: Stillbirth, Real: Birth asphyxia
+2080, Prediccion: Stillbirth, Real: Stillbirth
+2081, Prediccion: Stillbirth, Real: Stillbirth
+2082, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2083, Prediccion: Preterm Delivery, Real: Congenital malformation
+2084, Prediccion: Preterm Delivery, Real: Stillbirth
+2085, Prediccion: Preterm Delivery, Real: Congenital malformation
+2086, Prediccion: Stillbirth, Real: Congenital malformation
+2087, Prediccion: Stillbirth, Real: Stillbirth
+2088, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2089, Prediccion: Congenital malformation, Real: Stillbirth
+2090, Prediccion: TB, Real: Birth asphyxia
+2091, Prediccion: Stillbirth, Real: Birth asphyxia
+2092, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2093, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2094, Prediccion: Congenital malformation, Real: Birth asphyxia
+2095, Prediccion: Stillbirth, Real: Stillbirth
+2096, Prediccion: Congenital malformation, Real: Pneumonia
+2097, Prediccion: Meningitis/Sepsis, Real: Meningitis/Sepsis
+2098, Prediccion: Congenital malformation, Real: Congenital malformation
+2099, Prediccion: Stillbirth, Real: Stillbirth
+2100, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2101, Prediccion: Preterm Delivery, Real: Birth asphyxia
+2102, Prediccion: Stillbirth, Real: Stillbirth
+2103, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2104, Prediccion: Stillbirth, Real: Birth asphyxia
+2105, Prediccion: Stillbirth, Real: Stillbirth
+2106, Prediccion: Pneumonia, Real: Pneumonia
+2107, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2108, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2109, Prediccion: Stillbirth, Real: Stillbirth
+2110, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2111, Prediccion: Stillbirth, Real: Stillbirth
+2112, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2113, Prediccion: Stillbirth, Real: Stillbirth
+2114, Prediccion: Congenital malformation, Real: Preterm Delivery
+2115, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2116, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2117, Prediccion: Stillbirth, Real: Stillbirth
+2118, Prediccion: Congenital malformation, Real: Preterm Delivery
+2119, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2120, Prediccion: Congenital malformation, Real: Meningitis/Sepsis
+2121, Prediccion: Congenital malformation, Real: Congenital malformation
+2122, Prediccion: Preterm Delivery, Real: Meningitis/Sepsis
+2123, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2124, Prediccion: Stillbirth, Real: Preterm Delivery
+2125, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2126, Prediccion: Stillbirth, Real: Stillbirth
+2127, Prediccion: Stillbirth, Real: Stillbirth
+2128, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2129, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2130, Prediccion: Stillbirth, Real: Stillbirth
+2131, Prediccion: Stillbirth, Real: Stillbirth
+2132, Prediccion: Stillbirth, Real: Birth asphyxia
+2133, Prediccion: Preterm Delivery, Real: Stillbirth
+2134, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2135, Prediccion: Congenital malformation, Real: Birth asphyxia
+2136, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2137, Prediccion: Stillbirth, Real: Stillbirth
+2138, Prediccion: Stillbirth, Real: Stillbirth
+2139, Prediccion: Stillbirth, Real: Stillbirth
+2140, Prediccion: Stillbirth, Real: Stillbirth
+2141, Prediccion: Stillbirth, Real: Stillbirth
+2142, Prediccion: Stillbirth, Real: Stillbirth
+2143, Prediccion: Stillbirth, Real: Stillbirth
+2144, Prediccion: Birth asphyxia, Real: Congenital malformation
+2145, Prediccion: Stillbirth, Real: Stillbirth
+2146, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2147, Prediccion: Stillbirth, Real: Stillbirth
+2148, Prediccion: Preterm Delivery, Real: Pneumonia
+2149, Prediccion: Preterm Delivery, Real: Birth asphyxia
+2150, Prediccion: Congenital malformation, Real: Congenital malformation
+2151, Prediccion: Preterm Delivery, Real: Stillbirth
+2152, Prediccion: Congenital malformation, Real: Congenital malformation
+2153, Prediccion: Stillbirth, Real: Stillbirth
+2154, Prediccion: Stillbirth, Real: Stillbirth
+2155, Prediccion: Stillbirth, Real: Stillbirth
+2156, Prediccion: Pneumonia, Real: Pneumonia
+2157, Prediccion: Stillbirth, Real: Stillbirth
+2158, Prediccion: Preterm Delivery, Real: Birth asphyxia
+2159, Prediccion: Preterm Delivery, Real: Congenital malformation
+2160, Prediccion: Stillbirth, Real: Stillbirth
+2161, Prediccion: Stillbirth, Real: Stillbirth
+2162, Prediccion: Stillbirth, Real: Stillbirth
+2163, Prediccion: Birth asphyxia, Real: Meningitis/Sepsis
+2164, Prediccion: Birth asphyxia, Real: Stillbirth
+2165, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2166, Prediccion: Stillbirth, Real: Stillbirth
+2167, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2168, Prediccion: Stillbirth, Real: Stillbirth
+2169, Prediccion: Preterm Delivery, Real: Stillbirth
+2170, Prediccion: Stillbirth, Real: Stillbirth
+2171, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2172, Prediccion: Birth asphyxia, Real: Congenital malformation
+2173, Prediccion: Stillbirth, Real: Stillbirth
+2174, Prediccion: Preterm Delivery, Real: Birth asphyxia
+2175, Prediccion: Stillbirth, Real: Stillbirth
+2176, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2177, Prediccion: Stillbirth, Real: Stillbirth
+2178, Prediccion: Meningitis/Sepsis, Real: Meningitis/Sepsis
+2179, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2180, Prediccion: Meningitis, Real: Meningitis/Sepsis
+2181, Prediccion: Stillbirth, Real: Birth asphyxia
+2182, Prediccion: Stillbirth, Real: Stillbirth
+2183, Prediccion: Preterm Delivery, Real: Birth asphyxia
+2184, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2185, Prediccion: Stillbirth, Real: Stillbirth
+2186, Prediccion: Stillbirth, Real: Stillbirth
+2187, Prediccion: Meningitis/Sepsis, Real: Birth asphyxia
+2188, Prediccion: Stillbirth, Real: Preterm Delivery
+2189, Prediccion: Stillbirth, Real: Birth asphyxia
+2190, Prediccion: Birth asphyxia, Real: Stillbirth
+2191, Prediccion: Birth asphyxia, Real: Congenital malformation
+2192, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2193, Prediccion: Stillbirth, Real: Stillbirth
+2194, Prediccion: Congenital malformation, Real: Birth asphyxia
+2195, Prediccion: Stillbirth, Real: Stillbirth
+2196, Prediccion: Stillbirth, Real: Preterm Delivery
+2197, Prediccion: Birth asphyxia, Real: Stillbirth
+2198, Prediccion: Pneumonia, Real: Congenital malformation
+2199, Prediccion: Congenital malformation, Real: Birth asphyxia
+2200, Prediccion: Stillbirth, Real: Preterm Delivery
+2201, Prediccion: Birth asphyxia, Real: Congenital malformation
+2202, Prediccion: Stillbirth, Real: Stillbirth
+2203, Prediccion: Birth asphyxia, Real: Pneumonia
+2204, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2205, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2206, Prediccion: Stillbirth, Real: Stillbirth
+2207, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2208, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2209, Prediccion: Stillbirth, Real: Birth asphyxia
+2210, Prediccion: Stillbirth, Real: Birth asphyxia
+2211, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2212, Prediccion: Preterm Delivery, Real: Meningitis/Sepsis
+2213, Prediccion: Stillbirth, Real: Stillbirth
+2214, Prediccion: Birth asphyxia, Real: Stillbirth
+2215, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2216, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2217, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2218, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2219, Prediccion: Meningitis/Sepsis, Real: Preterm Delivery
+2220, Prediccion: Congenital malformation, Real: Stillbirth
+2221, Prediccion: Preterm Delivery, Real: Congenital malformation
+2222, Prediccion: Birth asphyxia, Real: Stillbirth
+2223, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2224, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2225, Prediccion: Birth asphyxia, Real: Birth asphyxia
+2226, Prediccion: Stillbirth, Real: Birth asphyxia
+2227, Prediccion: Stillbirth, Real: Stillbirth
+2228, Prediccion: Preterm Delivery, Real: Preterm Delivery
+2229, Prediccion: Stillbirth, Real: Stillbirth
+2230, Prediccion: Birth asphyxia, Real: Preterm Delivery
+2231, Prediccion: Preterm Delivery, Real: Congenital malformation
+2232, Prediccion: Stillbirth, Real: Stillbirth
