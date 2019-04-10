@@ -1,0 +1,5 @@
+0, Prediccion: Maternal, Real: Congenital malformation
+1, Prediccion: Preterm Delivery, Real: Pneumonia
+2, Prediccion: Maternal, Real: Congenital malformation
+3, Prediccion: Maternal, Real: Stillbirth
+4, Prediccion: Other Non-communicable Diseases, Real: Pneumonia
