@@ -1,0 +1,18 @@
+@relation PHMRC_VAI_redacted_free_text_edited
+
+@attribute newid numeric
+@attribute module {Adult,Child,Neonate}
+@attribute site {Mexico,AP,UP,Dar,Bohol,Pemba}
+@attribute gs_text34 {Cirrhosis,Epilepsy,Pneumonia,COPD,'Acute Myocardial Infarction',Fires,'Renal Failure',AIDS,'Lung Cancer',Maternal,Drowning,'Other Cardiovascular Diseases','Other Non-communicable Diseases',Falls,'Road Traffic','Bite of Venomous Animal',Diabetes,'Other Infectious Diseases',TB,Suicide,'Other Injuries','Cervical Cancer',Stroke,Malaria,Asthma,'Colorectal Cancer',Homicide,Diarrhea/Dysentery,'Breast Cancer',Leukemia/Lymphomas,Poisonings,'Prostate Cancer','Esophageal Cancer','Stomach Cancer',Measles,'Other Defined Causes of Child Deaths','Violent Death','Other Digestive Diseases',Encephalitis,Sepsis,'Other Cancers','Hemorrhagic fever',Meningitis,'Birth asphyxia',Stillbirth,'Preterm Delivery',Meningitis/Sepsis,'Congenital malformation'}
+@attribute sex {1,2,9}
+@attribute age_years numeric
+@attribute age_months numeric
+@attribute age_days numeric
+@attribute open_response string
+
+@data
+2623,Neonate,AP,'Congenital malformation',2,?,?,2,'since my baby was born, she had the difficulty in breathing. but the doctors kept her on the ventilator. when it was expensive, we took her to the [HOSPITAL]. the doctors did the check up and said that she was very weak and she will not live. even in [HOSPITAL2], she was serious and died there. '
+2625,Neonate,Dar,Pneumonia,1,?,?,10,'client had no additional point'
+2617,Neonate,Mexico,'Congenital malformation',1,?,?,1,'my son\'s father hit me and threatened me with a knife and hit me in my stomach. i got so bad and from there, he took me to the private hospital and i stayed there on saturday and sunday and from there, i was discharged and on monday, i was sent to the [HOSPITAL] and there, i had a cesarean. my baby passed away because he could not breathe and did not eat during the whole day and the left side of the baby did not develop well.[NAME] is the father\'s name.'
+2622,Neonate,UP,Stillbirth,1,?,?,0,'lady had labour pain at 9 pm. in the morning she had severe pain and delivered a dead baby at 11 am. before delivery lady was anemic. baby was 2-2.5 kg in weight.'
+1,Adult,Mexico,Pneumonia,2,68,?,?,'Mujer 68 años, principio de Pneumonía después de 7 días con fever'
