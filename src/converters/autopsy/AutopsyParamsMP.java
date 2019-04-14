@@ -28,7 +28,10 @@ public class AutopsyParamsMP {
 		Instances dev = getTest(70.0, train);  // si, pone 70.0 tambien, el getTest te devuelve lo contrario a ese 70, es decir, el 30 porciento
 
 		double[] optParams=manualSearchBestParamsRN(train_split, dev); // no hago un print porque ya lo hace el metodo
-
+		
+		
+		
+		
 		System.exit(0);
 	}
 }

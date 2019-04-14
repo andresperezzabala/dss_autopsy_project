@@ -599,7 +599,7 @@ public class Utils {
     public static void predict(Classifier cls,Instances labeled,String outPath) {
     	try {
 			PrintWriter pw=new PrintWriter(new FileWriter(outPath,true));
-			int aciertos=0;
+			int aciertos=0,fallos=0;
 			for(int i=0;i<labeled.numInstances();i++) {
 				double clsvalue;
 				try {
@@ -608,12 +608,17 @@ public class Utils {
 					pw.write(i+", Prediccion: "+labeled.classAttribute().value((int) clsvalue)+", Real: "+labeled.classAttribute().value((int)labeled.get(i).classValue())+"\n");
 					if(clsvalue==labeled.instance(i).classValue())
 						aciertos++;
+					else {
+						fallos++;
+					}
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
 			pw.flush();
+			System.out.println("Número de aciertos:" + aciertos);
+			System.out.println("Número de fallos: " + fallos);
 			pw.close();
 		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
