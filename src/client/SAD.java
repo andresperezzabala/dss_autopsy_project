@@ -1,7 +1,6 @@
 package client;
 
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -11,14 +10,12 @@ import javax.swing.SwingWorker;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-import javax.swing.event.TableColumnModelListener;
-import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
 
 import weka.classifiers.Classifier;
+
 import weka.core.Instance;
 import weka.core.Instances;
 
@@ -29,7 +26,6 @@ import java.awt.event.ActionListener;
 
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Vector;
 import java.awt.event.ActionEvent;
@@ -39,13 +35,11 @@ import static utils.Utils.loadInstances;
 import static utils.Utils.loadModel;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-
-
 
 import java.awt.GridLayout;
 import javax.swing.JSlider;
+import javax.swing.JLabel;
+import javax.swing.BoxLayout;
 
 
 public class SAD extends JFrame {
@@ -55,18 +49,25 @@ public class SAD extends JFrame {
 	private JPanel contentPane;
 	private final JFileChooser fc = new JFileChooser(System.getProperty("user.dir"));
 	private JTable resultsTable;
+	private JTable infoTable;
+	private DefaultTableModel resultsModel;
+	private DefaultTableModel infoModel;
+	private TableColumnModel resultsColumnModel;
 	private JScrollPane scrollPane;
-	private DefaultTableModel tableModel;
 	private Vector<Pairs> instanceList;
 	private Classifier cls = null;
-	private JSlider slider;
 	private int k = 5;
 	private JButton btnCargarFichero;
 	private boolean tablaCargada = false;
-	private TableColumnModel columnModel;
+	private Integer[] pK;
+	private String[] pAtK;
 	private HashMap<Integer,TableColumn> allColumns;
-	private FixedColumnTable fct;
-	private double[][] pAtK;
+	private double totalReciprocalRank;
+	private JLabel precisionAtKvalue;
+	private JLabel meanRRvalue;
+	private JSlider slider;
+	private static java.text.DecimalFormat sf = new java.text.DecimalFormat("0.##E0");
+
 	
 	/**
 	 * Launch the application.
@@ -94,45 +95,18 @@ public class SAD extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(new BorderLayout(0, 0));
 		
-		JPanel panelBototones = new JPanel();
-		contentPane.add(panelBototones,BorderLayout.NORTH);
-		panelBototones.setLayout(new GridLayout(0, 2, 0, 0));
+		JPanel panelButtons = new JPanel();
+		contentPane.add(panelButtons,BorderLayout.NORTH);
+		panelButtons.setLayout(new GridLayout(0, 2, 0, 0));
 		
 		JButton btnCargarModelo = new JButton("Cargar modelo");
-		panelBototones.add(btnCargarModelo);
+		panelButtons.add(btnCargarModelo);
 		
 		JButton btnCargarFichero = new JButton("Cargar fichero");
 		btnCargarFichero.setEnabled(false);
-		panelBototones.add(btnCargarFichero);
+		panelButtons.add(btnCargarFichero);
 				
-		//TABLA
-		resultsTable = new JTable() {
-                    
-			public boolean isCellEditable(int row, int column) {                
-				return false;               
-			};			
-			public Component prepareRenderer(TableCellRenderer renderer, int row, int column){
-		        Component returnComp = super.prepareRenderer(renderer, row, column);
-		        Color alternateColor = new Color(252,242,206);
-		        Color whiteColor = Color.WHITE;
-		        if (!returnComp.getBackground().equals(getSelectionBackground())){
-		            Color bg = (row % 2 == 0 ? alternateColor : whiteColor);
-		            returnComp .setBackground(bg);
-		            bg = null;
-		        }
-		        return returnComp;
-			}
-		};
-		
-		resultsTable.setRowSelectionAllowed(false);
-		scrollPane = new JScrollPane(resultsTable, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
-		resultsTable.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
-		resultsTable.getTableHeader().setReorderingAllowed(false);
-		
-		
-		contentPane.add(scrollPane, BorderLayout.CENTER);
-		
-		
+				
 		//MODEL		
 		btnCargarModelo.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {				
@@ -167,9 +141,39 @@ public class SAD extends JFrame {
 		        }		        	
 		   }
 		});
-			
+		
+		//TABLA
+		resultsTable = new CustomJTable();
+		infoTable = new CustomJTable();		
+		scrollPane = new JScrollPane(resultsTable, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);	
+		contentPane.add(scrollPane, BorderLayout.CENTER);
+				
+		//STATISTICS
+		
+		
+		JPanel precisionAtKpanel = new JPanel();
+		contentPane.add(precisionAtKpanel, BorderLayout.SOUTH);
+		precisionAtKpanel.setLayout(new BoxLayout(precisionAtKpanel, BoxLayout.X_AXIS));
+				
+		JPanel panelStatistics = new JPanel();
+		panelStatistics.setLayout(new GridLayout(2, 2, 1, 0));
+		
+		JLabel meanRRlabel = new JLabel("Mean Reciprocal Rank (MRR) :");
+		panelStatistics.add(meanRRlabel);
+		
+		JLabel pressionAtKlabel = new JLabel("P@K:");
+		panelStatistics.add(pressionAtKlabel);
+		
+		meanRRvalue = new JLabel("00.00");
+		panelStatistics.add(meanRRvalue);
+				
+		precisionAtKvalue = new JLabel("00.00");
+		panelStatistics.add(precisionAtKvalue);		
+		
+		precisionAtKpanel.add(panelStatistics);
+				
 		slider = new JSlider(JSlider.HORIZONTAL, 1, 10, 1);
-        slider.setMinorTickSpacing(1);
+		slider.setMinorTickSpacing(1);
         slider.setMajorTickSpacing(5);
         slider.addChangeListener(new ChangeListener() {
   	      public void stateChanged(ChangeEvent event) {
@@ -178,12 +182,14 @@ public class SAD extends JFrame {
   	  	        if (value != k) {
   	  	        	updatePercentageAtK(value,k);
   	  	        	k = value;
-  	  	        	fct.updateFixedTable(pAtK[k-1]);
+  	  	        	precisionAtKvalue.setText(pAtK[k-1]);
   	  	        }	
   	    	}  	             
   	      }
   	    });
-        contentPane.add(slider, BorderLayout.SOUTH);
+        
+        precisionAtKpanel.add(slider);
+
 	}
 
 	public void loadClientModel() {		
@@ -199,7 +205,18 @@ public class SAD extends JFrame {
 	}
 	
 	public void loadClientData() {
+		
+		slider.setEnabled(false);
+		contentPane.remove(scrollPane);
+		//TABLA
+		resultsTable = new CustomJTable();
+		infoTable = new CustomJTable();		
+		scrollPane = new JScrollPane(resultsTable, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);			
+		contentPane.add(scrollPane, BorderLayout.CENTER);
+		
+		//LOAD DATA
 		Instances labeled = null;
+		totalReciprocalRank = 0;
 		try {
 			labeled = loadInstances(testPath);
 			labeled.setClass(labeled.attribute("gs_text34"));
@@ -210,51 +227,54 @@ public class SAD extends JFrame {
 			tablaCargada = false;
 			
 		}
-		
-		if (k > labeled.numClasses()) k = labeled.numClasses();		
-		
+				
+		//SLIDER
+		if (k > labeled.numClasses()) k = labeled.numClasses();				
 		slider.setMaximum(labeled.numClasses());
 		slider.setValue(k);
 		slider.setPaintTicks(true);
-        slider.setPaintLabels(true);		  
-        
-        tableModel = new DefaultTableModel(0,0);
-        
-        tableModel.addColumn("Real");
-	    tableModel.addColumn("P@k");
-	         
+        slider.setPaintLabels(true);		        
+   
+        //TABLE HEADERS
+        infoModel = new DefaultTableModel(0,0);        
+   		infoModel.addColumn("Module");
+   		infoModel.addColumn("Age");
+   		infoModel.addColumn("Real");
+   		infoModel.addColumn("Rank");
+   		infoModel.addColumn("RR");
+   		infoTable.setModel(infoModel);
+   		
+   		resultsModel = new DefaultTableModel(0,0);   		
         int maxWidth = 0;
         int classValueWidth;
 	    for (int column = 1; column <= labeled.numClasses(); column++) {
-	    	tableModel.addColumn(column + "º pocisión");
-	    	classValueWidth = labeled.classAttribute().value(column-1).length()*6;
+	    	resultsModel.addColumn(column + "º pocisión");
+	    	classValueWidth = labeled.classAttribute().value(column-1).length()*7;
 	    	if (classValueWidth > maxWidth) maxWidth = classValueWidth; 
-	    }
-	       	    
-	    resultsTable.setModel(tableModel);
-	    resultsTable.getColumnModel().getColumn(0).setPreferredWidth(maxWidth);
-	    resultsTable.getColumnModel().getColumn(1).setPreferredWidth(150);
-	    for (int c = 2; c < labeled.numClasses() + 2; c++) {
-	    	 resultsTable.getColumnModel().getColumn(c).setPreferredWidth(maxWidth + 50);
-	    }
-	    
-	    fct = new FixedColumnTable(2, scrollPane);
-     
-		
+	    }	       	    
+	    resultsTable.setModel(resultsModel);
+		    
+	    infoTable.getColumnModel().getColumn(0).setPreferredWidth(80);
+	    infoTable.getColumnModel().getColumn(1).setPreferredWidth(40);
+	    infoTable.getColumnModel().getColumn(2).setPreferredWidth(maxWidth);
+	    infoTable.getColumnModel().getColumn(3).setPreferredWidth(50);
+	    infoTable.getColumnModel().getColumn(4).setPreferredWidth(60);
+	
+	    infoTable.setPreferredScrollableViewportSize(infoTable.getPreferredSize());
+	    scrollPane.setRowHeaderView(infoTable);
+		scrollPane.setCorner(JScrollPane.UPPER_LEFT_CORNER, infoTable.getTableHeader());
+		pK = new Integer[labeled.numClasses()];
+		for (int p = 0; p < pK.length; p++) {
+			pK[p] = 0;
+		}
 		double[] classes;
-		
-		// data of the table
-		pAtK = new double[labeled.numClasses()][labeled.numInstances()];
-		
 		int i = 0;
-		double pAtKvalue;
 		for(Instance ins : labeled) {
-			pAtKvalue = 0;
 			try {
 				classes = cls.distributionForInstance(ins);				
 				instanceList = new Vector<Pairs>();
 				for (int j = 0; j < classes.length; j++) {
-					instanceList.add(new Pairs(classes[j],labeled.classAttribute().value(j)));
+					instanceList.add(new Pairs(classes[j],j,labeled.classAttribute().value(j)));
 				}
 				
 			} catch (Exception e) {
@@ -263,47 +283,63 @@ public class SAD extends JFrame {
 				System.out.println("Error al obtener las clases");
 			}
 		
+			//ORDENAR LAS INSTANCIAS
 			Collections.sort(instanceList, new Comparator<Pairs>() {
 			    @Override
 			    public int compare(Pairs p1, Pairs p2) {
 			        return p2.getPercentage().compareTo(p1.getPercentage());
 			    }
 			});			
-				
-						
-			Vector<Object> vector = new Vector<Object>();
+									
+			Vector<Object> resultsVector = new Vector<Object>();
+			Vector<Object> infoVector = new Vector<Object>();
 			
-			vector.addElement(labeled.classAttribute().value((int) ins.classValue()));
-		
+			infoVector.addElement(ins.toString(labeled.attribute("module")));
+			infoVector.addElement(ins.toString(labeled.attribute("age_years")));			
+			infoVector.addElement(labeled.classAttribute().value((int) ins.classValue()));
 			
+			double rank = 0;			
 			for (int l = 0; l < instanceList.size(); l++ ) {
-				pAtKvalue += instanceList.get(l).getPercentage();
-				pAtK[l][i] = pAtKvalue;
-				vector.addElement(instanceList.get(l).getResult());
-			}
+				if (ins.classValue() == instanceList.get(l).getClassPredictedValue()) {
+					rank = l+1;
+					pK[l]+= 1;
+				}
+				resultsVector.addElement(instanceList.get(l).getResult());
+			}			
 			
-			pAtK[instanceList.size()-1][i] = 1;
+			infoVector.add(rank);	
+			totalReciprocalRank += 1.0/rank;
+			infoVector.add(sf.format(1.0/rank));
 			
-			vector.add(1, pAtK[k-1][i]);
 						
-			tableModel.addRow(vector);
+			resultsModel.addRow(resultsVector);
+			infoModel.addRow(infoVector);
 			
 			i++;
 		}
 		
+		pAtK = new String[labeled.numClasses()];
+		pAtK[0] =  String.valueOf((pK[0]*1.0/labeled.numInstances()));
+		for (int p = 1; p < labeled.numClasses(); p++) {	
+			pK[p] = pK[p-1] + pK[p];
+			pAtK[p] =  String.valueOf((pK[p]*1.0/labeled.numInstances()));
+		}
 		
-		columnModel = resultsTable.getColumnModel();
+		resultsColumnModel = resultsTable.getColumnModel();
 				
 		allColumns = new HashMap<Integer,TableColumn>();
-		for (int x = 0; x < columnModel.getColumnCount() ; x++)
+		for (int x = 0; x < resultsColumnModel.getColumnCount() ; x++)
 		{
-			allColumns.put(x, columnModel.getColumn(x));
+			resultsColumnModel.getColumn(x).setPreferredWidth(maxWidth + 55);
+			allColumns.put(x, resultsColumnModel.getColumn(x));
 		}
 		
 		tablaCargada = true;
-		
-		updatePercentageAtK(k, 48);
-
+		slider.setEnabled(true);
+		meanRRvalue.setText(String.valueOf(totalReciprocalRank/i));
+				
+		updatePercentageAtK(k, labeled.numClasses());
+		precisionAtKvalue.setText(pAtK[k-1]);
 	}
 	
 	public void updatePercentageAtK(int pValue, int ant) {
@@ -317,14 +353,15 @@ public class SAD extends JFrame {
 		}else {
 			for (int i = pValue + 1; i <= ant; i++)
 			{
-		        TableColumn column = columnModel.getColumn(pValue);
-	    	    resultsTable.removeColumn( column );
+		        TableColumn column = resultsColumnModel.getColumn(pValue);
+	    	    resultsTable.removeColumn(column);
 			}
 			
 		}
-		
+	
 		
 	}
+	
 	
 
 
